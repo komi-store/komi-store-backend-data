@@ -114,7 +114,13 @@ def get_total_downloads(full_name, token):
     pages = 0
     while url and pages < MAX_PAGES_PER_REPO:
         releases, next_url = github_request(url, token)
-        if not releases or not isinstance(releases, list):
+        # github_request returns body=None ONLY on a failed request (vs an empty
+        # list for a repo with no releases). A failure mid-pagination would
+        # otherwise return a partial/0 total that clobbers a good count — so
+        # signal it with None and let the caller skip the write entirely.
+        if releases is None:
+            return None, pages
+        if not isinstance(releases, list):
             break
         pages += 1
         for release in releases:
@@ -145,10 +151,24 @@ def _process_repo(repo, total_repos):
     downloads, pages = get_total_downloads(repo["full_name"], _local.token)
     elapsed = time.time() - t0
 
+    # Fetch failed (transient error / rate limit) — do NOT write. Writing the
+    # partial/0 would clobber the existing good count. Skip; still count the
+    # repo as processed so progress + page totals stay accurate.
+    if downloads is None:
+        with _lock:
+            _updated += 1
+            _total_pages += pages
+            current = _updated
+        print(f"  [skip] {repo['full_name']}: download fetch failed, keeping existing count", flush=True)
+        return
+
+    # GREATEST guards the monotonic contract even for a page-cap-truncated
+    # partial — a backfill can only ever raise download_count, never lower it,
+    # matching the fetcher's db_writer upsert.
     with _local.conn:
         with _local.conn.cursor() as cur:
             cur.execute(
-                "UPDATE repos SET download_count = %s WHERE id = %s",
+                "UPDATE repos SET download_count = GREATEST(%s, download_count) WHERE id = %s",
                 (downloads, repo["id"])
             )
 
