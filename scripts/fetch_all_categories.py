@@ -27,9 +27,10 @@ from typing import List, Dict, Optional, Tuple, Set
 from dataclasses import dataclass, field
 
 try:
-    from db_writer import save_to_postgres
+    from db_writer import save_to_postgres, save_daily_snapshot
 except ImportError:
     save_to_postgres = None
+    save_daily_snapshot = None
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
@@ -180,11 +181,15 @@ class RepoCandidate:
     releases_url: str
     updated_at: str
     created_at: str
+    # R5/R13: last default-branch commit (GitHub pushed_at), distinct from updated_at.
+    pushed_at: Optional[str] = None
     score: int = 0
     has_installers: bool = False
     recent_stars_velocity: float = 0.0
     latest_release_date: Optional[str] = None
     download_count: int = 0
+    open_issues: int = 0
+    archived: bool = False
 
     def to_summary(self, category: str = "trending") -> Dict:
         base = {
@@ -202,7 +207,10 @@ class RepoCandidate:
             "releasesUrl": self.releases_url,
             "updatedAt": self.updated_at,
             "createdAt": self.created_at,
+            "pushedAt": self.pushed_at,
             "downloadCount": self.download_count,
+            "openIssuesCount": self.open_issues,
+            "archived": self.archived,
         }
 
         if self.latest_release_date:
@@ -530,6 +538,9 @@ def make_candidate(repo: Dict, platform: str, velocity: float = 0.0, score_weigh
         releases_url=repo["releases_url"],
         updated_at=repo["updated_at"],
         created_at=repo["created_at"],
+        pushed_at=repo.get("pushed_at"),
+        open_issues=repo.get("open_issues_count", 0),
+        archived=repo.get("archived", False),
         score=score,
         recent_stars_velocity=velocity,
     )
@@ -1391,6 +1402,12 @@ async def main():
             print("  ⚠ No tokens with enough budget for topics — skipping")
     else:
         print("\n⚠ No token available for topics — set GH_TOKEN_TOPICS or GITHUB_TOKEN")
+
+    # Daily velocity time-series capture — runs after the full catalog has been
+    # upserted so the snapshot reflects this run's fresh values. Reads straight
+    # off `repos`, so it is full-catalog and costs zero GitHub calls.
+    if save_daily_snapshot is not None:
+        save_daily_snapshot()
 
     elapsed = time.time() - start
     print(f"\n{'='*70}")

@@ -76,19 +76,19 @@ def _upsert_repo(cur, repo: Dict, platform: str):
     cur.execute("""
         INSERT INTO repos (
             id, full_name, owner, name, owner_avatar_url, description,
-            default_branch, html_url, stars, forks, language,
+            default_branch, html_url, stars, forks, open_issues, language,
             topics, latest_release_date, latest_release_tag,
             has_installers_android, has_installers_windows,
             has_installers_macos, has_installers_linux,
-            download_count, trending_score, popularity_score,
-            created_at_gh, updated_at_gh, indexed_at
+            download_count, archived, trending_score, popularity_score,
+            created_at_gh, updated_at_gh, pushed_at_gh, indexed_at
         ) VALUES (
             %(id)s, %(full_name)s, %(owner)s, %(name)s, %(avatar)s, %(description)s,
-            %(default_branch)s, %(html_url)s, %(stars)s, %(forks)s, %(language)s,
+            %(default_branch)s, %(html_url)s, %(stars)s, %(forks)s, %(open_issues)s, %(language)s,
             %(topics)s, %(release_date)s, NULL,
             %(android)s, %(windows)s, %(macos)s, %(linux)s,
-            %(download_count)s, %(trending_score)s, %(popularity_score)s,
-            %(created_at)s, %(updated_at)s, NOW()
+            %(download_count)s, %(archived)s, %(trending_score)s, %(popularity_score)s,
+            %(created_at)s, %(updated_at)s, %(pushed_at)s, NOW()
         )
         ON CONFLICT (id) DO UPDATE SET
             full_name = EXCLUDED.full_name,
@@ -100,12 +100,15 @@ def _upsert_repo(cur, repo: Dict, platform: str):
             html_url = EXCLUDED.html_url,
             stars = EXCLUDED.stars,
             forks = EXCLUDED.forks,
+            open_issues = EXCLUDED.open_issues,
+            archived = EXCLUDED.archived,
             language = EXCLUDED.language,
             topics = EXCLUDED.topics,
             latest_release_date = COALESCE(EXCLUDED.latest_release_date, repos.latest_release_date),
             trending_score = COALESCE(EXCLUDED.trending_score, repos.trending_score),
             popularity_score = COALESCE(EXCLUDED.popularity_score, repos.popularity_score),
             updated_at_gh = EXCLUDED.updated_at_gh,
+            pushed_at_gh = COALESCE(EXCLUDED.pushed_at_gh, repos.pushed_at_gh),
             indexed_at = NOW(),
             has_installers_android = repos.has_installers_android OR EXCLUDED.has_installers_android,
             has_installers_windows = repos.has_installers_windows OR EXCLUDED.has_installers_windows,
@@ -123,10 +126,12 @@ def _upsert_repo(cur, repo: Dict, platform: str):
         "html_url": repo.get("htmlUrl"),
         "stars": repo.get("stargazersCount", 0),
         "forks": repo.get("forksCount", 0),
+        "open_issues": repo.get("openIssuesCount", 0),
         "language": repo.get("language"),
         "topics": repo.get("topics", []),
         "release_date": repo.get("latestReleaseDate"),
         "download_count": repo.get("downloadCount", 0),
+        "archived": repo.get("archived", False),
         "android": platform_flags["has_installers_android"],
         "windows": platform_flags["has_installers_windows"],
         "macos": platform_flags["has_installers_macos"],
@@ -135,7 +140,58 @@ def _upsert_repo(cur, repo: Dict, platform: str):
         "popularity_score": repo.get("popularityScore"),
         "created_at": repo.get("createdAt"),
         "updated_at": repo.get("updatedAt"),
+        "pushed_at": repo.get("pushedAt") or None,
     })
+
+
+def save_daily_snapshot():
+    """Append one row per repo to repo_daily_snapshot for today (UTC).
+
+    Catalog-wide INSERT...SELECT straight off the `repos` table — zero extra
+    GitHub calls, captures the values the fetch just persisted, and is always
+    full-catalog regardless of which run triggers it. This is the velocity
+    time-series: GitHub exposes downloads only as a running total, so
+    day-over-day differencing of these rows is the ONLY way to compute
+    download velocity, and a missed day cannot be backfilled.
+
+    Idempotent per UTC day via ON CONFLICT DO UPDATE (last write of the day
+    wins), so re-running the same day refreshes rather than errors. Velocity
+    EWMA columns are left NULL; the backend VelocityAggregationWorker fills them.
+
+    Intended to run from the daily 02:00 UTC full fetch. Gated by the
+    CAPTURE_DAILY_SNAPSHOT env (default on) so a lighter intra-day run can opt
+    out and keep day-over-day deltas comparing full-catalog like-for-like.
+    """
+    if os.environ.get("CAPTURE_DAILY_SNAPSHOT", "1") not in ("1", "true", "True"):
+        print("  ⓘ daily snapshot skipped (CAPTURE_DAILY_SNAPSHOT disabled)")
+        return
+    conn = _get_connection()
+    if conn is None:
+        return
+    try:
+        with conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    INSERT INTO repo_daily_snapshot
+                        (repo_id, snapshot_date, stars, download_count,
+                         forks, open_issues, latest_release_date)
+                    SELECT id, (NOW() AT TIME ZONE 'UTC')::date, stars, download_count,
+                           forks, open_issues, latest_release_date
+                    FROM repos
+                    ON CONFLICT (repo_id, snapshot_date) DO UPDATE SET
+                        stars = EXCLUDED.stars,
+                        download_count = EXCLUDED.download_count,
+                        forks = EXCLUDED.forks,
+                        open_issues = EXCLUDED.open_issues,
+                        latest_release_date = EXCLUDED.latest_release_date,
+                        captured_at = NOW()
+                """)
+                count = cur.rowcount
+        print(f"  ✓ daily snapshot: {count} repos captured for today (UTC)")
+    except Exception as e:
+        print(f"  ✗ daily snapshot error: {e}", file=sys.stderr)
+    finally:
+        conn.close()
 
 
 def _update_categories(cur, category: str, platform: str, repos: List[Dict]):
