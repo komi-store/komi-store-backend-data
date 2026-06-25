@@ -1,0 +1,73 @@
+name: Deploy fetcher to production
+
+on:
+  # Auto-deploy whenever main moves (PR merge, direct admin commit) and the
+  # fetcher scripts changed. The cron launchers (run_*.sh) that invoke these
+  # live on the VPS, not in the repo, so a code push is all that needs syncing.
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/deploy_fetcher.yml'
+  # Manual button for break-glass redeploys / first-time setup.
+  workflow_dispatch:
+
+# One fetcher deploy at a time; queue, don't cancel (a half-synced scripts dir
+# mid-cron-run would be worse than waiting).
+concurrency:
+  group: deploy-fetcher
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Sync scripts to /opt/fetcher
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          # NO --delete: the VPS-only cron launchers (run_fetcher.sh,
+          # run_new_releases.sh, run_backfill.sh) are not in the repo, so
+          # --delete would remove them and break the cron jobs. Flatten
+          # scripts/ -> /opt/fetcher/ (the prod layout has the .py files at the
+          # top level, not under scripts/).
+          rsync -avz \
+            --exclude '__pycache__/' \
+            --exclude '*.pyc' \
+            scripts/ "$DEPLOY_USER@$DEPLOY_HOST:/opt/fetcher/"
+
+      - name: Verify snapshot-capture code landed
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          # Fail loudly if the file that captures repo_daily_snapshot did not
+          # make it (e.g. a stale rsync) — that's the exact gap this workflow
+          # exists to close.
+          ssh "$DEPLOY_USER@$DEPLOY_HOST" '
+            set -euo pipefail
+            grep -q save_daily_snapshot /opt/fetcher/fetch_all_categories.py
+            grep -q save_daily_snapshot /opt/fetcher/db_writer.py
+            echo "snapshot-capture present on /opt/fetcher"
+          '
