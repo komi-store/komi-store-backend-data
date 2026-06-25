@@ -29,6 +29,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # No repo token needed — this deploy authenticates over SSH, so don't
+          # leave GITHUB_TOKEN in .git/config (zizmor artipacked).
+          persist-credentials: false
 
       - name: Configure SSH
         env:
@@ -63,11 +67,12 @@ jobs:
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
         run: |
           # Fail loudly if the file that captures repo_daily_snapshot did not
-          # make it (e.g. a stale rsync) — that's the exact gap this workflow
-          # exists to close.
-          ssh "$DEPLOY_USER@$DEPLOY_HOST" '
-            set -euo pipefail
-            grep -q save_daily_snapshot /opt/fetcher/fetch_all_categories.py
-            grep -q save_daily_snapshot /opt/fetcher/db_writer.py
-            echo "snapshot-capture present on /opt/fetcher"
-          '
+          # make it (e.g. a stale rsync) — the exact gap this workflow closes.
+          # Portable && chain: the step fails if either grep misses, without
+          # relying on the remote login shell supporting `set -o pipefail` (it
+          # may be dash/sh); the echo runs only when both greps pass, so the
+          # step can't falsely succeed.
+          ssh "$DEPLOY_USER@$DEPLOY_HOST" \
+            'grep -q save_daily_snapshot /opt/fetcher/fetch_all_categories.py \
+             && grep -q save_daily_snapshot /opt/fetcher/db_writer.py \
+             && echo "snapshot-capture present on /opt/fetcher"'
