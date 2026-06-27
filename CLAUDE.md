@@ -75,11 +75,11 @@ cached-data/
 
 Each platform has: topics, installer file extensions, scoring keywords (high/medium/low), primary/secondary languages, and frameworks. See `PLATFORMS` dict.
 
-**Installer detection** — only dedicated installer file extensions count (generic archives like `.zip`/`.tar.gz` are ignored):
-- Android: `.apk`, `.aab`
-- Windows: `.msi`, `.exe`, `.msix`
+**Installer detection** — only client-installable file extensions count (generic archives like `.zip`/`.tar.gz` are ignored). These sets MUST stay byte-for-byte equivalent to the client's `core.domain.utils.AssetPlatform` + `isAssetInstallable`, else `has_installers_*` advertises what the client refuses to install:
+- Android: `.apk` **passing `is_android_apk`** — `.apk` is overloaded (nfpm/goreleaser emit Alpine Linux packages with it); a name-token discriminator (`linux`/`amd64`/`386` ⇒ NOT Android) is required. `.aab` is a Play Store bundle, not user-installable — excluded.
+- Windows: `.msi`, `.exe` (`.msix` excluded — client can't install it)
 - macOS: `.dmg`, `.pkg`
-- Linux: `.appimage`, `.deb`, `.rpm`
+- Linux: `.appimage`, `.deb`, `.rpm`, `.pkg.tar.zst` (Alpine `.apk` is NOT in the client's Linux set, so an Alpine-`.apk`-only repo is installable on nothing)
 
 ### Content Filtering
 

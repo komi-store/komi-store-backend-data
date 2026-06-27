@@ -102,10 +102,25 @@ def _is_blocked(repo: Dict) -> bool:
 
 # ─── Platform definitions ─────────────────────────────────────────────────────
 
+# goreleaser/nfpm emit Alpine Linux packages with a `.apk` extension that are
+# NOT Android packages. An Alpine `.apk` always carries an OS / Go-arch token
+# (linux / amd64 / 386); a real Android APK never does. This discriminator must
+# stay byte-for-byte equivalent to the backend's AssetPlatform.isAndroidApk and
+# the client's core.domain.utils.isAndroidApk.
+_ALPINE_APK_RE = re.compile(r'(^|[^a-z0-9])(linux|amd64|386)([^a-z0-9]|$)')
+
+
+def is_android_apk(name: str) -> bool:
+    n = name.lower()
+    return n.endswith(".apk") and not _ALPINE_APK_RE.search(n)
+
+
 PLATFORMS = {
     "android": {
         "topics": ["android", "android-app", "kotlin-android"],
-        "installer_extensions": [".apk", ".aab"],
+        # Android installers are detected via is_android_apk (see _check_assets),
+        # not a plain suffix match — `.apk` alone over-matches Alpine packages.
+        "installer_extensions": [".apk"],
         "score_keywords": {
             "high": ["android", "kotlin-android"],
             "medium": ["mobile", "kotlin", "jetpack-compose"],
@@ -118,7 +133,7 @@ PLATFORMS = {
     },
     "windows": {
         "topics": ["windows", "electron", "desktop", "windows-app"],
-        "installer_extensions": [".msi", ".exe", ".msix"],
+        "installer_extensions": [".msi", ".exe"],
         "score_keywords": {
             "high": ["windows", "windows-app", "wpf", "winui"],
             "medium": ["desktop", "electron", "dotnet"],
@@ -140,7 +155,7 @@ PLATFORMS = {
     },
     "linux": {
         "topics": ["linux", "gtk", "qt", "gnome", "kde"],
-        "installer_extensions": [".appimage", ".deb", ".rpm"],
+        "installer_extensions": [".appimage", ".deb", ".rpm", ".pkg.tar.zst"],
         "score_keywords": {
             "high": ["linux", "gtk", "qt", "gnome"],
             "medium": ["desktop", "gnome", "kde", "flatpak"],
@@ -418,7 +433,11 @@ class GitHubClient:
                     continue
                 for asset in assets:
                     name = asset.get("name", "").lower()
-                    if any(name.endswith(ext) for ext in cfg["installer_extensions"]):
+                    if platform == "android":
+                        matched = is_android_apk(name)
+                    else:
+                        matched = any(name.endswith(ext) for ext in cfg["installer_extensions"])
+                    if matched:
                         info.has_installers[platform] = True
                         break
 

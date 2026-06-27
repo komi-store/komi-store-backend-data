@@ -16,10 +16,10 @@ Each category is fetched across 4 platforms:
 
 | Platform | Installer types | Primary languages |
 |---|---|---|
-| **Android** | `.apk`, `.aab` | Kotlin, Java |
-| **Windows** | `.exe`, `.msi`, `.msix` | C#, C++, Rust |
+| **Android** | `.apk` (Alpine `.apk` excluded via `is_android_apk`) | Kotlin, Java |
+| **Windows** | `.exe`, `.msi` | C#, C++, Rust |
 | **macOS** | `.dmg`, `.pkg` | Swift, Objective-C |
-| **Linux** | `.AppImage`, `.deb`, `.rpm` | C++, Rust, C |
+| **Linux** | `.AppImage`, `.deb`, `.rpm`, `.pkg.tar.zst` | C++, Rust, C |
 
 ## Requirements
 
