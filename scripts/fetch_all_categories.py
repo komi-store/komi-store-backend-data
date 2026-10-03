@@ -224,8 +224,9 @@ class ReleaseInfo:
     has_release: bool = False
     published_at: Optional[str] = None
     has_installers: Dict[str, bool] = field(default_factory=dict)  # platform -> bool
-    # platform -> published_at of the newest stable release shipping it
-    platform_published_at: Dict[str, Optional[str]] = field(default_factory=dict)
+    # platform -> {"tag", "publishedAt"} of the newest stable release shipping it.
+    # Same shape as the backend's RepoResponse.platformReleases.
+    platform_releases: Dict[str, Dict] = field(default_factory=dict)
     total_downloads: int = 0  # sum of asset.download_count across ALL releases
 
 
@@ -250,7 +251,7 @@ class RepoCandidate:
     pushed_at: Optional[str] = None
     score: int = 0
     has_installers: bool = False
-    installer_platforms: Dict[str, bool] = field(default_factory=dict)
+    platform_releases: Dict[str, Dict] = field(default_factory=dict)
     recent_stars_velocity: float = 0.0
     latest_release_date: Optional[str] = None
     download_count: int = 0
@@ -277,10 +278,11 @@ class RepoCandidate:
             "downloadCount": self.download_count,
             "openIssuesCount": self.open_issues,
             "archived": self.archived,
-            "hasInstallersAndroid": self.installer_platforms.get("android", False),
-            "hasInstallersWindows": self.installer_platforms.get("windows", False),
-            "hasInstallersMacos": self.installer_platforms.get("macos", False),
-            "hasInstallersLinux": self.installer_platforms.get("linux", False),
+            "hasInstallersAndroid": "android" in self.platform_releases,
+            "hasInstallersWindows": "windows" in self.platform_releases,
+            "hasInstallersMacos": "macos" in self.platform_releases,
+            "hasInstallersLinux": "linux" in self.platform_releases,
+            "platformReleases": self.platform_releases,
         }
 
         if self.latest_release_date:
@@ -508,7 +510,10 @@ class GitHubClient:
             info.published_at = stable[0].get("published_at")
             for platform, release in platform_availability(stable).items():
                 info.has_installers[platform] = True
-                info.platform_published_at[platform] = release.get("published_at")
+                info.platform_releases[platform] = {
+                    "tag": release.get("tag_name"),
+                    "publishedAt": release.get("published_at"),
+                }
 
         self.release_cache[full_name] = info
         return info
@@ -641,7 +646,7 @@ async def verify_installers(
 
         # Age filter on this platform's own newest build, so a fresh release for
         # another platform doesn't make an old one look new.
-        platform_published_at = info.platform_published_at.get(platform) or info.published_at
+        platform_published_at = info.platform_releases.get(platform, {}).get("publishedAt") or info.published_at
         if max_age_days and platform_published_at:
             try:
                 s = platform_published_at.replace("Z", "")
@@ -657,7 +662,7 @@ async def verify_installers(
                 return None
 
         candidate.has_installers = True
-        candidate.installer_platforms = dict(info.has_installers)
+        candidate.platform_releases = dict(info.platform_releases)
         candidate.download_count = info.total_downloads
         if need_release_date:
             candidate.latest_release_date = info.published_at

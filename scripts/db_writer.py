@@ -9,6 +9,7 @@ Usage from fetch_all_categories.py:
     save_to_postgres(category, platform, repos)
 """
 
+import json
 import os
 import sys
 from typing import List, Dict, Optional
@@ -82,14 +83,14 @@ def _upsert_repo(cur, repo: Dict, platform: str):
             default_branch, html_url, stars, forks, open_issues, language,
             topics, latest_release_date, latest_release_tag,
             has_installers_android, has_installers_windows,
-            has_installers_macos, has_installers_linux,
+            has_installers_macos, has_installers_linux, platform_releases,
             download_count, archived, trending_score, popularity_score,
             created_at_gh, updated_at_gh, pushed_at_gh, indexed_at
         ) VALUES (
             %(id)s, %(full_name)s, %(owner)s, %(name)s, %(avatar)s, %(description)s,
             %(default_branch)s, %(html_url)s, %(stars)s, %(forks)s, %(open_issues)s, %(language)s,
             %(topics)s, %(release_date)s, NULL,
-            %(android)s, %(windows)s, %(macos)s, %(linux)s,
+            %(android)s, %(windows)s, %(macos)s, %(linux)s, %(platform_releases)s,
             %(download_count)s, %(archived)s, %(trending_score)s, %(popularity_score)s,
             %(created_at)s, %(updated_at)s, %(pushed_at)s, NOW()
         )
@@ -117,6 +118,7 @@ def _upsert_repo(cur, repo: Dict, platform: str):
             has_installers_windows = EXCLUDED.has_installers_windows,
             has_installers_macos = EXCLUDED.has_installers_macos,
             has_installers_linux = EXCLUDED.has_installers_linux,
+            platform_releases = COALESCE(EXCLUDED.platform_releases, repos.platform_releases),
             download_count = GREATEST(EXCLUDED.download_count, repos.download_count)
     """, {
         "id": repo_id,
@@ -139,6 +141,7 @@ def _upsert_repo(cur, repo: Dict, platform: str):
         "windows": platform_flags["has_installers_windows"],
         "macos": platform_flags["has_installers_macos"],
         "linux": platform_flags["has_installers_linux"],
+        "platform_releases": json.dumps(repo["platformReleases"]) if repo.get("platformReleases") else None,
         "trending_score": repo.get("trendingScore"),
         "popularity_score": repo.get("popularityScore"),
         "created_at": repo.get("createdAt"),
