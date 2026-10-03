@@ -1,7 +1,7 @@
 {
   "category": "feed",
   "platform": "windows",
-  "lastUpdated": "2026-10-03T21:13:41.840801+00:00",
+  "lastUpdated": "2026-10-03T23:47:34.823043+00:00",
   "rotation": "2026-10-03",
   "totalCount": 150,
   "repositories": [
@@ -130,9 +130,9 @@
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/rustdesk/rustdesk",
-      "stargazersCount": 125059,
-      "forksCount": 19395,
-      "openIssuesCount": 170,
+      "stargazersCount": 125069,
+      "forksCount": 19401,
+      "openIssuesCount": 172,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
       "license": {
@@ -172,7 +172,7 @@
       "latestReleaseTag": "1.5.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 74669039,
+      "downloadCount": 74705180,
       "dailyStars": null,
       "trendingScore": 1175.1600341796875,
       "popularityScore": 163796.0,
@@ -180,7 +180,24 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "android": {
+          "tag": "1.5.0",
+          "publishedAt": "2026-09-30T16:11:03Z"
+        },
+        "windows": {
+          "tag": "1.5.0",
+          "publishedAt": "2026-09-30T16:11:03Z"
+        },
+        "macos": {
+          "tag": "1.5.0",
+          "publishedAt": "2026-09-30T16:11:03Z"
+        },
+        "linux": {
+          "tag": "1.5.0",
+          "publishedAt": "2026-09-30T16:11:03Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -577,8 +594,8 @@
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "stargazersCount": 148865,
-      "forksCount": 10683,
+      "stargazersCount": 149036,
+      "forksCount": 10693,
       "openIssuesCount": 502,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
@@ -601,7 +618,7 @@
         "networking"
       ],
       "releasesUrl": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
-      "updatedAt": "2026-10-03 02:50:21+00",
+      "updatedAt": "2026-10-03 19:24:26+00",
       "createdAt": "2023-11-21 18:24:03+00",
       "pushedAt": "2026-10-02 08:27:21+00",
       "latestReleaseDate": "2026-10-02 16:25:43+00",
@@ -1296,7 +1313,7 @@
       "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/CherryHQ/cherry-studio",
-      "stargazersCount": 52347,
+      "stargazersCount": 52348,
       "forksCount": 5034,
       "openIssuesCount": 1711,
       "licenseSpdxId": "AGPL-3.0",
@@ -1321,14 +1338,14 @@
         "ai"
       ],
       "releasesUrl": "https://github.com/CherryHQ/cherry-studio/releases",
-      "updatedAt": "2026-10-03 02:24:51+00",
+      "updatedAt": "2026-10-03 19:57:17+00",
       "createdAt": "2024-05-24 01:56:26+00",
       "pushedAt": "2026-10-03 17:49:40+00",
       "latestReleaseDate": "2026-09-30 21:26:19+00",
       "latestReleaseTag": "v2.1.4",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 32034674,
+      "downloadCount": 32037505,
       "dailyStars": null,
       "trendingScore": 1214.0400390625,
       "popularityScore": 62393.0,
@@ -1364,8 +1381,8 @@
       "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/laurent22/joplin",
-      "stargazersCount": 56565,
-      "forksCount": 6313,
+      "stargazersCount": 56577,
+      "forksCount": 6312,
       "openIssuesCount": 644,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
@@ -1399,14 +1416,14 @@
         "backup"
       ],
       "releasesUrl": "https://github.com/laurent22/joplin/releases",
-      "updatedAt": "2026-10-03 02:12:15+00",
+      "updatedAt": "2026-10-03 19:56:26+00",
       "createdAt": "2017-01-16 21:49:41+00",
       "pushedAt": "2026-10-03 00:24:42+00",
       "latestReleaseDate": "2026-09-25 21:31:12+00",
       "latestReleaseTag": "v3.7.21",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 17246092,
+      "downloadCount": 17255979,
       "dailyStars": null,
       "trendingScore": 322.0400085449219,
       "popularityScore": 69191.0,
@@ -2593,6 +2610,79 @@
       "available_on": []
     },
     {
+      "id": 5736080,
+      "name": "FreeCAD",
+      "fullName": "FreeCAD/FreeCAD",
+      "owner": {
+        "login": "FreeCAD",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2306237?v=4"
+      },
+      "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/FreeCAD/FreeCAD",
+      "stargazersCount": 33919,
+      "forksCount": 6122,
+      "openIssuesCount": 3942,
+      "licenseSpdxId": "LGPL-2.1",
+      "licenseName": "GNU Lesser General Public License v2.1",
+      "license": {
+        "spdxId": "LGPL-2.1",
+        "name": "GNU Lesser General Public License v2.1"
+      },
+      "language": "C++",
+      "topics": [
+        "3d",
+        "3d-printing",
+        "architecture",
+        "bim",
+        "cad",
+        "cam",
+        "civil-engineering",
+        "coin",
+        "engineering",
+        "fem",
+        "freecad",
+        "linux",
+        "macos",
+        "mechanical-engineering",
+        "opencascade",
+        "windows"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/FreeCAD/FreeCAD/releases",
+      "updatedAt": "2026-10-03 19:23:12+00",
+      "createdAt": "2012-09-09 08:25:02+00",
+      "pushedAt": "2026-10-03 17:14:24+00",
+      "latestReleaseDate": "2026-09-28 13:58:35+00",
+      "latestReleaseTag": "1.1.4",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 30707281,
+      "dailyStars": null,
+      "trendingScore": 172.02000427246094,
+      "popularityScore": 46145.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        },
+        "macos": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        },
+        "linux": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 55626935,
       "name": "WSL",
       "fullName": "microsoft/WSL",
@@ -2632,79 +2722,6 @@
       "hasInstallersMacos": false,
       "hasInstallersLinux": false,
       "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 5736080,
-      "name": "FreeCAD",
-      "fullName": "FreeCAD/FreeCAD",
-      "owner": {
-        "login": "FreeCAD",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2306237?v=4"
-      },
-      "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/FreeCAD/FreeCAD",
-      "stargazersCount": 33915,
-      "forksCount": 6122,
-      "openIssuesCount": 3942,
-      "licenseSpdxId": "LGPL-2.1",
-      "licenseName": "GNU Lesser General Public License v2.1",
-      "license": {
-        "spdxId": "LGPL-2.1",
-        "name": "GNU Lesser General Public License v2.1"
-      },
-      "language": "C++",
-      "topics": [
-        "3d",
-        "3d-printing",
-        "architecture",
-        "bim",
-        "cad",
-        "cam",
-        "civil-engineering",
-        "coin",
-        "engineering",
-        "fem",
-        "freecad",
-        "linux",
-        "macos",
-        "mechanical-engineering",
-        "opencascade",
-        "windows"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/FreeCAD/FreeCAD/releases",
-      "updatedAt": "2026-10-03 02:07:38+00",
-      "createdAt": "2012-09-09 08:25:02+00",
-      "pushedAt": "2026-10-03 17:14:24+00",
-      "latestReleaseDate": "2026-09-28 13:58:35+00",
-      "latestReleaseTag": "1.1.4",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 30702760,
-      "dailyStars": null,
-      "trendingScore": 172.02000427246094,
-      "popularityScore": 46145.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "1.1.4",
-          "publishedAt": "2026-09-28T13:58:35Z"
-        },
-        "macos": {
-          "tag": "1.1.4",
-          "publishedAt": "2026-09-28T13:58:35Z"
-        },
-        "linux": {
-          "tag": "1.1.4",
-          "publishedAt": "2026-09-28T13:58:35Z"
-        }
-      },
       "source_host": null,
       "available_on": []
     },
@@ -2766,6 +2783,83 @@
       "available_on": []
     },
     {
+      "id": 438803890,
+      "name": "Sunshine",
+      "fullName": "LizardByte/Sunshine",
+      "owner": {
+        "login": "LizardByte",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84790584?v=4"
+      },
+      "description": "Self-hosted game stream host for Moonlight.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/LizardByte/Sunshine",
+      "stargazersCount": 41799,
+      "forksCount": 2179,
+      "openIssuesCount": 167,
+      "licenseSpdxId": "GPL-3.0",
+      "licenseName": "GNU General Public License v3.0",
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "language": "C++",
+      "topics": [
+        "cpm",
+        "cpp",
+        "docker",
+        "flathub-pkg",
+        "game-stream",
+        "game-streaming",
+        "game-streaming-server",
+        "geforce-experience",
+        "homebrew-pkg",
+        "moonlight",
+        "pacman-pkg",
+        "remote-desktop",
+        "replicator-custom-issues",
+        "replicator-release-notifications",
+        "rtd",
+        "winget-pkg"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/LizardByte/Sunshine/releases",
+      "updatedAt": "2026-10-03 02:40:37+00",
+      "createdAt": "2021-12-15 23:38:57+00",
+      "pushedAt": "2026-10-03 20:00:56+00",
+      "latestReleaseDate": "2026-09-15 01:17:17+00",
+      "latestReleaseTag": "v2026.914.233613",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 7326792,
+      "dailyStars": null,
+      "trendingScore": 492.7200012207031,
+      "popularityScore": 46118.0,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2026.914.233613",
+          "publishedAt": "2026-09-15T01:17:17Z"
+        },
+        "windows": {
+          "tag": "v2026.914.233613",
+          "publishedAt": "2026-09-15T01:17:17Z"
+        },
+        "macos": {
+          "tag": "v2026.914.233613",
+          "publishedAt": "2026-09-15T01:17:17Z"
+        },
+        "linux": {
+          "tag": "v2026.914.233613",
+          "publishedAt": "2026-09-15T01:17:17Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 144590939,
       "name": "vscodium",
       "fullName": "VSCodium/vscodium",
@@ -2811,83 +2905,6 @@
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 438803890,
-      "name": "Sunshine",
-      "fullName": "LizardByte/Sunshine",
-      "owner": {
-        "login": "LizardByte",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/84790584?v=4"
-      },
-      "description": "Self-hosted game stream host for Moonlight.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/LizardByte/Sunshine",
-      "stargazersCount": 41796,
-      "forksCount": 2179,
-      "openIssuesCount": 166,
-      "licenseSpdxId": "GPL-3.0",
-      "licenseName": "GNU General Public License v3.0",
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "language": "C++",
-      "topics": [
-        "cpm",
-        "cpp",
-        "docker",
-        "flathub-pkg",
-        "game-stream",
-        "game-streaming",
-        "game-streaming-server",
-        "geforce-experience",
-        "homebrew-pkg",
-        "moonlight",
-        "pacman-pkg",
-        "remote-desktop",
-        "replicator-custom-issues",
-        "replicator-release-notifications",
-        "rtd",
-        "winget-pkg"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/LizardByte/Sunshine/releases",
-      "updatedAt": "2026-10-03 02:40:37+00",
-      "createdAt": "2021-12-15 23:38:57+00",
-      "pushedAt": "2026-10-03 18:20:17+00",
-      "latestReleaseDate": "2026-09-15 01:17:17+00",
-      "latestReleaseTag": "v2026.914.233613",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 7323365,
-      "dailyStars": null,
-      "trendingScore": 492.7200012207031,
-      "popularityScore": 46118.0,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v2026.914.233613",
-          "publishedAt": "2026-09-15T01:17:17Z"
-        },
-        "windows": {
-          "tag": "v2026.914.233613",
-          "publishedAt": "2026-09-15T01:17:17Z"
-        },
-        "macos": {
-          "tag": "v2026.914.233613",
-          "publishedAt": "2026-09-15T01:17:17Z"
-        },
-        "linux": {
-          "tag": "v2026.914.233613",
-          "publishedAt": "2026-09-15T01:17:17Z"
-        }
-      },
       "source_host": null,
       "available_on": []
     },
@@ -3126,7 +3143,7 @@
       "description": "🎧 Open source music streaming app! Available for both desktop & mobile!",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/team-spotube/spotube",
-      "stargazersCount": 49583,
+      "stargazersCount": 49590,
       "forksCount": 2322,
       "openIssuesCount": 864,
       "licenseSpdxId": "NOASSERTION",
@@ -3163,7 +3180,7 @@
       "latestReleaseTag": "v5.1.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 5372198,
+      "downloadCount": 5372931,
       "dailyStars": null,
       "trendingScore": 492.20001220703125,
       "popularityScore": 54212.0,
@@ -3394,8 +3411,8 @@
       "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/unslothai/unsloth",
-      "stargazersCount": 77154,
-      "forksCount": 7091,
+      "stargazersCount": 77169,
+      "forksCount": 7097,
       "openIssuesCount": 1121,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
@@ -3431,14 +3448,14 @@
         "self-hosted"
       ],
       "releasesUrl": "https://github.com/unslothai/unsloth/releases",
-      "updatedAt": "2026-10-03 02:10:05+00",
+      "updatedAt": "2026-10-03 19:24:46+00",
       "createdAt": null,
       "pushedAt": "2026-10-03 06:42:58+00",
       "latestReleaseDate": "2026-10-01 14:06:23+00",
       "latestReleaseTag": "v0.1.902-beta",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2556022,
+      "downloadCount": 2591595,
       "dailyStars": null,
       "trendingScore": 1492.510009765625,
       "popularityScore": 91332.0,
@@ -4125,7 +4142,7 @@
       "description": "[Unofficial] qBittorrent Enhanced, based on qBittorrent",
       "defaultBranch": "v5_2_x",
       "htmlUrl": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
-      "stargazersCount": 26700,
+      "stargazersCount": 26702,
       "forksCount": 1440,
       "openIssuesCount": 160,
       "licenseSpdxId": "NOASSERTION",
@@ -4141,14 +4158,14 @@
       ],
       "topicCodes": [],
       "releasesUrl": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases",
-      "updatedAt": "2026-10-03 02:16:11+00",
+      "updatedAt": "2026-10-03 18:22:41+00",
       "createdAt": "2017-03-14 03:30:46+00",
       "pushedAt": "2026-08-19 11:04:27+00",
-      "latestReleaseDate": "2026-07-19 17:30:23+00",
+      "latestReleaseDate": "2026-10-03 18:04:46+00",
       "latestReleaseTag": "release-5.2.3.10",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 9295113,
+      "downloadCount": 9299420,
       "dailyStars": null,
       "trendingScore": 169.05999755859375,
       "popularityScore": 29580.0,
@@ -4665,63 +4682,6 @@
       "available_on": []
     },
     {
-      "id": 291438522,
-      "name": "siyuan",
-      "fullName": "siyuan-note/siyuan",
-      "owner": {
-        "login": "siyuan-note",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/70468694?v=4"
-      },
-      "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/siyuan-note/siyuan",
-      "stargazersCount": 46615,
-      "forksCount": 3035,
-      "openIssuesCount": 8,
-      "licenseSpdxId": "AGPL-3.0",
-      "licenseName": "GNU Affero General Public License v3.0",
-      "license": {
-        "spdxId": "AGPL-3.0",
-        "name": "GNU Affero General Public License v3.0"
-      },
-      "language": "TypeScript",
-      "topics": [
-        "agentic-ai",
-        "ai-agent",
-        "knowledge-base",
-        "local-first",
-        "markdown",
-        "mcp",
-        "note-taking",
-        "self-hosted",
-        "siyuan"
-      ],
-      "topicCodes": [
-        "ai",
-        "notes",
-        "self-hosted"
-      ],
-      "releasesUrl": "https://github.com/siyuan-note/siyuan/releases",
-      "updatedAt": "2026-10-03 02:02:52+00",
-      "createdAt": "2020-08-30 09:21:35+00",
-      "pushedAt": "2026-10-02 17:29:54+00",
-      "latestReleaseDate": "2026-09-29 01:39:16+00",
-      "latestReleaseTag": "v3.8.6",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 3329108,
-      "dailyStars": null,
-      "trendingScore": 421.44000244140625,
-      "popularityScore": 51314.0,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 268350681,
       "name": "FanControl.Releases",
       "fullName": "Rem0o/FanControl.Releases",
@@ -5028,8 +4988,8 @@
       "description": "Orchestrate multiple coding agents from desktop and mobile",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/getpaseo/paseo",
-      "stargazersCount": 19348,
-      "forksCount": 2264,
+      "stargazersCount": 19353,
+      "forksCount": 2266,
       "openIssuesCount": 1007,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
@@ -5059,14 +5019,14 @@
         "ai"
       ],
       "releasesUrl": "https://github.com/getpaseo/paseo/releases",
-      "updatedAt": "2026-10-02 22:59:13+00",
+      "updatedAt": "2026-10-03 19:33:56+00",
       "createdAt": "2025-10-13 12:27:02+00",
       "pushedAt": "2026-10-03 18:25:11+00",
       "latestReleaseDate": "2026-10-02 12:37:45+00",
       "latestReleaseTag": "v0.10.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 12022505,
+      "downloadCount": 12035245,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -6001,8 +5961,8 @@
       "description": "cross-platform (Qt), open-source (GPLv3) video editor",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/mltframework/shotcut",
-      "stargazersCount": 15333,
-      "forksCount": 1524,
+      "stargazersCount": 15337,
+      "forksCount": 1525,
       "openIssuesCount": 52,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
@@ -6020,14 +5980,14 @@
       ],
       "topicCodes": [],
       "releasesUrl": "https://github.com/mltframework/shotcut/releases",
-      "updatedAt": "2026-10-02 21:31:21+00",
+      "updatedAt": "2026-10-03 19:43:04+00",
       "createdAt": "2012-04-23 22:37:04+00",
       "pushedAt": "2026-09-15 02:31:08+00",
       "latestReleaseDate": "2026-09-28 00:29:29+00",
       "latestReleaseTag": "v26.8.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 22114825,
+      "downloadCount": 22118817,
       "dailyStars": null,
       "trendingScore": 90.12999725341797,
       "popularityScore": 18381.0,
@@ -6050,7 +6010,7 @@
       "description": "Amnezia VPN Client (Desktop+Mobile)",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/amnezia-vpn/amnezia-client",
-      "stargazersCount": 15306,
+      "stargazersCount": 15307,
       "forksCount": 1178,
       "openIssuesCount": 1174,
       "licenseSpdxId": "GPL-3.0",
@@ -6082,7 +6042,7 @@
       "latestReleaseTag": "5.0.3.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 10818122,
+      "downloadCount": 10819766,
       "dailyStars": null,
       "trendingScore": 160.92999267578125,
       "popularityScore": 17650.0,
@@ -6331,8 +6291,8 @@
       "description": "A Kernel based root solution for Android",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/tiann/KernelSU",
-      "stargazersCount": 18785,
-      "forksCount": 4132,
+      "stargazersCount": 18810,
+      "forksCount": 4141,
       "openIssuesCount": 72,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
@@ -6352,12 +6312,12 @@
       "releasesUrl": "https://github.com/tiann/KernelSU/releases",
       "updatedAt": "2026-09-30 01:47:38+00",
       "createdAt": "2022-12-09 14:03:54+00",
-      "pushedAt": "2026-09-30 11:30:11+00",
+      "pushedAt": "2026-10-03 17:21:49+00",
       "latestReleaseDate": "2026-08-28 14:49:30+00",
       "latestReleaseTag": "v3.3.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 7281771,
+      "downloadCount": 7296965,
       "dailyStars": null,
       "trendingScore": 301.1499938964844,
       "popularityScore": 22792.0,
@@ -6365,7 +6325,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": false,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "android": {
+          "tag": "v3.3.0",
+          "publishedAt": "2026-08-28T14:49:30Z"
+        },
+        "windows": {
+          "tag": "v3.3.0",
+          "publishedAt": "2026-08-28T14:49:30Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -6670,6 +6639,80 @@
       "available_on": []
     },
     {
+      "id": 291438522,
+      "name": "siyuan",
+      "fullName": "siyuan-note/siyuan",
+      "owner": {
+        "login": "siyuan-note",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70468694?v=4"
+      },
+      "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/siyuan-note/siyuan",
+      "stargazersCount": 46624,
+      "forksCount": 3035,
+      "openIssuesCount": 11,
+      "licenseSpdxId": "AGPL-3.0",
+      "licenseName": "GNU Affero General Public License v3.0",
+      "license": {
+        "spdxId": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "knowledge-base",
+        "local-first",
+        "markdown",
+        "mcp",
+        "note-taking",
+        "self-hosted",
+        "siyuan"
+      ],
+      "topicCodes": [
+        "ai",
+        "notes",
+        "self-hosted"
+      ],
+      "releasesUrl": "https://github.com/siyuan-note/siyuan/releases",
+      "updatedAt": "2026-10-03 02:02:52+00",
+      "createdAt": "2020-08-30 09:21:35+00",
+      "pushedAt": "2026-10-03 17:02:04+00",
+      "latestReleaseDate": "2026-09-29 01:39:16+00",
+      "latestReleaseTag": "v3.8.6",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 1851522,
+      "dailyStars": null,
+      "trendingScore": 421.44000244140625,
+      "popularityScore": 51314.0,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "windows": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "macos": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "linux": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 924551,
       "name": "rabbitmq-server",
       "fullName": "rabbitmq/rabbitmq-server",
@@ -6722,6 +6765,63 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": false,
       "hasInstallersLinux": true,
+      "platformReleases": null,
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 257434373,
+      "name": "hysteria",
+      "fullName": "HyNetworks/hysteria",
+      "owner": {
+        "login": "HyNetworks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/287139448?v=4"
+      },
+      "description": "Hysteria is powerful, lightning-fast, and censorship-resistant open-source proxy software",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/HyNetworks/hysteria",
+      "stargazersCount": 22613,
+      "forksCount": 2261,
+      "openIssuesCount": 261,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "language": "Go",
+      "topics": [
+        "censorship-circumvention",
+        "golang",
+        "http-proxy",
+        "hysteria",
+        "proxy",
+        "quic",
+        "relay",
+        "reliable-udp",
+        "socks5",
+        "tun",
+        "vpn"
+      ],
+      "topicCodes": [
+        "networking"
+      ],
+      "releasesUrl": "https://github.com/HyNetworks/hysteria/releases",
+      "updatedAt": "2026-10-02 21:05:30+00",
+      "createdAt": "2020-04-21 00:01:34+00",
+      "pushedAt": "2026-09-28 18:40:51+00",
+      "latestReleaseDate": "2026-09-16 03:56:45+00",
+      "latestReleaseTag": "app/v2.12.3",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 5310708,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
       "platformReleases": null,
       "source_host": null,
       "available_on": []
@@ -6786,63 +6886,6 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 257434373,
-      "name": "hysteria",
-      "fullName": "HyNetworks/hysteria",
-      "owner": {
-        "login": "HyNetworks",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/287139448?v=4"
-      },
-      "description": "Hysteria is powerful, lightning-fast, and censorship-resistant open-source proxy software",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/HyNetworks/hysteria",
-      "stargazersCount": 22613,
-      "forksCount": 2261,
-      "openIssuesCount": 261,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "language": "Go",
-      "topics": [
-        "censorship-circumvention",
-        "golang",
-        "http-proxy",
-        "hysteria",
-        "proxy",
-        "quic",
-        "relay",
-        "reliable-udp",
-        "socks5",
-        "tun",
-        "vpn"
-      ],
-      "topicCodes": [
-        "networking"
-      ],
-      "releasesUrl": "https://github.com/HyNetworks/hysteria/releases",
-      "updatedAt": "2026-10-02 21:05:30+00",
-      "createdAt": "2020-04-21 00:01:34+00",
-      "pushedAt": "2026-09-28 18:40:51+00",
-      "latestReleaseDate": "2026-09-16 03:56:45+00",
-      "latestReleaseTag": "app/v2.12.3",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 5310708,
-      "dailyStars": null,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
       "platformReleases": null,
       "source_host": null,
       "available_on": []
@@ -7213,9 +7256,9 @@
       "description": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/streetwriters/notesnook",
-      "stargazersCount": 14709,
+      "stargazersCount": 14713,
       "forksCount": 1025,
-      "openIssuesCount": 1071,
+      "openIssuesCount": 1072,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -7257,7 +7300,7 @@
       "latestReleaseTag": "3.4.13-android",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 8017400,
+      "downloadCount": 8019520,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -7731,8 +7774,8 @@
       "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/readest/readest",
-      "stargazersCount": 24818,
-      "forksCount": 1648,
+      "stargazersCount": 24821,
+      "forksCount": 1647,
       "openIssuesCount": 91,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -7766,14 +7809,14 @@
         "backup"
       ],
       "releasesUrl": "https://github.com/readest/readest/releases",
-      "updatedAt": "2026-09-29 19:42:47+00",
+      "updatedAt": "2026-10-03 19:48:47+00",
       "createdAt": "2024-10-12 23:16:55+00",
       "pushedAt": "2026-10-03 16:30:09+00",
       "latestReleaseDate": "2026-09-21 20:55:32+00",
       "latestReleaseTag": "v0.12.10",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1838285,
+      "downloadCount": 1838573,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -8097,9 +8140,9 @@
       "description": "Agentic Development Environment based on OpenCode AI agent",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/openchamber/openchamber",
-      "stargazersCount": 11043,
-      "forksCount": 1211,
-      "openIssuesCount": 490,
+      "stargazersCount": 11068,
+      "forksCount": 1219,
+      "openIssuesCount": 351,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -8120,12 +8163,12 @@
       "releasesUrl": "https://github.com/openchamber/openchamber/releases",
       "updatedAt": "2026-10-03 02:23:27+00",
       "createdAt": "2025-09-11 10:34:59+00",
-      "pushedAt": "2026-10-03 01:47:08+00",
+      "pushedAt": "2026-10-03 18:36:27+00",
       "latestReleaseDate": "2026-10-01 01:09:07+00",
       "latestReleaseTag": "v2.1.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 5451130,
+      "downloadCount": 5496629,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -8133,7 +8176,24 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.1.0",
+          "publishedAt": "2026-10-01T01:09:07Z"
+        },
+        "windows": {
+          "tag": "v2.1.0",
+          "publishedAt": "2026-10-01T01:09:07Z"
+        },
+        "macos": {
+          "tag": "v2.1.0",
+          "publishedAt": "2026-10-01T01:09:07Z"
+        },
+        "linux": {
+          "tag": "v2.1.0",
+          "publishedAt": "2026-10-01T01:09:07Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -8148,8 +8208,8 @@
       "description": "Secure environments for developers and their agents",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/coder/coder",
-      "stargazersCount": 16815,
-      "forksCount": 1605,
+      "stargazersCount": 16824,
+      "forksCount": 1607,
       "openIssuesCount": 1172,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -8172,14 +8232,14 @@
       ],
       "topicCodes": [],
       "releasesUrl": "https://github.com/coder/coder/releases",
-      "updatedAt": "2026-10-03 01:38:17+00",
+      "updatedAt": "2026-10-03 19:44:24+00",
       "createdAt": "2021-12-22 06:08:52+00",
       "pushedAt": "2026-09-28 02:49:47+00",
       "latestReleaseDate": "2026-10-02 07:19:46+00",
       "latestReleaseTag": "v2.37.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2767619,
+      "downloadCount": 2770524,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
