@@ -112,7 +112,7 @@ def fetch_all_repos():
                        language, topics, latest_release_date, latest_release_tag,
                        download_count,
                        has_installers_android, has_installers_windows,
-                       has_installers_macos, has_installers_linux,
+                       has_installers_macos, has_installers_linux, platform_releases,
                        trending_score, popularity_score, search_score
                 FROM repos
             """)
@@ -143,6 +143,7 @@ def repo_to_meili_doc(row):
         "has_installers_windows": row["has_installers_windows"],
         "has_installers_macos": row["has_installers_macos"],
         "has_installers_linux": row["has_installers_linux"],
+        "platform_releases": json.loads(row["platform_releases"]) if row["platform_releases"] else None,
         "trending_score": row["trending_score"],
         "popularity_score": row["popularity_score"],
         "search_score": row["search_score"],
