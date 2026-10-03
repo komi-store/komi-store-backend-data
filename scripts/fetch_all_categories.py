@@ -118,7 +118,7 @@ def is_android_apk(name: str) -> bool:
 PLATFORMS = {
     "android": {
         "topics": ["android", "android-app", "kotlin-android"],
-        # Android installers are detected via is_android_apk (see _check_assets),
+        # Android installers are detected via is_android_apk (see ships_installer),
         # not a plain suffix match — `.apk` alone over-matches Alpine packages.
         "installer_extensions": [".apk"],
         "score_keywords": {
@@ -166,6 +166,54 @@ PLATFORMS = {
     },
 }
 
+# A platform counts as available when one of the repo's stable releases ships an
+# installer for it, unless that platform's newest build is more than this many
+# days older than the repo's newest stable release (the project dropped it).
+# Must match the backend's PlatformAvailability.STALE_PLATFORM_DAYS.
+STALE_PLATFORM_DAYS = 365
+
+
+def ships_installer(platform: str, assets: List[Dict]) -> bool:
+    for asset in assets:
+        name = asset.get("name", "").lower()
+        if platform == "android":
+            if is_android_apk(name):
+                return True
+        elif any(name.endswith(ext) for ext in PLATFORMS[platform]["installer_extensions"]):
+            return True
+    return False
+
+
+def parse_release_date(value: Optional[str]) -> Optional[datetime]:
+    if not value:
+        return None
+    try:
+        s = value.replace("Z", "")
+        if "+" in s:
+            s = s.split("+")[0]
+        return datetime.fromisoformat(s)
+    except Exception:
+        return None
+
+
+def platform_availability(stable_releases: List[Dict]) -> Dict[str, Dict]:
+    """Newest stable release per platform, newest-first input, stale platforms dropped."""
+    newest: Dict[str, Dict] = {}
+    for release in stable_releases:
+        for platform in PLATFORMS:
+            if platform not in newest and ships_installer(platform, release.get("assets", [])):
+                newest[platform] = release
+    if not stable_releases:
+        return newest
+    latest_date = parse_release_date(stable_releases[0].get("published_at"))
+    available = {}
+    for platform, release in newest.items():
+        date = parse_release_date(release.get("published_at"))
+        if latest_date and date and (latest_date - date).days > STALE_PLATFORM_DAYS:
+            continue
+        available[platform] = release
+    return available
+
 
 # ─── Data classes ──────────────────────────────────────────────────────────────
 
@@ -176,6 +224,8 @@ class ReleaseInfo:
     has_release: bool = False
     published_at: Optional[str] = None
     has_installers: Dict[str, bool] = field(default_factory=dict)  # platform -> bool
+    # platform -> published_at of the newest stable release shipping it
+    platform_published_at: Dict[str, Optional[str]] = field(default_factory=dict)
     total_downloads: int = 0  # sum of asset.download_count across ALL releases
 
 
@@ -200,6 +250,7 @@ class RepoCandidate:
     pushed_at: Optional[str] = None
     score: int = 0
     has_installers: bool = False
+    installer_platforms: Dict[str, bool] = field(default_factory=dict)
     recent_stars_velocity: float = 0.0
     latest_release_date: Optional[str] = None
     download_count: int = 0
@@ -226,6 +277,10 @@ class RepoCandidate:
             "downloadCount": self.download_count,
             "openIssuesCount": self.open_issues,
             "archived": self.archived,
+            "hasInstallersAndroid": self.installer_platforms.get("android", False),
+            "hasInstallersWindows": self.installer_platforms.get("windows", False),
+            "hasInstallersMacos": self.installer_platforms.get("macos", False),
+            "hasInstallersLinux": self.installer_platforms.get("linux", False),
         }
 
         if self.latest_release_date:
@@ -426,29 +481,15 @@ class GitHubClient:
 
         info = ReleaseInfo()
 
-        def _check_assets(assets: List[Dict]):
-            """Detect platform installers from release assets."""
-            for platform, cfg in PLATFORMS.items():
-                if info.has_installers.get(platform):
-                    continue
-                for asset in assets:
-                    name = asset.get("name", "").lower()
-                    if platform == "android":
-                        matched = is_android_apk(name)
-                    else:
-                        matched = any(name.endswith(ext) for ext in cfg["installer_extensions"])
-                    if matched:
-                        info.has_installers[platform] = True
-                        break
-
         # Paginate /releases following the Link: next header so total_downloads
         # aggregates every release's every asset — matches shields.io's total.
-        # First page also gives us the freshest release for published_at and
-        # platform detection.
+        # Platform detection looks at every stable release, not just the newest:
+        # repos that ship desktop and mobile in separate releases would
+        # otherwise lose a platform whenever the other one releases.
         url = f"https://api.github.com/repos/{full_name}/releases"
         params = {"per_page": 100}
         total_downloads = 0
-        latest = None
+        stable = []
         while url:
             data, err, next_url = await self.get(url, params=params, with_link=True)
             if not data or not isinstance(data, list):
@@ -456,19 +497,18 @@ class GitHubClient:
             for release in data:
                 for asset in release.get("assets", []):
                     total_downloads += asset.get("download_count", 0) or 0
-            if latest is None:
-                latest = next(
-                    (r for r in data if not r.get("draft") and not r.get("prerelease")),
-                    None,
-                )
+                if not release.get("draft") and not release.get("prerelease"):
+                    stable.append(release)
             url = next_url
             params = None  # next_url already carries per_page + page
 
         info.total_downloads = total_downloads
-        if latest:
+        if stable:
             info.has_release = True
-            info.published_at = latest.get("published_at")
-            _check_assets(latest.get("assets", []))
+            info.published_at = stable[0].get("published_at")
+            for platform, release in platform_availability(stable).items():
+                info.has_installers[platform] = True
+                info.platform_published_at[platform] = release.get("published_at")
 
         self.release_cache[full_name] = info
         return info
@@ -599,10 +639,12 @@ async def verify_installers(
         if not info.has_release or not info.has_installers.get(platform, False):
             return None
 
-        # Age filter
-        if max_age_days and info.published_at:
+        # Age filter on this platform's own newest build, so a fresh release for
+        # another platform doesn't make an old one look new.
+        platform_published_at = info.platform_published_at.get(platform) or info.published_at
+        if max_age_days and platform_published_at:
             try:
-                s = info.published_at.replace("Z", "")
+                s = platform_published_at.replace("Z", "")
                 if "+" in s:
                     s = s.split("+")[0]
                 rd = datetime.fromisoformat(s)
@@ -615,6 +657,7 @@ async def verify_installers(
                 return None
 
         candidate.has_installers = True
+        candidate.installer_platforms = dict(info.has_installers)
         candidate.download_count = info.total_downloads
         if need_release_date:
             candidate.latest_release_date = info.published_at

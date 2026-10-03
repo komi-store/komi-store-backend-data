@@ -81,6 +81,8 @@ Each platform has: topics, installer file extensions, scoring keywords (high/med
 - macOS: `.dmg`, `.pkg`
 - Linux: `.appimage`, `.deb`, `.rpm`, `.pkg.tar.zst` (Alpine `.apk` is NOT in the client's Linux set, so an Alpine-`.apk`-only repo is installable on nothing)
 
+**Across releases, not just the newest** (`platform_availability`) — a platform counts when any stable release ships an installer for it, unless that platform's newest build is more than `STALE_PLATFORM_DAYS` (365) older than the repo's newest stable release. Repos that publish desktop and mobile builds in separate releases (notesnook `v3.4.8` desktop vs `3.4.13-android`, ente `photos-v*` vs `auth-v*`) would otherwise lose a platform every time the other one releases. The `new-releases` age filter uses that platform's own newest build date (`platform_published_at`), so an Android release doesn't put an old Windows build in `new-releases/windows`. Each summary carries all four `hasInstallers*` flags and `db_writer` overwrites the row's flags with them (no OR), so a dropped platform clears. Must match the backend's `ingest/PlatformAvailability.kt`.
+
 ### Content Filtering
 
 `BLOCKED_TOPICS` set (~40 terms) excludes repos with NSFW/inappropriate content. Checked against both repo topics (set intersection) and description (substring match) during candidate collection, before any API calls are wasted on verification.
