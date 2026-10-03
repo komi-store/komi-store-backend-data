@@ -65,12 +65,15 @@ def _upsert_repo(cur, repo: Dict, platform: str):
     owner = repo.get("owner", {})
     repo_id = repo["id"]
 
-    # Determine platform installer flags
+    # The fetcher computes all four flags from the repo's stable releases, so
+    # they overwrite the row instead of accumulating: a platform the project
+    # stopped shipping clears. The pass's own platform is the fallback for a
+    # summary without them.
     platform_flags = {
-        "has_installers_android": platform == "android",
-        "has_installers_windows": platform == "windows",
-        "has_installers_macos": platform == "macos",
-        "has_installers_linux": platform == "linux",
+        "has_installers_android": repo.get("hasInstallersAndroid", platform == "android"),
+        "has_installers_windows": repo.get("hasInstallersWindows", platform == "windows"),
+        "has_installers_macos": repo.get("hasInstallersMacos", platform == "macos"),
+        "has_installers_linux": repo.get("hasInstallersLinux", platform == "linux"),
     }
 
     cur.execute("""
@@ -110,10 +113,10 @@ def _upsert_repo(cur, repo: Dict, platform: str):
             updated_at_gh = EXCLUDED.updated_at_gh,
             pushed_at_gh = COALESCE(EXCLUDED.pushed_at_gh, repos.pushed_at_gh),
             indexed_at = NOW(),
-            has_installers_android = repos.has_installers_android OR EXCLUDED.has_installers_android,
-            has_installers_windows = repos.has_installers_windows OR EXCLUDED.has_installers_windows,
-            has_installers_macos = repos.has_installers_macos OR EXCLUDED.has_installers_macos,
-            has_installers_linux = repos.has_installers_linux OR EXCLUDED.has_installers_linux,
+            has_installers_android = EXCLUDED.has_installers_android,
+            has_installers_windows = EXCLUDED.has_installers_windows,
+            has_installers_macos = EXCLUDED.has_installers_macos,
+            has_installers_linux = EXCLUDED.has_installers_linux,
             download_count = GREATEST(EXCLUDED.download_count, repos.download_count)
     """, {
         "id": repo_id,
