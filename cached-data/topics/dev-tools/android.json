@@ -1,8 +1,8 @@
 {
   "category": "topics/dev-tools",
   "platform": "android",
-  "lastUpdated": "2026-10-03T07:55:09.807889Z",
-  "totalCount": 9,
+  "lastUpdated": "2026-10-04T08:17:24.097793Z",
+  "totalCount": 5,
   "repositories": [
     {
       "id": 44804216,
@@ -15,8 +15,8 @@
       "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/termux/termux-app",
-      "stargazersCount": 61860,
-      "forksCount": 7742,
+      "stargazersCount": 61928,
+      "forksCount": 7755,
       "language": "Java",
       "topics": [
         "android",
@@ -26,15 +26,25 @@
         "termux"
       ],
       "releasesUrl": "https://api.github.com/repos/termux/termux-app/releases{/id}",
-      "updatedAt": "2026-10-03T08:38:45Z",
+      "updatedAt": "2026-10-04T08:10:19Z",
       "createdAt": "2015-10-23T09:42:46Z",
       "pushedAt": "2026-09-26T05:11:44Z",
-      "downloadCount": 10504025,
+      "downloadCount": 10521473,
       "openIssuesCount": 629,
       "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.118.3",
+          "publishedAt": "2025-05-22T22:47:26Z"
+        }
+      },
       "latestReleaseDate": "2025-05-22T22:47:26Z",
-      "releaseRecency": 498,
-      "releaseRecencyText": "Released 498 days ago"
+      "releaseRecency": 499,
+      "releaseRecencyText": "Released 499 days ago"
     },
     {
       "id": 32483164,
@@ -69,108 +79,77 @@
       "updatedAt": "2026-10-02T19:50:51Z",
       "createdAt": "2015-03-18T20:41:57Z",
       "pushedAt": "2026-03-23T02:00:57Z",
-      "downloadCount": 148651,
+      "downloadCount": 148688,
       "openIssuesCount": 179,
       "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "3.0.5",
+          "publishedAt": "2025-09-21T07:16:59Z"
+        },
+        "linux": {
+          "tag": "3.0.5",
+          "publishedAt": "2025-09-21T07:16:59Z"
+        }
+      },
       "latestReleaseDate": "2025-09-21T07:16:59Z",
-      "releaseRecency": 377,
-      "releaseRecencyText": "Released 377 days ago"
+      "releaseRecency": 378,
+      "releaseRecencyText": "Released 378 days ago"
     },
     {
-      "id": 632255125,
-      "name": "moonlight-vplus",
-      "fullName": "qiin2333/moonlight-vplus",
+      "id": 120568143,
+      "name": "wezterm",
+      "fullName": "wezterm/wezterm",
       "owner": {
-        "login": "qiin2333",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2795904?v=4"
+        "login": "wezterm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/198158019?v=4"
       },
-      "description": "Turn your Android device into a powerful game streaming terminal! Gawr! ✨",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/qiin2333/moonlight-vplus",
-      "stargazersCount": 3935,
-      "forksCount": 96,
-      "language": "Kotlin",
-      "topics": [
-        "cloudgaming",
-        "gamestream",
-        "moonlight",
-        "sunshine"
-      ],
-      "releasesUrl": "https://api.github.com/repos/qiin2333/moonlight-vplus/releases{/id}",
-      "updatedAt": "2026-10-03T08:39:45Z",
-      "createdAt": "2023-04-25T03:14:39Z",
-      "pushedAt": "2026-10-03T08:27:54Z",
-      "downloadCount": 341021,
-      "openIssuesCount": 72,
-      "archived": false,
-      "latestReleaseDate": "2026-09-30T08:40:23Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 880108124,
-      "name": "PuppyGit",
-      "fullName": "catpuppyapp/PuppyGit",
-      "owner": {
-        "login": "catpuppyapp",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/186668786?v=4"
-      },
-      "description": "An android git client",
+      "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/catpuppyapp/PuppyGit",
-      "stargazersCount": 890,
-      "forksCount": 157,
-      "language": "Kotlin",
+      "htmlUrl": "https://github.com/wezterm/wezterm",
+      "stargazersCount": 29116,
+      "forksCount": 1778,
+      "language": "Rust",
       "topics": [
-        "android-git-client",
-        "android-obsidian-git",
-        "git-client",
-        "git-gui",
-        "markor-sync",
-        "obsidian",
-        "obsidian-sync"
+        "rust",
+        "serial",
+        "serial-port",
+        "terminal",
+        "terminal-emulator",
+        "terminal-emulators"
       ],
-      "releasesUrl": "https://api.github.com/repos/catpuppyapp/PuppyGit/releases{/id}",
-      "updatedAt": "2026-10-03T03:54:48Z",
-      "createdAt": "2024-10-29T06:02:22Z",
-      "pushedAt": "2026-09-23T07:24:41Z",
-      "downloadCount": 17828,
-      "openIssuesCount": 16,
+      "releasesUrl": "https://api.github.com/repos/wezterm/wezterm/releases{/id}",
+      "updatedAt": "2026-10-04T04:28:59Z",
+      "createdAt": "2018-02-07T05:35:46Z",
+      "pushedAt": "2026-09-29T02:33:49Z",
+      "downloadCount": 1595581,
+      "openIssuesCount": 1902,
       "archived": false,
-      "latestReleaseDate": "2026-09-23T07:24:41Z",
-      "releaseRecency": 10,
-      "releaseRecencyText": "Released 10 days ago"
-    },
-    {
-      "id": 812362660,
-      "name": "GitSync",
-      "fullName": "ViscousPot/GitSync",
-      "owner": {
-        "login": "ViscousPot",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/167028444?v=4"
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "20240203-110809-5046fc22",
+          "publishedAt": "2024-02-03T18:32:26Z"
+        },
+        "linux": {
+          "tag": "20240203-110809-5046fc22",
+          "publishedAt": "2024-02-03T18:32:26Z"
+        },
+        "android": {
+          "tag": "20230408-112425-69ae8472",
+          "publishedAt": "2023-04-08T19:34:28Z"
+        }
       },
-      "description": "Mobile Git client for syncing a repository between remote and a local directory",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/ViscousPot/GitSync",
-      "stargazersCount": 2385,
-      "forksCount": 198,
-      "language": "Dart",
-      "topics": [
-        "git",
-        "obsidian",
-        "productivity",
-        "sync"
-      ],
-      "releasesUrl": "https://api.github.com/repos/ViscousPot/GitSync/releases{/id}",
-      "updatedAt": "2026-10-03T04:24:19Z",
-      "createdAt": "2024-06-08T17:10:16Z",
-      "pushedAt": "2026-09-17T06:38:30Z",
-      "downloadCount": 17271,
-      "openIssuesCount": 150,
-      "archived": false,
-      "latestReleaseDate": "2026-09-11T04:52:52Z",
-      "releaseRecency": 22,
-      "releaseRecencyText": "Released 22 days ago"
+      "latestReleaseDate": "2024-02-03T18:32:26Z",
+      "releaseRecency": 973,
+      "releaseRecencyText": "Released 973 days ago"
     },
     {
       "id": 741230168,
@@ -188,15 +167,29 @@
       "language": "Go",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/charmbracelet/freeze/releases{/id}",
-      "updatedAt": "2026-10-02T19:23:38Z",
+      "updatedAt": "2026-10-04T04:26:43Z",
       "createdAt": "2024-01-10T00:51:47Z",
       "pushedAt": "2026-09-16T14:00:08Z",
-      "downloadCount": 58679,
+      "downloadCount": 59022,
       "openIssuesCount": 78,
       "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.2.2",
+          "publishedAt": "2025-04-01T23:42:28Z"
+        },
+        "linux": {
+          "tag": "v0.2.2",
+          "publishedAt": "2025-04-01T23:42:28Z"
+        }
+      },
       "latestReleaseDate": "2025-04-01T23:42:28Z",
-      "releaseRecency": 549,
-      "releaseRecencyText": "Released 549 days ago"
+      "releaseRecency": 550,
+      "releaseRecencyText": "Released 550 days ago"
     },
     {
       "id": 618514446,
@@ -209,7 +202,7 @@
       "description": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top!",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/gptme/gptme",
-      "stargazersCount": 4442,
+      "stargazersCount": 4443,
       "forksCount": 447,
       "language": "Python",
       "topics": [
@@ -235,85 +228,37 @@
         "terminal"
       ],
       "releasesUrl": "https://api.github.com/repos/gptme/gptme/releases{/id}",
-      "updatedAt": "2026-10-03T08:21:12Z",
+      "updatedAt": "2026-10-04T07:26:35Z",
       "createdAt": "2023-03-24T16:25:01Z",
-      "pushedAt": "2026-10-03T08:24:36Z",
-      "downloadCount": 4776,
-      "openIssuesCount": 49,
+      "pushedAt": "2026-10-04T07:42:50Z",
+      "downloadCount": 4844,
+      "openIssuesCount": 51,
       "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.34.0",
+          "publishedAt": "2026-09-18T16:54:11Z"
+        },
+        "windows": {
+          "tag": "v0.34.0",
+          "publishedAt": "2026-09-18T16:54:11Z"
+        },
+        "macos": {
+          "tag": "v0.34.0",
+          "publishedAt": "2026-09-18T16:54:11Z"
+        },
+        "linux": {
+          "tag": "v0.34.0",
+          "publishedAt": "2026-09-18T16:54:11Z"
+        }
+      },
       "latestReleaseDate": "2026-09-18T16:54:11Z",
-      "releaseRecency": 14,
-      "releaseRecencyText": "Released 14 days ago"
-    },
-    {
-      "id": 656839452,
-      "name": "pop",
-      "fullName": "charmbracelet/pop",
-      "owner": {
-        "login": "charmbracelet",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/57376114?v=4"
-      },
-      "description": "Send emails from your terminal 📬",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/charmbracelet/pop",
-      "stargazersCount": 2918,
-      "forksCount": 75,
-      "language": "Go",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/charmbracelet/pop/releases{/id}",
-      "updatedAt": "2026-10-02T14:54:13Z",
-      "createdAt": "2023-06-21T18:45:38Z",
-      "pushedAt": "2026-10-01T10:31:16Z",
-      "downloadCount": 18775,
-      "openIssuesCount": 30,
-      "archived": false,
-      "latestReleaseDate": "2026-08-20T12:29:01Z",
-      "releaseRecency": 43,
-      "releaseRecencyText": "Released 43 days ago"
-    },
-    {
-      "id": 1289958986,
-      "name": "pebrel",
-      "fullName": "Kuddev/pebrel",
-      "owner": {
-        "login": "Kuddev",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/292709043?v=4"
-      },
-      "description": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Kuddev/pebrel",
-      "stargazersCount": 2768,
-      "forksCount": 151,
-      "language": "Rust",
-      "topics": [
-        "ai-cli",
-        "ai-terminal",
-        "claude-code",
-        "codex",
-        "conpty",
-        "developer-tools",
-        "gpu-accelerated",
-        "opengl",
-        "powershell",
-        "rust",
-        "session-persistence",
-        "split-panes",
-        "ssh",
-        "ssh-client",
-        "terminal",
-        "terminal-emulator",
-        "windows"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Kuddev/pebrel/releases{/id}",
-      "updatedAt": "2026-10-03T07:56:00Z",
-      "createdAt": "2026-07-05T12:17:36Z",
-      "pushedAt": "2026-10-03T02:57:34Z",
-      "downloadCount": 19222,
-      "openIssuesCount": 111,
-      "archived": false,
-      "latestReleaseDate": "2026-10-01T19:22:46Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "releaseRecency": 15,
+      "releaseRecencyText": "Released 15 days ago"
     }
   ]
 }

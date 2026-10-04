@@ -1,325 +1,376 @@
 {
   "category": "new-releases",
   "platform": "windows",
-  "lastUpdated": "2026-10-03T07:55:09.807889Z",
-  "totalCount": 74,
+  "lastUpdated": "2026-10-04T08:17:24.097793Z",
+  "totalCount": 76,
   "repositories": [
     {
-      "id": 1131654175,
-      "name": "PKHeX-Avalonia",
-      "fullName": "realgarit/PKHeX-Avalonia",
+      "id": 1221671194,
+      "name": "Clypra",
+      "fullName": "AIEraDev/Clypra",
       "owner": {
-        "login": "realgarit",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/183757313?v=4"
+        "login": "AIEraDev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80651195?v=4"
       },
-      "description": "A cross-platform fork of the Pokémon save file editor \"PKHeX\" built with .NET 10 and Avalonia.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/realgarit/PKHeX-Avalonia",
-      "stargazersCount": 51,
-      "forksCount": 7,
-      "language": "C#",
+      "description": "A hardware-accelerated video editor built on Rust, Tauri v2, and React 19. Sub-10ms frame decoding, GPU-native rendering, and a frame-accurate timeline — all free and open source under MIT.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/AIEraDev/Clypra",
+      "stargazersCount": 3307,
+      "forksCount": 331,
+      "language": "TypeScript",
       "topics": [
-        "avalonia",
-        "csharp",
-        "dotnet",
-        "pkhex",
-        "pokemon"
+        "clypra",
+        "editor",
+        "tauri-app",
+        "tauri-react",
+        "tauri-v2",
+        "video-editor",
+        "wgpu",
+        "wgpu-native",
+        "wgpu-rs"
       ],
-      "releasesUrl": "https://api.github.com/repos/realgarit/PKHeX-Avalonia/releases{/id}",
-      "updatedAt": "2026-10-03T08:04:58Z",
-      "createdAt": "2026-01-10T12:47:27Z",
-      "pushedAt": "2026-10-03T08:04:55Z",
-      "downloadCount": 5112,
-      "openIssuesCount": 14,
+      "releasesUrl": "https://api.github.com/repos/AIEraDev/Clypra/releases{/id}",
+      "updatedAt": "2026-10-04T08:03:25Z",
+      "createdAt": "2026-04-26T14:31:10Z",
+      "pushedAt": "2026-10-04T08:03:52Z",
+      "downloadCount": 16998,
+      "openIssuesCount": 22,
       "archived": false,
-      "latestReleaseDate": "2026-10-03T08:09:20Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "macos": {
+          "tag": "v1.5.9",
+          "publishedAt": "2026-10-04T08:32:39Z"
+        },
+        "windows": {
+          "tag": "v1.5.8",
+          "publishedAt": "2026-10-02T23:30:42Z"
+        },
+        "linux": {
+          "tag": "v1.5.8",
+          "publishedAt": "2026-10-02T23:30:42Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T08:32:39Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 175405157,
-      "name": "oh-my-posh",
-      "fullName": "JanDeDobbeleer/oh-my-posh",
+      "id": 235901813,
+      "name": "posthog",
+      "fullName": "PostHog/posthog",
       "owner": {
-        "login": "JanDeDobbeleer",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2492783?v=4"
+        "login": "PostHog",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60330232?v=4"
       },
-      "description": "The most customisable and low-latency cross platform/shell prompt renderer",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/JanDeDobbeleer/oh-my-posh",
-      "stargazersCount": 23532,
-      "forksCount": 2793,
-      "language": "Go",
-      "topics": [
-        "bash",
-        "cmd",
-        "fish",
-        "fish-shell",
-        "git",
-        "golang",
-        "hacktoberfest",
-        "nerd-fonts",
-        "nushell",
-        "powerline",
-        "powershell",
-        "prompt",
-        "prompt-toolkit",
-        "shell-prompt",
-        "starship",
-        "tooltips",
-        "zsh"
-      ],
-      "releasesUrl": "https://api.github.com/repos/JanDeDobbeleer/oh-my-posh/releases{/id}",
-      "updatedAt": "2026-10-03T07:50:29Z",
-      "createdAt": "2019-03-13T11:13:31Z",
-      "pushedAt": "2026-10-03T07:58:21Z",
-      "downloadCount": 22848521,
-      "openIssuesCount": 9,
-      "archived": false,
-      "latestReleaseDate": "2026-10-03T07:58:21Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 488804911,
-      "name": "windmill",
-      "fullName": "windmill-labs/windmill",
-      "owner": {
-        "login": "windmill-labs",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/98025271?v=4"
-      },
-      "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/windmill-labs/windmill",
-      "stargazersCount": 18092,
-      "forksCount": 1108,
-      "language": "Rust",
-      "topics": [
-        "low-code",
-        "open-source",
-        "platform",
-        "postgresql",
-        "python",
-        "self-hostable",
-        "typescript"
-      ],
-      "releasesUrl": "https://api.github.com/repos/windmill-labs/windmill/releases{/id}",
-      "updatedAt": "2026-10-03T07:42:50Z",
-      "createdAt": "2022-05-05T02:21:17Z",
-      "pushedAt": "2026-10-03T07:51:40Z",
-      "downloadCount": 35203,
-      "openIssuesCount": 843,
-      "archived": false,
-      "latestReleaseDate": "2026-10-03T07:43:06Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1043426082,
-      "name": "software-agent-sdk",
-      "fullName": "OpenHands/software-agent-sdk",
-      "owner": {
-        "login": "OpenHands",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/225919603?v=4"
-      },
-      "description": "A clean, modular SDK for building AI agents with OpenHands V1.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/OpenHands/software-agent-sdk",
-      "stargazersCount": 1195,
-      "forksCount": 602,
+      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/PostHog/posthog",
+      "stargazersCount": 40128,
+      "forksCount": 3470,
       "language": "Python",
       "topics": [
-        "agent",
-        "sdk"
+        "ab-testing",
+        "ai-analytics",
+        "analytics",
+        "cdp",
+        "data-warehouse",
+        "experiments",
+        "feature-flags",
+        "javascript",
+        "product-analytics",
+        "python",
+        "react",
+        "session-replay",
+        "surveys",
+        "typescript",
+        "web-analytics"
       ],
-      "releasesUrl": "https://api.github.com/repos/OpenHands/software-agent-sdk/releases{/id}",
-      "updatedAt": "2026-10-03T08:10:25Z",
-      "createdAt": "2025-08-23T20:34:39Z",
-      "pushedAt": "2026-10-03T08:10:23Z",
-      "downloadCount": 7047,
-      "openIssuesCount": 516,
+      "releasesUrl": "https://api.github.com/repos/PostHog/posthog/releases{/id}",
+      "updatedAt": "2026-10-04T08:21:02Z",
+      "createdAt": "2020-01-23T22:46:58Z",
+      "pushedAt": "2026-10-04T08:27:03Z",
+      "downloadCount": 14430554,
+      "openIssuesCount": 5802,
       "archived": false,
-      "latestReleaseDate": "2026-10-03T07:38:03Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "desktop-v0.61.621",
+          "publishedAt": "2026-10-01T01:59:33Z"
+        },
+        "macos": {
+          "tag": "desktop-v0.61.621",
+          "publishedAt": "2026-10-01T01:59:33Z"
+        },
+        "linux": {
+          "tag": "desktop-v0.61.621",
+          "publishedAt": "2026-10-01T01:59:33Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T08:25:35Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 956337638,
-      "name": "BongoCat",
-      "fullName": "ayangweb/BongoCat",
+      "id": 1367338986,
+      "name": "ThinkWatch-Lite",
+      "fullName": "ThinkWatchProject/ThinkWatch-Lite",
       "owner": {
-        "login": "ayangweb",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/75017711?v=4"
+        "login": "ThinkWatchProject",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/273144823?v=4"
       },
-      "description": "🐱 BongoCat — A cross-platform interactive desktop pet that brings fun to your desktop!",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/ayangweb/BongoCat",
-      "stargazersCount": 23758,
-      "forksCount": 1172,
-      "language": "Rust",
+      "description": "Local gateway for Claude Code, Codex and other AI clients on macOS, Windows and Linux: switch upstreams without touching clients, keep API keys from relays, cut off malicious tool calls, trace every request.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/ThinkWatchProject/ThinkWatch-Lite",
+      "stargazersCount": 1004,
+      "forksCount": 12,
+      "language": "TypeScript",
       "topics": [
-        "bongo-cat",
-        "bongocat",
+        "ai-gateway",
+        "anthropic",
+        "claude-code",
+        "codex",
+        "cost-monitoring",
+        "cost-tracking",
         "cross-platform",
-        "desktop-app",
-        "desktop-pet",
         "linux",
+        "llm-cost",
+        "llm-gateway",
+        "llm-observability",
+        "llm-proxy",
+        "llm-usage",
         "macos",
-        "pet",
-        "pet-project",
-        "rust",
-        "tauri",
-        "tauri-app",
+        "openai",
+        "secret-redaction",
+        "system-tray",
+        "token-usage",
+        "usage-tracking",
         "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/ayangweb/BongoCat/releases{/id}",
-      "updatedAt": "2026-10-03T08:06:07Z",
-      "createdAt": "2025-03-28T04:50:22Z",
-      "pushedAt": "2026-10-03T08:05:47Z",
-      "downloadCount": 1630787,
-      "openIssuesCount": 26,
+      "releasesUrl": "https://api.github.com/repos/ThinkWatchProject/ThinkWatch-Lite/releases{/id}",
+      "updatedAt": "2026-10-04T08:29:24Z",
+      "createdAt": "2026-09-12T13:48:15Z",
+      "pushedAt": "2026-10-04T08:15:55Z",
+      "downloadCount": 832,
+      "openIssuesCount": 1,
       "archived": false,
-      "latestReleaseDate": "2026-10-03T07:35:30Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2026.10.3",
+          "publishedAt": "2026-10-04T08:22:50Z"
+        },
+        "macos": {
+          "tag": "v2026.10.3",
+          "publishedAt": "2026-10-04T08:22:50Z"
+        },
+        "linux": {
+          "tag": "v2026.10.3",
+          "publishedAt": "2026-10-04T08:22:50Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T08:22:50Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 925270205,
-      "name": "cua",
-      "fullName": "trycua/cua",
+      "id": 1188191061,
+      "name": "agency-orchestrator",
+      "fullName": "jnMetaCode/agency-orchestrator",
       "owner": {
-        "login": "trycua",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/191107687?v=4"
+        "login": "jnMetaCode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12096460?v=4"
       },
-      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "description": "🚀 One sentence → your one-person company of AI experts → complete deliverable in minutes. 276 CN + 184 EN + 5 more languages (ko/ru/pt-BR/id/ar) · zero-code YAML · auto-verified acceptance · Web Studio / Desktop / Docker · 15 LLM providers (11 key-free). 一句话组建你的「一人公司」AI 专家团队，几分钟交付完整方案；验收自动核验，网页 / 桌面 / Docker 全渠道。",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/trycua/cua",
-      "stargazersCount": 27863,
-      "forksCount": 1964,
-      "language": "Rust",
+      "htmlUrl": "https://github.com/jnMetaCode/agency-orchestrator",
+      "stargazersCount": 2321,
+      "forksCount": 309,
+      "language": "TypeScript",
       "topics": [
-        "agent",
-        "ai-agent",
-        "apple",
-        "computer-use",
-        "computer-use-agent",
-        "containerization",
-        "cua",
-        "desktop-automation",
-        "hacktoberfest",
-        "lume",
-        "macos",
-        "manus",
-        "operator",
-        "swift",
-        "virtualization",
-        "virtualization-framework",
-        "windows",
-        "windows-sandbox"
+        "agency-agents",
+        "agent-orchestration",
+        "ai-agents",
+        "autogen-alternative",
+        "claude",
+        "codex",
+        "copilot",
+        "crewai-alternative",
+        "cursor",
+        "deepseek",
+        "gemini-cli",
+        "langgraph-alternative",
+        "mcp-server",
+        "multi-agent",
+        "no-api-key",
+        "ollama",
+        "openai",
+        "orchestrator",
+        "workflow",
+        "yaml-workflow"
       ],
-      "releasesUrl": "https://api.github.com/repos/trycua/cua/releases{/id}",
-      "updatedAt": "2026-10-03T08:03:42Z",
-      "createdAt": "2025-01-31T15:02:49Z",
-      "pushedAt": "2026-10-03T08:02:55Z",
-      "downloadCount": 3428160,
-      "openIssuesCount": 1026,
+      "releasesUrl": "https://api.github.com/repos/jnMetaCode/agency-orchestrator/releases{/id}",
+      "updatedAt": "2026-10-04T08:02:11Z",
+      "createdAt": "2026-03-21T18:32:02Z",
+      "pushedAt": "2026-10-04T08:03:07Z",
+      "downloadCount": 12139,
+      "openIssuesCount": 8,
       "archived": false,
-      "latestReleaseDate": "2026-10-03T07:24:50Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "desktop-v0.4.11",
+          "publishedAt": "2026-10-04T08:04:05Z"
+        },
+        "macos": {
+          "tag": "desktop-v0.4.11",
+          "publishedAt": "2026-10-04T08:04:05Z"
+        },
+        "linux": {
+          "tag": "desktop-v0.4.11",
+          "publishedAt": "2026-10-04T08:04:05Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T08:04:05Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1253008832,
-      "name": "Patchy",
-      "fullName": "SethRobinson/Patchy",
+      "id": 1338239416,
+      "name": "pulse",
+      "fullName": "jimmgreen/pulse",
       "owner": {
-        "login": "SethRobinson",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/394547?v=4"
+        "login": "jimmgreen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/137846552?v=4"
       },
-      "description": "Open-source image editor focused on PSD compatibility and workflows familiar to Adobe Photoshop users.",
+      "description": "为 Windows 打造的现代文件管理器，让浏览、搜索和整理文件更顺手。",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/SethRobinson/Patchy",
-      "stargazersCount": 441,
-      "forksCount": 21,
+      "htmlUrl": "https://github.com/jimmgreen/pulse",
+      "stargazersCount": 189,
+      "forksCount": 16,
       "language": "C++",
-      "topics": [
-        "affinity",
-        "editor",
-        "image",
-        "layer",
-        "photoshop",
-        "psd",
-        "styles"
-      ],
-      "releasesUrl": "https://api.github.com/repos/SethRobinson/Patchy/releases{/id}",
-      "updatedAt": "2026-10-03T08:10:51Z",
-      "createdAt": "2026-05-29T04:35:06Z",
-      "pushedAt": "2026-10-03T07:25:03Z",
-      "downloadCount": 3317,
-      "openIssuesCount": 7,
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/jimmgreen/pulse/releases{/id}",
+      "updatedAt": "2026-10-04T08:16:19Z",
+      "createdAt": "2026-08-18T09:48:35Z",
+      "pushedAt": "2026-10-04T05:38:58Z",
+      "downloadCount": 8117,
+      "openIssuesCount": 35,
       "archived": false,
-      "latestReleaseDate": "2026-10-03T07:23:18Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.51",
+          "publishedAt": "2026-10-04T06:01:56Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T06:01:56Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 374465260,
-      "name": "ADB-Explorer",
-      "fullName": "Alex4SSB/ADB-Explorer",
+      "id": 1320258866,
+      "name": "Pavise-Game",
+      "fullName": "dulaiduwang003/Pavise-Game",
       "owner": {
-        "login": "Alex4SSB",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/68120101?v=4"
+        "login": "dulaiduwang003",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87460202?v=4"
       },
-      "description": "A fluent UI for ADB on Windows",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/Alex4SSB/ADB-Explorer",
-      "stargazersCount": 988,
-      "forksCount": 81,
+      "description": "Open-source Windows game resource manager. Suppresses background processes, gives games exclusive CPU cores, steers device interrupts off game cores, applies per-game GPU driver, memory and power policies, and restores every change after play. No injection, no telemetry. GPL-3.0.",
+      "defaultBranch": "pavise2x",
+      "htmlUrl": "https://github.com/dulaiduwang003/Pavise-Game",
+      "stargazersCount": 541,
+      "forksCount": 20,
+      "language": "C#",
+      "topics": [
+        "cpu-affinity",
+        "csharp",
+        "dotnet",
+        "frame-time",
+        "game-optimizer-2026",
+        "gaming",
+        "low-latency",
+        "nvidia",
+        "optimization",
+        "performance",
+        "process-management",
+        "process-priority",
+        "scheduler",
+        "system-utility",
+        "windows",
+        "windows-11",
+        "winforms"
+      ],
+      "releasesUrl": "https://api.github.com/repos/dulaiduwang003/Pavise-Game/releases{/id}",
+      "updatedAt": "2026-10-04T08:16:20Z",
+      "createdAt": "2026-08-02T14:24:18Z",
+      "pushedAt": "2026-10-04T05:54:45Z",
+      "downloadCount": 10078,
+      "openIssuesCount": 0,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.1.0.0",
+          "publishedAt": "2026-10-04T05:54:46Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T05:54:46Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1184180055,
+      "name": "RHI",
+      "fullName": "RankFTW/RHI",
+      "owner": {
+        "login": "RankFTW",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105608533?v=4"
+      },
+      "description": "ReShade HDR Installer",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/RankFTW/RHI",
+      "stargazersCount": 1952,
+      "forksCount": 62,
       "language": "C#",
       "topics": [],
-      "releasesUrl": "https://api.github.com/repos/Alex4SSB/ADB-Explorer/releases{/id}",
-      "updatedAt": "2026-10-03T07:58:19Z",
-      "createdAt": "2021-06-06T21:15:11Z",
-      "pushedAt": "2026-10-03T07:08:29Z",
-      "downloadCount": 54851,
-      "openIssuesCount": 11,
+      "releasesUrl": "https://api.github.com/repos/RankFTW/RHI/releases{/id}",
+      "updatedAt": "2026-10-04T08:09:24Z",
+      "createdAt": "2026-03-17T10:32:15Z",
+      "pushedAt": "2026-10-04T08:09:20Z",
+      "downloadCount": 620239,
+      "openIssuesCount": 64,
       "archived": false,
-      "latestReleaseDate": "2026-10-03T07:08:30Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 951023333,
-      "name": "AlcedoStudio",
-      "fullName": "zidage/AlcedoStudio",
-      "owner": {
-        "login": "zidage",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/69023164?v=4"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "RHI-2.8.2",
+          "publishedAt": "2026-10-04T05:42:12Z"
+        }
       },
-      "description": "Open-source RAW photo processing and digital asset management software.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/zidage/AlcedoStudio",
-      "stargazersCount": 193,
-      "forksCount": 11,
-      "language": "C++",
-      "topics": [
-        "ai-tools",
-        "cpp",
-        "cuda",
-        "image-management",
-        "image-processing",
-        "photo-editor",
-        "photography",
-        "raw-image"
-      ],
-      "releasesUrl": "https://api.github.com/repos/zidage/AlcedoStudio/releases{/id}",
-      "updatedAt": "2026-10-03T08:02:02Z",
-      "createdAt": "2025-03-19T03:37:03Z",
-      "pushedAt": "2026-10-03T05:27:06Z",
-      "downloadCount": 1396,
-      "openIssuesCount": 4,
-      "archived": false,
-      "latestReleaseDate": "2026-10-03T05:27:14Z",
+      "latestReleaseDate": "2026-10-04T05:42:12Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
@@ -334,8 +385,8 @@
       "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/code-yeongyu/oh-my-openagent",
-      "stargazersCount": 69764,
-      "forksCount": 5738,
+      "stargazersCount": 69783,
+      "forksCount": 5745,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -355,99 +406,59 @@
         "typescript"
       ],
       "releasesUrl": "https://api.github.com/repos/code-yeongyu/oh-my-openagent/releases{/id}",
-      "updatedAt": "2026-10-03T08:06:53Z",
+      "updatedAt": "2026-10-04T08:21:08Z",
       "createdAt": "2025-12-03T01:40:05Z",
-      "pushedAt": "2026-10-03T08:06:48Z",
-      "downloadCount": 45278,
-      "openIssuesCount": 1098,
+      "pushedAt": "2026-10-04T08:14:35Z",
+      "downloadCount": 45933,
+      "openIssuesCount": 1101,
       "archived": false,
-      "latestReleaseDate": "2026-10-03T02:25:48Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v5.1.15",
+          "publishedAt": "2026-10-04T05:26:22Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T05:26:22Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 985622082,
-      "name": "LenovoLegionToolkit",
-      "fullName": "LenovoLegionToolkit-Team/LenovoLegionToolkit",
+      "id": 1401970070,
+      "name": "ReSkate",
+      "fullName": "Dingo-Shenanigans/ReSkate",
       "owner": {
-        "login": "LenovoLegionToolkit-Team",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/259907014?v=4"
+        "login": "Dingo-Shenanigans",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/327657586?v=4"
       },
-      "description": "Lenovo Legion Toolkit (LLT) is a Windows desktop utility created for Lenovo gaming laptops that replaces Lenovo Vantage, Legion Zone, and Legion Space.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit",
-      "stargazersCount": 2211,
-      "forksCount": 84,
-      "language": "C#",
-      "topics": [
-        "bloatware-alternative",
-        "customization",
-        "gaming-laptop",
-        "hardware-control",
-        "hardware-monitoring",
-        "legion",
-        "legion-space",
-        "legion-zone",
-        "lenovo",
-        "lenovo-legion",
-        "lenovo-vantage",
-        "lightweight",
-        "llt",
-        "performance-tuning",
-        "toolkit",
-        "utility",
-        "windows"
-      ],
-      "releasesUrl": "https://api.github.com/repos/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases{/id}",
-      "updatedAt": "2026-10-03T08:09:49Z",
-      "createdAt": "2025-05-18T06:56:38Z",
-      "pushedAt": "2026-10-03T01:33:46Z",
-      "downloadCount": 106822,
-      "openIssuesCount": 22,
-      "archived": false,
-      "latestReleaseDate": "2026-10-03T01:33:47Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1125856365,
-      "name": "oh-my-pi",
-      "fullName": "can1357/oh-my-pi",
-      "owner": {
-        "login": "can1357",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11807264?v=4"
-      },
-      "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
+      "description": null,
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/can1357/oh-my-pi",
-      "stargazersCount": 34142,
-      "forksCount": 3694,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agent",
-        "ai-coding-agent",
-        "anthropic",
-        "bun",
-        "claude",
-        "cli",
-        "coding-assistant",
-        "llm",
-        "mcp",
-        "multi-provider",
-        "openai",
-        "rust",
-        "terminal",
-        "tui",
-        "typescript"
-      ],
-      "releasesUrl": "https://api.github.com/repos/can1357/oh-my-pi/releases{/id}",
-      "updatedAt": "2026-10-03T08:08:07Z",
-      "createdAt": "2025-12-31T14:01:28Z",
-      "pushedAt": "2026-10-03T07:37:38Z",
-      "downloadCount": 1643117,
-      "openIssuesCount": 3394,
+      "htmlUrl": "https://github.com/Dingo-Shenanigans/ReSkate",
+      "stargazersCount": 231,
+      "forksCount": 24,
+      "language": "C++",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/Dingo-Shenanigans/ReSkate/releases{/id}",
+      "updatedAt": "2026-10-04T08:19:55Z",
+      "createdAt": "2026-10-02T15:15:28Z",
+      "pushedAt": "2026-10-04T05:37:18Z",
+      "downloadCount": 77180,
+      "openIssuesCount": 7,
       "archived": false,
-      "latestReleaseDate": "2026-10-03T01:26:08Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.8",
+          "publishedAt": "2026-10-04T05:05:07Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T05:05:07Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
@@ -462,8 +473,8 @@
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/stablyai/orca",
-      "stargazersCount": 84057,
-      "forksCount": 5418,
+      "stargazersCount": 84595,
+      "forksCount": 5457,
       "language": "TypeScript",
       "topics": [
         "ade",
@@ -486,487 +497,31 @@
         "yc-backed"
       ],
       "releasesUrl": "https://api.github.com/repos/stablyai/orca/releases{/id}",
-      "updatedAt": "2026-10-03T08:13:44Z",
+      "updatedAt": "2026-10-04T08:27:36Z",
       "createdAt": "2026-03-17T03:28:57Z",
-      "pushedAt": "2026-10-03T08:12:53Z",
-      "downloadCount": 88812642,
-      "openIssuesCount": 7399,
+      "pushedAt": "2026-10-04T08:28:57Z",
+      "downloadCount": 90652521,
+      "openIssuesCount": 7470,
       "archived": false,
-      "latestReleaseDate": "2026-10-02T20:59:25Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1286991375,
-      "name": "rakupp",
-      "fullName": "ash/rakupp",
-      "owner": {
-        "login": "ash",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/25134?v=4"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.4.220",
+          "publishedAt": "2026-10-04T05:01:05Z"
+        },
+        "macos": {
+          "tag": "v1.4.220",
+          "publishedAt": "2026-10-04T05:01:05Z"
+        },
+        "linux": {
+          "tag": "v1.4.220",
+          "publishedAt": "2026-10-04T05:01:05Z"
+        }
       },
-      "description": "Raku++ — a Raku language interpreter, compiler and toolchain written from scratch in C++",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/ash/rakupp",
-      "stargazersCount": 57,
-      "forksCount": 3,
-      "language": "C++",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/ash/rakupp/releases{/id}",
-      "updatedAt": "2026-10-03T07:48:48Z",
-      "createdAt": "2026-07-02T09:24:35Z",
-      "pushedAt": "2026-10-03T07:48:44Z",
-      "downloadCount": 1703,
-      "openIssuesCount": 13,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T20:50:12Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 939207877,
-      "name": "snow-apps",
-      "fullName": "mg-chao/snow-apps",
-      "owner": {
-        "login": "mg-chao",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/87016106?v=4"
-      },
-      "description": "Snow Apps repository, providing source code for Snow Shot and Snow Image Viewer.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/mg-chao/snow-apps",
-      "stargazersCount": 5396,
-      "forksCount": 341,
-      "language": "C++",
-      "topics": [
-        "image-viewer",
-        "ocr",
-        "screen-recorder",
-        "screenshot",
-        "tools"
-      ],
-      "releasesUrl": "https://api.github.com/repos/mg-chao/snow-apps/releases{/id}",
-      "updatedAt": "2026-10-03T08:01:03Z",
-      "createdAt": "2025-02-26T07:04:51Z",
-      "pushedAt": "2026-10-03T06:02:35Z",
-      "downloadCount": 6347912,
-      "openIssuesCount": 10,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T19:51:22Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1331261687,
-      "name": "OpenMausBot",
-      "fullName": "milind-soni/OpenMausBot",
-      "owner": {
-        "login": "milind-soni",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/46266943?v=4"
-      },
-      "description": "Open Source Alternative to Grok Bot with a virtual machine that bots can use",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/milind-soni/OpenMausBot",
-      "stargazersCount": 3978,
-      "forksCount": 678,
-      "language": "TypeScript",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/milind-soni/OpenMausBot/releases{/id}",
-      "updatedAt": "2026-10-03T07:55:13Z",
-      "createdAt": "2026-08-11T18:58:55Z",
-      "pushedAt": "2026-10-03T07:55:05Z",
-      "downloadCount": 362192,
-      "openIssuesCount": 330,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T19:41:21Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1191195886,
-      "name": "gloomberb",
-      "fullName": "gloom-sh/gloomberb",
-      "owner": {
-        "login": "gloom-sh",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/312960844?v=4"
-      },
-      "description": "Finance terminal, in your terminal.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/gloom-sh/gloomberb",
-      "stargazersCount": 2320,
-      "forksCount": 154,
-      "language": "TypeScript",
-      "topics": [
-        "bloomberg-terminal",
-        "finance",
-        "market-data",
-        "open-source-finance",
-        "portfolio-tracker",
-        "stocks",
-        "terminal",
-        "tui"
-      ],
-      "releasesUrl": "https://api.github.com/repos/gloom-sh/gloomberb/releases{/id}",
-      "updatedAt": "2026-10-03T07:46:06Z",
-      "createdAt": "2026-03-25T02:22:53Z",
-      "pushedAt": "2026-10-03T07:46:03Z",
-      "downloadCount": 92833,
-      "openIssuesCount": 3,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T18:51:41Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1273824907,
-      "name": "opencodex",
-      "fullName": "lidge-jun/opencodex",
-      "owner": {
-        "login": "lidge-jun",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/243035832?v=4"
-      },
-      "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/lidge-jun/opencodex",
-      "stargazersCount": 16838,
-      "forksCount": 1268,
-      "language": "TypeScript",
-      "topics": [
-        "ai-gateway",
-        "ai-tools",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "codex-cli",
-        "deepseek",
-        "developer-tools",
-        "gemini",
-        "grok",
-        "kiro",
-        "llm",
-        "llm-proxy",
-        "ollama",
-        "openai",
-        "openrouter",
-        "proxy",
-        "typescript"
-      ],
-      "releasesUrl": "https://api.github.com/repos/lidge-jun/opencodex/releases{/id}",
-      "updatedAt": "2026-10-03T07:41:50Z",
-      "createdAt": "2026-06-18T23:03:18Z",
-      "pushedAt": "2026-10-03T07:38:28Z",
-      "downloadCount": 33850,
-      "openIssuesCount": 125,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T18:42:21Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1153130349,
-      "name": "t3code",
-      "fullName": "pingdotgg/t3code",
-      "owner": {
-        "login": "pingdotgg",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/89191727?v=4"
-      },
-      "description": null,
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/pingdotgg/t3code",
-      "stargazersCount": 24380,
-      "forksCount": 6374,
-      "language": "TypeScript",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/pingdotgg/t3code/releases{/id}",
-      "updatedAt": "2026-10-03T08:01:16Z",
-      "createdAt": "2026-02-08T23:46:22Z",
-      "pushedAt": "2026-10-03T08:09:05Z",
-      "downloadCount": 46360847,
-      "openIssuesCount": 1796,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T18:17:31Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1325668685,
-      "name": "AF-Media-Bar",
-      "fullName": "Fervent-Tempo/AF-Media-Bar",
-      "owner": {
-        "login": "Fervent-Tempo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/160240486?v=4"
-      },
-      "description": "Windows 10/11 桌面上的媒体控制与轻度美化软件。     Media control and minor beautification software for Windows 10/11 desktops.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Fervent-Tempo/AF-Media-Bar",
-      "stargazersCount": 803,
-      "forksCount": 35,
-      "language": "C#",
-      "topics": [
-        "audio-visualizer",
-        "csharp",
-        "csharp-app",
-        "desktop-app",
-        "desktop-customization",
-        "media-controls",
-        "media-player",
-        "media-players",
-        "taskbar",
-        "taskbar-tools",
-        "windows",
-        "windows-10",
-        "windows-11",
-        "windows-desktop",
-        "wpf"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Fervent-Tempo/AF-Media-Bar/releases{/id}",
-      "updatedAt": "2026-10-03T07:54:15Z",
-      "createdAt": "2026-08-06T18:40:08Z",
-      "pushedAt": "2026-10-03T07:54:11Z",
-      "downloadCount": 13443,
-      "openIssuesCount": 42,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T17:51:09Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 774497032,
-      "name": "PraisonAI",
-      "fullName": "MervinPraison/PraisonAI",
-      "owner": {
-        "login": "MervinPraison",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/454862?v=4"
-      },
-      "description": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/MervinPraison/PraisonAI",
-      "stargazersCount": 9126,
-      "forksCount": 1458,
-      "language": "Python",
-      "topics": [
-        "agents",
-        "ai",
-        "ai-agent-framework",
-        "ai-agent-sdk",
-        "ai-agents",
-        "ai-agents-framework",
-        "ai-agents-sdk",
-        "ai-framwork",
-        "aiagent",
-        "aiagentframework",
-        "aiagents",
-        "aiagentsframework",
-        "framework",
-        "hermes",
-        "hermes-agent",
-        "multi-agent",
-        "multi-agent-system",
-        "multi-agents",
-        "multi-ai-agents",
-        "openclaw"
-      ],
-      "releasesUrl": "https://api.github.com/repos/MervinPraison/PraisonAI/releases{/id}",
-      "updatedAt": "2026-10-03T07:48:14Z",
-      "createdAt": "2024-03-19T16:45:25Z",
-      "pushedAt": "2026-10-03T08:10:17Z",
-      "downloadCount": 385,
-      "openIssuesCount": 224,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T16:35:01Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 721767116,
-      "name": "clash-verge-rev",
-      "fullName": "clash-verge-rev/clash-verge-rev",
-      "owner": {
-        "login": "clash-verge-rev",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/152534467?v=4"
-      },
-      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "defaultBranch": "dev",
-      "htmlUrl": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "stargazersCount": 148932,
-      "forksCount": 10687,
-      "language": "Rust",
-      "topics": [
-        "clash",
-        "clash-meta",
-        "clash-verge",
-        "linux",
-        "mac",
-        "mihomo",
-        "tauri-app",
-        "windows"
-      ],
-      "releasesUrl": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/releases{/id}",
-      "updatedAt": "2026-10-03T08:13:10Z",
-      "createdAt": "2023-11-21T18:24:03Z",
-      "pushedAt": "2026-10-03T07:59:51Z",
-      "downloadCount": 44487802,
-      "openIssuesCount": 500,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T16:25:43Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1320091816,
-      "name": "Lithe-IDEA",
-      "fullName": "1lck/Lithe-IDEA",
-      "owner": {
-        "login": "1lck",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/159525154?v=4"
-      },
-      "description": "A lightweight, cross-platform IDE for the AI era, with on-demand tools and services.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/1lck/Lithe-IDEA",
-      "stargazersCount": 1869,
-      "forksCount": 156,
-      "language": "TypeScript",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/1lck/Lithe-IDEA/releases{/id}",
-      "updatedAt": "2026-10-03T08:06:44Z",
-      "createdAt": "2026-08-02T11:00:58Z",
-      "pushedAt": "2026-10-03T08:06:39Z",
-      "downloadCount": 50846,
-      "openIssuesCount": 68,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T16:14:46Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 665942673,
-      "name": "fluffychat",
-      "fullName": "krille-chan/fluffychat",
-      "owner": {
-        "login": "krille-chan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/24619905?v=4"
-      },
-      "description": "The cutest instant messenger in the [matrix]",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/krille-chan/fluffychat",
-      "stargazersCount": 3162,
-      "forksCount": 651,
-      "language": "Dart",
-      "topics": [
-        "app",
-        "dart",
-        "flutter",
-        "matrix"
-      ],
-      "releasesUrl": "https://api.github.com/repos/krille-chan/fluffychat/releases{/id}",
-      "updatedAt": "2026-10-03T08:07:54Z",
-      "createdAt": "2023-07-13T10:48:16Z",
-      "pushedAt": "2026-10-03T07:45:33Z",
-      "downloadCount": 205213,
-      "openIssuesCount": 566,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T15:50:02Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 694514157,
-      "name": "geonkick",
-      "fullName": "quamplex/geonkick",
-      "owner": {
-        "login": "quamplex",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/220728965?v=4"
-      },
-      "description": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also unique effect sounds. ",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/quamplex/geonkick",
-      "stargazersCount": 192,
-      "forksCount": 12,
-      "language": "C++",
-      "topics": [
-        "c",
-        "cpp",
-        "lv2",
-        "percussion",
-        "standalone",
-        "synthesizer",
-        "vst3"
-      ],
-      "releasesUrl": "https://api.github.com/repos/quamplex/geonkick/releases{/id}",
-      "updatedAt": "2026-10-03T07:57:07Z",
-      "createdAt": "2023-09-21T06:40:24Z",
-      "pushedAt": "2026-10-03T07:57:04Z",
-      "downloadCount": 6798,
-      "openIssuesCount": 19,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T13:50:37Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 72021528,
-      "name": "aspia",
-      "fullName": "dchapyshev/aspia",
-      "owner": {
-        "login": "dchapyshev",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4012402?v=4"
-      },
-      "description": "Remote desktop and file transfer tool.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/dchapyshev/aspia",
-      "stargazersCount": 1938,
-      "forksCount": 404,
-      "language": "C++",
-      "topics": [
-        "android",
-        "anydesk",
-        "cpp",
-        "linux",
-        "macos",
-        "protobuf",
-        "qt",
-        "rdp",
-        "remote-access",
-        "remote-control",
-        "remote-desktop",
-        "teamviewer",
-        "vnc",
-        "windows"
-      ],
-      "releasesUrl": "https://api.github.com/repos/dchapyshev/aspia/releases{/id}",
-      "updatedAt": "2026-10-03T08:04:26Z",
-      "createdAt": "2016-10-26T16:17:31Z",
-      "pushedAt": "2026-10-03T08:04:19Z",
-      "downloadCount": 248907,
-      "openIssuesCount": 110,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T12:35:04Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1340508826,
-      "name": "monocode",
-      "fullName": "hardbeat920/monocode",
-      "owner": {
-        "login": "hardbeat920",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/60738984?v=4"
-      },
-      "description": "A GUI for your coding agents",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/hardbeat920/monocode",
-      "stargazersCount": 2444,
-      "forksCount": 234,
-      "language": "TypeScript",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/hardbeat920/monocode/releases{/id}",
-      "updatedAt": "2026-10-03T08:03:48Z",
-      "createdAt": "2026-08-20T09:16:02Z",
-      "pushedAt": "2026-10-03T07:48:50Z",
-      "downloadCount": 5333,
-      "openIssuesCount": 254,
-      "archived": false,
-      "latestReleaseDate": "2026-10-02T12:34:31Z",
+      "latestReleaseDate": "2026-10-04T05:01:05Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
@@ -981,8 +536,8 @@
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/t8y2/dbx",
-      "stargazersCount": 24120,
-      "forksCount": 2213,
+      "stargazersCount": 24442,
+      "forksCount": 2230,
       "language": "Rust",
       "topics": [
         "ai",
@@ -1005,13 +560,184 @@
         "vue"
       ],
       "releasesUrl": "https://api.github.com/repos/t8y2/dbx/releases{/id}",
-      "updatedAt": "2026-10-03T08:12:35Z",
+      "updatedAt": "2026-10-04T08:29:23Z",
       "createdAt": "2026-04-29T03:00:36Z",
-      "pushedAt": "2026-10-03T08:12:29Z",
-      "downloadCount": 2858624,
-      "openIssuesCount": 1150,
+      "pushedAt": "2026-10-04T08:29:18Z",
+      "downloadCount": 2869140,
+      "openIssuesCount": 1136,
       "archived": false,
-      "latestReleaseDate": "2026-10-02T12:30:09Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.6.33",
+          "publishedAt": "2026-10-04T04:39:18Z"
+        },
+        "macos": {
+          "tag": "v0.6.33",
+          "publishedAt": "2026-10-04T04:39:18Z"
+        },
+        "linux": {
+          "tag": "v0.6.33",
+          "publishedAt": "2026-10-04T04:39:18Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T04:39:18Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1396591019,
+      "name": "SCSKiller",
+      "fullName": "BlueHeisenberg/SCSKiller",
+      "owner": {
+        "login": "BlueHeisenberg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2033896?v=4"
+      },
+      "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/BlueHeisenberg/SCSKiller",
+      "stargazersCount": 55,
+      "forksCount": 0,
+      "language": "C#",
+      "topics": [
+        "amd",
+        "directx12",
+        "nvidia",
+        "pc-gaming",
+        "shader-compilation",
+        "stutter",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/BlueHeisenberg/SCSKiller/releases{/id}",
+      "updatedAt": "2026-10-04T08:28:52Z",
+      "createdAt": "2026-09-29T21:01:10Z",
+      "pushedAt": "2026-10-04T02:30:41Z",
+      "downloadCount": 2489,
+      "openIssuesCount": 11,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.2.0",
+          "publishedAt": "2026-10-04T02:50:35Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T02:50:35Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 868173144,
+      "name": "suna",
+      "fullName": "kortix-ai/suna",
+      "owner": {
+        "login": "kortix-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/170767358?v=4"
+      },
+      "description": "The open-source AI Operating System",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/kortix-ai/suna",
+      "stargazersCount": 20245,
+      "forksCount": 3435,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-operating-system",
+        "ai-os",
+        "llm"
+      ],
+      "releasesUrl": "https://api.github.com/repos/kortix-ai/suna/releases{/id}",
+      "updatedAt": "2026-10-04T08:03:42Z",
+      "createdAt": "2024-10-05T17:01:01Z",
+      "pushedAt": "2026-10-04T08:11:57Z",
+      "downloadCount": 9259,
+      "openIssuesCount": 127,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.13.49",
+          "publishedAt": "2026-10-04T01:54:11Z"
+        },
+        "macos": {
+          "tag": "v0.13.49",
+          "publishedAt": "2026-10-04T01:54:11Z"
+        },
+        "linux": {
+          "tag": "v0.13.49",
+          "publishedAt": "2026-10-04T01:54:11Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T01:54:11Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 925270205,
+      "name": "cua",
+      "fullName": "trycua/cua",
+      "owner": {
+        "login": "trycua",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/191107687?v=4"
+      },
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/trycua/cua",
+      "stargazersCount": 27980,
+      "forksCount": 1980,
+      "language": "Rust",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "apple",
+        "computer-use",
+        "computer-use-agent",
+        "containerization",
+        "cua",
+        "desktop-automation",
+        "hacktoberfest",
+        "lume",
+        "macos",
+        "manus",
+        "operator",
+        "swift",
+        "virtualization",
+        "virtualization-framework",
+        "windows",
+        "windows-sandbox"
+      ],
+      "releasesUrl": "https://api.github.com/repos/trycua/cua/releases{/id}",
+      "updatedAt": "2026-10-04T08:25:51Z",
+      "createdAt": "2025-01-31T15:02:49Z",
+      "pushedAt": "2026-10-04T08:26:57Z",
+      "downloadCount": 3520376,
+      "openIssuesCount": 1022,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "cua-spacesd-v0.5.3",
+          "publishedAt": "2026-10-03T23:12:29Z"
+        },
+        "macos": {
+          "tag": "cua-spaces-v0.7.0",
+          "publishedAt": "2026-10-04T01:35:31Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T23:12:29Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
@@ -1026,86 +752,126 @@
       "description": "One-click installer for Big Walk VR and Titanfall 2 VR",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/CircuitLord/CircuitLordVRModInstaller",
-      "stargazersCount": 752,
+      "stargazersCount": 875,
       "forksCount": 16,
       "language": "C#",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/CircuitLord/CircuitLordVRModInstaller/releases{/id}",
-      "updatedAt": "2026-10-03T07:42:49Z",
+      "updatedAt": "2026-10-04T08:21:53Z",
       "createdAt": "2026-08-06T03:58:24Z",
-      "pushedAt": "2026-10-03T03:10:36Z",
-      "downloadCount": 43140,
-      "openIssuesCount": 46,
+      "pushedAt": "2026-10-03T22:08:35Z",
+      "downloadCount": 60333,
+      "openIssuesCount": 50,
       "archived": false,
-      "latestReleaseDate": "2026-10-02T09:32:36Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.2.8",
+          "publishedAt": "2026-10-03T22:08:16Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T22:08:16Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 28822114,
-      "name": "titanium-web-proxy",
-      "fullName": "justcoding121/titanium-web-proxy",
+      "id": 894691652,
+      "name": "MultronWcleaner",
+      "fullName": "winball501/MultronWcleaner",
       "owner": {
-        "login": "justcoding121",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2637679?v=4"
+        "login": "winball501",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/171383295?v=4"
       },
-      "description": "A cross-platform high performing HTTP(S) proxy server in C#.",
-      "defaultBranch": "develop",
-      "htmlUrl": "https://github.com/justcoding121/titanium-web-proxy",
-      "stargazersCount": 2008,
-      "forksCount": 662,
+      "description": "A Community driven database based strong Windows Disk Cleaner With Utilities",
+      "defaultBranch": "beta",
+      "htmlUrl": "https://github.com/winball501/MultronWcleaner",
+      "stargazersCount": 72,
+      "forksCount": 1,
       "language": "C#",
-      "topics": [
-        "c-sharp",
-        "http",
-        "http-server",
-        "https",
-        "proxy-server"
-      ],
-      "releasesUrl": "https://api.github.com/repos/justcoding121/titanium-web-proxy/releases{/id}",
-      "updatedAt": "2026-10-03T08:13:43Z",
-      "createdAt": "2015-01-05T16:58:51Z",
-      "pushedAt": "2026-10-03T08:13:39Z",
-      "downloadCount": 9587,
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/winball501/MultronWcleaner/releases{/id}",
+      "updatedAt": "2026-10-04T08:11:06Z",
+      "createdAt": "2024-11-26T20:11:03Z",
+      "pushedAt": "2026-10-04T08:11:02Z",
+      "downloadCount": 10116,
       "openIssuesCount": 0,
       "archived": false,
-      "latestReleaseDate": "2026-10-02T07:03:41Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "mwcb_125",
+          "publishedAt": "2026-10-03T19:09:13Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T19:09:13Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
     },
     {
-      "id": 403282138,
-      "name": "BoilR",
-      "fullName": "PhilipK/BoilR",
+      "id": 1326915228,
+      "name": "easy-stock",
+      "fullName": "jundizhou/easy-stock",
       "owner": {
-        "login": "PhilipK",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/544652?v=4"
+        "login": "jundizhou",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92794317?v=4"
       },
-      "description": "Synchronize games from other platforms into your Steam library",
+      "description": "A股行情分析与AI智能投研智能体：股票分析、量化交易分析、盘后复盘桌面工作台——easy stock",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/PhilipK/BoilR",
-      "stargazersCount": 1890,
-      "forksCount": 66,
-      "language": "Rust",
+      "htmlUrl": "https://github.com/jundizhou/easy-stock",
+      "stargazersCount": 1217,
+      "forksCount": 100,
+      "language": "Go",
       "topics": [
-        "games",
-        "launcher",
-        "linux",
-        "steam",
-        "steamdeck",
-        "synchronization",
-        "windows"
+        "a-share",
+        "ai",
+        "ai-agent",
+        "china-stock",
+        "desktop-app",
+        "electron",
+        "go",
+        "golang",
+        "llm",
+        "llm-agent",
+        "quant",
+        "quant-trading",
+        "quantitative-finance",
+        "react",
+        "stock",
+        "stock-analysis",
+        "stock-market",
+        "trading",
+        "trading-agents"
       ],
-      "releasesUrl": "https://api.github.com/repos/PhilipK/BoilR/releases{/id}",
-      "updatedAt": "2026-10-03T07:49:18Z",
-      "createdAt": "2021-09-05T10:46:18Z",
-      "pushedAt": "2026-10-03T07:49:13Z",
-      "downloadCount": 112724,
-      "openIssuesCount": 49,
+      "releasesUrl": "https://api.github.com/repos/jundizhou/easy-stock/releases{/id}",
+      "updatedAt": "2026-10-04T08:25:28Z",
+      "createdAt": "2026-08-07T16:25:36Z",
+      "pushedAt": "2026-10-04T08:25:24Z",
+      "downloadCount": 2420,
+      "openIssuesCount": 1,
       "archived": false,
-      "latestReleaseDate": "2026-10-02T07:00:28Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.3.1",
+          "publishedAt": "2026-10-03T17:00:23Z"
+        },
+        "macos": {
+          "tag": "v1.3.1",
+          "publishedAt": "2026-10-03T17:00:23Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T17:00:23Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
     },
     {
       "id": 914468340,
@@ -1118,82 +884,763 @@
       "description": "PPT插件，支持素材库、AI助手、一键添加图片标题，复制粘贴位置、一键图片对齐、一键插入Markdown（加粗、超链接等行内样式、代码块、LaTeX等块级样式）、便捷导出图片！",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Achuan-2/SlideSCI",
-      "stargazersCount": 2582,
-      "forksCount": 93,
+      "stargazersCount": 2601,
+      "forksCount": 95,
       "language": "C#",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/Achuan-2/SlideSCI/releases{/id}",
-      "updatedAt": "2026-10-03T07:46:32Z",
+      "updatedAt": "2026-10-04T08:18:51Z",
       "createdAt": "2025-01-09T16:51:09Z",
-      "pushedAt": "2026-10-03T07:46:29Z",
-      "downloadCount": 12421,
-      "openIssuesCount": 3,
+      "pushedAt": "2026-10-04T06:56:11Z",
+      "downloadCount": 12448,
+      "openIssuesCount": 2,
       "archived": false,
-      "latestReleaseDate": "2026-10-02T04:46:40Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.1.0",
+          "publishedAt": "2026-10-02T04:46:40Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T09:12:27Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
     },
     {
-      "id": 1123956658,
-      "name": "plannotator",
-      "fullName": "backnotprop/plannotator",
+      "id": 1342876750,
+      "name": "chat-on-steroids",
+      "fullName": "totec448-spec/chat-on-steroids",
       "owner": {
-        "login": "backnotprop",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7244317?v=4"
+        "login": "totec448-spec",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/227782719?v=4"
       },
-      "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
+      "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/backnotprop/plannotator",
-      "stargazersCount": 9113,
-      "forksCount": 683,
+      "htmlUrl": "https://github.com/totec448-spec/chat-on-steroids",
+      "stargazersCount": 4235,
+      "forksCount": 561,
       "language": "TypeScript",
       "topics": [
-        "agents",
-        "claude-code",
-        "code-review",
-        "codex",
-        "obsidian",
-        "opencode",
-        "pi-mono",
-        "plan-mode",
-        "skills"
+        "automation",
+        "chatgpt",
+        "chrome-extension",
+        "electron",
+        "linux",
+        "local-first",
+        "macos",
+        "mcp",
+        "multi-agent",
+        "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/backnotprop/plannotator/releases{/id}",
-      "updatedAt": "2026-10-03T07:51:56Z",
-      "createdAt": "2025-12-28T02:09:40Z",
-      "pushedAt": "2026-10-03T07:51:52Z",
-      "downloadCount": 320502,
-      "openIssuesCount": 132,
+      "releasesUrl": "https://api.github.com/repos/totec448-spec/chat-on-steroids/releases{/id}",
+      "updatedAt": "2026-10-04T08:04:08Z",
+      "createdAt": "2026-08-22T14:16:24Z",
+      "pushedAt": "2026-10-04T08:19:30Z",
+      "downloadCount": 86922,
+      "openIssuesCount": 26,
       "archived": false,
-      "latestReleaseDate": "2026-10-02T00:36:13Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.1.26",
+          "publishedAt": "2026-10-03T06:46:01Z"
+        },
+        "macos": {
+          "tag": "v2.1.26",
+          "publishedAt": "2026-10-03T06:46:01Z"
+        },
+        "linux": {
+          "tag": "v2.1.26",
+          "publishedAt": "2026-10-03T06:46:01Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T06:46:01Z",
       "releaseRecency": 1,
       "releaseRecencyText": "Released yesterday"
     },
     {
-      "id": 965415649,
-      "name": "codex",
-      "fullName": "openai/codex",
+      "id": 997390194,
+      "name": "Decepticon",
+      "fullName": "BitterSecurity/Decepticon",
       "owner": {
-        "login": "openai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/14957082?v=4"
+        "login": "BitterSecurity",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/211282590?v=4"
       },
-      "description": "Lightweight coding agent that runs in your terminal",
+      "description": "Autonomous Hacking Agent for Red Team",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/openai/codex",
-      "stargazersCount": 127676,
-      "forksCount": 19983,
-      "language": "Rust",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/openai/codex/releases{/id}",
-      "updatedAt": "2026-10-03T08:05:20Z",
-      "createdAt": "2025-04-13T05:37:54Z",
-      "pushedAt": "2026-10-03T07:46:02Z",
-      "downloadCount": 43149240,
-      "openIssuesCount": 20275,
+      "htmlUrl": "https://github.com/BitterSecurity/Decepticon",
+      "stargazersCount": 5655,
+      "forksCount": 1065,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai",
+        "cybersecurity",
+        "generative-ai",
+        "hacking",
+        "langchain",
+        "langgraph",
+        "llm",
+        "pentest",
+        "pentesting"
+      ],
+      "releasesUrl": "https://api.github.com/repos/BitterSecurity/Decepticon/releases{/id}",
+      "updatedAt": "2026-10-04T08:07:52Z",
+      "createdAt": "2025-06-06T12:55:02Z",
+      "pushedAt": "2026-10-04T08:21:11Z",
+      "downloadCount": 19049,
+      "openIssuesCount": 0,
       "archived": false,
-      "latestReleaseDate": "2026-10-01T20:19:13Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.2.2",
+          "publishedAt": "2026-10-03T06:05:17Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T06:05:17Z",
       "releaseRecency": 1,
       "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 951023333,
+      "name": "AlcedoStudio",
+      "fullName": "zidage/AlcedoStudio",
+      "owner": {
+        "login": "zidage",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69023164?v=4"
+      },
+      "description": "Open-source RAW photo processing and digital asset management software.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/zidage/AlcedoStudio",
+      "stargazersCount": 194,
+      "forksCount": 11,
+      "language": "C++",
+      "topics": [
+        "ai-tools",
+        "cpp",
+        "cuda",
+        "image-management",
+        "image-processing",
+        "photo-editor",
+        "photography",
+        "raw-image"
+      ],
+      "releasesUrl": "https://api.github.com/repos/zidage/AlcedoStudio/releases{/id}",
+      "updatedAt": "2026-10-04T08:04:56Z",
+      "createdAt": "2025-03-19T03:37:03Z",
+      "pushedAt": "2026-10-04T03:16:18Z",
+      "downloadCount": 1418,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.3.1",
+          "publishedAt": "2026-10-03T05:27:14Z"
+        },
+        "macos": {
+          "tag": "v0.3.1",
+          "publishedAt": "2026-10-03T05:27:14Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T05:27:14Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 1192646696,
+      "name": "magic-context",
+      "fullName": "cortexkit/magic-context",
+      "owner": {
+        "login": "cortexkit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/271195168?v=4"
+      },
+      "description": "Unbounded context. Memory that manages itself. One session, for life. The hippocampus for coding agents, part of CortexKit.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/cortexkit/magic-context",
+      "stargazersCount": 2259,
+      "forksCount": 130,
+      "language": "TypeScript",
+      "topics": [
+        "agent-framework",
+        "agent-memory",
+        "ai",
+        "ai-agents",
+        "ai-context",
+        "ai-memory",
+        "cache-aware",
+        "context-engineering",
+        "context-management",
+        "langchain",
+        "memory",
+        "opencode",
+        "pi-coding-agent"
+      ],
+      "releasesUrl": "https://api.github.com/repos/cortexkit/magic-context/releases{/id}",
+      "updatedAt": "2026-10-04T08:02:30Z",
+      "createdAt": "2026-03-26T12:27:01Z",
+      "pushedAt": "2026-10-04T08:02:25Z",
+      "downloadCount": 7917,
+      "openIssuesCount": 49,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "dashboard-v0.18.2",
+          "publishedAt": "2026-10-03T00:41:39Z"
+        },
+        "macos": {
+          "tag": "dashboard-v0.18.2",
+          "publishedAt": "2026-10-03T00:41:39Z"
+        },
+        "linux": {
+          "tag": "dashboard-v0.18.2",
+          "publishedAt": "2026-10-03T00:41:39Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-03T00:41:39Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 31547508,
+      "name": "compass",
+      "fullName": "mongodb-js/compass",
+      "owner": {
+        "login": "mongodb-js",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11214950?v=4"
+      },
+      "description": "The GUI for MongoDB.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/mongodb-js/compass",
+      "stargazersCount": 1500,
+      "forksCount": 284,
+      "language": "TypeScript",
+      "topics": [
+        "gui",
+        "mongodb"
+      ],
+      "releasesUrl": "https://api.github.com/repos/mongodb-js/compass/releases{/id}",
+      "updatedAt": "2026-10-04T08:17:27Z",
+      "createdAt": "2015-03-02T15:39:55Z",
+      "pushedAt": "2026-10-04T08:20:52Z",
+      "downloadCount": 80200879,
+      "openIssuesCount": 40,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.52.0",
+          "publishedAt": "2026-10-02T19:06:19Z"
+        },
+        "macos": {
+          "tag": "v1.52.0",
+          "publishedAt": "2026-10-02T19:06:19Z"
+        },
+        "linux": {
+          "tag": "v1.52.0",
+          "publishedAt": "2026-10-02T19:06:19Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T19:06:19Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 1153130349,
+      "name": "t3code",
+      "fullName": "pingdotgg/t3code",
+      "owner": {
+        "login": "pingdotgg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89191727?v=4"
+      },
+      "description": null,
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/pingdotgg/t3code",
+      "stargazersCount": 24849,
+      "forksCount": 6466,
+      "language": "TypeScript",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/pingdotgg/t3code/releases{/id}",
+      "updatedAt": "2026-10-04T08:26:21Z",
+      "createdAt": "2026-02-08T23:46:22Z",
+      "pushedAt": "2026-10-04T08:29:25Z",
+      "downloadCount": 46962999,
+      "openIssuesCount": 2051,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.0.45",
+          "publishedAt": "2026-10-02T18:17:31Z"
+        },
+        "macos": {
+          "tag": "v0.0.45",
+          "publishedAt": "2026-10-02T18:17:31Z"
+        },
+        "linux": {
+          "tag": "v0.0.45",
+          "publishedAt": "2026-10-02T18:17:31Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T18:17:31Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 486815039,
+      "name": "actual",
+      "fullName": "actualbudget/actual",
+      "owner": {
+        "login": "actualbudget",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37879538?v=4"
+      },
+      "description": "A local-first personal finance app",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/actualbudget/actual",
+      "stargazersCount": 29296,
+      "forksCount": 3078,
+      "language": "TypeScript",
+      "topics": [
+        "budgeting",
+        "finance",
+        "money",
+        "personal-finance"
+      ],
+      "releasesUrl": "https://api.github.com/repos/actualbudget/actual/releases{/id}",
+      "updatedAt": "2026-10-04T08:20:08Z",
+      "createdAt": "2022-04-29T02:41:34Z",
+      "pushedAt": "2026-10-04T07:57:28Z",
+      "downloadCount": 279510,
+      "openIssuesCount": 232,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v26.10.0",
+          "publishedAt": "2026-10-02T15:32:36Z"
+        },
+        "macos": {
+          "tag": "v26.10.0",
+          "publishedAt": "2026-10-02T15:32:36Z"
+        },
+        "linux": {
+          "tag": "v26.10.0",
+          "publishedAt": "2026-10-02T15:32:36Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T15:32:36Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 904490600,
+      "name": "OpenCreator",
+      "fullName": "krillinai/OpenCreator",
+      "owner": {
+        "login": "krillinai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2386538?v=4"
+      },
+      "description": "Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, video translation, and edits with Agents in one place.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/krillinai/OpenCreator",
+      "stargazersCount": 12586,
+      "forksCount": 1289,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "codex-cli",
+        "deskop-app",
+        "dubbing",
+        "image-generation",
+        "localization",
+        "skills",
+        "tts",
+        "video-editing",
+        "video-generation",
+        "video-transcription",
+        "video-translation"
+      ],
+      "releasesUrl": "https://api.github.com/repos/krillinai/OpenCreator/releases{/id}",
+      "updatedAt": "2026-10-04T08:11:45Z",
+      "createdAt": "2024-12-17T01:59:22Z",
+      "pushedAt": "2026-10-04T08:11:40Z",
+      "downloadCount": 61653,
+      "openIssuesCount": 28,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.2.4",
+          "publishedAt": "2026-10-02T13:56:52Z"
+        },
+        "macos": {
+          "tag": "v3.2.4",
+          "publishedAt": "2026-10-02T13:56:52Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T13:56:52Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 1075381375,
+      "name": "paseo",
+      "fullName": "getpaseo/paseo",
+      "owner": {
+        "login": "getpaseo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/259503569?v=4"
+      },
+      "description": "Orchestrate multiple coding agents from desktop and mobile",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/getpaseo/paseo",
+      "stargazersCount": 19396,
+      "forksCount": 2272,
+      "language": "TypeScript",
+      "topics": [
+        "ade",
+        "agents",
+        "android",
+        "claude-code",
+        "codex",
+        "copilot",
+        "developer-tools",
+        "hermes",
+        "ios",
+        "linux",
+        "mobile",
+        "opencode",
+        "orchestration",
+        "pi",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/getpaseo/paseo/releases{/id}",
+      "updatedAt": "2026-10-04T08:19:17Z",
+      "createdAt": "2025-10-13T12:27:02Z",
+      "pushedAt": "2026-10-04T08:25:39Z",
+      "downloadCount": 12126841,
+      "openIssuesCount": 1018,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.10.3",
+          "publishedAt": "2026-10-02T12:37:45Z"
+        },
+        "windows": {
+          "tag": "v0.10.3",
+          "publishedAt": "2026-10-02T12:37:45Z"
+        },
+        "macos": {
+          "tag": "v0.10.3",
+          "publishedAt": "2026-10-02T12:37:45Z"
+        },
+        "linux": {
+          "tag": "v0.10.3",
+          "publishedAt": "2026-10-02T12:37:45Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T12:37:45Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 1159323006,
+      "name": "crit",
+      "fullName": "tomasz-tomczyk/crit",
+      "owner": {
+        "login": "tomasz-tomczyk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/182303?v=4"
+      },
+      "description": "Your feedback loop with the agent",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/tomasz-tomczyk/crit",
+      "stargazersCount": 1169,
+      "forksCount": 94,
+      "language": "Go",
+      "topics": [
+        "agentic-coding",
+        "ai-agents",
+        "ai-tools",
+        "cli",
+        "code-review",
+        "developer-tools",
+        "llm",
+        "markdown"
+      ],
+      "releasesUrl": "https://api.github.com/repos/tomasz-tomczyk/crit/releases{/id}",
+      "updatedAt": "2026-10-04T08:15:59Z",
+      "createdAt": "2026-02-16T15:39:33Z",
+      "pushedAt": "2026-10-04T08:15:54Z",
+      "downloadCount": 14066,
+      "openIssuesCount": 15,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.21.1",
+          "publishedAt": "2026-10-02T10:50:48Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T10:50:48Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 224908244,
+      "name": "WasmEdge",
+      "fullName": "WasmEdge/WasmEdge",
+      "owner": {
+        "login": "WasmEdge",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83329692?v=4"
+      },
+      "description": "WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/WasmEdge/WasmEdge",
+      "stargazersCount": 10813,
+      "forksCount": 1179,
+      "language": "C++",
+      "topics": [
+        "artificial-intelligence",
+        "cloud",
+        "cloud-native",
+        "cncf",
+        "container",
+        "docker",
+        "edge-computing",
+        "ewasm",
+        "hacktoberfest",
+        "hacktoberfest2023",
+        "kubernetes",
+        "rust-lang",
+        "serverless",
+        "wasm",
+        "webassembly"
+      ],
+      "releasesUrl": "https://api.github.com/repos/WasmEdge/WasmEdge/releases{/id}",
+      "updatedAt": "2026-10-04T08:20:54Z",
+      "createdAt": "2019-11-29T19:00:17Z",
+      "pushedAt": "2026-10-04T06:57:35Z",
+      "downloadCount": 3404390,
+      "openIssuesCount": 150,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "0.17.2",
+          "publishedAt": "2026-10-02T06:39:46Z"
+        },
+        "linux": {
+          "tag": "0.17.2",
+          "publishedAt": "2026-10-02T06:39:46Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T06:39:46Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 1216785679,
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "owner": {
+        "login": "esengine",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?v=4"
+      },
+      "description": "A reliable coding agent for complex software engineering tasks.",
+      "defaultBranch": "studio",
+      "htmlUrl": "https://github.com/esengine/DeepSeek-Reasonix",
+      "stargazersCount": 35737,
+      "forksCount": 2440,
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "deepseek",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "ink",
+        "llm",
+        "prompt-caching",
+        "r1",
+        "terminal",
+        "tool-use",
+        "tui",
+        "typescript"
+      ],
+      "releasesUrl": "https://api.github.com/repos/esengine/DeepSeek-Reasonix/releases{/id}",
+      "updatedAt": "2026-10-04T08:15:18Z",
+      "createdAt": "2026-04-21T08:27:02Z",
+      "pushedAt": "2026-10-04T08:29:10Z",
+      "downloadCount": 1245805,
+      "openIssuesCount": 259,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "desktop-v1.39.7",
+          "publishedAt": "2026-10-02T06:33:51Z"
+        },
+        "macos": {
+          "tag": "desktop-v1.39.7",
+          "publishedAt": "2026-10-02T06:33:51Z"
+        },
+        "linux": {
+          "tag": "desktop-v1.39.7",
+          "publishedAt": "2026-10-02T06:33:51Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T06:33:39Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 984862298,
+      "name": "OpenSpeedy",
+      "fullName": "game1024/OpenSpeedy",
+      "owner": {
+        "login": "game1024",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/168624508?v=4"
+      },
+      "description": "🎮 An open-source game speed modifier.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/game1024/OpenSpeedy",
+      "stargazersCount": 18916,
+      "forksCount": 1363,
+      "language": "TypeScript",
+      "topics": [
+        "gamedev",
+        "gamemod",
+        "pc",
+        "rust",
+        "speed-engine",
+        "tauri",
+        "toolkit",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/game1024/OpenSpeedy/releases{/id}",
+      "updatedAt": "2026-10-04T08:12:24Z",
+      "createdAt": "2025-05-16T16:25:43Z",
+      "pushedAt": "2026-10-04T08:08:27Z",
+      "downloadCount": 597619,
+      "openIssuesCount": 3,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "3.3.13",
+          "publishedAt": "2026-10-02T03:40:32Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-02T03:40:32Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 1156994049,
+      "name": "agent-orchestrator",
+      "fullName": "Untrivial-ai/agent-orchestrator",
+      "owner": {
+        "login": "Untrivial-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/310302959?v=4"
+      },
+      "description": "Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, web, mobile, and cloud agents.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Untrivial-ai/agent-orchestrator",
+      "stargazersCount": 12708,
+      "forksCount": 1753,
+      "language": "Go",
+      "topics": [
+        "agent-fleet",
+        "agent-ide",
+        "agent-orchestration",
+        "agent-swarm",
+        "claude-code",
+        "codex-cli",
+        "git-worktrees",
+        "multi-agent",
+        "orchestration",
+        "orchestrator",
+        "parallel-agents",
+        "parallel-coding",
+        "skills"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Untrivial-ai/agent-orchestrator/releases{/id}",
+      "updatedAt": "2026-10-04T08:18:39Z",
+      "createdAt": "2026-02-13T09:52:36Z",
+      "pushedAt": "2026-10-04T08:17:20Z",
+      "downloadCount": 798257,
+      "openIssuesCount": 748,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.13.3",
+          "publishedAt": "2026-10-01T23:42:19Z"
+        },
+        "macos": {
+          "tag": "v0.13.3",
+          "publishedAt": "2026-10-01T23:42:19Z"
+        },
+        "linux": {
+          "tag": "v0.13.3",
+          "publishedAt": "2026-10-01T23:42:19Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T23:42:19Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
     },
     {
       "id": 1105953775,
@@ -1206,8 +1653,8 @@
       "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/chthollyphile/folia-major",
-      "stargazersCount": 3274,
-      "forksCount": 257,
+      "stargazersCount": 3357,
+      "forksCount": 260,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1222,273 +1669,339 @@
         "vercel-deployment"
       ],
       "releasesUrl": "https://api.github.com/repos/chthollyphile/folia-major/releases{/id}",
-      "updatedAt": "2026-10-03T08:07:32Z",
+      "updatedAt": "2026-10-04T08:27:25Z",
       "createdAt": "2025-11-28T11:58:07Z",
-      "pushedAt": "2026-10-03T07:56:14Z",
-      "downloadCount": 216265,
-      "openIssuesCount": 13,
+      "pushedAt": "2026-10-04T08:05:43Z",
+      "downloadCount": 222127,
+      "openIssuesCount": 15,
       "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.7.12",
+          "publishedAt": "2026-10-01T20:08:14Z"
+        },
+        "macos": {
+          "tag": "v0.7.12",
+          "publishedAt": "2026-10-01T20:08:14Z"
+        },
+        "linux": {
+          "tag": "v0.7.12",
+          "publishedAt": "2026-10-01T20:08:14Z"
+        }
+      },
       "latestReleaseDate": "2026-10-01T20:08:14Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
     },
     {
-      "id": 169250119,
-      "name": "lefthook",
-      "fullName": "evilmartians/lefthook",
+      "id": 1289958986,
+      "name": "pebrel",
+      "fullName": "Kuddev/pebrel",
       "owner": {
-        "login": "evilmartians",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/46581?v=4"
+        "login": "Kuddev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/292709043?v=4"
       },
-      "description": "Fast and powerful Git hooks manager for any type of projects.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/evilmartians/lefthook",
-      "stargazersCount": 8879,
-      "forksCount": 315,
-      "language": "Go",
-      "topics": [
-        "git",
-        "go",
-        "golang",
-        "hacktoberfest",
-        "hooks",
-        "lefthook",
-        "manager"
-      ],
-      "releasesUrl": "https://api.github.com/repos/evilmartians/lefthook/releases{/id}",
-      "updatedAt": "2026-10-03T07:46:30Z",
-      "createdAt": "2019-02-05T14:00:56Z",
-      "pushedAt": "2026-10-03T07:46:50Z",
-      "downloadCount": 3244862,
-      "openIssuesCount": 85,
-      "archived": false,
-      "latestReleaseDate": "2026-10-01T17:29:24Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1287740001,
-      "name": "FluxDown",
-      "fullName": "zerx-lab/FluxDown",
-      "owner": {
-        "login": "zerx-lab",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/161401688?v=4"
-      },
-      "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
+      "description": "AI-native, GPU-accelerated terminal emulator for Windows with SSH, persistent sessions, split panes, and first-class AI CLI workflows.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/zerx-lab/FluxDown",
-      "stargazersCount": 3390,
-      "forksCount": 177,
+      "htmlUrl": "https://github.com/Kuddev/pebrel",
+      "stargazersCount": 2869,
+      "forksCount": 153,
       "language": "Rust",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/zerx-lab/FluxDown/releases{/id}",
-      "updatedAt": "2026-10-03T08:13:39Z",
-      "createdAt": "2026-07-03T01:00:17Z",
-      "pushedAt": "2026-10-03T07:55:11Z",
-      "downloadCount": 127056,
-      "openIssuesCount": 408,
-      "archived": false,
-      "latestReleaseDate": "2026-10-01T16:44:59Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1015815983,
-      "name": "autoclip",
-      "fullName": "zhouxiaoka/autoclip",
-      "owner": {
-        "login": "zhouxiaoka",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78066887?v=4"
-      },
-      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/zhouxiaoka/autoclip",
-      "stargazersCount": 9125,
-      "forksCount": 1669,
-      "language": "Python",
       "topics": [
-        "ai-agent",
-        "ai-video-editor",
-        "content-repurposing",
-        "desktop-app",
-        "douyin",
-        "instagram-reels",
-        "mcp",
-        "open-source",
-        "podcast",
-        "subtitles",
-        "tiktok",
-        "video-clipping",
-        "video-editing-software",
-        "xiaohongshu",
-        "youtube-shorts"
+        "ai-cli",
+        "ai-terminal",
+        "claude-code",
+        "codex",
+        "conpty",
+        "developer-tools",
+        "gpu-accelerated",
+        "opengl",
+        "powershell",
+        "rust",
+        "session-persistence",
+        "split-panes",
+        "ssh",
+        "ssh-client",
+        "terminal",
+        "terminal-emulator",
+        "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/zhouxiaoka/autoclip/releases{/id}",
-      "updatedAt": "2026-10-03T07:49:32Z",
-      "createdAt": "2025-07-08T04:51:15Z",
-      "pushedAt": "2026-10-03T07:49:28Z",
-      "downloadCount": 13677,
-      "openIssuesCount": 13,
+      "releasesUrl": "https://api.github.com/repos/Kuddev/pebrel/releases{/id}",
+      "updatedAt": "2026-10-04T08:15:23Z",
+      "createdAt": "2026-07-05T12:17:36Z",
+      "pushedAt": "2026-10-04T08:17:41Z",
+      "downloadCount": 19797,
+      "openIssuesCount": 118,
       "archived": false,
-      "latestReleaseDate": "2026-10-01T14:32:16Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.1.1",
+          "publishedAt": "2026-10-01T19:22:46Z"
+        },
+        "windows": {
+          "tag": "v2.1.1",
+          "publishedAt": "2026-10-01T19:22:46Z"
+        },
+        "macos": {
+          "tag": "v2.1.1",
+          "publishedAt": "2026-10-01T19:22:46Z"
+        },
+        "linux": {
+          "tag": "v2.1.1",
+          "publishedAt": "2026-10-01T19:22:46Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T19:22:46Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
     },
     {
-      "id": 725205304,
-      "name": "unsloth",
-      "fullName": "unslothai/unsloth",
+      "id": 166713531,
+      "name": "Macro-Deck",
+      "fullName": "Macro-Deck-App/Macro-Deck",
       "owner": {
-        "login": "unslothai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/150920049?v=4"
+        "login": "Macro-Deck-App",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104732664?v=4"
       },
-      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
+      "description": "The open-source macro pad with customizable widgets, powerful integrations and a secure plugin ecosystem.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/unslothai/unsloth",
-      "stargazersCount": 77156,
-      "forksCount": 7092,
-      "language": "Python",
+      "htmlUrl": "https://github.com/Macro-Deck-App/Macro-Deck",
+      "stargazersCount": 1542,
+      "forksCount": 111,
+      "language": "C#",
       "topics": [
-        "agent",
+        "linux",
+        "macos",
+        "macro-deck",
+        "macro-pad",
+        "macros",
+        "pc-remote",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Macro-Deck-App/Macro-Deck/releases{/id}",
+      "updatedAt": "2026-10-04T08:15:53Z",
+      "createdAt": "2019-01-20T21:54:01Z",
+      "pushedAt": "2026-10-04T05:51:39Z",
+      "downloadCount": 235155,
+      "openIssuesCount": 37,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.15.3",
+          "publishedAt": "2026-10-01T19:05:32Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T19:05:32Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 647509652,
+      "name": "MoviePilot",
+      "fullName": "jxxghp/MoviePilot",
+      "owner": {
+        "login": "jxxghp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51039935?v=4"
+      },
+      "description": "NAS媒体库自动化管理工具",
+      "defaultBranch": "v3",
+      "htmlUrl": "https://github.com/jxxghp/MoviePilot",
+      "stargazersCount": 11820,
+      "forksCount": 1488,
+      "language": "Python",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/jxxghp/MoviePilot/releases{/id}",
+      "updatedAt": "2026-10-04T08:20:40Z",
+      "createdAt": "2023-05-31T00:06:46Z",
+      "pushedAt": "2026-10-04T08:20:37Z",
+      "downloadCount": 22519,
+      "openIssuesCount": 20,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.1.0",
+          "publishedAt": "2026-10-01T16:09:19Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T16:09:19Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 1146552776,
+      "name": "GoNavi",
+      "fullName": "Syngnat/GoNavi",
+      "owner": {
+        "login": "Syngnat",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92659908?v=4"
+      },
+      "description": "High-performance multi-data-source database client — ~30MB, AI & MCP ready, zero Electron bloat. | 高性能多数据源数据库客户端：约 30MB，AI 与 MCP 就绪，告别 Electron 膨胀。",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/Syngnat/GoNavi",
+      "stargazersCount": 2060,
+      "forksCount": 222,
+      "language": "TypeScript",
+      "topics": [
         "ai",
-        "chatgpt",
-        "deepseek",
-        "fine-tuning",
-        "gemma",
-        "image-generation",
-        "llama",
-        "llm",
-        "llms",
-        "openai",
-        "python",
-        "qwen",
-        "reinforcement-learning",
-        "self-hosted",
-        "stable-diffusion",
-        "text-to-speech",
-        "tts",
-        "ui",
-        "unsloth"
-      ],
-      "releasesUrl": "https://api.github.com/repos/unslothai/unsloth/releases{/id}",
-      "updatedAt": "2026-10-03T08:12:48Z",
-      "createdAt": "2023-11-29T16:50:09Z",
-      "pushedAt": "2026-10-03T07:48:14Z",
-      "downloadCount": 2559417,
-      "openIssuesCount": 1115,
-      "archived": false,
-      "latestReleaseDate": "2026-10-01T14:06:23Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 148657224,
-      "name": "trezor-suite",
-      "fullName": "trezor/trezor-suite",
-      "owner": {
-        "login": "trezor",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4146447?v=4"
-      },
-      "description": "Trezor Suite Monorepo",
-      "defaultBranch": "develop",
-      "htmlUrl": "https://github.com/trezor/trezor-suite",
-      "stargazersCount": 1053,
-      "forksCount": 384,
-      "language": "TypeScript",
-      "topics": [
-        "bitcoin",
-        "cryptocurrency",
-        "cryptography",
-        "electron",
-        "suite",
-        "trezor",
-        "typescript",
-        "wallet",
-        "web"
-      ],
-      "releasesUrl": "https://api.github.com/repos/trezor/trezor-suite/releases{/id}",
-      "updatedAt": "2026-10-03T07:54:49Z",
-      "createdAt": "2018-09-13T15:17:42Z",
-      "pushedAt": "2026-10-03T08:08:10Z",
-      "downloadCount": 50496858,
-      "openIssuesCount": 1592,
-      "archived": false,
-      "latestReleaseDate": "2026-10-01T12:33:07Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1287804060,
-      "name": "open-science",
-      "fullName": "aipoch/open-science",
-      "owner": {
-        "login": "aipoch",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/243506841?v=4"
-      },
-      "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/aipoch/open-science",
-      "stargazersCount": 5369,
-      "forksCount": 495,
-      "language": "TypeScript",
-      "topics": [
-        "agent-skills",
-        "ai-agent",
-        "ai-for-science",
-        "ai-research",
-        "ai-research-workbench",
-        "ai-workbench",
-        "bioinformatics",
+        "cross-platform",
+        "database-client",
+        "database-gui",
         "desktop-app",
-        "local-first",
+        "developer-tools",
+        "golang",
+        "kafka",
         "mcp",
-        "model-agnostic",
-        "open-science",
-        "open-source",
-        "reproducible-research",
-        "research-tools",
-        "science",
-        "science-agent",
-        "scientific-ai",
-        "scientific-computing",
-        "scientific-research"
+        "model-context-protocol",
+        "mongodb",
+        "mqtt",
+        "mysql",
+        "oracle-database",
+        "postgresql",
+        "react",
+        "redis",
+        "sql-client",
+        "typescript",
+        "wails"
       ],
-      "releasesUrl": "https://api.github.com/repos/aipoch/open-science/releases{/id}",
-      "updatedAt": "2026-10-03T07:56:29Z",
-      "createdAt": "2026-07-03T02:50:10Z",
-      "pushedAt": "2026-10-03T07:56:25Z",
-      "downloadCount": 11987,
-      "openIssuesCount": 46,
+      "releasesUrl": "https://api.github.com/repos/Syngnat/GoNavi/releases{/id}",
+      "updatedAt": "2026-10-04T08:26:28Z",
+      "createdAt": "2026-01-31T09:30:47Z",
+      "pushedAt": "2026-10-04T08:26:23Z",
+      "downloadCount": 587632,
+      "openIssuesCount": 3,
       "archived": false,
-      "latestReleaseDate": "2026-10-01T02:09:00Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.1",
+          "publishedAt": "2026-10-01T04:02:43Z"
+        },
+        "macos": {
+          "tag": "v1.0.1",
+          "publishedAt": "2026-10-01T04:02:43Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T04:02:43Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
-      "id": 1423099,
-      "name": "wxmaxima",
-      "fullName": "wxMaxima-developers/wxmaxima",
+      "id": 1010094371,
+      "name": "claude-code-history-viewer",
+      "fullName": "jhlee0409/claude-code-history-viewer",
       "owner": {
-        "login": "wxMaxima-developers",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/43586532?v=4"
+        "login": "jhlee0409",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60695299?v=4"
       },
-      "description": "A gui for the computer algebra system Maxima built with wxWidgets",
+      "description": "desktop app to browse and analyze your Claude Code conversation history",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/wxMaxima-developers/wxmaxima",
-      "stargazersCount": 552,
-      "forksCount": 109,
-      "language": "C++",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/wxMaxima-developers/wxmaxima/releases{/id}",
-      "updatedAt": "2026-10-03T08:04:18Z",
-      "createdAt": "2011-02-28T20:25:57Z",
-      "pushedAt": "2026-10-03T08:05:03Z",
-      "downloadCount": 94905,
-      "openIssuesCount": 58,
+      "htmlUrl": "https://github.com/jhlee0409/claude-code-history-viewer",
+      "stargazersCount": 2221,
+      "forksCount": 235,
+      "language": "TypeScript",
+      "topics": [
+        "claude",
+        "claude-code",
+        "codex",
+        "conversation-history",
+        "desktop-app",
+        "developer-tools",
+        "opencode",
+        "react",
+        "rust",
+        "tauri"
+      ],
+      "releasesUrl": "https://api.github.com/repos/jhlee0409/claude-code-history-viewer/releases{/id}",
+      "updatedAt": "2026-10-04T08:19:40Z",
+      "createdAt": "2025-06-28T10:29:54Z",
+      "pushedAt": "2026-10-04T08:19:42Z",
+      "downloadCount": 199193,
+      "openIssuesCount": 15,
       "archived": false,
-      "latestReleaseDate": "2026-09-30T22:00:28Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.30.0",
+          "publishedAt": "2026-10-01T00:57:39Z"
+        },
+        "macos": {
+          "tag": "v1.30.0",
+          "publishedAt": "2026-10-01T00:57:39Z"
+        },
+        "linux": {
+          "tag": "v1.30.0",
+          "publishedAt": "2026-10-01T00:57:39Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T00:57:39Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 975734319,
+      "name": "opencode",
+      "fullName": "anomalyco/opencode",
+      "owner": {
+        "login": "anomalyco",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66570915?v=4"
+      },
+      "description": "The open source coding agent.",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/anomalyco/opencode",
+      "stargazersCount": 211668,
+      "forksCount": 28138,
+      "language": "TypeScript",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/anomalyco/opencode/releases{/id}",
+      "updatedAt": "2026-10-04T08:26:56Z",
+      "createdAt": "2025-04-30T20:08:00Z",
+      "pushedAt": "2026-10-04T08:21:25Z",
+      "downloadCount": 123490384,
+      "openIssuesCount": 6253,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.18.34",
+          "publishedAt": "2026-09-30T22:39:45Z"
+        },
+        "macos": {
+          "tag": "v1.18.34",
+          "publishedAt": "2026-09-30T22:39:45Z"
+        },
+        "linux": {
+          "tag": "v1.18.34",
+          "publishedAt": "2026-09-30T22:39:45Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-30T22:39:45Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
       "id": 1161163182,
@@ -1501,8 +2014,8 @@
       "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/tinyhumansai/openhuman",
-      "stargazersCount": 40474,
-      "forksCount": 3997,
+      "stargazersCount": 40567,
+      "forksCount": 4022,
       "language": "Rust",
       "topics": [
         "agent-orchestration",
@@ -1519,162 +2032,33 @@
         "tauri"
       ],
       "releasesUrl": "https://api.github.com/repos/tinyhumansai/openhuman/releases{/id}",
-      "updatedAt": "2026-10-03T08:08:23Z",
+      "updatedAt": "2026-10-04T08:20:02Z",
       "createdAt": "2026-02-18T20:01:27Z",
-      "pushedAt": "2026-10-03T08:08:18Z",
-      "downloadCount": 2504980,
-      "openIssuesCount": 259,
+      "pushedAt": "2026-10-04T08:19:56Z",
+      "downloadCount": 2509960,
+      "openIssuesCount": 268,
       "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.64.10",
+          "publishedAt": "2026-09-30T21:18:38Z"
+        },
+        "macos": {
+          "tag": "v0.64.10",
+          "publishedAt": "2026-09-30T21:18:38Z"
+        },
+        "linux": {
+          "tag": "v0.64.10",
+          "publishedAt": "2026-09-30T21:18:38Z"
+        }
+      },
       "latestReleaseDate": "2026-09-30T21:18:38Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 704781307,
-      "name": "msime-windows",
-      "fullName": "metasequoiaime/msime-windows",
-      "owner": {
-        "login": "metasequoiaime",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/324869696?v=4"
-      },
-      "description": "水杉输入法 Windows 产品：TSF、Server、GUI、设置页与安装器。内测：tg: https://t.me/msimegroup QQ Group: 829919142",
-      "defaultBranch": "develop",
-      "htmlUrl": "https://github.com/metasequoiaime/msime-windows",
-      "stargazersCount": 1607,
-      "forksCount": 89,
-      "language": "C++",
-      "topics": [
-        "chinese",
-        "ime",
-        "input-method",
-        "japanese",
-        "metasequoia",
-        "tsf",
-        "windows",
-        "windows-11"
-      ],
-      "releasesUrl": "https://api.github.com/repos/metasequoiaime/msime-windows/releases{/id}",
-      "updatedAt": "2026-10-03T07:51:40Z",
-      "createdAt": "2023-10-14T04:36:44Z",
-      "pushedAt": "2026-10-03T08:07:19Z",
-      "downloadCount": 16761,
-      "openIssuesCount": 65,
-      "archived": false,
-      "latestReleaseDate": "2026-09-30T18:46:19Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 984341155,
-      "name": "lemonade",
-      "fullName": "lemonade-sdk/lemonade",
-      "owner": {
-        "login": "lemonade-sdk",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/209808453?v=4"
-      },
-      "description": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/lemonade-sdk/lemonade",
-      "stargazersCount": 5819,
-      "forksCount": 518,
-      "language": "C++",
-      "topics": [
-        "ai",
-        "amd",
-        "genai",
-        "gpu",
-        "llama",
-        "llm",
-        "llm-inference",
-        "local-server",
-        "mcp",
-        "mcp-server",
-        "mistral",
-        "npu",
-        "onnxruntime",
-        "openai-api",
-        "qwen",
-        "radeon",
-        "rocm",
-        "ryzen",
-        "vulkan"
-      ],
-      "releasesUrl": "https://api.github.com/repos/lemonade-sdk/lemonade/releases{/id}",
-      "updatedAt": "2026-10-03T08:13:20Z",
-      "createdAt": "2025-05-15T19:17:39Z",
-      "pushedAt": "2026-10-03T06:30:36Z",
-      "downloadCount": 267706,
-      "openIssuesCount": 563,
-      "archived": false,
-      "latestReleaseDate": "2026-09-30T17:46:00Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 1056618941,
-      "name": "ha-mcp",
-      "fullName": "homeassistant-ai/ha-mcp",
-      "owner": {
-        "login": "homeassistant-ai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/232192432?v=4"
-      },
-      "description": "The Unofficial and Awesome Home Assistant MCP Server",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/homeassistant-ai/ha-mcp",
-      "stargazersCount": 4926,
-      "forksCount": 229,
-      "language": "Python",
-      "topics": [
-        "ai",
-        "claude",
-        "hacs",
-        "home-assistant",
-        "home-automation",
-        "llm",
-        "mcp",
-        "model-context-protocol"
-      ],
-      "releasesUrl": "https://api.github.com/repos/homeassistant-ai/ha-mcp/releases{/id}",
-      "updatedAt": "2026-10-03T08:12:30Z",
-      "createdAt": "2025-09-14T13:23:45Z",
-      "pushedAt": "2026-10-03T08:12:26Z",
-      "downloadCount": 1900,
-      "openIssuesCount": 28,
-      "archived": false,
-      "latestReleaseDate": "2026-09-30T16:23:04Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 340547520,
-      "name": "zed",
-      "fullName": "zed-industries/zed",
-      "owner": {
-        "login": "zed-industries",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/79345384?v=4"
-      },
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/zed-industries/zed",
-      "stargazersCount": 91227,
-      "forksCount": 10885,
-      "language": "Rust",
-      "topics": [
-        "gpui",
-        "rust-lang",
-        "text-editor",
-        "zed"
-      ],
-      "releasesUrl": "https://api.github.com/repos/zed-industries/zed/releases{/id}",
-      "updatedAt": "2026-10-03T08:11:47Z",
-      "createdAt": "2021-02-20T03:01:06Z",
-      "pushedAt": "2026-10-03T08:05:45Z",
-      "downloadCount": 34937180,
-      "openIssuesCount": 3059,
-      "archived": false,
-      "latestReleaseDate": "2026-09-30T16:03:00Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
       "id": 671654508,
@@ -1687,8 +2071,8 @@
       "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/biomejs/biome",
-      "stargazersCount": 25890,
-      "forksCount": 1269,
+      "stargazersCount": 25895,
+      "forksCount": 1270,
       "language": "Rust",
       "topics": [
         "css",
@@ -1702,171 +2086,581 @@
         "web"
       ],
       "releasesUrl": "https://api.github.com/repos/biomejs/biome/releases{/id}",
-      "updatedAt": "2026-10-03T08:04:22Z",
+      "updatedAt": "2026-10-04T08:28:12Z",
       "createdAt": "2023-07-27T20:30:22Z",
-      "pushedAt": "2026-10-03T08:05:49Z",
-      "downloadCount": 11918351,
-      "openIssuesCount": 405,
+      "pushedAt": "2026-10-04T08:29:34Z",
+      "downloadCount": 11938717,
+      "openIssuesCount": 411,
       "archived": false,
-      "latestReleaseDate": "2026-09-30T15:23:21Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 1333321333,
-      "name": "dsh-desktop",
-      "fullName": "anywhere-labs/dsh-desktop",
-      "owner": {
-        "login": "anywhere-labs",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/286827603?v=4"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "@biomejs/biome@2.5.15",
+          "publishedAt": "2026-09-30T15:23:21Z"
+        }
       },
-      "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/anywhere-labs/dsh-desktop",
-      "stargazersCount": 29839,
-      "forksCount": 1423,
-      "language": "TypeScript",
-      "topics": [
-        "cordis",
-        "cordis-plugin",
-        "deepseek",
-        "deepseek-harness",
-        "desktop",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugin-desktop"
-      ],
-      "releasesUrl": "https://api.github.com/repos/anywhere-labs/dsh-desktop/releases{/id}",
-      "updatedAt": "2026-10-03T08:07:15Z",
-      "createdAt": "2026-08-13T16:30:50Z",
-      "pushedAt": "2026-10-03T07:53:39Z",
-      "downloadCount": 160793,
-      "openIssuesCount": 338,
-      "archived": false,
-      "latestReleaseDate": "2026-09-29T17:15:24Z",
+      "latestReleaseDate": "2026-09-30T15:23:21Z",
       "releaseRecency": 3,
       "releaseRecencyText": "Released 3 days ago"
     },
     {
-      "id": 3390243,
-      "name": "servo",
-      "fullName": "servo/servo",
+      "id": 1147866277,
+      "name": "OpenBitFun",
+      "fullName": "GCWing/OpenBitFun",
       "owner": {
-        "login": "servo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2566135?v=4"
+        "login": "GCWing",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29406332?v=4"
       },
-      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "description": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/servo/servo",
-      "stargazersCount": 38066,
-      "forksCount": 3814,
+      "htmlUrl": "https://github.com/GCWing/OpenBitFun",
+      "stargazersCount": 2378,
+      "forksCount": 250,
       "language": "Rust",
       "topics": [
-        "browser",
-        "rust",
-        "servo",
-        "web",
-        "webbrowser",
-        "webengine",
-        "webplatform"
+        "agent-teams",
+        "agentic",
+        "agentic-os",
+        "agentic-runtime",
+        "ai-coding",
+        "ai-ide",
+        "ai-sdk",
+        "bitfun",
+        "computer-use-agent",
+        "cowork",
+        "dsh-plugin",
+        "openclaw",
+        "vibe-coding"
       ],
-      "releasesUrl": "https://api.github.com/repos/servo/servo/releases{/id}",
-      "updatedAt": "2026-10-03T08:03:51Z",
-      "createdAt": "2012-02-08T19:07:25Z",
-      "pushedAt": "2026-10-03T08:03:47Z",
-      "downloadCount": 49116,
-      "openIssuesCount": 3161,
+      "releasesUrl": "https://api.github.com/repos/GCWing/OpenBitFun/releases{/id}",
+      "updatedAt": "2026-10-04T08:17:58Z",
+      "createdAt": "2026-02-02T09:52:10Z",
+      "pushedAt": "2026-10-04T08:17:52Z",
+      "downloadCount": 103286,
+      "openIssuesCount": 82,
       "archived": false,
-      "latestReleaseDate": "2026-09-29T15:33:02Z",
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.3",
+          "publishedAt": "2026-09-30T14:17:20Z"
+        },
+        "macos": {
+          "tag": "v1.0.3",
+          "publishedAt": "2026-09-30T14:17:20Z"
+        },
+        "linux": {
+          "tag": "v1.0.3",
+          "publishedAt": "2026-09-30T14:17:20Z"
+        },
+        "android": {
+          "tag": "v1.0.2",
+          "publishedAt": "2026-09-25T07:28:20Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-30T14:17:20Z",
       "releaseRecency": 3,
       "releaseRecencyText": "Released 3 days ago"
     },
     {
-      "id": 484434975,
-      "name": "dagu",
-      "fullName": "dagucloud/dagu",
+      "id": 1291034571,
+      "name": "tty7",
+      "fullName": "l0ng-ai/tty7",
       "owner": {
-        "login": "dagucloud",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/131097250?v=4"
+        "login": "l0ng-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24760907?v=4"
       },
-      "description": "Self-hostable workflow orchestrator for teams whose main work isn't orchestration. Declarative YAML over your scripts, SSH commands, containers, etc; keep workflows separate from business logic. One binary, no database, runs on limited H/W resources. Alternative to Airflow / Cron / Job Scheduler.",
+      "description": "The terminal that outlives its window. Shells survive quitting the app, agents can drive other agents, and remote machines work the same way. Pure Rust, GPU-rendered.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/dagucloud/dagu",
-      "stargazersCount": 4247,
-      "forksCount": 357,
+      "htmlUrl": "https://github.com/l0ng-ai/tty7",
+      "stargazersCount": 1209,
+      "forksCount": 96,
+      "language": "Rust",
+      "topics": [
+        "ai-agents",
+        "alacritty",
+        "claude-code",
+        "coding-agent",
+        "cross-platform",
+        "daemon",
+        "developer-tools",
+        "gpu",
+        "gpui",
+        "linux",
+        "macos",
+        "pty",
+        "rust",
+        "shell",
+        "ssh",
+        "terminal",
+        "terminal-emulator",
+        "terminal-multiplexer",
+        "tmux",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/l0ng-ai/tty7/releases{/id}",
+      "updatedAt": "2026-10-04T08:17:45Z",
+      "createdAt": "2026-07-06T12:51:10Z",
+      "pushedAt": "2026-10-04T08:17:40Z",
+      "downloadCount": 25495,
+      "openIssuesCount": 32,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "mobile-v0.1.2",
+          "publishedAt": "2026-09-30T13:08:39Z"
+        },
+        "windows": {
+          "tag": "v26.9.4",
+          "publishedAt": "2026-09-29T07:12:01Z"
+        },
+        "macos": {
+          "tag": "v26.9.4",
+          "publishedAt": "2026-09-29T07:12:01Z"
+        },
+        "linux": {
+          "tag": "v26.9.4",
+          "publishedAt": "2026-09-29T07:12:01Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-30T13:08:39Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 803776644,
+      "name": "GTweak",
+      "fullName": "Greedeks/GTweak",
+      "owner": {
+        "login": "Greedeks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82948926?v=4"
+      },
+      "description": "Portable Tool for an Ideal Windows Setup",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Greedeks/GTweak",
+      "stargazersCount": 1770,
+      "forksCount": 124,
+      "language": "C#",
+      "topics": [
+        "activator",
+        "debloat",
+        "disable-services",
+        "disable-windows-defender",
+        "disable-windows-services",
+        "hwid",
+        "kms",
+        "monitoring-system",
+        "optimazation",
+        "registry-tweaks",
+        "system-utility",
+        "telemetry-disabling",
+        "tweaker",
+        "windows-10",
+        "windows-11",
+        "windows-debloat",
+        "windows-optimization",
+        "windows-optimization-tool",
+        "windows-optimizer",
+        "windows-tweaks"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Greedeks/GTweak/releases{/id}",
+      "updatedAt": "2026-10-04T08:10:03Z",
+      "createdAt": "2024-05-21T11:16:47Z",
+      "pushedAt": "2026-10-04T08:09:59Z",
+      "downloadCount": 108817,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "5.5.6",
+          "publishedAt": "2026-09-30T11:12:11Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-30T11:12:11Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 15763403,
+      "name": "OpenMS",
+      "fullName": "OpenMS/OpenMS",
+      "owner": {
+        "login": "OpenMS",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5994841?v=4"
+      },
+      "description": "The codebase of the OpenMS project",
+      "defaultBranch": "develop",
+      "htmlUrl": "https://github.com/OpenMS/OpenMS",
+      "stargazersCount": 623,
+      "forksCount": 442,
+      "language": "C++",
+      "topics": [
+        "3-clause-bsd",
+        "algorithms",
+        "analyses",
+        "c-plus-plus",
+        "hacktoberfest",
+        "linux",
+        "macos",
+        "mass-spectrometry",
+        "metabolomics",
+        "ms-data",
+        "openms",
+        "proteomics",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/OpenMS/OpenMS/releases{/id}",
+      "updatedAt": "2026-10-04T08:26:45Z",
+      "createdAt": "2014-01-09T10:15:13Z",
+      "pushedAt": "2026-10-04T08:26:41Z",
+      "downloadCount": 24643,
+      "openIssuesCount": 161,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.6.0",
+          "publishedAt": "2026-09-30T08:58:28Z"
+        },
+        "macos": {
+          "tag": "v3.6.0",
+          "publishedAt": "2026-09-30T08:58:28Z"
+        },
+        "linux": {
+          "tag": "v3.6.0",
+          "publishedAt": "2026-09-30T08:58:28Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-30T08:58:28Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 612733832,
+      "name": "vibeshine",
+      "fullName": "Nonary/vibeshine",
+      "owner": {
+        "login": "Nonary",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27069224?v=4"
+      },
+      "description": "Self-hosted game stream host for Moonlight.",
+      "defaultBranch": "vibe",
+      "htmlUrl": "https://github.com/Nonary/vibeshine",
+      "stargazersCount": 471,
+      "forksCount": 30,
+      "language": "C++",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/Nonary/vibeshine/releases{/id}",
+      "updatedAt": "2026-10-04T08:11:27Z",
+      "createdAt": "2023-03-11T20:18:08Z",
+      "pushedAt": "2026-10-04T04:33:44Z",
+      "downloadCount": 32775,
+      "openIssuesCount": 22,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "2.0.0",
+          "publishedAt": "2026-09-30T00:22:08Z"
+        },
+        "linux": {
+          "tag": "2.0.0",
+          "publishedAt": "2026-09-30T00:22:08Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-30T00:22:08Z",
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
+    },
+    {
+      "id": 72495579,
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "owner": {
+        "login": "go-gitea",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12724356?v=4"
+      },
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/go-gitea/gitea",
+      "stargazersCount": 58287,
+      "forksCount": 7216,
       "language": "Go",
       "topics": [
-        "agentic-workflows",
-        "ai-agents",
-        "ai-workflows",
-        "airflow-alternative",
-        "cron",
-        "dag",
-        "data-pipeline",
+        "bitbucket",
+        "cicd",
         "devops",
-        "durable-execution",
-        "human-in-the-loop",
-        "job-scheduler",
-        "llm",
-        "mcp",
-        "mcp-gateway",
-        "mcp-server",
+        "docker-registry-v2",
+        "git",
+        "git-gui",
+        "git-lfs",
+        "git-server",
+        "gitea",
+        "github",
+        "github-actions",
+        "gitlab",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "maven-server",
+        "npm-registry",
         "self-hosted",
-        "task-automation",
-        "workflow-engine",
-        "workflow-orchestration",
-        "workflow-scheduler"
+        "typescript",
+        "vue"
       ],
-      "releasesUrl": "https://api.github.com/repos/dagucloud/dagu/releases{/id}",
-      "updatedAt": "2026-10-03T07:56:55Z",
-      "createdAt": "2022-04-22T13:00:42Z",
-      "pushedAt": "2026-10-03T08:12:33Z",
-      "downloadCount": 142010,
-      "openIssuesCount": 86,
+      "releasesUrl": "https://api.github.com/repos/go-gitea/gitea/releases{/id}",
+      "updatedAt": "2026-10-04T08:26:19Z",
+      "createdAt": "2016-11-01T02:13:26Z",
+      "pushedAt": "2026-10-04T08:26:14Z",
+      "downloadCount": 2547684,
+      "openIssuesCount": 2461,
       "archived": false,
-      "latestReleaseDate": "2026-09-29T15:24:51Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v28.0.0",
+          "publishedAt": "2026-09-29T23:25:53Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-29T23:25:53Z",
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
     },
     {
-      "id": 1255217938,
-      "name": "loopx",
-      "fullName": "loopx-project/loopx",
+      "id": 754327435,
+      "name": "Throne",
+      "fullName": "throneproj/Throne",
       "owner": {
-        "login": "loopx-project",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/331332701?v=4"
+        "login": "throneproj",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/220557208?v=4"
       },
-      "description": "A control plane with a durable state kernel for long-horizon agents and teams. Keep work moving and improving across sessions, with less human attention.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/loopx-project/loopx",
-      "stargazersCount": 6136,
-      "forksCount": 596,
-      "language": "Python",
+      "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/throneproj/Throne",
+      "stargazersCount": 7353,
+      "forksCount": 424,
+      "language": "C++",
       "topics": [
-        "agent-control-plane",
-        "agent-harness",
-        "ai-agents",
-        "claude-code",
-        "codex",
-        "dsh-plugin",
-        "local-first",
-        "long-horizon-agents",
-        "loop-engineering",
-        "multi-agent",
-        "personal-agent",
-        "rsi",
-        "workflow-automation"
+        "amneziawg",
+        "clash",
+        "linux",
+        "macos",
+        "nekobox",
+        "nekoray",
+        "proxy",
+        "sing-box",
+        "v2ray",
+        "vpn",
+        "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/loopx-project/loopx/releases{/id}",
-      "updatedAt": "2026-10-03T07:48:44Z",
-      "createdAt": "2026-05-31T14:58:56Z",
-      "pushedAt": "2026-10-03T07:57:16Z",
-      "downloadCount": 8424,
-      "openIssuesCount": 113,
+      "releasesUrl": "https://api.github.com/repos/throneproj/Throne/releases{/id}",
+      "updatedAt": "2026-10-04T08:20:40Z",
+      "createdAt": "2024-02-07T20:43:12Z",
+      "pushedAt": "2026-10-04T02:26:54Z",
+      "downloadCount": 1571699,
+      "openIssuesCount": 23,
       "archived": false,
-      "latestReleaseDate": "2026-09-29T14:54:32Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.3.2",
+          "publishedAt": "2026-09-29T20:49:34Z"
+        },
+        "linux": {
+          "tag": "1.3.2",
+          "publishedAt": "2026-09-29T20:49:34Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-29T20:49:34Z",
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
+    },
+    {
+      "id": 806099010,
+      "name": "lektra",
+      "fullName": "dheerajshenoy/lektra",
+      "owner": {
+        "login": "dheerajshenoy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21986384?v=4"
+      },
+      "description": "High-performance document and image viewer that prioritizes screen space and control.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/dheerajshenoy/lektra",
+      "stargazersCount": 322,
+      "forksCount": 21,
+      "language": "C++",
+      "topics": [
+        "cbz",
+        "cpp",
+        "djvu",
+        "document-viewer",
+        "epub",
+        "fbx",
+        "gif",
+        "image-viewer",
+        "mupdf",
+        "pdf",
+        "qt6",
+        "reader",
+        "reflow"
+      ],
+      "releasesUrl": "https://api.github.com/repos/dheerajshenoy/lektra/releases{/id}",
+      "updatedAt": "2026-10-04T08:20:41Z",
+      "createdAt": "2024-05-26T11:25:02Z",
+      "pushedAt": "2026-10-04T08:20:36Z",
+      "downloadCount": 1563,
+      "openIssuesCount": 6,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.7.8",
+          "publishedAt": "2026-09-29T17:48:18Z"
+        },
+        "linux": {
+          "tag": "v0.7.8",
+          "publishedAt": "2026-09-29T17:48:18Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-29T17:48:18Z",
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
+    },
+    {
+      "id": 4315538,
+      "name": "defold",
+      "fullName": "defold/defold",
+      "owner": {
+        "login": "defold",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1090871?v=4"
+      },
+      "description": "Defold is a completely free to use game engine for development of desktop, console, mobile and web games.",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/defold/defold",
+      "stargazersCount": 6347,
+      "forksCount": 456,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "clojure",
+        "defold",
+        "game-development",
+        "game-engine",
+        "gamedev",
+        "hacktoberfest",
+        "lua",
+        "multi-platform"
+      ],
+      "releasesUrl": "https://api.github.com/repos/defold/defold/releases{/id}",
+      "updatedAt": "2026-10-04T08:17:49Z",
+      "createdAt": "2012-05-13T16:03:44Z",
+      "pushedAt": "2026-10-04T08:10:10Z",
+      "downloadCount": 308419,
+      "openIssuesCount": 959,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.13.2",
+          "publishedAt": "2026-09-29T16:21:08Z"
+        },
+        "macos": {
+          "tag": "1.13.2",
+          "publishedAt": "2026-09-29T16:21:08Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-29T16:21:08Z",
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
+    },
+    {
+      "id": 1008713177,
+      "name": "qwen-code",
+      "fullName": "QwenLM/qwen-code",
+      "owner": {
+        "login": "QwenLM",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/141221163?v=4"
+      },
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/QwenLM/qwen-code",
+      "stargazersCount": 28296,
+      "forksCount": 3158,
+      "language": "TypeScript",
+      "topics": [
+        "agentic",
+        "ai",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "qwen",
+        "terminal",
+        "typescript"
+      ],
+      "releasesUrl": "https://api.github.com/repos/QwenLM/qwen-code/releases{/id}",
+      "updatedAt": "2026-10-04T08:14:28Z",
+      "createdAt": "2025-06-26T01:37:46Z",
+      "pushedAt": "2026-10-04T08:29:26Z",
+      "downloadCount": 293477,
+      "openIssuesCount": 1673,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "desktop-v0.24.7",
+          "publishedAt": "2026-09-29T14:47:20Z"
+        },
+        "macos": {
+          "tag": "desktop-v0.24.7",
+          "publishedAt": "2026-09-29T14:47:20Z"
+        },
+        "linux": {
+          "tag": "desktop-v0.24.7",
+          "publishedAt": "2026-09-29T14:47:20Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-29T14:02:21Z",
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
     },
     {
       "id": 1003043071,
@@ -1879,7 +2673,7 @@
       "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/vitali87/code-graph-rag",
-      "stargazersCount": 5226,
+      "stargazersCount": 5229,
       "forksCount": 699,
       "language": "Python",
       "topics": [
@@ -1905,15 +2699,25 @@
         "tree-sitter"
       ],
       "releasesUrl": "https://api.github.com/repos/vitali87/code-graph-rag/releases{/id}",
-      "updatedAt": "2026-10-03T08:11:49Z",
+      "updatedAt": "2026-10-04T08:22:33Z",
       "createdAt": "2025-06-16T14:31:57Z",
-      "pushedAt": "2026-10-03T08:12:23Z",
-      "downloadCount": 630,
-      "openIssuesCount": 412,
+      "pushedAt": "2026-10-04T08:25:52Z",
+      "downloadCount": 631,
+      "openIssuesCount": 473,
       "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.1.38",
+          "publishedAt": "2026-09-29T09:17:48Z"
+        }
+      },
       "latestReleaseDate": "2026-09-29T09:17:48Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
     },
     {
       "id": 1303258850,
@@ -1926,8 +2730,8 @@
       "description": "A persistent workspace for development work that self-improves and continues beyond one session.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/kirodotdev/KiroCrew",
-      "stargazersCount": 4259,
-      "forksCount": 729,
+      "stargazersCount": 4266,
+      "forksCount": 734,
       "language": "Python",
       "topics": [
         "agent",
@@ -1941,55 +2745,91 @@
         "llm"
       ],
       "releasesUrl": "https://api.github.com/repos/kirodotdev/KiroCrew/releases{/id}",
-      "updatedAt": "2026-10-03T07:59:46Z",
+      "updatedAt": "2026-10-04T08:03:42Z",
       "createdAt": "2026-07-16T21:21:54Z",
-      "pushedAt": "2026-10-03T08:12:55Z",
-      "downloadCount": 12248,
-      "openIssuesCount": 2572,
+      "pushedAt": "2026-10-04T08:27:48Z",
+      "downloadCount": 12338,
+      "openIssuesCount": 2562,
       "archived": false,
-      "latestReleaseDate": "2026-09-29T09:14:27Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1309102418,
-      "name": "cindy",
-      "fullName": "makecindy/cindy",
-      "owner": {
-        "login": "makecindy",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/306974279?v=4"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.7.2",
+          "publishedAt": "2026-09-29T09:14:27Z"
+        },
+        "macos": {
+          "tag": "v0.7.2",
+          "publishedAt": "2026-09-29T09:14:27Z"
+        },
+        "linux": {
+          "tag": "v0.7.2",
+          "publishedAt": "2026-09-29T09:14:27Z"
+        }
       },
-      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/makecindy/cindy",
-      "stargazersCount": 2854,
-      "forksCount": 435,
-      "language": "TypeScript",
-      "topics": [
-        "agent",
-        "ai-agent",
-        "ai-assistant",
-        "android",
-        "claude-code",
-        "codex",
-        "electron",
-        "ios",
-        "llm",
-        "macos",
-        "react-native",
-        "typescript",
-        "windows"
-      ],
-      "releasesUrl": "https://api.github.com/repos/makecindy/cindy/releases{/id}",
-      "updatedAt": "2026-10-03T07:41:02Z",
-      "createdAt": "2026-07-22T17:49:34Z",
-      "pushedAt": "2026-10-03T07:48:30Z",
-      "downloadCount": 7947,
-      "openIssuesCount": 1637,
-      "archived": false,
-      "latestReleaseDate": "2026-09-29T06:48:01Z",
+      "latestReleaseDate": "2026-09-29T09:14:27Z",
       "releaseRecency": 4,
       "releaseRecencyText": "Released 4 days ago"
+    },
+    {
+      "id": 291438522,
+      "name": "siyuan",
+      "fullName": "siyuan-note/siyuan",
+      "owner": {
+        "login": "siyuan-note",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70468694?v=4"
+      },
+      "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/siyuan-note/siyuan",
+      "stargazersCount": 46625,
+      "forksCount": 3035,
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "knowledge-base",
+        "local-first",
+        "markdown",
+        "mcp",
+        "note-taking",
+        "self-hosted",
+        "siyuan"
+      ],
+      "releasesUrl": "https://api.github.com/repos/siyuan-note/siyuan/releases{/id}",
+      "updatedAt": "2026-10-04T08:17:54Z",
+      "createdAt": "2020-08-30T09:21:35Z",
+      "pushedAt": "2026-10-04T08:17:50Z",
+      "downloadCount": 3336928,
+      "openIssuesCount": 23,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "windows": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "macos": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "linux": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-29T01:39:16Z",
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
       "id": 1322250666,
@@ -2002,8 +2842,8 @@
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/boykopovar/AnyPS5",
-      "stargazersCount": 3078,
-      "forksCount": 260,
+      "stargazersCount": 3351,
+      "forksCount": 288,
       "language": "C++",
       "topics": [
         "anyps5",
@@ -2015,131 +2855,83 @@
         "vulkan"
       ],
       "releasesUrl": "https://api.github.com/repos/boykopovar/AnyPS5/releases{/id}",
-      "updatedAt": "2026-10-03T08:02:52Z",
+      "updatedAt": "2026-10-04T08:19:12Z",
       "createdAt": "2026-08-03T21:30:25Z",
-      "pushedAt": "2026-10-03T08:02:47Z",
-      "downloadCount": 4616,
-      "openIssuesCount": 130,
+      "pushedAt": "2026-10-04T07:39:50Z",
+      "downloadCount": 5778,
+      "openIssuesCount": 98,
       "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.1.1",
+          "publishedAt": "2026-09-28T23:34:39Z"
+        }
+      },
       "latestReleaseDate": "2026-09-28T23:34:39Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
-      "id": 1222665950,
-      "name": "nyaterm",
-      "fullName": "nyakang/nyaterm",
+      "id": 79786795,
+      "name": "PicView",
+      "fullName": "Ruben2776/PicView",
       "owner": {
-        "login": "nyakang",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/61106285?v=4"
+        "login": "Ruben2776",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4200419?v=4"
       },
-      "description": "A modern remote terminal workspace",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/nyakang/nyaterm",
-      "stargazersCount": 1750,
-      "forksCount": 167,
-      "language": "TypeScript",
+      "description": "Fast, free and customizable picture viewer",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/Ruben2776/PicView",
+      "stargazersCount": 3621,
+      "forksCount": 200,
+      "language": "C#",
       "topics": [
-        "otp",
-        "react",
-        "serialport",
-        "sftp",
-        "sftp-client",
-        "ssh",
-        "ssh-client",
-        "tauri",
-        "telnet",
-        "telnet-client",
-        "terminal",
-        "xterm",
-        "xtermjs"
+        "avalonia",
+        "batch-processing",
+        "comics-reader",
+        "convert-images",
+        "csharp",
+        "desktop",
+        "desktop-app",
+        "dotnet",
+        "gui",
+        "image-gallery",
+        "image-viewer",
+        "macos-app",
+        "mvvm",
+        "picture-viewer",
+        "reactive-programming",
+        "windows",
+        "xaml"
       ],
-      "releasesUrl": "https://api.github.com/repos/nyakang/nyaterm/releases{/id}",
-      "updatedAt": "2026-10-03T08:10:06Z",
-      "createdAt": "2026-04-27T15:31:38Z",
-      "pushedAt": "2026-10-03T08:10:01Z",
-      "downloadCount": 20152,
-      "openIssuesCount": 41,
+      "releasesUrl": "https://api.github.com/repos/Ruben2776/PicView/releases{/id}",
+      "updatedAt": "2026-10-04T08:10:55Z",
+      "createdAt": "2017-01-23T08:52:18Z",
+      "pushedAt": "2026-10-04T08:10:50Z",
+      "downloadCount": 597335,
+      "openIssuesCount": 46,
       "archived": false,
-      "latestReleaseDate": "2026-09-28T17:57:17Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
-    },
-    {
-      "id": 131334717,
-      "name": "yacreader",
-      "fullName": "YACReader/yacreader",
-      "owner": {
-        "login": "YACReader",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/38795239?v=4"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "5.1.4",
+          "publishedAt": "2026-09-28T21:11:46Z"
+        },
+        "macos": {
+          "tag": "5.1.4",
+          "publishedAt": "2026-09-28T21:11:46Z"
+        }
       },
-      "description": "This repo contains the code of YACReader's desktop version.",
-      "defaultBranch": "develop",
-      "htmlUrl": "https://github.com/YACReader/yacreader",
-      "stargazersCount": 1389,
-      "forksCount": 122,
-      "language": "C++",
-      "topics": [
-        "hacktoberfest",
-        "hacktoberfest2022"
-      ],
-      "releasesUrl": "https://api.github.com/repos/YACReader/yacreader/releases{/id}",
-      "updatedAt": "2026-10-03T08:11:08Z",
-      "createdAt": "2018-04-27T19:01:53Z",
-      "pushedAt": "2026-10-03T08:11:05Z",
-      "downloadCount": 1777209,
-      "openIssuesCount": 148,
-      "archived": false,
-      "latestReleaseDate": "2026-09-28T17:14:45Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
-    },
-    {
-      "id": 944080744,
-      "name": "pipeshub-ai",
-      "fullName": "pipeshub-ai/pipeshub-ai",
-      "owner": {
-        "login": "pipeshub-ai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/201571456?v=4"
-      },
-      "description": "The open-source context layer for AI agents. PipesHub turns your company's knowledge (Slack, Drive, Jira, GitHub, Microsoft 365 and 40+ connectors) into a permission-aware workspace that agents can search, grep, navigate and cite. MCP, SDKs and built-in agents. Self-hosted.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/pipeshub-ai/pipeshub-ai",
-      "stargazersCount": 3809,
-      "forksCount": 593,
-      "language": "Python",
-      "topics": [
-        "agentic-rag",
-        "ai",
-        "ai-agents",
-        "claude-code",
-        "context-engineering",
-        "context-layer",
-        "deep-research",
-        "enterprise-search",
-        "glean",
-        "graphrag",
-        "hybrid-search",
-        "knowledge-graph",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "ollama",
-        "python",
-        "rag",
-        "self-hosted",
-        "workplace-ai"
-      ],
-      "releasesUrl": "https://api.github.com/repos/pipeshub-ai/pipeshub-ai/releases{/id}",
-      "updatedAt": "2026-10-03T08:00:00Z",
-      "createdAt": "2025-03-06T18:51:10Z",
-      "pushedAt": "2026-10-03T08:13:16Z",
-      "downloadCount": 331,
-      "openIssuesCount": 204,
-      "archived": false,
-      "latestReleaseDate": "2026-09-28T16:59:46Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "latestReleaseDate": "2026-09-28T21:11:46Z",
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
       "id": 1292207035,
@@ -2152,20 +2944,42 @@
       "description": "Drift is a free, open-source, beginner-friendly desktop video editor built with Qt 6 and FFmpeg.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/CutWire-Studios/Drift",
-      "stargazersCount": 982,
-      "forksCount": 119,
+      "stargazersCount": 1034,
+      "forksCount": 118,
       "language": "C++",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/CutWire-Studios/Drift/releases{/id}",
-      "updatedAt": "2026-10-03T07:55:04Z",
+      "updatedAt": "2026-10-04T08:21:34Z",
       "createdAt": "2026-07-07T11:08:57Z",
-      "pushedAt": "2026-10-03T06:43:12Z",
-      "downloadCount": 71574,
-      "openIssuesCount": 36,
+      "pushedAt": "2026-10-04T08:21:36Z",
+      "downloadCount": 72341,
+      "openIssuesCount": 33,
       "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.7.0",
+          "publishedAt": "2026-09-28T15:30:13Z"
+        },
+        "windows": {
+          "tag": "v0.7.0",
+          "publishedAt": "2026-09-28T15:30:13Z"
+        },
+        "macos": {
+          "tag": "v0.7.0",
+          "publishedAt": "2026-09-28T15:30:13Z"
+        },
+        "linux": {
+          "tag": "v0.7.0",
+          "publishedAt": "2026-09-28T15:30:13Z"
+        }
+      },
       "latestReleaseDate": "2026-09-28T15:30:13Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
       "id": 5736080,
@@ -2178,8 +2992,8 @@
       "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/FreeCAD/FreeCAD",
-      "stargazersCount": 33907,
-      "forksCount": 6121,
+      "stargazersCount": 33929,
+      "forksCount": 6127,
       "language": "C++",
       "topics": [
         "3d",
@@ -2200,353 +3014,336 @@
         "windows"
       ],
       "releasesUrl": "https://api.github.com/repos/FreeCAD/FreeCAD/releases{/id}",
-      "updatedAt": "2026-10-03T07:41:49Z",
+      "updatedAt": "2026-10-04T08:05:29Z",
       "createdAt": "2012-09-09T08:25:02Z",
-      "pushedAt": "2026-10-03T08:03:23Z",
-      "downloadCount": 30686476,
-      "openIssuesCount": 3941,
+      "pushedAt": "2026-10-04T08:02:34Z",
+      "downloadCount": 30723083,
+      "openIssuesCount": 3944,
       "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        },
+        "macos": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        },
+        "linux": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        }
+      },
       "latestReleaseDate": "2026-09-28T13:58:35Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
-      "id": 151476958,
-      "name": "teams-for-linux",
-      "fullName": "IsmaelMartinez/teams-for-linux",
+      "id": 907990001,
+      "name": "fresh",
+      "fullName": "sinelaw/fresh",
       "owner": {
-        "login": "IsmaelMartinez",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/430992?v=4"
+        "login": "sinelaw",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84020?v=4"
       },
-      "description": "Unofficial Microsoft Teams for Linux client",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/IsmaelMartinez/teams-for-linux",
-      "stargazersCount": 5094,
-      "forksCount": 398,
-      "language": "JavaScript",
+      "description": "Terminal based IDE & text editor: easy, powerful and fast",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/sinelaw/fresh",
+      "stargazersCount": 9099,
+      "forksCount": 349,
+      "language": "Rust",
       "topics": [
-        "electron",
-        "linux",
-        "microsoft",
-        "teams"
+        "ide",
+        "terminal-based",
+        "text-editor"
       ],
-      "releasesUrl": "https://api.github.com/repos/IsmaelMartinez/teams-for-linux/releases{/id}",
-      "updatedAt": "2026-10-03T08:13:03Z",
-      "createdAt": "2018-10-03T20:35:27Z",
-      "pushedAt": "2026-10-03T08:13:00Z",
-      "downloadCount": 653094,
-      "openIssuesCount": 39,
+      "releasesUrl": "https://api.github.com/repos/sinelaw/fresh/releases{/id}",
+      "updatedAt": "2026-10-04T08:03:52Z",
+      "createdAt": "2024-12-24T19:50:15Z",
+      "pushedAt": "2026-10-04T08:11:51Z",
+      "downloadCount": 451843,
+      "openIssuesCount": 374,
       "archived": false,
-      "latestReleaseDate": "2026-09-26T06:33:31Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.5.2",
+          "publishedAt": "2026-09-28T12:32:00Z"
+        },
+        "macos": {
+          "tag": "v0.5.2",
+          "publishedAt": "2026-09-28T12:32:00Z"
+        },
+        "linux": {
+          "tag": "v0.5.2",
+          "publishedAt": "2026-09-28T12:32:00Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-28T12:32:00Z",
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
+    },
+    {
+      "id": 600257020,
+      "name": "feed-flow",
+      "fullName": "prof18/feed-flow",
+      "owner": {
+        "login": "prof18",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9467705?v=4"
+      },
+      "description": "FeedFlow is a minimalistic RSS Reader available on Android, iOS, macOS, Windows and Linux. Built with Kotlin Multiplatform, Jetpack Compose and SwiftUI.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/prof18/feed-flow",
+      "stargazersCount": 1243,
+      "forksCount": 67,
+      "language": "Kotlin",
+      "topics": [
+        "compose-desktop",
+        "jetpack-compose",
+        "kotlin-multiplatform",
+        "swiftui"
+      ],
+      "releasesUrl": "https://api.github.com/repos/prof18/feed-flow/releases{/id}",
+      "updatedAt": "2026-10-04T08:13:26Z",
+      "createdAt": "2023-02-11T00:04:52Z",
+      "pushedAt": "2026-10-04T08:13:21Z",
+      "downloadCount": 21932,
+      "openIssuesCount": 99,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.18.0-all",
+          "publishedAt": "2026-09-27T18:28:30Z"
+        },
+        "macos": {
+          "tag": "1.18.0-all",
+          "publishedAt": "2026-09-27T18:28:30Z"
+        },
+        "linux": {
+          "tag": "1.18.0-all",
+          "publishedAt": "2026-09-27T18:28:30Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-27T18:28:30Z",
+      "releaseRecency": 6,
+      "releaseRecencyText": "Released 6 days ago"
+    },
+    {
+      "id": 55435293,
+      "name": "windirstat",
+      "fullName": "windirstat/windirstat",
+      "owner": {
+        "login": "windirstat",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4561731?v=4"
+      },
+      "description": "Windows disk usage analyzer and cleanup tool with interactive treemaps, large-file discovery, duplicate detection, and file-system monitoring.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/windirstat/windirstat",
+      "stargazersCount": 4218,
+      "forksCount": 260,
+      "language": "C++",
+      "topics": [
+        "cleanup",
+        "disk-cleanup",
+        "disk-space-analyzer",
+        "disk-usage-analyzer",
+        "duplicate-detection",
+        "duplicate-files",
+        "file-management",
+        "file-monitoring",
+        "treemap",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/windirstat/windirstat/releases{/id}",
+      "updatedAt": "2026-10-04T08:10:00Z",
+      "createdAt": "2016-04-04T18:34:51Z",
+      "pushedAt": "2026-10-04T01:38:24Z",
+      "downloadCount": 15880225,
+      "openIssuesCount": 31,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "release/v2.9.0",
+          "publishedAt": "2026-09-26T20:32:48Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-26T20:32:48Z",
       "releaseRecency": 7,
       "releaseRecencyText": "Released 7 days ago"
     },
     {
-      "id": 929121414,
-      "name": "Archon",
-      "fullName": "coleam00/Archon",
+      "id": 1160134919,
+      "name": "codex-proxy",
+      "fullName": "icebear0828/codex-proxy",
       "owner": {
-        "login": "coleam00",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47287758?v=4"
+        "login": "icebear0828",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63769498?v=4"
       },
-      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "description": "OpenAI-compatible proxy for ChatGPT Codex Responses API",
       "defaultBranch": "dev",
-      "htmlUrl": "https://github.com/coleam00/Archon",
-      "stargazersCount": 23601,
-      "forksCount": 3495,
+      "htmlUrl": "https://github.com/icebear0828/codex-proxy",
+      "stargazersCount": 1801,
+      "forksCount": 239,
       "language": "TypeScript",
-      "topics": [
-        "ai",
-        "automation",
-        "bun",
-        "claude",
-        "cli",
-        "coding-assistant",
-        "developer-tools",
-        "typescript",
-        "workflow-engine",
-        "yaml"
-      ],
-      "releasesUrl": "https://api.github.com/repos/coleam00/Archon/releases{/id}",
-      "updatedAt": "2026-10-03T07:47:31Z",
-      "createdAt": "2025-02-07T21:04:12Z",
-      "pushedAt": "2026-10-03T08:00:19Z",
-      "downloadCount": 35551,
-      "openIssuesCount": 326,
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/icebear0828/codex-proxy/releases{/id}",
+      "updatedAt": "2026-10-04T08:28:36Z",
+      "createdAt": "2026-02-17T15:30:15Z",
+      "pushedAt": "2026-10-04T08:28:56Z",
+      "downloadCount": 162487,
+      "openIssuesCount": 9,
       "archived": false,
-      "latestReleaseDate": "2026-09-25T16:45:47Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.1.12",
+          "publishedAt": "2026-09-26T19:09:05Z"
+        },
+        "macos": {
+          "tag": "v2.1.12",
+          "publishedAt": "2026-09-26T19:09:05Z"
+        },
+        "linux": {
+          "tag": "v2.1.12",
+          "publishedAt": "2026-09-26T19:09:05Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-26T19:09:05Z",
       "releaseRecency": 7,
       "releaseRecencyText": "Released 7 days ago"
     },
     {
-      "id": 17516793,
-      "name": "swipl-devel",
-      "fullName": "SWI-Prolog/swipl-devel",
+      "id": 179523363,
+      "name": "dopamine",
+      "fullName": "digimezzo/dopamine",
       "owner": {
-        "login": "SWI-Prolog",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6884283?v=4"
+        "login": "digimezzo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11945339?v=4"
       },
-      "description": "SWI-Prolog Main development repository",
+      "description": "The audio player that keeps it simple",
       "defaultBranch": "master",
-      "htmlUrl": "https://github.com/SWI-Prolog/swipl-devel",
-      "stargazersCount": 1289,
-      "forksCount": 218,
-      "language": "C",
-      "topics": [
-        "logic-programming",
-        "prolog",
-        "swi-prolog"
-      ],
-      "releasesUrl": "https://api.github.com/repos/SWI-Prolog/swipl-devel/releases{/id}",
-      "updatedAt": "2026-10-03T07:48:32Z",
-      "createdAt": "2014-03-07T14:43:14Z",
-      "pushedAt": "2026-10-03T07:48:27Z",
-      "downloadCount": 197,
-      "openIssuesCount": 51,
-      "archived": false,
-      "latestReleaseDate": "2026-09-25T12:26:23Z",
-      "releaseRecency": 7,
-      "releaseRecencyText": "Released 7 days ago"
-    },
-    {
-      "id": 1152151565,
-      "name": "mRemoteNG",
-      "fullName": "robertpopa22/mRemoteNG",
-      "owner": {
-        "login": "robertpopa22",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/227949?v=4"
-      },
-      "description": "mRemoteNG Community Edition — .NET 10, 16 protocols, 6,175 tests, 0 warnings, 712 issues fixed. AI-assisted open source remote connections manager for Windows.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/robertpopa22/mRemoteNG",
-      "stargazersCount": 63,
-      "forksCount": 3,
-      "language": "C#",
-      "topics": [
-        "dotnet",
-        "rdp",
-        "remote-desktop",
-        "ssh",
-        "sysadmin",
-        "vnc",
-        "windows",
-        "winforms"
-      ],
-      "releasesUrl": "https://api.github.com/repos/robertpopa22/mRemoteNG/releases{/id}",
-      "updatedAt": "2026-10-03T07:54:13Z",
-      "createdAt": "2026-02-07T12:50:24Z",
-      "pushedAt": "2026-10-03T08:02:33Z",
-      "downloadCount": 1969,
-      "openIssuesCount": 2,
-      "archived": false,
-      "latestReleaseDate": "2026-09-25T05:36:12Z",
-      "releaseRecency": 8,
-      "releaseRecencyText": "Released 8 days ago"
-    },
-    {
-      "id": 1179479840,
-      "name": "BazaarPlusPlus",
-      "fullName": "BazaarPlusPlus/BazaarPlusPlus",
-      "owner": {
-        "login": "BazaarPlusPlus",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/311354072?v=4"
-      },
-      "description": "A BepInEx mod for The Bazaar.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/BazaarPlusPlus/BazaarPlusPlus",
-      "stargazersCount": 308,
-      "forksCount": 41,
-      "language": "C#",
-      "topics": [
-        "bepinex",
-        "bepinex-plugin",
-        "csharp",
-        "game-mod",
-        "harmony",
-        "react",
-        "rust",
-        "tauri",
-        "the-bazaar",
-        "unity-mod"
-      ],
-      "releasesUrl": "https://api.github.com/repos/BazaarPlusPlus/BazaarPlusPlus/releases{/id}",
-      "updatedAt": "2026-10-03T07:59:20Z",
-      "createdAt": "2026-03-12T04:16:41Z",
-      "pushedAt": "2026-10-03T08:04:05Z",
-      "downloadCount": 16614,
-      "openIssuesCount": 19,
-      "archived": false,
-      "latestReleaseDate": "2026-09-24T16:52:18Z",
-      "releaseRecency": 8,
-      "releaseRecencyText": "Released 8 days ago"
-    },
-    {
-      "id": 1181567753,
-      "name": "openscreen",
-      "fullName": "getopenscreen/openscreen",
-      "owner": {
-        "login": "getopenscreen",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/296471653?v=4"
-      },
-      "description": "Record your screen, ship a demo. Free and open-source, GPU-accelerated, no watermarks, no subscriptions. Windows, macOS, Linux. Actively maintained.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/getopenscreen/openscreen",
-      "stargazersCount": 3481,
-      "forksCount": 221,
+      "htmlUrl": "https://github.com/digimezzo/dopamine",
+      "stargazersCount": 2372,
+      "forksCount": 157,
       "language": "TypeScript",
       "topics": [
-        "cross-platform",
         "electron",
-        "ffmpeg",
-        "open-source",
-        "product-demo",
-        "rust",
-        "screen-capture",
-        "screen-recorder",
-        "screen-recording",
-        "screen-studio",
-        "screencast",
-        "speech-to-text",
-        "typescript",
-        "video-editing",
-        "video-editor",
-        "wayland",
-        "wgpu",
-        "whisper"
-      ],
-      "releasesUrl": "https://api.github.com/repos/getopenscreen/openscreen/releases{/id}",
-      "updatedAt": "2026-10-03T07:56:00Z",
-      "createdAt": "2026-03-14T10:16:22Z",
-      "pushedAt": "2026-10-03T07:53:03Z",
-      "downloadCount": 34929,
-      "openIssuesCount": 51,
-      "archived": false,
-      "latestReleaseDate": "2026-09-24T12:42:32Z",
-      "releaseRecency": 8,
-      "releaseRecencyText": "Released 8 days ago"
-    },
-    {
-      "id": 31374735,
-      "name": "fwupd",
-      "fullName": "fwupd/fwupd",
-      "owner": {
-        "login": "fwupd",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/54377141?v=4"
-      },
-      "description": "A system daemon to allow session software to update firmware",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/fwupd/fwupd",
-      "stargazersCount": 4186,
-      "forksCount": 641,
-      "language": "C",
-      "topics": [
-        "c",
-        "firmware",
         "linux",
-        "update"
+        "mac",
+        "music",
+        "music-player",
+        "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/fwupd/fwupd/releases{/id}",
-      "updatedAt": "2026-10-03T07:45:10Z",
-      "createdAt": "2015-02-26T15:52:25Z",
-      "pushedAt": "2026-10-03T07:45:05Z",
-      "downloadCount": 106407,
-      "openIssuesCount": 102,
+      "releasesUrl": "https://api.github.com/repos/digimezzo/dopamine/releases{/id}",
+      "updatedAt": "2026-10-04T08:12:32Z",
+      "createdAt": "2019-04-04T15:15:16Z",
+      "pushedAt": "2026-10-04T08:17:56Z",
+      "downloadCount": 288865,
+      "openIssuesCount": 382,
       "archived": false,
-      "latestReleaseDate": "2026-09-24T10:12:03Z",
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.0.11",
+          "publishedAt": "2026-09-26T05:22:38Z"
+        },
+        "macos": {
+          "tag": "v3.0.11",
+          "publishedAt": "2026-09-26T05:22:38Z"
+        },
+        "linux": {
+          "tag": "v3.0.11",
+          "publishedAt": "2026-09-26T05:22:38Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-26T05:22:38Z",
       "releaseRecency": 8,
       "releaseRecencyText": "Released 8 days ago"
     },
     {
-      "id": 1044010907,
-      "name": "iPolloWork",
-      "fullName": "Devin-AXIS/iPolloWork",
+      "id": 92111509,
+      "name": "Trilium",
+      "fullName": "TriliumNext/Trilium",
       "owner": {
-        "login": "Devin-AXIS",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/228423313?v=4"
+        "login": "TriliumNext",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/160046342?v=4"
       },
-      "description": "Enterprise-grade, local-first Agent Workbench for people and agent teams. A unified multi-engine workspace for Codex Harness, DeepSeek Harness, and OpenCode, with unified plugins and Skills, multi-agent projects and tasks, and editable code, documents, presentations, design, and video.",
+      "description": "Build your personal knowledge base with Trilium Notes",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Devin-AXIS/iPolloWork",
-      "stargazersCount": 6594,
-      "forksCount": 1135,
+      "htmlUrl": "https://github.com/TriliumNext/Trilium",
+      "stargazersCount": 38193,
+      "forksCount": 2569,
       "language": "TypeScript",
       "topics": [
-        "agent-collaboration",
-        "agent-skills",
-        "ai-agents",
-        "ai-work",
-        "claude-code",
-        "codex",
-        "codex-plugin",
-        "deepseek-harness",
-        "dsh-plugin",
-        "enterprise-agent-workspace",
-        "hermes-agent",
-        "ipollowork-plugin",
-        "ipollowork-skill",
-        "multi-agent-workspace",
-        "opencode",
-        "opencode-plugin",
-        "self-evolving-ai",
-        "visual-editor"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Devin-AXIS/iPolloWork/releases{/id}",
-      "updatedAt": "2026-10-03T08:04:18Z",
-      "createdAt": "2025-08-25T03:57:40Z",
-      "pushedAt": "2026-10-03T08:12:37Z",
-      "downloadCount": 9667,
-      "openIssuesCount": 84,
-      "archived": false,
-      "latestReleaseDate": "2026-09-24T07:05:40Z",
-      "releaseRecency": 9,
-      "releaseRecencyText": "Released 9 days ago"
-    },
-    {
-      "id": 213194738,
-      "name": "iptvnator",
-      "fullName": "4gray/iptvnator",
-      "owner": {
-        "login": "4gray",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1503032?v=4"
-      },
-      "description": ":tv: Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/4gray/iptvnator",
-      "stargazersCount": 7270,
-      "forksCount": 931,
-      "language": "TypeScript",
-      "topics": [
-        "chromeos",
         "electron",
-        "epg",
-        "fair-source",
-        "iptv",
-        "iptv-m3u",
-        "iptv-player",
-        "iptv-player-application",
-        "linux",
-        "m3u",
-        "m3u8",
-        "macos",
-        "player",
-        "player-video",
-        "playlist",
-        "pwa",
-        "snap",
-        "tv",
-        "video",
-        "xtream-codes"
+        "electron-app",
+        "knowledge-base",
+        "knowledge-graph",
+        "knowledge-management",
+        "knowledge-management-graph",
+        "local-first",
+        "note-managment",
+        "note-taker",
+        "note-taking",
+        "notebook",
+        "notes",
+        "notes-app",
+        "personal-knowledge-base",
+        "personal-wiki",
+        "scriptable",
+        "self-hosted",
+        "self-hosting",
+        "wiki"
       ],
-      "releasesUrl": "https://api.github.com/repos/4gray/iptvnator/releases{/id}",
-      "updatedAt": "2026-10-03T07:57:18Z",
-      "createdAt": "2019-10-06T15:37:40Z",
-      "pushedAt": "2026-10-03T08:01:44Z",
-      "downloadCount": 1385819,
-      "openIssuesCount": 139,
+      "releasesUrl": "https://api.github.com/repos/TriliumNext/Trilium/releases{/id}",
+      "updatedAt": "2026-10-04T08:28:33Z",
+      "createdAt": "2017-05-23T00:30:20Z",
+      "pushedAt": "2026-10-04T08:28:26Z",
+      "downloadCount": 1004816,
+      "openIssuesCount": 668,
       "archived": false,
-      "latestReleaseDate": "2026-09-24T06:58:11Z",
-      "releaseRecency": 9,
-      "releaseRecencyText": "Released 9 days ago"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.106.0",
+          "publishedAt": "2026-09-25T18:21:42Z"
+        },
+        "macos": {
+          "tag": "v0.106.0",
+          "publishedAt": "2026-09-25T18:21:42Z"
+        },
+        "linux": {
+          "tag": "v0.106.0",
+          "publishedAt": "2026-09-25T18:21:42Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-25T18:21:42Z",
+      "releaseRecency": 8,
+      "releaseRecencyText": "Released 8 days ago"
     },
     {
       "id": 1096054771,
@@ -2559,103 +3356,359 @@
       "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/awslabs/aidlc-workflows",
-      "stargazersCount": 4968,
-      "forksCount": 902,
+      "stargazersCount": 4976,
+      "forksCount": 904,
       "language": "TypeScript",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/awslabs/aidlc-workflows/releases{/id}",
-      "updatedAt": "2026-10-03T07:43:57Z",
+      "updatedAt": "2026-10-04T08:17:04Z",
       "createdAt": "2025-11-13T22:05:08Z",
-      "pushedAt": "2026-10-03T08:11:20Z",
-      "downloadCount": 176419,
-      "openIssuesCount": 328,
+      "pushedAt": "2026-10-04T08:17:57Z",
+      "downloadCount": 178854,
+      "openIssuesCount": 297,
       "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.10.0",
+          "publishedAt": "2026-09-24T05:52:07Z"
+        }
+      },
       "latestReleaseDate": "2026-09-24T05:52:07Z",
-      "releaseRecency": 9,
-      "releaseRecencyText": "Released 9 days ago"
+      "releaseRecency": 10,
+      "releaseRecencyText": "Released 10 days ago"
     },
     {
-      "id": 257787813,
-      "name": "firezone",
-      "fullName": "firezone/firezone",
+      "id": 1036865607,
+      "name": "gh-aw",
+      "fullName": "github/gh-aw",
       "owner": {
-        "login": "firezone",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/87211124?v=4"
+        "login": "github",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4"
       },
-      "description": "Blazing-fast remote access",
+      "description": "GitHub Agentic Workflows",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/firezone/firezone",
-      "stargazersCount": 9110,
-      "forksCount": 463,
-      "language": "Elixir",
-      "topics": [
-        "cloud",
-        "devsecops",
-        "elixir",
-        "elixir-lang",
-        "liveview",
-        "network",
-        "network-security",
-        "networking",
-        "phoenix",
-        "rust-lang",
-        "security",
-        "virtual-network",
-        "vpn",
-        "vpn-server",
-        "wireguard",
-        "wireguard-vpn"
-      ],
-      "releasesUrl": "https://api.github.com/repos/firezone/firezone/releases{/id}",
-      "updatedAt": "2026-10-03T08:08:45Z",
-      "createdAt": "2020-04-22T04:05:12Z",
-      "pushedAt": "2026-10-03T08:08:53Z",
-      "downloadCount": 2088403,
-      "openIssuesCount": 344,
-      "archived": false,
-      "latestReleaseDate": "2026-09-24T02:49:15Z",
-      "releaseRecency": 9,
-      "releaseRecencyText": "Released 9 days ago"
-    },
-    {
-      "id": 629049442,
-      "name": "tgpt",
-      "fullName": "aandrew-me/tgpt",
-      "owner": {
-        "login": "aandrew-me",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/66430340?v=4"
-      },
-      "description": "AI Chatbots in terminal for free",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/aandrew-me/tgpt",
-      "stargazersCount": 3271,
-      "forksCount": 347,
+      "htmlUrl": "https://github.com/github/gh-aw",
+      "stargazersCount": 5339,
+      "forksCount": 572,
       "language": "Go",
       "topics": [
-        "ai",
-        "chatbot",
-        "chatgpt",
-        "cli",
-        "go",
-        "golang",
-        "gpt4",
-        "linux",
-        "llama",
-        "macos",
-        "mixtral",
-        "terminal",
-        "windows"
+        "actions",
+        "cai",
+        "ci",
+        "claude-code",
+        "codex",
+        "copilot",
+        "gh-extension",
+        "github-actions"
       ],
-      "releasesUrl": "https://api.github.com/repos/aandrew-me/tgpt/releases{/id}",
-      "updatedAt": "2026-10-03T07:46:51Z",
-      "createdAt": "2023-04-17T14:11:25Z",
-      "pushedAt": "2026-10-03T07:46:47Z",
-      "downloadCount": 201912,
-      "openIssuesCount": 6,
+      "releasesUrl": "https://api.github.com/repos/github/gh-aw/releases{/id}",
+      "updatedAt": "2026-10-04T08:11:31Z",
+      "createdAt": "2025-08-12T17:40:41Z",
+      "pushedAt": "2026-10-04T08:29:37Z",
+      "downloadCount": 1382253,
+      "openIssuesCount": 488,
       "archived": false,
-      "latestReleaseDate": "2026-09-23T13:53:34Z",
-      "releaseRecency": 9,
-      "releaseRecencyText": "Released 9 days ago"
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.89.21",
+          "publishedAt": "2026-09-23T20:29:04Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-23T20:29:04Z",
+      "releaseRecency": 10,
+      "releaseRecencyText": "Released 10 days ago"
+    },
+    {
+      "id": 374360504,
+      "name": "spice",
+      "fullName": "spicelang/spice",
+      "owner": {
+        "login": "spicelang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88653992?v=4"
+      },
+      "description": "Compiler and standard library for the Spice programming language.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/spicelang/spice",
+      "stargazersCount": 87,
+      "forksCount": 7,
+      "language": "C++",
+      "topics": [
+        "antlr",
+        "compiler",
+        "language",
+        "llvm",
+        "programming-language",
+        "spice"
+      ],
+      "releasesUrl": "https://api.github.com/repos/spicelang/spice/releases{/id}",
+      "updatedAt": "2026-10-04T08:11:29Z",
+      "createdAt": "2021-06-06T12:56:32Z",
+      "pushedAt": "2026-10-04T08:11:27Z",
+      "downloadCount": 66926,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "0.28.0",
+          "publishedAt": "2026-09-23T12:11:32Z"
+        },
+        "windows": {
+          "tag": "0.28.0",
+          "publishedAt": "2026-09-23T12:11:32Z"
+        },
+        "linux": {
+          "tag": "0.28.0",
+          "publishedAt": "2026-09-23T12:11:32Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-23T12:11:32Z",
+      "releaseRecency": 10,
+      "releaseRecencyText": "Released 10 days ago"
+    },
+    {
+      "id": 1206390571,
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "owner": {
+        "login": "debpalash",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4178343?v=4"
+      },
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/debpalash/VoiceStudio",
+      "stargazersCount": 52781,
+      "forksCount": 5880,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "tauri",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "releasesUrl": "https://api.github.com/repos/debpalash/VoiceStudio/releases{/id}",
+      "updatedAt": "2026-10-04T08:25:50Z",
+      "createdAt": "2026-04-09T21:40:26Z",
+      "pushedAt": "2026-10-04T08:12:06Z",
+      "downloadCount": 662192,
+      "openIssuesCount": 89,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.5.6",
+          "publishedAt": "2026-09-23T08:53:32Z"
+        },
+        "macos": {
+          "tag": "v0.5.6",
+          "publishedAt": "2026-09-23T08:53:32Z"
+        },
+        "linux": {
+          "tag": "v0.5.6",
+          "publishedAt": "2026-09-23T08:53:32Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-23T08:53:32Z",
+      "releaseRecency": 10,
+      "releaseRecencyText": "Released 10 days ago"
+    },
+    {
+      "id": 15315789,
+      "name": "Wox",
+      "fullName": "Wox-launcher/Wox",
+      "owner": {
+        "login": "Wox-launcher",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15628601?v=4"
+      },
+      "description": "A cross-platform launcher that simply works",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Wox-launcher/Wox",
+      "stargazersCount": 27482,
+      "forksCount": 2437,
+      "language": "Go",
+      "topics": [
+        "alfred",
+        "app-launcher",
+        "launcher",
+        "launchpad",
+        "launchy",
+        "productivity",
+        "productivity-tools",
+        "raycast",
+        "spotlight",
+        "wox",
+        "wox-launcher"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Wox-launcher/Wox/releases{/id}",
+      "updatedAt": "2026-10-04T08:01:59Z",
+      "createdAt": "2013-12-19T15:49:32Z",
+      "pushedAt": "2026-10-04T08:04:11Z",
+      "downloadCount": 53707307,
+      "openIssuesCount": 1,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.4.5",
+          "publishedAt": "2026-09-23T02:56:52Z"
+        },
+        "macos": {
+          "tag": "v2.4.5",
+          "publishedAt": "2026-09-23T02:56:52Z"
+        },
+        "linux": {
+          "tag": "v2.4.5",
+          "publishedAt": "2026-09-23T02:56:52Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-23T02:56:52Z",
+      "releaseRecency": 11,
+      "releaseRecencyText": "Released 11 days ago"
+    },
+    {
+      "id": 1058825816,
+      "name": "xum",
+      "fullName": "coder/xum",
+      "owner": {
+        "login": "coder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95932066?v=4"
+      },
+      "description": "A desktop app for isolated, parallel agentic development",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/coder/xum",
+      "stargazersCount": 2044,
+      "forksCount": 141,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ide"
+      ],
+      "releasesUrl": "https://api.github.com/repos/coder/xum/releases{/id}",
+      "updatedAt": "2026-10-04T08:13:14Z",
+      "createdAt": "2025-09-17T15:45:53Z",
+      "pushedAt": "2026-10-04T08:27:46Z",
+      "downloadCount": 81098,
+      "openIssuesCount": 356,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.30.0",
+          "publishedAt": "2026-09-22T20:57:01Z"
+        },
+        "macos": {
+          "tag": "v0.30.0",
+          "publishedAt": "2026-09-22T20:57:01Z"
+        },
+        "linux": {
+          "tag": "v0.30.0",
+          "publishedAt": "2026-09-22T20:57:01Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-22T20:57:01Z",
+      "releaseRecency": 11,
+      "releaseRecencyText": "Released 11 days ago"
+    },
+    {
+      "id": 1031912724,
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "owner": {
+        "login": "farion1231",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44939412?v=4"
+      },
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/farion1231/cc-switch",
+      "stargazersCount": 139861,
+      "forksCount": 9414,
+      "language": "Rust",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "grok",
+        "grokbuild",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "pi",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "wsl-support"
+      ],
+      "releasesUrl": "https://api.github.com/repos/farion1231/cc-switch/releases{/id}",
+      "updatedAt": "2026-10-04T08:29:30Z",
+      "createdAt": "2025-08-04T14:16:16Z",
+      "pushedAt": "2026-10-04T08:26:00Z",
+      "downloadCount": 20112358,
+      "openIssuesCount": 2945,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.20.4",
+          "publishedAt": "2026-09-22T14:42:23Z"
+        },
+        "macos": {
+          "tag": "v3.20.4",
+          "publishedAt": "2026-09-22T14:42:23Z"
+        },
+        "linux": {
+          "tag": "v3.20.4",
+          "publishedAt": "2026-09-22T14:42:23Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-22T14:42:23Z",
+      "releaseRecency": 11,
+      "releaseRecencyText": "Released 11 days ago"
     },
     {
       "id": 75821432,
@@ -2668,20 +3721,265 @@
       "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/llvm/llvm-project",
-      "stargazersCount": 40899,
-      "forksCount": 18928,
+      "stargazersCount": 40910,
+      "forksCount": 18940,
       "language": "LLVM",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/llvm/llvm-project/releases{/id}",
-      "updatedAt": "2026-10-03T07:55:56Z",
+      "updatedAt": "2026-10-04T08:21:54Z",
       "createdAt": "2016-12-07T09:39:33Z",
-      "pushedAt": "2026-10-03T08:12:00Z",
-      "downloadCount": 100039846,
-      "openIssuesCount": 39935,
+      "pushedAt": "2026-10-04T08:20:54Z",
+      "downloadCount": 100138858,
+      "openIssuesCount": 39993,
       "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "llvmorg-23.1.2",
+          "publishedAt": "2026-09-22T06:49:10Z"
+        }
+      },
       "latestReleaseDate": "2026-09-22T06:49:10Z",
-      "releaseRecency": 11,
-      "releaseRecencyText": "Released 11 days ago"
+      "releaseRecency": 12,
+      "releaseRecencyText": "Released 12 days ago"
+    },
+    {
+      "id": 871781831,
+      "name": "readest",
+      "fullName": "readest/readest",
+      "owner": {
+        "login": "readest",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/190965649?v=4"
+      },
+      "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/readest/readest",
+      "stargazersCount": 24832,
+      "forksCount": 1648,
+      "language": "TypeScript",
+      "topics": [
+        "calibre",
+        "cross-platform",
+        "ebook",
+        "ebook-reader",
+        "epub",
+        "foliate",
+        "kindle",
+        "koreader",
+        "koreader-plugin",
+        "mobi",
+        "nextjs",
+        "opds",
+        "pdf",
+        "reader",
+        "sync",
+        "tauri",
+        "tts",
+        "webdav"
+      ],
+      "releasesUrl": "https://api.github.com/repos/readest/readest/releases{/id}",
+      "updatedAt": "2026-10-04T08:14:40Z",
+      "createdAt": "2024-10-12T23:16:55Z",
+      "pushedAt": "2026-10-04T07:44:29Z",
+      "downloadCount": 1840560,
+      "openIssuesCount": 95,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.12.10",
+          "publishedAt": "2026-09-21T20:55:32Z"
+        },
+        "windows": {
+          "tag": "v0.12.10",
+          "publishedAt": "2026-09-21T20:55:32Z"
+        },
+        "macos": {
+          "tag": "v0.12.10",
+          "publishedAt": "2026-09-21T20:55:32Z"
+        },
+        "linux": {
+          "tag": "v0.12.10",
+          "publishedAt": "2026-09-21T20:55:32Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-21T20:55:32Z",
+      "releaseRecency": 12,
+      "releaseRecencyText": "Released 12 days ago"
+    },
+    {
+      "id": 355277962,
+      "name": "appium-inspector",
+      "fullName": "appium/appium-inspector",
+      "owner": {
+        "login": "appium",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3221291?v=4"
+      },
+      "description": "A GUI inspector for mobile apps and more, powered by a (separately installed) Appium server",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/appium/appium-inspector",
+      "stargazersCount": 1903,
+      "forksCount": 403,
+      "language": "JavaScript",
+      "topics": [
+        "appium",
+        "inspector"
+      ],
+      "releasesUrl": "https://api.github.com/repos/appium/appium-inspector/releases{/id}",
+      "updatedAt": "2026-10-04T08:21:31Z",
+      "createdAt": "2021-04-06T17:37:49Z",
+      "pushedAt": "2026-10-04T08:22:25Z",
+      "downloadCount": 1441542,
+      "openIssuesCount": 23,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2026.9.2",
+          "publishedAt": "2026-09-20T18:57:59Z"
+        },
+        "macos": {
+          "tag": "v2026.9.2",
+          "publishedAt": "2026-09-20T18:57:59Z"
+        },
+        "linux": {
+          "tag": "v2026.9.2",
+          "publishedAt": "2026-09-20T18:57:59Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-20T18:57:59Z",
+      "releaseRecency": 13,
+      "releaseRecencyText": "Released 13 days ago"
+    },
+    {
+      "id": 1148683593,
+      "name": "neomacs",
+      "fullName": "eval-exec/neomacs",
+      "owner": {
+        "login": "eval-exec",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46400566?v=4"
+      },
+      "description": "NEO Emacs (WIP): GPU powered Emacs written in Rust with a modern display engine. Aiming for modern design & multi-threaded Elisp, 10x performance, zero-pause concurrent GC and 100% Emacs compatibility.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/eval-exec/neomacs",
+      "stargazersCount": 1537,
+      "forksCount": 54,
+      "language": "Rust",
+      "topics": [
+        "editor",
+        "elisp",
+        "emacs",
+        "lambda",
+        "lisp",
+        "neomacs",
+        "neovim",
+        "productivity",
+        "rust",
+        "terminal",
+        "vim",
+        "wgpu",
+        "winit"
+      ],
+      "releasesUrl": "https://api.github.com/repos/eval-exec/neomacs/releases{/id}",
+      "updatedAt": "2026-10-04T08:10:18Z",
+      "createdAt": "2026-02-03T08:45:40Z",
+      "pushedAt": "2026-10-04T08:10:13Z",
+      "downloadCount": 4916,
+      "openIssuesCount": 68,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.0.19",
+          "publishedAt": "2026-09-20T17:33:42Z"
+        },
+        "macos": {
+          "tag": "v0.0.19",
+          "publishedAt": "2026-09-20T17:33:42Z"
+        },
+        "linux": {
+          "tag": "v0.0.19",
+          "publishedAt": "2026-09-20T17:33:42Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-20T17:33:42Z",
+      "releaseRecency": 13,
+      "releaseRecencyText": "Released 13 days ago"
+    },
+    {
+      "id": 643445235,
+      "name": "lobehub",
+      "fullName": "lobehub/lobehub",
+      "owner": {
+        "login": "lobehub",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131470832?v=4"
+      },
+      "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "defaultBranch": "canary",
+      "htmlUrl": "https://github.com/lobehub/lobehub",
+      "stargazersCount": 82977,
+      "forksCount": 15955,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-collaboration",
+        "agent-harness",
+        "ai",
+        "cao",
+        "chatgpt",
+        "chief-agent-operator",
+        "claude",
+        "deepseek",
+        "fable",
+        "gemini",
+        "glm",
+        "gpt",
+        "knowledge-base",
+        "loop-engineering",
+        "mcp",
+        "openai",
+        "skills"
+      ],
+      "releasesUrl": "https://api.github.com/repos/lobehub/lobehub/releases{/id}",
+      "updatedAt": "2026-10-04T08:10:33Z",
+      "createdAt": "2023-05-21T07:19:12Z",
+      "pushedAt": "2026-10-04T08:13:52Z",
+      "downloadCount": 82806,
+      "openIssuesCount": 1010,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.2.18",
+          "publishedAt": "2026-09-20T13:11:30Z"
+        },
+        "macos": {
+          "tag": "v2.2.18",
+          "publishedAt": "2026-09-20T13:11:30Z"
+        },
+        "linux": {
+          "tag": "v2.2.18",
+          "publishedAt": "2026-09-20T13:11:30Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-20T13:11:30Z",
+      "releaseRecency": 13,
+      "releaseRecencyText": "Released 13 days ago"
     }
   ]
 }
