@@ -1,64 +1,89 @@
 {
   "category": "feed",
   "platform": "macos",
-  "lastUpdated": "2026-10-04T05:51:25.770568+00:00",
+  "lastUpdated": "2026-10-04T12:20:42.552881+00:00",
   "rotation": "2026-10-04",
   "totalCount": 150,
   "repositories": [
     {
-      "id": 199570071,
-      "name": "v2rayN",
-      "fullName": "2dust/v2rayN",
+      "id": 299354207,
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
       "owner": {
-        "login": "2dust",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/31833384?v=4"
+        "login": "rustdesk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71636191?v=4"
       },
-      "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "defaultBranch": "master",
-      "htmlUrl": "https://github.com/2dust/v2rayN",
-      "stargazersCount": 117565,
-      "forksCount": 16018,
-      "openIssuesCount": 17,
-      "licenseSpdxId": "GPL-3.0",
-      "licenseName": "GNU General Public License v3.0",
+      "htmlUrl": "https://github.com/rustdesk/rustdesk",
+      "stargazersCount": 125076,
+      "forksCount": 19405,
+      "openIssuesCount": 174,
+      "licenseSpdxId": "AGPL-3.0",
+      "licenseName": "GNU Affero General Public License v3.0",
       "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
+        "spdxId": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
       },
-      "language": "C#",
+      "language": "Rust",
       "topics": [
-        "proxy",
-        "shadowsocks",
-        "socks5",
-        "trojan",
-        "v2fly",
-        "v2ray",
-        "vless",
-        "vmess",
-        "windows",
-        "xray",
-        "xtls"
+        "android",
+        "anydesk",
+        "dart",
+        "flatpak",
+        "flutter",
+        "flutter-apps",
+        "ios",
+        "linux",
+        "macos",
+        "p2p",
+        "rdp",
+        "remote-control",
+        "remote-desktop",
+        "rust",
+        "rust-lang",
+        "teamviewer",
+        "vnc",
+        "wayland",
+        "windows"
       ],
       "topicCodes": [
         "networking"
       ],
-      "releasesUrl": "https://github.com/2dust/v2rayN/releases",
-      "updatedAt": "2026-10-04 01:43:01+00",
-      "createdAt": "2019-07-30 03:47:24+00",
-      "pushedAt": "2026-10-02 18:47:19+00",
-      "latestReleaseDate": "2026-09-30 06:39:05+00",
-      "latestReleaseTag": "7.25.4",
+      "releasesUrl": "https://github.com/rustdesk/rustdesk/releases",
+      "updatedAt": "2026-10-04 02:19:07+00",
+      "createdAt": "2020-09-28 15:36:08+00",
+      "pushedAt": "2026-10-04 00:05:06+00",
+      "latestReleaseDate": "2026-09-30 16:11:03+00",
+      "latestReleaseTag": "1.5.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 66990059,
+      "downloadCount": 74736759,
       "dailyStars": null,
-      "trendingScore": 899.760009765625,
-      "popularityScore": 149601.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": false,
+      "trendingScore": 1175.0999755859375,
+      "popularityScore": 163882.0,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "android": {
+          "tag": "1.5.0",
+          "publishedAt": "2026-09-30T16:11:03Z"
+        },
+        "windows": {
+          "tag": "1.5.0",
+          "publishedAt": "2026-09-30T16:11:03Z"
+        },
+        "macos": {
+          "tag": "1.5.0",
+          "publishedAt": "2026-09-30T16:11:03Z"
+        },
+        "linux": {
+          "tag": "1.5.0",
+          "publishedAt": "2026-09-30T16:11:03Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -210,84 +235,56 @@
       "available_on": []
     },
     {
-      "id": 299354207,
-      "name": "rustdesk",
-      "fullName": "rustdesk/rustdesk",
+      "id": 721767116,
+      "name": "clash-verge-rev",
+      "fullName": "clash-verge-rev/clash-verge-rev",
       "owner": {
-        "login": "rustdesk",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/71636191?v=4"
+        "login": "clash-verge-rev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/152534467?v=4"
       },
-      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/rustdesk/rustdesk",
-      "stargazersCount": 125074,
-      "forksCount": 19404,
-      "openIssuesCount": 173,
-      "licenseSpdxId": "AGPL-3.0",
-      "licenseName": "GNU Affero General Public License v3.0",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "stargazersCount": 149056,
+      "forksCount": 10694,
+      "openIssuesCount": 502,
+      "licenseSpdxId": "GPL-3.0",
+      "licenseName": "GNU General Public License v3.0",
       "license": {
-        "spdxId": "AGPL-3.0",
-        "name": "GNU Affero General Public License v3.0"
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
       },
       "language": "Rust",
       "topics": [
-        "android",
-        "anydesk",
-        "dart",
-        "flatpak",
-        "flutter",
-        "flutter-apps",
-        "ios",
+        "clash",
+        "clash-meta",
+        "clash-verge",
         "linux",
-        "macos",
-        "p2p",
-        "rdp",
-        "remote-control",
-        "remote-desktop",
-        "rust",
-        "rust-lang",
-        "teamviewer",
-        "vnc",
-        "wayland",
+        "mac",
+        "mihomo",
+        "tauri-app",
         "windows"
       ],
       "topicCodes": [
         "networking"
       ],
-      "releasesUrl": "https://github.com/rustdesk/rustdesk/releases",
-      "updatedAt": "2026-10-04 02:19:07+00",
-      "createdAt": "2020-09-28 15:36:08+00",
-      "pushedAt": "2026-10-04 00:05:06+00",
-      "latestReleaseDate": "2026-09-30 16:11:03+00",
-      "latestReleaseTag": "1.5.0",
+      "releasesUrl": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
+      "updatedAt": "2026-10-04 02:49:43+00",
+      "createdAt": "2023-11-21 18:24:03+00",
+      "pushedAt": "2026-10-02 08:27:21+00",
+      "latestReleaseDate": "2026-10-02 16:25:43+00",
+      "latestReleaseTag": "v2.5.6",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 74720379,
+      "downloadCount": 45237848,
       "dailyStars": null,
-      "trendingScore": 1175.0999755859375,
-      "popularityScore": 163882.0,
-      "hasInstallersAndroid": true,
+      "trendingScore": 2879.199951171875,
+      "popularityScore": 170443.0,
+      "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "1.5.0",
-          "publishedAt": "2026-09-30T16:11:03Z"
-        },
-        "windows": {
-          "tag": "1.5.0",
-          "publishedAt": "2026-09-30T16:11:03Z"
-        },
-        "macos": {
-          "tag": "1.5.0",
-          "publishedAt": "2026-09-30T16:11:03Z"
-        },
-        "linux": {
-          "tag": "1.5.0",
-          "publishedAt": "2026-09-30T16:11:03Z"
-        }
-      },
+      "platformReleases": null,
       "source_host": null,
       "available_on": []
     },
@@ -368,9 +365,9 @@
       "description": "An open-source cross-platform alternative to AirDrop",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/localsend/localsend",
-      "stargazersCount": 93288,
+      "stargazersCount": 93314,
       "forksCount": 5221,
-      "openIssuesCount": 1105,
+      "openIssuesCount": 1106,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -393,7 +390,7 @@
       "latestReleaseTag": "v1.18.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 14523172,
+      "downloadCount": 14529716,
       "dailyStars": null,
       "trendingScore": 1353.2099609375,
       "popularityScore": 103730.0,
@@ -473,60 +470,6 @@
       "available_on": []
     },
     {
-      "id": 721767116,
-      "name": "clash-verge-rev",
-      "fullName": "clash-verge-rev/clash-verge-rev",
-      "owner": {
-        "login": "clash-verge-rev",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/152534467?v=4"
-      },
-      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "defaultBranch": "dev",
-      "htmlUrl": "https://github.com/clash-verge-rev/clash-verge-rev",
-      "stargazersCount": 149056,
-      "forksCount": 10694,
-      "openIssuesCount": 502,
-      "licenseSpdxId": "GPL-3.0",
-      "licenseName": "GNU General Public License v3.0",
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "language": "Rust",
-      "topics": [
-        "clash",
-        "clash-meta",
-        "clash-verge",
-        "linux",
-        "mac",
-        "mihomo",
-        "tauri-app",
-        "windows"
-      ],
-      "topicCodes": [
-        "networking"
-      ],
-      "releasesUrl": "https://github.com/clash-verge-rev/clash-verge-rev/releases",
-      "updatedAt": "2026-10-04 02:49:43+00",
-      "createdAt": "2023-11-21 18:24:03+00",
-      "pushedAt": "2026-10-02 08:27:21+00",
-      "latestReleaseDate": "2026-10-02 16:25:43+00",
-      "latestReleaseTag": "v2.5.6",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 45237848,
-      "dailyStars": null,
-      "trendingScore": 2879.199951171875,
-      "popularityScore": 170443.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 11180687,
       "name": "hugo",
       "fullName": "gohugoio/hugo",
@@ -565,7 +508,7 @@
       "latestReleaseTag": "v0.167.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 90297454,
+      "downloadCount": 90299762,
       "dailyStars": null,
       "trendingScore": 378.0899963378906,
       "popularityScore": 106802.0,
@@ -659,9 +602,9 @@
       "description": "OBS Studio - Free and open source software for live streaming and screen recording",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/obsproject/obs-studio",
-      "stargazersCount": 76935,
+      "stargazersCount": 76939,
       "forksCount": 10429,
-      "openIssuesCount": 1145,
+      "openIssuesCount": 1148,
       "licenseSpdxId": "GPL-2.0",
       "licenseName": "GNU General Public License v2.0",
       "license": {
@@ -686,12 +629,12 @@
       "releasesUrl": "https://github.com/obsproject/obs-studio/releases",
       "updatedAt": "2026-10-03 23:06:15+00",
       "createdAt": "2013-10-01 02:40:31+00",
-      "pushedAt": "2026-10-02 01:09:53+00",
+      "pushedAt": "2026-10-04 01:39:14+00",
       "latestReleaseDate": "2026-08-14 22:43:31+00",
       "latestReleaseTag": "32.2.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 102524524,
+      "downloadCount": 102526578,
       "dailyStars": null,
       "trendingScore": 335.94000244140625,
       "popularityScore": 97793.0,
@@ -699,7 +642,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "32.2.2",
+          "publishedAt": "2026-08-14T22:43:31Z"
+        },
+        "macos": {
+          "tag": "32.2.2",
+          "publishedAt": "2026-08-14T22:43:31Z"
+        },
+        "linux": {
+          "tag": "32.2.2",
+          "publishedAt": "2026-08-14T22:43:31Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -714,9 +670,9 @@
       "description": "A terminal for a more modern age",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/Eugeny/tabby",
-      "stargazersCount": 74794,
+      "stargazersCount": 74795,
       "forksCount": 4276,
-      "openIssuesCount": 2815,
+      "openIssuesCount": 2828,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -735,12 +691,12 @@
       "releasesUrl": "https://github.com/Eugeny/tabby/releases",
       "updatedAt": "2026-10-04 01:55:21+00",
       "createdAt": "2016-12-23 09:06:10+00",
-      "pushedAt": "2026-09-28 04:03:16+00",
+      "pushedAt": "2026-09-29 04:03:14+00",
       "latestReleaseDate": "2026-09-25 07:40:01+00",
       "latestReleaseTag": "v1.0.237",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 20242846,
+      "downloadCount": 20243949,
       "dailyStars": null,
       "trendingScore": 418.8999938964844,
       "popularityScore": 83346.0,
@@ -748,7 +704,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.237",
+          "publishedAt": "2026-09-25T07:40:01Z"
+        },
+        "macos": {
+          "tag": "v1.0.237",
+          "publishedAt": "2026-09-25T07:40:01Z"
+        },
+        "linux": {
+          "tag": "v1.0.237",
+          "publishedAt": "2026-09-25T07:40:01Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -763,7 +732,7 @@
       "description": "Official electron build of draw.io",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/jgraph/drawio-desktop",
-      "stargazersCount": 63380,
+      "stargazersCount": 63381,
       "forksCount": 5780,
       "openIssuesCount": 5,
       "licenseSpdxId": "GPL-3.0",
@@ -783,12 +752,12 @@
       "releasesUrl": "https://github.com/jgraph/drawio-desktop/releases",
       "updatedAt": "2026-10-04 00:14:32+00",
       "createdAt": "2017-05-25 20:58:42+00",
-      "pushedAt": "2026-09-28 17:20:15+00",
+      "pushedAt": "2026-10-03 14:41:20+00",
       "latestReleaseDate": "2026-10-02 06:39:06+00",
-      "latestReleaseTag": "v31.5.3",
+      "latestReleaseTag": "v31.7.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 143461287,
+      "downloadCount": 143477659,
       "dailyStars": null,
       "trendingScore": 370.8599853515625,
       "popularityScore": 74940.0,
@@ -796,7 +765,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v31.7.0",
+          "publishedAt": "2026-10-02T06:39:06Z"
+        },
+        "macos": {
+          "tag": "v31.7.0",
+          "publishedAt": "2026-10-02T06:39:06Z"
+        },
+        "linux": {
+          "tag": "v31.7.0",
+          "publishedAt": "2026-10-02T06:39:06Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -888,9 +870,9 @@
       "description": "PowerShell for every system!",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/PowerShell/PowerShell",
-      "stargazersCount": 55582,
+      "stargazersCount": 55589,
       "forksCount": 8472,
-      "openIssuesCount": 1602,
+      "openIssuesCount": 1605,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -912,12 +894,12 @@
       "releasesUrl": "https://github.com/PowerShell/PowerShell/releases",
       "updatedAt": "2026-10-03 23:36:16+00",
       "createdAt": "2016-01-13 23:41:35+00",
-      "pushedAt": "2026-10-01 23:22:25+00",
+      "pushedAt": "2026-10-03 23:21:51+00",
       "latestReleaseDate": "2026-09-08 20:28:01+00",
       "latestReleaseTag": "v7.6.6",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 151671288,
+      "downloadCount": 151696528,
       "dailyStars": null,
       "trendingScore": 292.8699951171875,
       "popularityScore": 72526.0,
@@ -925,7 +907,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v7.6.6",
+          "publishedAt": "2026-09-08T20:28:01Z"
+        },
+        "macos": {
+          "tag": "v7.6.6",
+          "publishedAt": "2026-09-08T20:28:01Z"
+        },
+        "linux": {
+          "tag": "v7.6.6",
+          "publishedAt": "2026-09-08T20:28:01Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -1012,9 +1007,9 @@
       "description": "一个基于 Electron 的音乐软件",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/lyswhut/lx-music-desktop",
-      "stargazersCount": 54137,
+      "stargazersCount": 54144,
       "forksCount": 7048,
-      "openIssuesCount": 1283,
+      "openIssuesCount": 1284,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -1039,7 +1034,7 @@
       "latestReleaseTag": "v2.12.6",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 43356266,
+      "downloadCount": 43367909,
       "dailyStars": null,
       "trendingScore": 415.32000732421875,
       "popularityScore": 68233.0,
@@ -1047,7 +1042,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.12.6",
+          "publishedAt": "2026-09-19T02:23:52Z"
+        },
+        "macos": {
+          "tag": "v2.12.6",
+          "publishedAt": "2026-09-19T02:23:52Z"
+        },
+        "linux": {
+          "tag": "v2.12.6",
+          "publishedAt": "2026-09-19T02:23:52Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -1062,9 +1070,9 @@
       "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/AppFlowy-IO/AppFlowy",
-      "stargazersCount": 77106,
-      "forksCount": 6051,
-      "openIssuesCount": 1031,
+      "stargazersCount": 77114,
+      "forksCount": 6052,
+      "openIssuesCount": 1032,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
       "license": {
@@ -1097,7 +1105,7 @@
       "latestReleaseTag": "0.14.6",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 6717502,
+      "downloadCount": 6717669,
       "dailyStars": null,
       "trendingScore": 796.9600219726562,
       "popularityScore": 89208.0,
@@ -1105,7 +1113,24 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "android": {
+          "tag": "0.14.6",
+          "publishedAt": "2026-10-01T03:32:58Z"
+        },
+        "windows": {
+          "tag": "0.14.6",
+          "publishedAt": "2026-10-01T03:32:58Z"
+        },
+        "macos": {
+          "tag": "0.14.6",
+          "publishedAt": "2026-10-01T03:32:58Z"
+        },
+        "linux": {
+          "tag": "0.14.6",
+          "publishedAt": "2026-10-01T03:32:58Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -1289,9 +1314,9 @@
       "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/laurent22/joplin",
-      "stargazersCount": 56580,
+      "stargazersCount": 56582,
       "forksCount": 6312,
-      "openIssuesCount": 644,
+      "openIssuesCount": 646,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -1326,12 +1351,12 @@
       "releasesUrl": "https://github.com/laurent22/joplin/releases",
       "updatedAt": "2026-10-04 01:26:51+00",
       "createdAt": "2017-01-16 21:49:41+00",
-      "pushedAt": "2026-10-03 00:24:42+00",
+      "pushedAt": "2026-10-03 19:55:58+00",
       "latestReleaseDate": "2026-09-25 21:31:12+00",
       "latestReleaseTag": "v3.7.21",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 17259076,
+      "downloadCount": 15786304,
       "dailyStars": null,
       "trendingScore": 322.0299987792969,
       "popularityScore": 69204.0,
@@ -1339,7 +1364,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.7.21",
+          "publishedAt": "2026-09-25T21:31:12Z"
+        },
+        "macos": {
+          "tag": "v3.7.21",
+          "publishedAt": "2026-09-25T21:31:12Z"
+        },
+        "linux": {
+          "tag": "v3.7.21",
+          "publishedAt": "2026-09-25T21:31:12Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -1356,7 +1394,7 @@
       "htmlUrl": "https://github.com/dbeaver/dbeaver",
       "stargazersCount": 51950,
       "forksCount": 4392,
-      "openIssuesCount": 3330,
+      "openIssuesCount": 3343,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -1390,12 +1428,12 @@
       "releasesUrl": "https://github.com/dbeaver/dbeaver/releases",
       "updatedAt": "2026-10-04 02:37:42+00",
       "createdAt": "2015-10-21 08:26:28+00",
-      "pushedAt": "2026-09-29 15:28:39+00",
+      "pushedAt": "2026-10-03 15:49:34+00",
       "latestReleaseDate": "2026-09-21 04:23:05+00",
       "latestReleaseTag": "26.2.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 45700545,
+      "downloadCount": 45704968,
       "dailyStars": null,
       "trendingScore": 260.75,
       "popularityScore": 60734.0,
@@ -1403,55 +1441,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 212613049,
-      "name": "cli",
-      "fullName": "cli/cli",
-      "owner": {
-        "login": "cli",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/59704711?v=4"
+      "platformReleases": {
+        "windows": {
+          "tag": "26.2.1",
+          "publishedAt": "2026-09-21T04:23:05Z"
+        },
+        "macos": {
+          "tag": "26.2.1",
+          "publishedAt": "2026-09-21T04:23:05Z"
+        },
+        "linux": {
+          "tag": "26.2.1",
+          "publishedAt": "2026-09-21T04:23:05Z"
+        }
       },
-      "description": "GitHub’s official command line tool",
-      "defaultBranch": "trunk",
-      "htmlUrl": "https://github.com/cli/cli",
-      "stargazersCount": 46462,
-      "forksCount": 9100,
-      "openIssuesCount": 1100,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "language": "Go",
-      "topics": [
-        "cli",
-        "git",
-        "github-api-v4",
-        "golang"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/cli/cli/releases",
-      "updatedAt": "2026-09-30 02:20:48+00",
-      "createdAt": "2019-10-03 15:24:53+00",
-      "pushedAt": "2026-09-29 10:34:03+00",
-      "latestReleaseDate": "2026-09-15 14:24:34+00",
-      "latestReleaseTag": "v2.101.0",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 131432965,
-      "dailyStars": null,
-      "trendingScore": 371.9599914550781,
-      "popularityScore": 63567.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
       "source_host": null,
       "available_on": []
     },
@@ -1504,61 +1507,6 @@
       "available_on": []
     },
     {
-      "id": 571770,
-      "name": "pandoc",
-      "fullName": "jgm/pandoc",
-      "owner": {
-        "login": "jgm",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3044?v=4"
-      },
-      "description": "Universal markup converter",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/jgm/pandoc",
-      "stargazersCount": 46521,
-      "forksCount": 5506,
-      "openIssuesCount": 1053,
-      "licenseSpdxId": "GPL-2.0",
-      "licenseName": "GNU General Public License v2.0",
-      "license": {
-        "spdxId": "GPL-2.0",
-        "name": "GNU General Public License v2.0"
-      },
-      "language": "Haskell",
-      "topics": [
-        "commonmark",
-        "converter",
-        "document",
-        "haskell",
-        "markdown",
-        "markup",
-        "pandoc",
-        "presentation",
-        "publishing"
-      ],
-      "topicCodes": [
-        "notes"
-      ],
-      "releasesUrl": "https://github.com/jgm/pandoc/releases",
-      "updatedAt": "2026-10-04 01:45:31+00",
-      "createdAt": "2010-03-20 20:34:23+00",
-      "pushedAt": "2026-10-03 04:46:08+00",
-      "latestReleaseDate": "2026-09-29 06:30:47+00",
-      "latestReleaseTag": "3.12",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 48369124,
-      "dailyStars": null,
-      "trendingScore": 153.02000427246094,
-      "popularityScore": 53707.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 189285554,
       "name": "stats",
       "fullName": "exelban/stats",
@@ -1569,7 +1517,7 @@
       "description": "macOS system monitor in your menu bar",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/exelban/stats",
-      "stargazersCount": 42298,
+      "stargazersCount": 42297,
       "forksCount": 1558,
       "openIssuesCount": 30,
       "licenseSpdxId": "MIT",
@@ -1601,12 +1549,12 @@
       "releasesUrl": "https://github.com/exelban/stats/releases",
       "updatedAt": "2026-10-04 02:34:35+00",
       "createdAt": "2019-05-29 19:24:56+00",
-      "pushedAt": "2026-10-01 18:18:32+00",
+      "pushedAt": "2026-10-03 17:20:53+00",
       "latestReleaseDate": "2026-09-29 15:08:27+00",
       "latestReleaseTag": "v3.0.19",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 16788805,
+      "downloadCount": 16744542,
       "dailyStars": null,
       "trendingScore": 347.17999267578125,
       "popularityScore": 45414.0,
@@ -1614,7 +1562,80 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "v3.0.19",
+          "publishedAt": "2026-09-29T15:08:27Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 571770,
+      "name": "pandoc",
+      "fullName": "jgm/pandoc",
+      "owner": {
+        "login": "jgm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3044?v=4"
+      },
+      "description": "Universal markup converter",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/jgm/pandoc",
+      "stargazersCount": 46523,
+      "forksCount": 5532,
+      "openIssuesCount": 1050,
+      "licenseSpdxId": "GPL-2.0",
+      "licenseName": "GNU General Public License v2.0",
+      "license": {
+        "spdxId": "GPL-2.0",
+        "name": "GNU General Public License v2.0"
+      },
+      "language": "Haskell",
+      "topics": [
+        "commonmark",
+        "converter",
+        "document",
+        "haskell",
+        "markdown",
+        "markup",
+        "pandoc",
+        "presentation",
+        "publishing"
+      ],
+      "topicCodes": [
+        "notes"
+      ],
+      "releasesUrl": "https://github.com/jgm/pandoc/releases",
+      "updatedAt": "2026-10-04 01:45:31+00",
+      "createdAt": "2010-03-20 20:34:23+00",
+      "pushedAt": "2026-10-04 01:44:54+00",
+      "latestReleaseDate": "2026-09-29 06:30:47+00",
+      "latestReleaseTag": "3.12",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 48374524,
+      "dailyStars": null,
+      "trendingScore": 153.02000427246094,
+      "popularityScore": 53707.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "3.12",
+          "publishedAt": "2026-09-29T06:30:47Z"
+        },
+        "macos": {
+          "tag": "3.12",
+          "publishedAt": "2026-09-29T06:30:47Z"
+        },
+        "linux": {
+          "tag": "3.12",
+          "publishedAt": "2026-09-29T06:30:47Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -1690,7 +1711,7 @@
       "htmlUrl": "https://github.com/Kong/insomnia",
       "stargazersCount": 40034,
       "forksCount": 2378,
-      "openIssuesCount": 858,
+      "openIssuesCount": 902,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -1714,12 +1735,12 @@
       "releasesUrl": "https://github.com/Kong/insomnia/releases",
       "updatedAt": "2026-10-03 18:20:08+00",
       "createdAt": "2016-04-23 03:54:26+00",
-      "pushedAt": "2026-07-18 07:47:26+00",
+      "pushedAt": "2026-10-03 00:22:26+00",
       "latestReleaseDate": "2026-09-23 11:04:33+00",
-      "latestReleaseTag": "core@13.0.2",
+      "latestReleaseTag": "core@13.3.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 140324935,
+      "downloadCount": 81892289,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -1727,7 +1748,89 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "core@13.3.0",
+          "publishedAt": "2026-09-23T11:04:33Z"
+        },
+        "macos": {
+          "tag": "core@13.3.0",
+          "publishedAt": "2026-09-23T11:04:33Z"
+        },
+        "linux": {
+          "tag": "core@13.3.0",
+          "publishedAt": "2026-09-23T11:04:33Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 783512367,
+      "name": "Folo",
+      "fullName": "RSSNext/Folo",
+      "owner": {
+        "login": "RSSNext",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95456295?v=4"
+      },
+      "description": "🧡 Folo is the AI RSS Reader",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/RSSNext/Folo",
+      "stargazersCount": 39060,
+      "forksCount": 2133,
+      "openIssuesCount": 121,
+      "licenseSpdxId": "AGPL-3.0",
+      "licenseName": "GNU Affero General Public License v3.0",
+      "license": {
+        "spdxId": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "reader",
+        "rss",
+        "rss-reader",
+        "rsshub"
+      ],
+      "topicCodes": [
+        "ai",
+        "reader"
+      ],
+      "releasesUrl": "https://github.com/RSSNext/Folo/releases",
+      "updatedAt": "2026-06-02 02:04:57+00",
+      "createdAt": null,
+      "pushedAt": "2026-10-02 17:19:34+00",
+      "latestReleaseDate": "2026-10-02 15:14:14+00",
+      "latestReleaseTag": "mobile/v0.5.11",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 30796158,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "mobile/v0.5.11",
+          "publishedAt": "2026-10-02T15:14:14Z"
+        },
+        "windows": {
+          "tag": "desktop/v1.15.0",
+          "publishedAt": "2026-10-02T13:33:16Z"
+        },
+        "macos": {
+          "tag": "desktop/v1.15.0",
+          "publishedAt": "2026-10-02T13:33:16Z"
+        },
+        "linux": {
+          "tag": "desktop/v1.15.0",
+          "publishedAt": "2026-10-02T13:33:16Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -1806,75 +1909,6 @@
       "available_on": []
     },
     {
-      "id": 783512367,
-      "name": "Folo",
-      "fullName": "RSSNext/Folo",
-      "owner": {
-        "login": "RSSNext",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/95456295?v=4"
-      },
-      "description": "🧡 Folo is the AI RSS Reader",
-      "defaultBranch": "dev",
-      "htmlUrl": "https://github.com/RSSNext/Folo",
-      "stargazersCount": 39056,
-      "forksCount": 2133,
-      "openIssuesCount": 121,
-      "licenseSpdxId": "AGPL-3.0",
-      "licenseName": "GNU Affero General Public License v3.0",
-      "license": {
-        "spdxId": "AGPL-3.0",
-        "name": "GNU Affero General Public License v3.0"
-      },
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "reader",
-        "rss",
-        "rss-reader",
-        "rsshub"
-      ],
-      "topicCodes": [
-        "ai",
-        "reader"
-      ],
-      "releasesUrl": "https://github.com/RSSNext/Folo/releases",
-      "updatedAt": "2026-06-02 02:04:57+00",
-      "createdAt": null,
-      "pushedAt": "2026-10-02 17:19:34+00",
-      "latestReleaseDate": "2026-10-02 15:14:14+00",
-      "latestReleaseTag": "mobile/v0.5.11",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 30794802,
-      "dailyStars": null,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "mobile/v0.5.11",
-          "publishedAt": "2026-10-02T15:14:14Z"
-        },
-        "windows": {
-          "tag": "desktop/v1.15.0",
-          "publishedAt": "2026-10-02T13:33:16Z"
-        },
-        "macos": {
-          "tag": "desktop/v1.15.0",
-          "publishedAt": "2026-10-02T13:33:16Z"
-        },
-        "linux": {
-          "tag": "desktop/v1.15.0",
-          "publishedAt": "2026-10-02T13:33:16Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 509091576,
       "name": "sing-box",
       "fullName": "SagerNet/sing-box",
@@ -1885,9 +1919,9 @@
       "description": "The universal proxy platform",
       "defaultBranch": "testing",
       "htmlUrl": "https://github.com/SagerNet/sing-box",
-      "stargazersCount": 38544,
+      "stargazersCount": 38545,
       "forksCount": 4682,
-      "openIssuesCount": 359,
+      "openIssuesCount": 358,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -1900,12 +1934,12 @@
       "releasesUrl": "https://github.com/SagerNet/sing-box/releases",
       "updatedAt": "2026-10-04 02:30:40+00",
       "createdAt": "2022-06-30 13:27:22+00",
-      "pushedAt": "2026-10-02 12:47:13+00",
+      "pushedAt": "2026-10-03 10:53:35+00",
       "latestReleaseDate": "2026-09-24 11:47:08+00",
       "latestReleaseTag": "v1.14.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 26831546,
+      "downloadCount": 21800731,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -1913,7 +1947,24 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.14.2",
+          "publishedAt": "2026-09-24T11:47:08Z"
+        },
+        "windows": {
+          "tag": "v1.14.2",
+          "publishedAt": "2026-09-24T11:47:08Z"
+        },
+        "macos": {
+          "tag": "v1.14.2",
+          "publishedAt": "2026-09-24T11:47:08Z"
+        },
+        "linux": {
+          "tag": "v1.14.2",
+          "publishedAt": "2026-09-24T11:47:08Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -1928,7 +1979,7 @@
       "description": "Virtual machines for iOS and macOS",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/utmapp/UTM",
-      "stargazersCount": 35727,
+      "stargazersCount": 35728,
       "forksCount": 1839,
       "openIssuesCount": 1108,
       "licenseSpdxId": "Apache-2.0",
@@ -1958,7 +2009,7 @@
       "latestReleaseTag": "v4.7.5",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 15669212,
+      "downloadCount": 15672607,
       "dailyStars": null,
       "trendingScore": 293.6400146484375,
       "popularityScore": 39405.0,
@@ -1966,7 +2017,86 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "v4.7.5",
+          "publishedAt": "2026-01-03T17:51:54Z"
+        },
+        "linux": {
+          "tag": "v4.7.5",
+          "publishedAt": "2026-01-03T17:51:54Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 1103012935,
+      "name": "openclaw",
+      "fullName": "openclaw/openclaw",
+      "owner": {
+        "login": "openclaw",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/252820863?v=4"
+      },
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/openclaw/openclaw",
+      "stargazersCount": 391258,
+      "forksCount": 82249,
+      "openIssuesCount": 9271,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/openclaw/openclaw/releases",
+      "updatedAt": "2026-10-04 02:42:11+00",
+      "createdAt": "2025-11-24 10:16:47+00",
+      "pushedAt": "2026-10-04 06:27:50+00",
+      "latestReleaseDate": "2026-10-03 03:21:47+00",
+      "latestReleaseTag": "v2026.9.8",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 2344118,
+      "dailyStars": null,
+      "trendingScore": 24999.740234375,
+      "popularityScore": 555738.0,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2026.8.2",
+          "publishedAt": "2026-09-01T16:00:56Z"
+        },
+        "windows": {
+          "tag": "v2026.9.1",
+          "publishedAt": "2026-09-03T18:31:33Z"
+        },
+        "macos": {
+          "tag": "v2026.9.8",
+          "publishedAt": "2026-10-03T03:21:47Z"
+        },
+        "linux": {
+          "tag": "v2026.9.5",
+          "publishedAt": "2026-09-19T01:55:23Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -2031,76 +2161,6 @@
       "available_on": []
     },
     {
-      "id": 1103012935,
-      "name": "openclaw",
-      "fullName": "openclaw/openclaw",
-      "owner": {
-        "login": "openclaw",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/252820863?v=4"
-      },
-      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/openclaw/openclaw",
-      "stargazersCount": 391252,
-      "forksCount": 82247,
-      "openIssuesCount": 9291,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "assistant",
-        "crustacean",
-        "molty",
-        "openclaw",
-        "own-your-data",
-        "personal"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/openclaw/openclaw/releases",
-      "updatedAt": "2026-10-04 02:42:11+00",
-      "createdAt": "2025-11-24 10:16:47+00",
-      "pushedAt": "2026-10-04 04:35:29+00",
-      "latestReleaseDate": "2026-10-03 03:21:47+00",
-      "latestReleaseTag": "v2026.9.8",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 2343330,
-      "dailyStars": null,
-      "trendingScore": 24999.740234375,
-      "popularityScore": 555738.0,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v2026.8.2",
-          "publishedAt": "2026-09-01T16:00:56Z"
-        },
-        "windows": {
-          "tag": "v2026.9.1",
-          "publishedAt": "2026-09-03T18:31:33Z"
-        },
-        "macos": {
-          "tag": "v2026.9.8",
-          "publishedAt": "2026-10-03T03:21:47Z"
-        },
-        "linux": {
-          "tag": "v2026.9.5",
-          "publishedAt": "2026-09-19T01:55:23Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 164574693,
       "name": "AnotherRedisDesktopManager",
       "fullName": "qishibo/AnotherRedisDesktopManager",
@@ -2111,8 +2171,8 @@
       "description": "🚀🚀🚀A faster, better and more stable Redis desktop manager [GUI client], compatible with Linux, Windows, Mac.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/qishibo/AnotherRedisDesktopManager",
-      "stargazersCount": 34793,
-      "forksCount": 2712,
+      "stargazersCount": 34786,
+      "forksCount": 2710,
       "openIssuesCount": 164,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
@@ -2137,7 +2197,7 @@
       "latestReleaseTag": "v1.7.4",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 21178313,
+      "downloadCount": 21205535,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -2145,7 +2205,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.7.4",
+          "publishedAt": "2026-08-18T04:19:12Z"
+        },
+        "macos": {
+          "tag": "v1.7.4",
+          "publishedAt": "2026-08-18T04:19:12Z"
+        },
+        "linux": {
+          "tag": "v1.7.4",
+          "publishedAt": "2026-08-18T04:19:12Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -2160,9 +2233,9 @@
       "description": "Flash OS images to SD cards & USB drives, safely and easily.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/balena-io/etcher",
-      "stargazersCount": 34412,
-      "forksCount": 2424,
-      "openIssuesCount": 695,
+      "stargazersCount": 34466,
+      "forksCount": 2429,
+      "openIssuesCount": 696,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -2185,7 +2258,7 @@
       "latestReleaseTag": "v2.1.7",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 315607588,
+      "downloadCount": 316315004,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -2193,78 +2266,18 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 5736080,
-      "name": "FreeCAD",
-      "fullName": "FreeCAD/FreeCAD",
-      "owner": {
-        "login": "FreeCAD",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2306237?v=4"
-      },
-      "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/FreeCAD/FreeCAD",
-      "stargazersCount": 33924,
-      "forksCount": 6123,
-      "openIssuesCount": 3942,
-      "licenseSpdxId": "LGPL-2.1",
-      "licenseName": "GNU Lesser General Public License v2.1",
-      "license": {
-        "spdxId": "LGPL-2.1",
-        "name": "GNU Lesser General Public License v2.1"
-      },
-      "language": "C++",
-      "topics": [
-        "3d",
-        "3d-printing",
-        "architecture",
-        "bim",
-        "cad",
-        "cam",
-        "civil-engineering",
-        "coin",
-        "engineering",
-        "fem",
-        "freecad",
-        "linux",
-        "macos",
-        "mechanical-engineering",
-        "opencascade",
-        "windows"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/FreeCAD/FreeCAD/releases",
-      "updatedAt": "2026-10-04 02:37:55+00",
-      "createdAt": "2012-09-09 08:25:02+00",
-      "pushedAt": "2026-10-03 17:14:24+00",
-      "latestReleaseDate": "2026-09-28 13:58:35+00",
-      "latestReleaseTag": "1.1.4",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 30715128,
-      "dailyStars": null,
-      "trendingScore": 172.07000732421875,
-      "popularityScore": 46170.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
       "platformReleases": {
         "windows": {
-          "tag": "1.1.4",
-          "publishedAt": "2026-09-28T13:58:35Z"
+          "tag": "v2.1.7",
+          "publishedAt": "2026-09-18T13:52:33Z"
         },
         "macos": {
-          "tag": "1.1.4",
-          "publishedAt": "2026-09-28T13:58:35Z"
+          "tag": "v2.1.7",
+          "publishedAt": "2026-09-18T13:52:33Z"
         },
         "linux": {
-          "tag": "1.1.4",
-          "publishedAt": "2026-09-28T13:58:35Z"
+          "tag": "v2.1.7",
+          "publishedAt": "2026-09-18T13:52:33Z"
         }
       },
       "source_host": null,
@@ -2322,6 +2335,79 @@
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": null,
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 5736080,
+      "name": "FreeCAD",
+      "fullName": "FreeCAD/FreeCAD",
+      "owner": {
+        "login": "FreeCAD",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2306237?v=4"
+      },
+      "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/FreeCAD/FreeCAD",
+      "stargazersCount": 33928,
+      "forksCount": 6126,
+      "openIssuesCount": 3945,
+      "licenseSpdxId": "LGPL-2.1",
+      "licenseName": "GNU Lesser General Public License v2.1",
+      "license": {
+        "spdxId": "LGPL-2.1",
+        "name": "GNU Lesser General Public License v2.1"
+      },
+      "language": "C++",
+      "topics": [
+        "3d",
+        "3d-printing",
+        "architecture",
+        "bim",
+        "cad",
+        "cam",
+        "civil-engineering",
+        "coin",
+        "engineering",
+        "fem",
+        "freecad",
+        "linux",
+        "macos",
+        "mechanical-engineering",
+        "opencascade",
+        "windows"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/FreeCAD/FreeCAD/releases",
+      "updatedAt": "2026-10-04 02:37:55+00",
+      "createdAt": "2012-09-09 08:25:02+00",
+      "pushedAt": "2026-10-04 06:03:12+00",
+      "latestReleaseDate": "2026-09-28 13:58:35+00",
+      "latestReleaseTag": "1.1.4",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 30719361,
+      "dailyStars": null,
+      "trendingScore": 172.07000732421875,
+      "popularityScore": 46170.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        },
+        "macos": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        },
+        "linux": {
+          "tag": "1.1.4",
+          "publishedAt": "2026-09-28T13:58:35Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -2394,9 +2480,9 @@
       "description": "Pear 🍐 is extension for music player",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/pear-devs/pear-desktop",
-      "stargazersCount": 33645,
-      "forksCount": 2003,
-      "openIssuesCount": 708,
+      "stargazersCount": 33648,
+      "forksCount": 2004,
+      "openIssuesCount": 715,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -2428,7 +2514,7 @@
       "latestReleaseTag": "v3.12.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 20494083,
+      "downloadCount": 20498460,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -2436,7 +2522,82 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.12.0",
+          "publishedAt": "2026-06-28T15:43:30Z"
+        },
+        "macos": {
+          "tag": "v3.12.0",
+          "publishedAt": "2026-06-28T15:43:30Z"
+        },
+        "linux": {
+          "tag": "v3.12.0",
+          "publishedAt": "2026-06-28T15:43:30Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 144590939,
+      "name": "vscodium",
+      "fullName": "VSCodium/vscodium",
+      "owner": {
+        "login": "VSCodium",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40338071?v=4"
+      },
+      "description": "binary releases of VS Code without MS branding/telemetry/licensing",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/VSCodium/vscodium",
+      "stargazersCount": 33502,
+      "forksCount": 1880,
+      "openIssuesCount": 157,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "language": "Shell",
+      "topics": [
+        "editor",
+        "floss",
+        "ide",
+        "open-source-licensing",
+        "vscode"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/VSCodium/vscodium/releases",
+      "updatedAt": "2026-06-04 02:11:56+00",
+      "createdAt": "2018-08-13 14:26:58+00",
+      "pushedAt": "2026-10-03 04:05:52+00",
+      "latestReleaseDate": "2026-09-09 08:19:21+00",
+      "latestReleaseTag": "1.135.06055",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 60099244,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.135.06055",
+          "publishedAt": "2026-09-09T08:19:21Z"
+        },
+        "macos": {
+          "tag": "1.135.06055",
+          "publishedAt": "2026-09-09T08:19:21Z"
+        },
+        "linux": {
+          "tag": "1.135.06055",
+          "publishedAt": "2026-09-09T08:19:21Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -2518,55 +2679,6 @@
       "available_on": []
     },
     {
-      "id": 144590939,
-      "name": "vscodium",
-      "fullName": "VSCodium/vscodium",
-      "owner": {
-        "login": "VSCodium",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/40338071?v=4"
-      },
-      "description": "binary releases of VS Code without MS branding/telemetry/licensing",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/VSCodium/vscodium",
-      "stargazersCount": 33461,
-      "forksCount": 1877,
-      "openIssuesCount": 155,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "language": "Shell",
-      "topics": [
-        "editor",
-        "floss",
-        "ide",
-        "open-source-licensing",
-        "vscode"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/VSCodium/vscodium/releases",
-      "updatedAt": "2026-06-04 02:11:56+00",
-      "createdAt": "2018-08-13 14:26:58+00",
-      "pushedAt": "2026-09-23 12:43:17+00",
-      "latestReleaseDate": "2026-09-09 08:19:21+00",
-      "latestReleaseTag": "1.135.06055",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 59732477,
-      "dailyStars": null,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 19374812,
       "name": "tdesktop",
       "fullName": "telegramdesktop/tdesktop",
@@ -2577,9 +2689,9 @@
       "description": "Telegram Desktop messaging app",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/telegramdesktop/tdesktop",
-      "stargazersCount": 33099,
-      "forksCount": 7299,
-      "openIssuesCount": 1006,
+      "stargazersCount": 33100,
+      "forksCount": 7300,
+      "openIssuesCount": 970,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -2600,12 +2712,12 @@
       "releasesUrl": "https://github.com/telegramdesktop/tdesktop/releases",
       "updatedAt": "2026-10-04 01:38:18+00",
       "createdAt": "2014-05-02 12:36:31+00",
-      "pushedAt": "2026-10-01 10:07:25+00",
+      "pushedAt": "2026-10-04 03:29:07+00",
       "latestReleaseDate": "2026-09-17 09:31:34+00",
       "latestReleaseTag": "v7.2.9",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 25607450,
+      "downloadCount": 12879725,
       "dailyStars": null,
       "trendingScore": 175.91000366210938,
       "popularityScore": 47697.0,
@@ -2613,7 +2725,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v7.2.9",
+          "publishedAt": "2026-09-17T09:31:34Z"
+        },
+        "macos": {
+          "tag": "v7.2.9",
+          "publishedAt": "2026-09-17T09:31:34Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -2628,9 +2749,9 @@
       "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/hiddify/hiddify-app",
-      "stargazersCount": 33023,
-      "forksCount": 3077,
-      "openIssuesCount": 34,
+      "stargazersCount": 33024,
+      "forksCount": 3079,
+      "openIssuesCount": 33,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -2664,12 +2785,12 @@
       "releasesUrl": "https://github.com/hiddify/hiddify-app/releases",
       "updatedAt": "2026-10-04 01:44:07+00",
       "createdAt": "2023-05-21 11:30:14+00",
-      "pushedAt": "2026-10-03 11:23:12+00",
+      "pushedAt": "2026-10-04 09:13:13+00",
       "latestReleaseDate": "2026-03-05 17:22:57+00",
       "latestReleaseTag": "v4.1.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 23560225,
+      "downloadCount": 23521121,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": 33952.0,
@@ -2677,7 +2798,24 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "android": {
+          "tag": "v4.1.1",
+          "publishedAt": "2026-03-05T17:22:57Z"
+        },
+        "windows": {
+          "tag": "v4.1.1",
+          "publishedAt": "2026-03-05T17:22:57Z"
+        },
+        "macos": {
+          "tag": "v4.1.1",
+          "publishedAt": "2026-03-05T17:22:57Z"
+        },
+        "linux": {
+          "tag": "v4.1.1",
+          "publishedAt": "2026-03-05T17:22:57Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -2692,8 +2830,8 @@
       "description": "The swiss army knife of lossless video/audio editing",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/mifi/lossless-cut",
-      "stargazersCount": 44244,
-      "forksCount": 2193,
+      "stargazersCount": 44259,
+      "forksCount": 2194,
       "openIssuesCount": 321,
       "licenseSpdxId": "GPL-2.0",
       "licenseName": "GNU General Public License v2.0",
@@ -2725,7 +2863,7 @@
       "latestReleaseTag": "v3.69.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 6614568,
+      "downloadCount": 6618827,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -2757,9 +2895,9 @@
       "description": "🍺 The Package Manager for Everywhere",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Homebrew/brew",
-      "stargazersCount": 49883,
+      "stargazersCount": 49884,
       "forksCount": 11380,
-      "openIssuesCount": 4,
+      "openIssuesCount": 2,
       "licenseSpdxId": "BSD-2-Clause",
       "licenseName": "BSD 2-Clause \"Simplified\" License",
       "license": {
@@ -2778,12 +2916,12 @@
       "releasesUrl": "https://github.com/Homebrew/brew/releases",
       "updatedAt": "2026-10-04 01:46:19+00",
       "createdAt": "2016-03-06 05:08:38+00",
-      "pushedAt": "2026-10-01 14:01:07+00",
+      "pushedAt": "2026-10-04 03:46:34+00",
       "latestReleaseDate": "2026-09-28 07:49:21+00",
       "latestReleaseTag": "7.0.7",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 5353249,
+      "downloadCount": 5353925,
       "dailyStars": null,
       "trendingScore": 267.260009765625,
       "popularityScore": 72643.0,
@@ -2791,7 +2929,12 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "7.0.7",
+          "publishedAt": "2026-09-28T07:49:21Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -2806,9 +2949,9 @@
       "description": "🎧 Open source music streaming app! Available for both desktop & mobile!",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/team-spotube/spotube",
-      "stargazersCount": 49592,
+      "stargazersCount": 49596,
       "forksCount": 2322,
-      "openIssuesCount": 864,
+      "openIssuesCount": 866,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -2843,7 +2986,7 @@
       "latestReleaseTag": "v5.1.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 5373500,
+      "downloadCount": 5374359,
       "dailyStars": null,
       "trendingScore": 492.1700134277344,
       "popularityScore": 54236.0,
@@ -2883,9 +3026,9 @@
       "description": "Anki is a smart spaced repetition flashcard program",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/ankitects/anki",
-      "stargazersCount": 31734,
+      "stargazersCount": 31736,
       "forksCount": 3297,
-      "openIssuesCount": 425,
+      "openIssuesCount": 569,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -2898,12 +3041,12 @@
       "releasesUrl": "https://github.com/ankitects/anki/releases",
       "updatedAt": "2026-10-04 02:30:31+00",
       "createdAt": "2012-12-21 08:03:31+00",
-      "pushedAt": "2026-08-14 21:15:07+00",
+      "pushedAt": "2026-10-04 02:39:22+00",
       "latestReleaseDate": "2026-09-23 15:24:13+00",
-      "latestReleaseTag": "26.08.1",
+      "latestReleaseTag": "26.09.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 39193849,
+      "downloadCount": 39197297,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": 38328.0,
@@ -2911,50 +3054,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 193162629,
-      "name": "Rectangle",
-      "fullName": "rxhanson/Rectangle",
-      "owner": {
-        "login": "rxhanson",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/13651296?v=4"
+      "platformReleases": {
+        "windows": {
+          "tag": "26.09.3",
+          "publishedAt": "2026-09-23T15:24:13Z"
+        },
+        "macos": {
+          "tag": "26.09.3",
+          "publishedAt": "2026-09-23T15:24:13Z"
+        }
       },
-      "description": "Move and resize windows on macOS with keyboard shortcuts and snap areas",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/rxhanson/Rectangle",
-      "stargazersCount": 30032,
-      "forksCount": 1006,
-      "openIssuesCount": 63,
-      "licenseSpdxId": "NOASSERTION",
-      "licenseName": "Other",
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "language": "Swift",
-      "topics": [],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/rxhanson/Rectangle/releases",
-      "updatedAt": "2026-10-04 02:35:00+00",
-      "createdAt": "2019-06-21 21:34:53+00",
-      "pushedAt": "2026-09-27 12:34:06+00",
-      "latestReleaseDate": "2026-09-27 12:34:07+00",
-      "latestReleaseTag": "v2.0.2",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 19471864,
-      "dailyStars": null,
-      "trendingScore": 245.7100067138672,
-      "popularityScore": 32044.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": null,
       "source_host": null,
       "available_on": []
     },
@@ -2969,9 +3078,9 @@
       "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/unslothai/unsloth",
-      "stargazersCount": 77181,
-      "forksCount": 7100,
-      "openIssuesCount": 1121,
+      "stargazersCount": 77184,
+      "forksCount": 7103,
+      "openIssuesCount": 1100,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -3008,12 +3117,12 @@
       "releasesUrl": "https://github.com/unslothai/unsloth/releases",
       "updatedAt": "2026-10-04 02:40:03+00",
       "createdAt": null,
-      "pushedAt": "2026-10-03 06:42:58+00",
+      "pushedAt": "2026-10-04 09:51:31+00",
       "latestReleaseDate": "2026-10-01 14:06:23+00",
       "latestReleaseTag": "v0.1.902-beta",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2607797,
+      "downloadCount": 2626105,
       "dailyStars": null,
       "trendingScore": 1491.6600341796875,
       "popularityScore": 91381.0,
@@ -3021,7 +3130,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.1.902-beta",
+          "publishedAt": "2026-10-01T14:06:23Z"
+        },
+        "macos": {
+          "tag": "v0.1.902-beta",
+          "publishedAt": "2026-10-01T14:06:23Z"
+        },
+        "linux": {
+          "tag": "v0.1.902-beta",
+          "publishedAt": "2026-10-01T14:06:23Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3036,9 +3158,9 @@
       "description": "📝A simple and elegant markdown editor, available for Linux, macOS and Windows.",
       "defaultBranch": "develop",
       "htmlUrl": "https://github.com/marktext/marktext",
-      "stargazersCount": 62091,
-      "forksCount": 4585,
-      "openIssuesCount": 344,
+      "stargazersCount": 62099,
+      "forksCount": 4584,
+      "openIssuesCount": 346,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -3068,12 +3190,12 @@
       "releasesUrl": "https://github.com/marktext/marktext/releases",
       "updatedAt": "2026-10-04 02:34:48+00",
       "createdAt": "2017-11-12 16:05:25+00",
-      "pushedAt": "2026-10-02 13:01:02+00",
+      "pushedAt": "2026-10-03 16:58:51+00",
       "latestReleaseDate": "2026-10-02 06:02:56+00",
       "latestReleaseTag": "v0.20.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 3457656,
+      "downloadCount": 3458888,
       "dailyStars": null,
       "trendingScore": 394.45001220703125,
       "popularityScore": 71261.0,
@@ -3081,7 +3203,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.20.0",
+          "publishedAt": "2026-10-02T06:02:56Z"
+        },
+        "macos": {
+          "tag": "v0.20.0",
+          "publishedAt": "2026-10-02T06:02:56Z"
+        },
+        "linux": {
+          "tag": "v0.20.0",
+          "publishedAt": "2026-10-02T06:02:56Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3096,9 +3231,9 @@
       "description": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
       "defaultBranch": "develop",
       "htmlUrl": "https://github.com/keepassxreboot/keepassxc",
-      "stargazersCount": 29068,
-      "forksCount": 1924,
-      "openIssuesCount": 905,
+      "stargazersCount": 29071,
+      "forksCount": 1925,
+      "openIssuesCount": 906,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -3132,7 +3267,7 @@
       "latestReleaseTag": "2.7.12",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 21051060,
+      "downloadCount": 21052587,
       "dailyStars": null,
       "trendingScore": 190.22000122070312,
       "popularityScore": 32916.0,
@@ -3140,7 +3275,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "2.7.12",
+          "publishedAt": "2026-03-10T01:16:42Z"
+        },
+        "macos": {
+          "tag": "2.7.12",
+          "publishedAt": "2026-03-10T01:16:42Z"
+        },
+        "linux": {
+          "tag": "2.7.12",
+          "publishedAt": "2026-03-10T01:16:42Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3211,9 +3359,9 @@
       "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/manaflow-ai/cmux",
-      "stargazersCount": 27600,
+      "stargazersCount": 27598,
       "forksCount": 2433,
-      "openIssuesCount": 4993,
+      "openIssuesCount": 3124,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -3247,12 +3395,12 @@
       "releasesUrl": "https://github.com/manaflow-ai/cmux/releases",
       "updatedAt": "2026-10-04 02:43:22+00",
       "createdAt": "2026-01-28 10:03:24+00",
-      "pushedAt": "2026-09-16 01:09:32+00",
+      "pushedAt": "2026-10-04 07:47:18+00",
       "latestReleaseDate": "2026-09-17 13:59:47+00",
-      "latestReleaseTag": "v0.64.24",
+      "latestReleaseTag": "v0.64.25",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 24940212,
+      "downloadCount": 24971095,
       "dailyStars": null,
       "trendingScore": 2257.72998046875,
       "popularityScore": 32465.0,
@@ -3260,7 +3408,12 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "v0.64.25",
+          "publishedAt": "2026-09-17T13:59:47Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3275,9 +3428,9 @@
       "description": "A cross-platform launcher that simply works",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/Wox-launcher/Wox",
-      "stargazersCount": 27476,
+      "stargazersCount": 27481,
       "forksCount": 2437,
-      "openIssuesCount": 4,
+      "openIssuesCount": 1,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -3305,12 +3458,12 @@
       "releasesUrl": "https://github.com/Wox-launcher/Wox/releases",
       "updatedAt": "2026-10-03 02:14:20+00",
       "createdAt": "2013-12-19 15:49:32+00",
-      "pushedAt": "2026-10-01 18:08:47+00",
+      "pushedAt": "2026-10-04 04:03:40+00",
       "latestReleaseDate": "2026-09-23 02:56:52+00",
       "latestReleaseTag": "v2.4.5",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 53706816,
+      "downloadCount": 53707273,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -3318,7 +3471,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.4.5",
+          "publishedAt": "2026-09-23T02:56:52Z"
+        },
+        "macos": {
+          "tag": "v2.4.5",
+          "publishedAt": "2026-09-23T02:56:52Z"
+        },
+        "linux": {
+          "tag": "v2.4.5",
+          "publishedAt": "2026-09-23T02:56:52Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3333,9 +3499,9 @@
       "description": "Switch hosts quickly!",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/oldj/SwitchHosts",
-      "stargazersCount": 27253,
+      "stargazersCount": 27254,
       "forksCount": 2683,
-      "openIssuesCount": 431,
+      "openIssuesCount": 430,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -3355,12 +3521,12 @@
       "releasesUrl": "https://github.com/oldj/SwitchHosts/releases",
       "updatedAt": "2026-10-03 13:42:07+00",
       "createdAt": "2011-09-02 09:38:09+00",
-      "pushedAt": "2026-09-30 13:45:52+00",
+      "pushedAt": "2026-10-03 00:25:45+00",
       "latestReleaseDate": "2026-09-03 06:07:00+00",
       "latestReleaseTag": "v5.0.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 13159253,
+      "downloadCount": 13159892,
       "dailyStars": null,
       "trendingScore": 114.91999816894531,
       "popularityScore": 32619.0,
@@ -3368,7 +3534,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v5.0.2",
+          "publishedAt": "2026-09-03T06:07:00Z"
+        },
+        "macos": {
+          "tag": "v5.0.2",
+          "publishedAt": "2026-09-03T06:07:00Z"
+        },
+        "linux": {
+          "tag": "v5.0.2",
+          "publishedAt": "2026-09-03T06:07:00Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3383,7 +3562,7 @@
       "description": "A cross-platform, OpenGL terminal emulator.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/alacritty/alacritty",
-      "stargazersCount": 65882,
+      "stargazersCount": 65884,
       "forksCount": 3630,
       "openIssuesCount": 342,
       "licenseSpdxId": "Apache-2.0",
@@ -3414,7 +3593,7 @@
       "latestReleaseTag": "v0.17.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2903059,
+      "downloadCount": 2903319,
       "dailyStars": null,
       "trendingScore": 363.6000061035156,
       "popularityScore": 73142.0,
@@ -3422,7 +3601,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.17.0",
+          "publishedAt": "2026-04-06T19:24:18Z"
+        },
+        "macos": {
+          "tag": "v0.17.0",
+          "publishedAt": "2026-04-06T19:24:18Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3437,9 +3625,9 @@
       "description": "🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/4ian/GDevelop",
-      "stargazersCount": 27000,
-      "forksCount": 1561,
-      "openIssuesCount": 631,
+      "stargazersCount": 27104,
+      "forksCount": 1567,
+      "openIssuesCount": 633,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -3472,12 +3660,12 @@
       "releasesUrl": "https://github.com/4ian/GDevelop/releases",
       "updatedAt": "2026-09-24 22:39:48+00",
       "createdAt": "2014-06-29 19:58:38+00",
-      "pushedAt": "2026-09-30 13:06:32+00",
+      "pushedAt": "2026-10-03 22:43:47+00",
       "latestReleaseDate": "2026-09-29 13:19:40+00",
       "latestReleaseTag": "v5.6.283",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 22711134,
+      "downloadCount": 22853359,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -3485,7 +3673,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v5.6.283",
+          "publishedAt": "2026-09-29T13:19:40Z"
+        },
+        "macos": {
+          "tag": "v5.6.283",
+          "publishedAt": "2026-09-29T13:19:40Z"
+        },
+        "linux": {
+          "tag": "v5.6.283",
+          "publishedAt": "2026-09-29T13:19:40Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3608,7 +3809,7 @@
       "htmlUrl": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
       "stargazersCount": 26707,
       "forksCount": 1440,
-      "openIssuesCount": 160,
+      "openIssuesCount": 162,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -3624,12 +3825,12 @@
       "releasesUrl": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases",
       "updatedAt": "2026-10-04 02:01:40+00",
       "createdAt": "2017-03-14 03:30:46+00",
-      "pushedAt": "2026-08-19 11:04:27+00",
+      "pushedAt": "2026-10-03 18:52:14+00",
       "latestReleaseDate": "2026-10-03 18:04:46+00",
-      "latestReleaseTag": "release-5.2.3.10",
+      "latestReleaseTag": "release-5.2.4.10",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 9301888,
+      "downloadCount": 9304331,
       "dailyStars": null,
       "trendingScore": 169.0500030517578,
       "popularityScore": 29587.0,
@@ -3637,7 +3838,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "release-5.2.4.10",
+          "publishedAt": "2026-10-03T18:04:46Z"
+        },
+        "macos": {
+          "tag": "release-5.2.4.10",
+          "publishedAt": "2026-10-03T18:04:46Z"
+        },
+        "linux": {
+          "tag": "release-5.2.4.10",
+          "publishedAt": "2026-10-03T18:04:46Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3748,8 +3962,8 @@
       "description": "HandBrake's development repository ",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/HandBrake/HandBrake",
-      "stargazersCount": 24197,
-      "forksCount": 1686,
+      "stargazersCount": 24559,
+      "forksCount": 1711,
       "openIssuesCount": 295,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
@@ -3767,12 +3981,12 @@
       "releasesUrl": "https://github.com/HandBrake/HandBrake/releases",
       "updatedAt": null,
       "createdAt": null,
-      "pushedAt": "2026-08-28 08:59:25+00",
+      "pushedAt": "2026-10-02 16:17:37+00",
       "latestReleaseDate": "2026-06-07 19:08:25+00",
       "latestReleaseTag": "1.11.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 58343365,
+      "downloadCount": 59778914,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -3780,7 +3994,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.11.2",
+          "publishedAt": "2026-06-07T19:08:25Z"
+        },
+        "macos": {
+          "tag": "1.11.2",
+          "publishedAt": "2026-06-07T19:08:25Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -3795,9 +4018,9 @@
       "description": "Modern and easy to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/beekeeper-studio/beekeeper-studio",
-      "stargazersCount": 23694,
-      "forksCount": 1638,
-      "openIssuesCount": 1152,
+      "stargazersCount": 23698,
+      "forksCount": 1639,
+      "openIssuesCount": 1180,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -3827,12 +4050,12 @@
       "releasesUrl": "https://github.com/beekeeper-studio/beekeeper-studio/releases",
       "updatedAt": "2026-10-01 02:06:41+00",
       "createdAt": "2019-07-23 18:12:33+00",
-      "pushedAt": "2026-09-01 06:39:29+00",
-      "latestReleaseDate": "2026-09-29 01:17:42+00",
-      "latestReleaseTag": "v6.0.5",
+      "pushedAt": "2026-10-02 22:19:40+00",
+      "latestReleaseDate": "2026-10-02 21:38:43+00",
+      "latestReleaseTag": "v6.1.5",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 23673467,
+      "downloadCount": 23751467,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -3840,7 +4063,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v6.1.5",
+          "publishedAt": "2026-10-02T21:38:43Z"
+        },
+        "macos": {
+          "tag": "v6.1.5",
+          "publishedAt": "2026-10-02T21:38:43Z"
+        },
+        "linux": {
+          "tag": "v6.1.5",
+          "publishedAt": "2026-10-02T21:38:43Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -4008,9 +4244,9 @@
       "description": "基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率。",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Predidit/Kazumi",
-      "stargazersCount": 30613,
-      "forksCount": 925,
-      "openIssuesCount": 538,
+      "stargazersCount": 30730,
+      "forksCount": 928,
+      "openIssuesCount": 539,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -4039,7 +4275,7 @@
       "latestReleaseTag": "2.3.7",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 6090959,
+      "downloadCount": 6104355,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": 25294.0,
@@ -4113,80 +4349,6 @@
       "available_on": []
     },
     {
-      "id": 291438522,
-      "name": "siyuan",
-      "fullName": "siyuan-note/siyuan",
-      "owner": {
-        "login": "siyuan-note",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/70468694?v=4"
-      },
-      "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/siyuan-note/siyuan",
-      "stargazersCount": 46626,
-      "forksCount": 3035,
-      "openIssuesCount": 12,
-      "licenseSpdxId": "AGPL-3.0",
-      "licenseName": "GNU Affero General Public License v3.0",
-      "license": {
-        "spdxId": "AGPL-3.0",
-        "name": "GNU Affero General Public License v3.0"
-      },
-      "language": "TypeScript",
-      "topics": [
-        "agentic-ai",
-        "ai-agent",
-        "knowledge-base",
-        "local-first",
-        "markdown",
-        "mcp",
-        "note-taking",
-        "self-hosted",
-        "siyuan"
-      ],
-      "topicCodes": [
-        "ai",
-        "notes",
-        "self-hosted"
-      ],
-      "releasesUrl": "https://github.com/siyuan-note/siyuan/releases",
-      "updatedAt": "2026-10-04 00:21:06+00",
-      "createdAt": "2020-08-30 09:21:35+00",
-      "pushedAt": "2026-10-04 01:15:58+00",
-      "latestReleaseDate": "2026-09-29 01:39:16+00",
-      "latestReleaseTag": "v3.8.6",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 3335421,
-      "dailyStars": null,
-      "trendingScore": 421.44000244140625,
-      "popularityScore": 51314.0,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v3.8.6",
-          "publishedAt": "2026-09-29T01:39:16Z"
-        },
-        "windows": {
-          "tag": "v3.8.6",
-          "publishedAt": "2026-09-29T01:39:16Z"
-        },
-        "macos": {
-          "tag": "v3.8.6",
-          "publishedAt": "2026-09-29T01:39:16Z"
-        },
-        "linux": {
-          "tag": "v3.8.6",
-          "publishedAt": "2026-09-29T01:39:16Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 63037806,
       "name": "Karabiner-Elements",
       "fullName": "pqrs-org/Karabiner-Elements",
@@ -4197,9 +4359,9 @@
       "description": "Karabiner-Elements is a powerful tool for customizing keyboards on macOS",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/pqrs-org/Karabiner-Elements",
-      "stargazersCount": 22900,
+      "stargazersCount": 22901,
       "forksCount": 941,
-      "openIssuesCount": 24,
+      "openIssuesCount": 27,
       "licenseSpdxId": "Unlicense",
       "licenseName": "The Unlicense",
       "license": {
@@ -4215,12 +4377,12 @@
       "releasesUrl": "https://github.com/pqrs-org/Karabiner-Elements/releases",
       "updatedAt": "2026-10-04 02:10:02+00",
       "createdAt": "2016-07-11 04:57:55+00",
-      "pushedAt": "2026-09-18 13:13:57+00",
+      "pushedAt": "2026-10-03 04:52:12+00",
       "latestReleaseDate": "2026-09-06 07:49:45+00",
       "latestReleaseTag": "v16.3.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 8246168,
+      "downloadCount": 8247554,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": 24782.0,
@@ -4228,7 +4390,12 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "v16.3.0",
+          "publishedAt": "2026-09-06T07:49:45Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -4245,7 +4412,7 @@
       "htmlUrl": "https://github.com/realm/SwiftLint",
       "stargazersCount": 19748,
       "forksCount": 2332,
-      "openIssuesCount": 498,
+      "openIssuesCount": 518,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -4265,12 +4432,12 @@
       "releasesUrl": "https://github.com/realm/SwiftLint/releases",
       "updatedAt": "2026-10-03 16:57:27+00",
       "createdAt": "2015-05-16 16:59:31+00",
-      "pushedAt": "2026-09-03 08:54:17+00",
+      "pushedAt": "2026-10-02 14:53:31+00",
       "latestReleaseDate": "2026-08-21 20:29:47+00",
       "latestReleaseTag": "0.65.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 52510194,
+      "downloadCount": 52514539,
       "dailyStars": null,
       "trendingScore": 118.98999786376953,
       "popularityScore": 24412.0,
@@ -4278,60 +4445,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 131449222,
-      "name": "moonlight-qt",
-      "fullName": "moonlight-stream/moonlight-qt",
-      "owner": {
-        "login": "moonlight-stream",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6118379?v=4"
+      "platformReleases": {
+        "windows": {
+          "tag": "0.65.1",
+          "publishedAt": "2026-08-21T20:29:47Z"
+        },
+        "macos": {
+          "tag": "0.65.1",
+          "publishedAt": "2026-08-21T20:29:47Z"
+        }
       },
-      "description": "GameStream client for PCs (Windows, Mac, Linux, and Steam Link)",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/moonlight-stream/moonlight-qt",
-      "stargazersCount": 18866,
-      "forksCount": 1378,
-      "openIssuesCount": 564,
-      "licenseSpdxId": "GPL-3.0",
-      "licenseName": "GNU General Public License v3.0",
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "language": "C++",
-      "topics": [
-        "gamestream",
-        "linux-app",
-        "macos-app",
-        "moonlight",
-        "nvidia",
-        "qt",
-        "sdl2",
-        "steam-link",
-        "windows-app"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/moonlight-stream/moonlight-qt/releases",
-      "updatedAt": "2026-10-04 01:47:56+00",
-      "createdAt": "2018-04-28 22:41:42+00",
-      "pushedAt": "2026-09-28 05:43:39+00",
-      "latestReleaseDate": "2026-10-04 00:44:48+00",
-      "latestReleaseTag": "v6.1.0",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 11525949,
-      "dailyStars": null,
-      "trendingScore": 154.50999450683594,
-      "popularityScore": 21622.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
       "source_host": null,
       "available_on": []
     },
@@ -4346,9 +4469,9 @@
       "description": "Orchestrate multiple coding agents from desktop and mobile",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/getpaseo/paseo",
-      "stargazersCount": 19367,
-      "forksCount": 2269,
-      "openIssuesCount": 1007,
+      "stargazersCount": 19397,
+      "forksCount": 2273,
+      "openIssuesCount": 1019,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -4379,12 +4502,12 @@
       "releasesUrl": "https://github.com/getpaseo/paseo/releases",
       "updatedAt": "2026-10-03 22:57:24+00",
       "createdAt": "2025-10-13 12:27:02+00",
-      "pushedAt": "2026-10-03 18:25:11+00",
+      "pushedAt": "2026-10-04 08:25:39+00",
       "latestReleaseDate": "2026-10-02 12:37:45+00",
       "latestReleaseTag": "v0.10.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 12057494,
+      "downloadCount": 12129296,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -4408,6 +4531,72 @@
         "linux": {
           "tag": "v0.10.3",
           "publishedAt": "2026-10-02T12:37:45Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 131449222,
+      "name": "moonlight-qt",
+      "fullName": "moonlight-stream/moonlight-qt",
+      "owner": {
+        "login": "moonlight-stream",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6118379?v=4"
+      },
+      "description": "GameStream client for PCs (Windows, Mac, Linux, and Steam Link)",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/moonlight-stream/moonlight-qt",
+      "stargazersCount": 18867,
+      "forksCount": 1378,
+      "openIssuesCount": 562,
+      "licenseSpdxId": "GPL-3.0",
+      "licenseName": "GNU General Public License v3.0",
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "language": "C++",
+      "topics": [
+        "gamestream",
+        "linux-app",
+        "macos-app",
+        "moonlight",
+        "nvidia",
+        "qt",
+        "sdl2",
+        "steam-link",
+        "windows-app"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/moonlight-stream/moonlight-qt/releases",
+      "updatedAt": "2026-10-04 01:47:56+00",
+      "createdAt": "2018-04-28 22:41:42+00",
+      "pushedAt": "2026-10-04 00:44:47+00",
+      "latestReleaseDate": "2026-10-04 00:44:48+00",
+      "latestReleaseTag": "v6.2.0",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 11533629,
+      "dailyStars": null,
+      "trendingScore": 154.50999450683594,
+      "popularityScore": 21622.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v6.2.0",
+          "publishedAt": "2026-10-04T00:44:48Z"
+        },
+        "macos": {
+          "tag": "v6.2.0",
+          "publishedAt": "2026-10-04T00:44:48Z"
+        },
+        "linux": {
+          "tag": "v6.2.0",
+          "publishedAt": "2026-10-04T00:44:48Z"
         }
       },
       "source_host": null,
@@ -4526,62 +4715,6 @@
       "available_on": []
     },
     {
-      "id": 71056775,
-      "name": "kitty",
-      "fullName": "kovidgoyal/kitty",
-      "owner": {
-        "login": "kovidgoyal",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1308621?v=4"
-      },
-      "description": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/kovidgoyal/kitty",
-      "stargazersCount": 35156,
-      "forksCount": 1539,
-      "openIssuesCount": 14,
-      "licenseSpdxId": "GPL-3.0",
-      "licenseName": "GNU General Public License v3.0",
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "language": "Python",
-      "topics": [
-        "c",
-        "go",
-        "golang",
-        "golang-application",
-        "kitty",
-        "kitty-terminal",
-        "opengl",
-        "python",
-        "terminal",
-        "terminal-emulators",
-        "terminfo",
-        "vt100"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/kovidgoyal/kitty/releases",
-      "updatedAt": "2026-10-04 02:30:03+00",
-      "createdAt": "2016-10-16 14:48:28+00",
-      "pushedAt": "2026-09-16 07:51:04+00",
-      "latestReleaseDate": "2026-10-01 02:57:33+00",
-      "latestReleaseTag": "v0.48.2",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 3806185,
-      "dailyStars": null,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 1223170290,
       "name": "open-design",
       "fullName": "nexu-io/open-design",
@@ -4658,6 +4791,67 @@
       "available_on": []
     },
     {
+      "id": 71056775,
+      "name": "kitty",
+      "fullName": "kovidgoyal/kitty",
+      "owner": {
+        "login": "kovidgoyal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1308621?v=4"
+      },
+      "description": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/kovidgoyal/kitty",
+      "stargazersCount": 35157,
+      "forksCount": 1539,
+      "openIssuesCount": 12,
+      "licenseSpdxId": "GPL-3.0",
+      "licenseName": "GNU General Public License v3.0",
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "language": "Python",
+      "topics": [
+        "c",
+        "go",
+        "golang",
+        "golang-application",
+        "kitty",
+        "kitty-terminal",
+        "opengl",
+        "python",
+        "terminal",
+        "terminal-emulators",
+        "terminfo",
+        "vt100"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/kovidgoyal/kitty/releases",
+      "updatedAt": "2026-10-04 02:30:03+00",
+      "createdAt": "2016-10-16 14:48:28+00",
+      "pushedAt": "2026-10-04 02:29:59+00",
+      "latestReleaseDate": "2026-10-01 02:57:33+00",
+      "latestReleaseTag": "v0.49.2",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 3807085,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "macos": {
+          "tag": "v0.49.2",
+          "publishedAt": "2026-10-01T02:57:33Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 32921736,
       "name": "audacity",
       "fullName": "audacity/audacity",
@@ -4668,9 +4862,9 @@
       "description": "Audio Editor                                     ",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/audacity/audacity",
-      "stargazersCount": 18642,
+      "stargazersCount": 18644,
       "forksCount": 2675,
-      "openIssuesCount": 1814,
+      "openIssuesCount": 1816,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -4691,12 +4885,12 @@
       "releasesUrl": "https://github.com/audacity/audacity/releases",
       "updatedAt": "2026-10-04 02:24:41+00",
       "createdAt": "2015-03-26 10:46:17+00",
-      "pushedAt": "2026-10-01 19:22:00+00",
+      "pushedAt": "2026-10-02 09:11:24+00",
       "latestReleaseDate": "2026-09-30 11:59:48+00",
       "latestReleaseTag": "Audacity-4.0.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 106067096,
+      "downloadCount": 106080058,
       "dailyStars": null,
       "trendingScore": 116.58000183105469,
       "popularityScore": 23992.0,
@@ -4704,56 +4898,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 114187903,
-      "name": "foundationdb",
-      "fullName": "apple/foundationdb",
-      "owner": {
-        "login": "apple",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10639145?v=4"
+      "platformReleases": {
+        "windows": {
+          "tag": "Audacity-4.0.1",
+          "publishedAt": "2026-09-30T11:59:48Z"
+        },
+        "macos": {
+          "tag": "Audacity-4.0.1",
+          "publishedAt": "2026-09-30T11:59:48Z"
+        },
+        "linux": {
+          "tag": "Audacity-4.0.1",
+          "publishedAt": "2026-09-30T11:59:48Z"
+        }
       },
-      "description": "FoundationDB - the open source, distributed, transactional key-value store",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/apple/foundationdb",
-      "stargazersCount": 16749,
-      "forksCount": 1580,
-      "openIssuesCount": 763,
-      "licenseSpdxId": "Apache-2.0",
-      "licenseName": "Apache License 2.0",
-      "license": {
-        "spdxId": "Apache-2.0",
-        "name": "Apache License 2.0"
-      },
-      "language": "C++",
-      "topics": [
-        "acid",
-        "distributed-database",
-        "foundationdb",
-        "key-value-store",
-        "transactional"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/apple/foundationdb/releases",
-      "updatedAt": "2026-10-03 22:59:55+00",
-      "createdAt": "2017-12-14 01:40:42+00",
-      "pushedAt": "2026-09-15 03:47:11+00",
-      "latestReleaseDate": "2026-04-16 19:24:36+00",
-      "latestReleaseTag": "7.3.77",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 19227597,
-      "dailyStars": null,
-      "trendingScore": 120.16000366210938,
-      "popularityScore": 19909.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
       "source_host": null,
       "available_on": []
     },
@@ -4768,9 +4926,9 @@
       "description": "Podman: A tool for managing OCI containers and pods.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/podman-container-tools/podman",
-      "stargazersCount": 32726,
-      "forksCount": 3351,
-      "openIssuesCount": 1142,
+      "stargazersCount": 32990,
+      "forksCount": 3396,
+      "openIssuesCount": 1021,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -4789,12 +4947,12 @@
       "releasesUrl": "https://github.com/podman-container-tools/podman/releases",
       "updatedAt": "2026-08-28 02:03:48+00",
       "createdAt": "2017-11-01 15:01:27+00",
-      "pushedAt": "2026-08-29 15:25:23+00",
-      "latestReleaseDate": "2026-08-13 21:11:05+00",
-      "latestReleaseTag": "v5.8.6",
+      "pushedAt": "2026-10-02 19:24:12+00",
+      "latestReleaseDate": "2026-09-29 15:34:46+00",
+      "latestReleaseTag": "v6.1.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 3709685,
+      "downloadCount": 3953138,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -4802,7 +4960,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v6.1.3",
+          "publishedAt": "2026-09-29T15:34:46Z"
+        },
+        "macos": {
+          "tag": "v6.1.3",
+          "publishedAt": "2026-09-29T15:34:46Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -4872,6 +5039,64 @@
       "available_on": []
     },
     {
+      "id": 114187903,
+      "name": "foundationdb",
+      "fullName": "apple/foundationdb",
+      "owner": {
+        "login": "apple",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10639145?v=4"
+      },
+      "description": "FoundationDB - the open source, distributed, transactional key-value store",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/apple/foundationdb",
+      "stargazersCount": 16749,
+      "forksCount": 1580,
+      "openIssuesCount": 790,
+      "licenseSpdxId": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "license": {
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "language": "C++",
+      "topics": [
+        "acid",
+        "distributed-database",
+        "foundationdb",
+        "key-value-store",
+        "transactional"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/apple/foundationdb/releases",
+      "updatedAt": "2026-10-03 22:59:55+00",
+      "createdAt": "2017-12-14 01:40:42+00",
+      "pushedAt": "2026-10-03 02:56:39+00",
+      "latestReleaseDate": "2026-04-16 19:24:36+00",
+      "latestReleaseTag": "7.3.77",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 19217946,
+      "dailyStars": null,
+      "trendingScore": 120.16000366210938,
+      "popularityScore": 19909.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "macos": {
+          "tag": "7.3.77",
+          "publishedAt": "2026-04-16T19:24:36Z"
+        },
+        "linux": {
+          "tag": "7.3.77",
+          "publishedAt": "2026-04-16T19:24:36Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 1380117,
       "name": "lantern",
       "fullName": "getlantern/lantern",
@@ -4884,7 +5109,7 @@
       "htmlUrl": "https://github.com/getlantern/lantern",
       "stargazersCount": 16084,
       "forksCount": 11044,
-      "openIssuesCount": 34,
+      "openIssuesCount": 35,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -4912,7 +5137,7 @@
       "latestReleaseTag": "v10.0.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 124576895,
+      "downloadCount": 124577280,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -4952,9 +5177,9 @@
       "description": "Cloudflare Tunnel client",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/cloudflare/cloudflared",
-      "stargazersCount": 15867,
-      "forksCount": 1452,
-      "openIssuesCount": 538,
+      "stargazersCount": 16014,
+      "forksCount": 1470,
+      "openIssuesCount": 550,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -4972,12 +5197,12 @@
       "releasesUrl": "https://github.com/cloudflare/cloudflared/releases",
       "updatedAt": "2026-09-22 19:56:47+00",
       "createdAt": null,
-      "pushedAt": "2026-09-09 06:50:42+00",
-      "latestReleaseDate": "2026-09-11 13:42:53+00",
-      "latestReleaseTag": "2026.8.3",
+      "pushedAt": "2026-09-29 16:52:05+00",
+      "latestReleaseDate": "2026-09-24 16:14:11+00",
+      "latestReleaseTag": "2026.9.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 78573520,
+      "downloadCount": 80392435,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -4985,7 +5210,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "2026.9.3",
+          "publishedAt": "2026-09-24T16:14:11Z"
+        },
+        "macos": {
+          "tag": "2026.9.3",
+          "publishedAt": "2026-09-24T16:14:11Z"
+        },
+        "linux": {
+          "tag": "2026.9.3",
+          "publishedAt": "2026-09-24T16:14:11Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -5021,12 +5259,12 @@
       "releasesUrl": "https://github.com/mltframework/shotcut/releases",
       "updatedAt": "2026-10-04 01:11:40+00",
       "createdAt": "2012-04-23 22:37:04+00",
-      "pushedAt": "2026-09-15 02:31:08+00",
+      "pushedAt": "2026-10-04 00:07:35+00",
       "latestReleaseDate": "2026-09-28 00:29:29+00",
-      "latestReleaseTag": "v26.8.1",
+      "latestReleaseTag": "v26.9.27",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 22118817,
+      "downloadCount": 22119123,
       "dailyStars": null,
       "trendingScore": 90.13999938964844,
       "popularityScore": 18388.0,
@@ -5034,7 +5272,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v26.9.27",
+          "publishedAt": "2026-09-28T00:29:29Z"
+        },
+        "macos": {
+          "tag": "v26.9.27",
+          "publishedAt": "2026-09-28T00:29:29Z"
+        },
+        "linux": {
+          "tag": "v26.9.27",
+          "publishedAt": "2026-09-28T00:29:29Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -5049,9 +5300,9 @@
       "description": "Official Transmission BitTorrent client repository",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/transmission/transmission",
-      "stargazersCount": 15266,
+      "stargazersCount": 15267,
       "forksCount": 1449,
-      "openIssuesCount": 846,
+      "openIssuesCount": 880,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -5064,12 +5315,12 @@
       "releasesUrl": "https://github.com/transmission/transmission/releases",
       "updatedAt": "2026-10-03 09:50:14+00",
       "createdAt": "2015-05-05 23:53:02+00",
-      "pushedAt": "2026-08-07 18:17:09+00",
+      "pushedAt": "2026-09-04 16:40:20+00",
       "latestReleaseDate": "2026-06-30 03:24:03+00",
       "latestReleaseTag": "4.1.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 11703257,
+      "downloadCount": 11704446,
       "dailyStars": null,
       "trendingScore": 89.23999786376953,
       "popularityScore": 18164.0,
@@ -5077,7 +5328,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "4.1.3",
+          "publishedAt": "2026-06-30T03:24:03Z"
+        },
+        "macos": {
+          "tag": "4.1.3",
+          "publishedAt": "2026-06-30T03:24:03Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -5092,9 +5352,9 @@
       "description": "Amnezia VPN Client (Desktop+Mobile)",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/amnezia-vpn/amnezia-client",
-      "stargazersCount": 15309,
-      "forksCount": 1180,
-      "openIssuesCount": 1174,
+      "stargazersCount": 15310,
+      "forksCount": 1181,
+      "openIssuesCount": 1175,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -5124,7 +5384,7 @@
       "latestReleaseTag": "5.0.3.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 10821920,
+      "downloadCount": 10823897,
       "dailyStars": null,
       "trendingScore": 161.00999450683594,
       "popularityScore": 17669.0,
@@ -5160,9 +5420,9 @@
       "description": "MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/musescore/MuseScore",
-      "stargazersCount": 15175,
-      "forksCount": 3322,
-      "openIssuesCount": 4288,
+      "stargazersCount": 15177,
+      "forksCount": 3323,
+      "openIssuesCount": 4299,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -5184,12 +5444,12 @@
       "releasesUrl": "https://github.com/musescore/MuseScore/releases",
       "updatedAt": "2026-10-04 01:54:29+00",
       "createdAt": "2012-05-26 12:46:33+00",
-      "pushedAt": "2026-10-01 12:49:09+00",
+      "pushedAt": "2026-10-02 16:51:41+00",
       "latestReleaseDate": "2026-09-08 13:45:04+00",
       "latestReleaseTag": "v4.7.5",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 16536217,
+      "downloadCount": 16537507,
       "dailyStars": null,
       "trendingScore": 85.88999938964844,
       "popularityScore": 21819.0,
@@ -5197,7 +5457,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v4.7.5",
+          "publishedAt": "2026-09-08T13:45:04Z"
+        },
+        "macos": {
+          "tag": "v4.7.5",
+          "publishedAt": "2026-09-08T13:45:04Z"
+        },
+        "linux": {
+          "tag": "v4.7.5",
+          "publishedAt": "2026-09-08T13:45:04Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -5322,9 +5595,9 @@
       "description": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/flameshot-org/flameshot",
-      "stargazersCount": 31076,
+      "stargazersCount": 31077,
       "forksCount": 2046,
-      "openIssuesCount": 731,
+      "openIssuesCount": 743,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -5347,20 +5620,33 @@
       "releasesUrl": "https://github.com/flameshot-org/flameshot/releases",
       "updatedAt": "2026-10-04 01:12:24+00",
       "createdAt": "2017-05-10 19:44:51+00",
-      "pushedAt": "2026-09-17 21:37:22+00",
+      "pushedAt": "2026-10-03 07:37:21+00",
       "latestReleaseDate": "2026-06-19 01:20:33+00",
       "latestReleaseTag": "v14.0.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 3459816,
+      "downloadCount": 3460028,
       "dailyStars": null,
       "trendingScore": 213.0399932861328,
       "popularityScore": 35168.0,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": null,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v14.0.0",
+          "publishedAt": "2026-06-19T01:20:33Z"
+        },
+        "macos": {
+          "tag": "v14.0.0",
+          "publishedAt": "2026-06-19T01:20:33Z"
+        },
+        "linux": {
+          "tag": "v13.3.0",
+          "publishedAt": "2025-10-28T22:50:45Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -5375,9 +5661,9 @@
       "description": "the subtitle editor :)",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/SubtitleEdit/subtitleedit",
-      "stargazersCount": 14416,
+      "stargazersCount": 14419,
       "forksCount": 1315,
-      "openIssuesCount": 242,
+      "openIssuesCount": 139,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -5390,12 +5676,12 @@
       "releasesUrl": "https://github.com/SubtitleEdit/subtitleedit/releases",
       "updatedAt": "2026-10-03 19:20:49+00",
       "createdAt": "2014-02-03 08:17:41+00",
-      "pushedAt": "2026-09-03 18:59:37+00",
+      "pushedAt": "2026-10-04 06:13:23+00",
       "latestReleaseDate": "2026-09-10 08:09:13+00",
-      "latestReleaseTag": "v5.1.0",
+      "latestReleaseTag": "v5.2.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 13609324,
+      "downloadCount": 13610599,
       "dailyStars": null,
       "trendingScore": 78.33999633789062,
       "popularityScore": 17046.0,
@@ -5403,7 +5689,160 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v5.2.0",
+          "publishedAt": "2026-09-10T08:09:13Z"
+        },
+        "macos": {
+          "tag": "v5.2.0",
+          "publishedAt": "2026-09-10T08:09:13Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 291438522,
+      "name": "siyuan",
+      "fullName": "siyuan-note/siyuan",
+      "owner": {
+        "login": "siyuan-note",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70468694?v=4"
+      },
+      "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/siyuan-note/siyuan",
+      "stargazersCount": 46626,
+      "forksCount": 3035,
+      "openIssuesCount": 21,
+      "licenseSpdxId": "AGPL-3.0",
+      "licenseName": "GNU Affero General Public License v3.0",
+      "license": {
+        "spdxId": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "knowledge-base",
+        "local-first",
+        "markdown",
+        "mcp",
+        "note-taking",
+        "self-hosted",
+        "siyuan"
+      ],
+      "topicCodes": [
+        "ai",
+        "notes",
+        "self-hosted"
+      ],
+      "releasesUrl": "https://github.com/siyuan-note/siyuan/releases",
+      "updatedAt": "2026-10-04 00:21:06+00",
+      "createdAt": "2020-08-30 09:21:35+00",
+      "pushedAt": "2026-10-04 06:51:30+00",
+      "latestReleaseDate": "2026-09-29 01:39:16+00",
+      "latestReleaseTag": "v3.8.6",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 1853554,
+      "dailyStars": null,
+      "trendingScore": 421.44000244140625,
+      "popularityScore": 51314.0,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "windows": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "macos": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        },
+        "linux": {
+          "tag": "v3.8.6",
+          "publishedAt": "2026-09-29T01:39:16Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 53538899,
+      "name": "clients",
+      "fullName": "bitwarden/clients",
+      "owner": {
+        "login": "bitwarden",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15990069?v=4"
+      },
+      "description": "Bitwarden client apps (web, browser extension, desktop, and cli).",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/bitwarden/clients",
+      "stargazersCount": 13899,
+      "forksCount": 2062,
+      "openIssuesCount": 1334,
+      "licenseSpdxId": "NOASSERTION",
+      "licenseName": "Other",
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "angular",
+        "bitwarden",
+        "browser-extension",
+        "chrome",
+        "cli",
+        "desktop",
+        "electron",
+        "firefox",
+        "javascript",
+        "nodejs",
+        "safari",
+        "typescript",
+        "webextension"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/bitwarden/clients/releases",
+      "updatedAt": "2026-07-14 19:59:40+00",
+      "createdAt": "2016-03-09 23:14:01+00",
+      "pushedAt": "2026-10-04 06:56:00+00",
+      "latestReleaseDate": "2026-09-30 00:42:35+00",
+      "latestReleaseTag": "web-v2026.9.1",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 14906409,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "desktop-v2026.9.1",
+          "publishedAt": "2026-10-01T19:35:06Z"
+        },
+        "macos": {
+          "tag": "desktop-v2026.9.1",
+          "publishedAt": "2026-10-01T19:35:06Z"
+        },
+        "linux": {
+          "tag": "desktop-v2026.9.1",
+          "publishedAt": "2026-10-01T19:35:06Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -5533,59 +5972,62 @@
       "available_on": []
     },
     {
-      "id": 53538899,
-      "name": "clients",
-      "fullName": "bitwarden/clients",
+      "id": 152742185,
+      "name": "V2rayU",
+      "fullName": "yanue/V2rayU",
       "owner": {
-        "login": "bitwarden",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15990069?v=4"
+        "login": "yanue",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1435250?v=4"
       },
-      "description": "Bitwarden client apps (web, browser extension, desktop, and cli).",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/bitwarden/clients",
-      "stargazersCount": 13312,
-      "forksCount": 1919,
-      "openIssuesCount": 1181,
-      "licenseSpdxId": "NOASSERTION",
-      "licenseName": "Other",
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "language": "TypeScript",
+      "description": "V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持trojan,vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等",
+      "defaultBranch": "rm",
+      "htmlUrl": "https://github.com/yanue/V2rayU",
+      "stargazersCount": 20156,
+      "forksCount": 2962,
+      "openIssuesCount": 8,
+      "licenseSpdxId": null,
+      "licenseName": null,
+      "license": null,
+      "language": null,
       "topics": [
-        "angular",
-        "bitwarden",
-        "browser-extension",
-        "chrome",
-        "cli",
-        "desktop",
-        "electron",
-        "firefox",
-        "javascript",
-        "nodejs",
-        "safari",
-        "typescript",
-        "webextension"
+        "anytls",
+        "clash",
+        "mac",
+        "macos",
+        "native",
+        "v2ray",
+        "v2rayu",
+        "vless",
+        "vmess",
+        "xhttp",
+        "xray",
+        "xray-core"
       ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/bitwarden/clients/releases",
-      "updatedAt": "2026-07-14 19:59:40+00",
-      "createdAt": "2016-03-09 23:14:01+00",
-      "pushedAt": "2026-07-18 03:06:29+00",
-      "latestReleaseDate": "2026-06-30 16:09:04+00",
-      "latestReleaseTag": "desktop-v2026.6.1",
+      "topicCodes": [
+        "networking"
+      ],
+      "releasesUrl": "https://github.com/yanue/V2rayU/releases",
+      "updatedAt": null,
+      "createdAt": null,
+      "pushedAt": "2026-08-02 13:11:02+00",
+      "latestReleaseDate": "2026-08-02 13:11:02+00",
+      "latestReleaseTag": "v5.2.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 13626492,
+      "downloadCount": 5478694,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
+      "hasInstallersWindows": false,
       "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "macos": {
+          "tag": "v5.2.0",
+          "publishedAt": "2026-08-02T13:11:02Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -5600,9 +6042,9 @@
       "description": "Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/kopia/kopia",
-      "stargazersCount": 14249,
+      "stargazersCount": 14250,
       "forksCount": 740,
-      "openIssuesCount": 892,
+      "openIssuesCount": 891,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -5624,12 +6066,12 @@
       "releasesUrl": "https://github.com/kopia/kopia/releases",
       "updatedAt": "2026-10-04 00:21:49+00",
       "createdAt": "2015-12-19 22:47:14+00",
-      "pushedAt": "2026-09-25 05:35:54+00",
+      "pushedAt": "2026-10-03 05:10:11+00",
       "latestReleaseDate": "2026-06-16 01:27:33+00",
       "latestReleaseTag": "v0.23.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 8869792,
+      "downloadCount": 8871649,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -5637,7 +6079,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.23.1",
+          "publishedAt": "2026-06-16T01:27:33Z"
+        },
+        "macos": {
+          "tag": "v0.23.1",
+          "publishedAt": "2026-06-16T01:27:33Z"
+        },
+        "linux": {
+          "tag": "v0.23.1",
+          "publishedAt": "2026-06-16T01:27:33Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -5726,61 +6181,6 @@
       "available_on": []
     },
     {
-      "id": 152742185,
-      "name": "V2rayU",
-      "fullName": "yanue/V2rayU",
-      "owner": {
-        "login": "yanue",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1435250?v=4"
-      },
-      "description": "V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持trojan,vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等",
-      "defaultBranch": "rm",
-      "htmlUrl": "https://github.com/yanue/V2rayU",
-      "stargazersCount": 20125,
-      "forksCount": 2963,
-      "openIssuesCount": 6,
-      "licenseSpdxId": null,
-      "licenseName": null,
-      "license": null,
-      "language": null,
-      "topics": [
-        "anytls",
-        "clash",
-        "mac",
-        "macos",
-        "native",
-        "v2ray",
-        "v2rayu",
-        "vless",
-        "vmess",
-        "xhttp",
-        "xray",
-        "xray-core"
-      ],
-      "topicCodes": [
-        "networking"
-      ],
-      "releasesUrl": "https://github.com/yanue/V2rayU/releases",
-      "updatedAt": null,
-      "createdAt": null,
-      "pushedAt": "2026-08-02 13:11:02+00",
-      "latestReleaseDate": "2026-08-02 13:11:02+00",
-      "latestReleaseTag": "v5.2.0",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 5177605,
-      "dailyStars": null,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 7377936,
       "name": "ImageGlass",
       "fullName": "d2phap/ImageGlass",
@@ -5833,7 +6233,7 @@
       "latestReleaseTag": "10.0.6.906",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 8083585,
+      "downloadCount": 8084973,
       "dailyStars": null,
       "trendingScore": 115.87999725341797,
       "popularityScore": 16048.0,
@@ -5927,9 +6327,9 @@
       "description": "darktable is an open source photography workflow application and raw developer",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/darktable-org/darktable",
-      "stargazersCount": 13187,
+      "stargazersCount": 13188,
       "forksCount": 1451,
-      "openIssuesCount": 662,
+      "openIssuesCount": 655,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -5942,12 +6342,12 @@
       "releasesUrl": "https://github.com/darktable-org/darktable/releases",
       "updatedAt": "2026-10-03 23:08:56+00",
       "createdAt": "2012-03-21 21:53:04+00",
-      "pushedAt": "2026-10-02 21:39:20+00",
+      "pushedAt": "2026-10-04 01:28:59+00",
       "latestReleaseDate": "2026-08-27 07:02:41+00",
       "latestReleaseTag": "release-5.6.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 8947899,
+      "downloadCount": 8948452,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": 16089.0,
@@ -5955,7 +6355,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "release-5.6.1",
+          "publishedAt": "2026-08-27T07:02:41Z"
+        },
+        "macos": {
+          "tag": "release-5.6.1",
+          "publishedAt": "2026-08-27T07:02:41Z"
+        },
+        "linux": {
+          "tag": "release-5.6.1",
+          "publishedAt": "2026-08-27T07:02:41Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -6119,9 +6532,9 @@
       "description": "The modern video player for macOS.",
       "defaultBranch": "develop",
       "htmlUrl": "https://github.com/iina/iina",
-      "stargazersCount": 46593,
+      "stargazersCount": 46599,
       "forksCount": 2935,
-      "openIssuesCount": 1936,
+      "openIssuesCount": 1937,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -6143,12 +6556,12 @@
       "releasesUrl": "https://github.com/iina/iina/releases",
       "updatedAt": "2026-10-04 01:38:09+00",
       "createdAt": "2016-12-19 07:18:45+00",
-      "pushedAt": "2026-10-03 13:25:35+00",
+      "pushedAt": "2026-10-04 01:38:08+00",
       "latestReleaseDate": "2026-10-03 01:50:22+00",
       "latestReleaseTag": "v1.5.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1433915,
+      "downloadCount": 1434130,
       "dailyStars": null,
       "trendingScore": 298.6600036621094,
       "popularityScore": 52463.0,
@@ -6178,7 +6591,7 @@
       "htmlUrl": "https://github.com/osquery/osquery",
       "stargazersCount": 23608,
       "forksCount": 2607,
-      "openIssuesCount": 628,
+      "openIssuesCount": 578,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -6199,12 +6612,12 @@
       "releasesUrl": "https://github.com/osquery/osquery/releases",
       "updatedAt": "2026-10-03 21:21:44+00",
       "createdAt": "2014-07-29 20:27:33+00",
-      "pushedAt": "2026-08-07 01:46:13+00",
+      "pushedAt": "2026-10-02 21:25:46+00",
       "latestReleaseDate": "2026-06-24 14:57:05+00",
       "latestReleaseTag": "5.23.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 3621900,
+      "downloadCount": 3622150,
       "dailyStars": null,
       "trendingScore": 122.12999725341797,
       "popularityScore": 28822.0,
@@ -6212,7 +6625,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "5.23.1",
+          "publishedAt": "2026-06-24T14:57:05Z"
+        },
+        "macos": {
+          "tag": "5.23.1",
+          "publishedAt": "2026-06-24T14:57:05Z"
+        },
+        "linux": {
+          "tag": "5.23.1",
+          "publishedAt": "2026-06-24T14:57:05Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -6350,9 +6776,9 @@
       "description": "Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.",
       "defaultBranch": "develop",
       "htmlUrl": "https://github.com/cryptomator/cryptomator",
-      "stargazersCount": 16242,
+      "stargazersCount": 16246,
       "forksCount": 1546,
-      "openIssuesCount": 285,
+      "openIssuesCount": 283,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -6377,12 +6803,12 @@
       "releasesUrl": "https://github.com/cryptomator/cryptomator/releases",
       "updatedAt": "2026-10-03 23:53:12+00",
       "createdAt": "2014-02-02 00:43:47+00",
-      "pushedAt": "2026-09-16 15:57:47+00",
+      "pushedAt": "2026-10-01 04:09:00+00",
       "latestReleaseDate": "2026-06-29 12:24:45+00",
       "latestReleaseTag": "1.19.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 5424263,
+      "downloadCount": 5425575,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -6390,7 +6816,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.19.3",
+          "publishedAt": "2026-06-29T12:24:45Z"
+        },
+        "macos": {
+          "tag": "1.19.3",
+          "publishedAt": "2026-06-29T12:24:45Z"
+        },
+        "linux": {
+          "tag": "1.19.3",
+          "publishedAt": "2026-06-29T12:24:45Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -6444,7 +6883,7 @@
       "latestReleaseTag": "v4.4.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1857225,
+      "downloadCount": 1857624,
       "dailyStars": null,
       "trendingScore": 246.14999389648438,
       "popularityScore": 36427.0,
@@ -6452,7 +6891,12 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "v4.4.0",
+          "publishedAt": "2026-09-15T09:41:29Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -6510,7 +6954,7 @@
       "description": "  A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/GopeedLab/gopeed",
-      "stargazersCount": 26660,
+      "stargazersCount": 26668,
       "forksCount": 1740,
       "openIssuesCount": 338,
       "licenseSpdxId": "GPL-3.0",
@@ -6548,7 +6992,7 @@
       "latestReleaseTag": "v1.9.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2549266,
+      "downloadCount": 2550313,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -6574,49 +7018,6 @@
           "publishedAt": "2026-03-18T12:54:20Z"
         }
       },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 221584272,
-      "name": "miniforge",
-      "fullName": "conda-forge/miniforge",
-      "owner": {
-        "login": "conda-forge",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11897326?v=4"
-      },
-      "description": "A conda-forge distribution.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/conda-forge/miniforge",
-      "stargazersCount": 10029,
-      "forksCount": 521,
-      "openIssuesCount": 127,
-      "licenseSpdxId": "NOASSERTION",
-      "licenseName": "Other",
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "language": "Shell",
-      "topics": [],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/conda-forge/miniforge/releases",
-      "updatedAt": null,
-      "createdAt": null,
-      "pushedAt": "2026-07-01 18:53:04+00",
-      "latestReleaseDate": "2026-06-01 11:33:39+00",
-      "latestReleaseTag": "26.3.2-3",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 37621876,
-      "dailyStars": null,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": null,
       "source_host": null,
       "available_on": []
     },
@@ -6695,9 +7096,9 @@
       "description": "Brave browser for Android, iOS, Linux, macOS, Windows.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/brave/brave-browser",
-      "stargazersCount": 23789,
-      "forksCount": 3231,
-      "openIssuesCount": 11010,
+      "stargazersCount": 23790,
+      "forksCount": 3232,
+      "openIssuesCount": 11011,
       "licenseSpdxId": "MPL-2.0",
       "licenseName": "Mozilla Public License 2.0",
       "license": {
@@ -6724,7 +7125,7 @@
       "latestReleaseTag": "v1.99.9",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2880535,
+      "downloadCount": 2892928,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -6764,9 +7165,9 @@
       "description": "Official repository for Spyder - The Scientific Python Development Environment",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/spyder-ide/spyder",
-      "stargazersCount": 9350,
-      "forksCount": 1809,
-      "openIssuesCount": 1352,
+      "stargazersCount": 9347,
+      "forksCount": 1812,
+      "openIssuesCount": 1354,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -6789,12 +7190,12 @@
       "releasesUrl": "https://github.com/spyder-ide/spyder/releases",
       "updatedAt": "2026-07-09 01:40:12+00",
       "createdAt": null,
-      "pushedAt": "2026-09-28 16:21:01+00",
+      "pushedAt": "2026-10-02 03:50:13+00",
       "latestReleaseDate": "2026-08-28 02:20:13+00",
       "latestReleaseTag": "v6.1.7",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 15532992,
+      "downloadCount": 15562269,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -6802,7 +7203,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v6.1.7",
+          "publishedAt": "2026-08-28T02:20:13Z"
+        },
+        "macos": {
+          "tag": "v6.1.7",
+          "publishedAt": "2026-08-28T02:20:13Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -6817,9 +7227,9 @@
       "description": "A Download Manager that speeds up your downloads",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/amir1376/ab-download-manager",
-      "stargazersCount": 18218,
-      "forksCount": 930,
-      "openIssuesCount": 455,
+      "stargazersCount": 18239,
+      "forksCount": 932,
+      "openIssuesCount": 452,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -6855,7 +7265,7 @@
       "latestReleaseTag": "v1.10.4",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 3553368,
+      "downloadCount": 3559796,
       "dailyStars": null,
       "trendingScore": 468.0899963378906,
       "popularityScore": 15962.0,
@@ -6863,7 +7273,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.10.4",
+          "publishedAt": "2026-09-08T16:57:59Z"
+        },
+        "windows": {
+          "tag": "v1.10.4",
+          "publishedAt": "2026-09-08T16:57:59Z"
+        },
+        "macos": {
+          "tag": "v1.10.4",
+          "publishedAt": "2026-09-08T16:57:59Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -6878,8 +7301,8 @@
       "description": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/koodo-reader/koodo-reader",
-      "stargazersCount": 28387,
-      "forksCount": 2123,
+      "stargazersCount": 28390,
+      "forksCount": 2125,
       "openIssuesCount": 272,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
@@ -6915,12 +7338,12 @@
       "releasesUrl": "https://github.com/koodo-reader/koodo-reader/releases",
       "updatedAt": "2026-10-01 02:15:25+00",
       "createdAt": null,
-      "pushedAt": "2026-10-03 09:22:34+00",
+      "pushedAt": "2026-10-04 03:19:37+00",
       "latestReleaseDate": "2026-09-26 07:53:17+00",
       "latestReleaseTag": "v2.4.5",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1900830,
+      "downloadCount": 1901370,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -6960,9 +7383,9 @@
       "description": "macFUSE umbrella repository",
       "defaultBranch": "release/macfuse",
       "htmlUrl": "https://github.com/macfuse/macfuse",
-      "stargazersCount": 9820,
+      "stargazersCount": 9824,
       "forksCount": 549,
-      "openIssuesCount": 56,
+      "openIssuesCount": 58,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -6982,7 +7405,7 @@
       "latestReleaseTag": "macfuse-5.4.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 8271449,
+      "downloadCount": 8293688,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -6990,7 +7413,12 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "macfuse-5.4.0",
+          "publishedAt": "2026-09-07T12:48:34Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -7185,6 +7613,58 @@
       "available_on": []
     },
     {
+      "id": 537699,
+      "name": "CMake",
+      "fullName": "Kitware/CMake",
+      "owner": {
+        "login": "Kitware",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87549?v=4"
+      },
+      "description": "Mirror of CMake upstream repository",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Kitware/CMake",
+      "stargazersCount": 8114,
+      "forksCount": 2704,
+      "openIssuesCount": 2,
+      "licenseSpdxId": "BSD-3-Clause",
+      "licenseName": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "license": {
+        "spdxId": "BSD-3-Clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+      },
+      "language": "C",
+      "topics": [],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/Kitware/CMake/releases",
+      "updatedAt": "2026-08-05 19:33:41+00",
+      "createdAt": null,
+      "pushedAt": "2026-10-04 04:13:03+00",
+      "latestReleaseDate": "2026-10-02 16:18:25+00",
+      "latestReleaseTag": "v4.4.4",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 147798578,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v4.4.4",
+          "publishedAt": "2026-10-02T16:18:25Z"
+        },
+        "macos": {
+          "tag": "v4.4.4",
+          "publishedAt": "2026-10-02T16:18:25Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 465844859,
       "name": "podman-desktop",
       "fullName": "podman-desktop/podman-desktop",
@@ -7227,49 +7707,6 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 78323327,
-      "dailyStars": null,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 537699,
-      "name": "CMake",
-      "fullName": "Kitware/CMake",
-      "owner": {
-        "login": "Kitware",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/87549?v=4"
-      },
-      "description": "Mirror of CMake upstream repository",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/Kitware/CMake",
-      "stargazersCount": 8017,
-      "forksCount": 2695,
-      "openIssuesCount": 2,
-      "licenseSpdxId": "BSD-3-Clause",
-      "licenseName": "BSD 3-Clause \"New\" or \"Revised\" License",
-      "license": {
-        "spdxId": "BSD-3-Clause",
-        "name": "BSD 3-Clause \"New\" or \"Revised\" License"
-      },
-      "language": "C",
-      "topics": [],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/Kitware/CMake/releases",
-      "updatedAt": "2026-08-05 19:33:41+00",
-      "createdAt": null,
-      "pushedAt": "2026-08-03 04:13:02+00",
-      "latestReleaseDate": "2026-07-31 14:20:39+00",
-      "latestReleaseTag": "v4.4.2",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 138085208,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -7352,9 +7789,9 @@
       "description": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/Molunerfinn/PicGo",
-      "stargazersCount": 27268,
-      "forksCount": 2330,
-      "openIssuesCount": 28,
+      "stargazersCount": 27304,
+      "forksCount": 2331,
+      "openIssuesCount": 29,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -7391,7 +7828,7 @@
       "latestReleaseTag": "v3.0.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1795042,
+      "downloadCount": 1805556,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -7399,7 +7836,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.0.2",
+          "publishedAt": "2026-08-14T08:12:01Z"
+        },
+        "macos": {
+          "tag": "v3.0.2",
+          "publishedAt": "2026-08-14T08:12:01Z"
+        },
+        "linux": {
+          "tag": "v3.0.2",
+          "publishedAt": "2026-08-14T08:12:01Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -7414,9 +7864,9 @@
       "description": "LuLu is the free open-source macOS firewall",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/objective-see/LuLu",
-      "stargazersCount": 13271,
+      "stargazersCount": 13272,
       "forksCount": 603,
-      "openIssuesCount": 523,
+      "openIssuesCount": 533,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -7429,12 +7879,12 @@
       "releasesUrl": "https://github.com/objective-see/LuLu/releases",
       "updatedAt": "2026-10-04 02:04:48+00",
       "createdAt": "2017-09-10 06:56:23+00",
-      "pushedAt": "2026-08-05 16:19:32+00",
+      "pushedAt": "2026-10-03 21:14:28+00",
       "latestReleaseDate": "2026-08-05 12:53:15+00",
       "latestReleaseTag": "v4.5.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 4910171,
+      "downloadCount": 4911613,
       "dailyStars": null,
       "trendingScore": 100.19000244140625,
       "popularityScore": 14477.0,
@@ -7442,7 +7892,12 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "v4.5.1",
+          "publishedAt": "2026-08-05T12:53:15Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -7544,7 +7999,7 @@
       "latestReleaseTag": "11.3.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 16010267,
+      "downloadCount": 16011123,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -7580,7 +8035,7 @@
       "description": "Compiler for Elm, a functional language for reliable webapps.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/elm/compiler",
-      "stargazersCount": 7901,
+      "stargazersCount": 7907,
       "forksCount": 691,
       "openIssuesCount": 305,
       "licenseSpdxId": "BSD-3-Clause",
@@ -7598,12 +8053,12 @@
       "releasesUrl": "https://github.com/elm/compiler/releases",
       "updatedAt": null,
       "createdAt": null,
-      "pushedAt": "2026-08-26 07:47:17+00",
+      "pushedAt": "2026-10-02 13:52:14+00",
       "latestReleaseDate": "2026-07-06 07:24:29+00",
       "latestReleaseTag": "0.19.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 11640409,
+      "downloadCount": 11716597,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -7611,7 +8066,16 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "0.19.2",
+          "publishedAt": "2026-07-06T07:24:29Z"
+        },
+        "macos": {
+          "tag": "0.19.2",
+          "publishedAt": "2026-07-06T07:24:29Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -7671,7 +8135,7 @@
       "htmlUrl": "https://github.com/algerkong/AlgerMusicPlayer",
       "stargazersCount": 16894,
       "forksCount": 1368,
-      "openIssuesCount": 220,
+      "openIssuesCount": 221,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -7695,7 +8159,7 @@
       "latestReleaseTag": "v5.1.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 3350035,
+      "downloadCount": 3351483,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -7848,9 +8312,9 @@
       "description": "The macOS & iOS file archiver",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/aonez/Keka",
-      "stargazersCount": 7412,
+      "stargazersCount": 7427,
       "forksCount": 297,
-      "openIssuesCount": 262,
+      "openIssuesCount": 261,
       "licenseSpdxId": null,
       "licenseName": null,
       "license": null,
@@ -7878,7 +8342,7 @@
       "latestReleaseTag": "v1.6.8",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 18210245,
+      "downloadCount": 18258436,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -7886,7 +8350,12 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
+      "platformReleases": {
+        "macos": {
+          "tag": "v1.6.8",
+          "publishedAt": "2026-09-24T06:39:57Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -7973,60 +8442,51 @@
       "available_on": []
     },
     {
-      "id": 92111509,
-      "name": "Trilium",
-      "fullName": "TriliumNext/Trilium",
+      "id": 42574339,
+      "name": "caprine",
+      "fullName": "sindresorhus/caprine",
       "owner": {
-        "login": "TriliumNext",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/160046342?v=4"
+        "login": "sindresorhus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/170270?v=4"
       },
-      "description": "Build your personal knowledge base with Trilium Notes",
+      "description": "Elegant Facebook Messenger desktop app",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/TriliumNext/Trilium",
-      "stargazersCount": 38192,
-      "forksCount": 2569,
-      "openIssuesCount": 666,
-      "licenseSpdxId": "AGPL-3.0",
-      "licenseName": "GNU Affero General Public License v3.0",
+      "htmlUrl": "https://github.com/sindresorhus/caprine",
+      "stargazersCount": 7391,
+      "forksCount": 618,
+      "openIssuesCount": 293,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
       "license": {
-        "spdxId": "AGPL-3.0",
-        "name": "GNU Affero General Public License v3.0"
+        "spdxId": "MIT",
+        "name": "MIT License"
       },
       "language": "TypeScript",
       "topics": [
+        "app",
+        "caprine",
+        "chat",
         "electron",
         "electron-app",
-        "knowledge-base",
-        "knowledge-graph",
-        "knowledge-management",
-        "knowledge-management-graph",
-        "local-first",
-        "note-managment",
-        "note-taker",
-        "note-taking",
-        "notebook",
-        "notes",
-        "notes-app",
-        "personal-knowledge-base",
-        "personal-wiki",
-        "scriptable",
-        "self-hosted",
-        "self-hosting",
-        "wiki"
+        "facebook",
+        "facebook-messenger",
+        "macos",
+        "macos-app",
+        "messenger",
+        "nodejs"
       ],
       "topicCodes": [
-        "notes",
-        "self-hosted"
+        "messaging"
       ],
-      "releasesUrl": "https://github.com/TriliumNext/Trilium/releases",
-      "updatedAt": "2026-10-04 01:15:09+00",
-      "createdAt": "2017-05-23 00:30:20+00",
-      "pushedAt": "2026-10-02 14:14:06+00",
-      "latestReleaseDate": "2026-09-25 18:21:42+00",
-      "latestReleaseTag": "v0.106.0",
+      "releasesUrl": "https://github.com/sindresorhus/caprine/releases",
+      "updatedAt": "2026-04-15 21:50:29+00",
+      "createdAt": "2015-09-16 08:20:12+00",
+      "pushedAt": "2026-01-02 00:12:38+00",
+      "latestReleaseDate": "2026-01-02 00:26:10+00",
+      "latestReleaseTag": "v2.61.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1004486,
+      "downloadCount": 23530882,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -8034,7 +8494,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.61.0",
+          "publishedAt": "2026-01-02T00:26:10Z"
+        },
+        "macos": {
+          "tag": "v2.61.0",
+          "publishedAt": "2026-01-02T00:26:10Z"
+        },
+        "linux": {
+          "tag": "v2.61.0",
+          "publishedAt": "2026-01-02T00:26:10Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -8119,51 +8592,60 @@
       "available_on": []
     },
     {
-      "id": 42574339,
-      "name": "caprine",
-      "fullName": "sindresorhus/caprine",
+      "id": 92111509,
+      "name": "Trilium",
+      "fullName": "TriliumNext/Trilium",
       "owner": {
-        "login": "sindresorhus",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/170270?v=4"
+        "login": "TriliumNext",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/160046342?v=4"
       },
-      "description": "Elegant Facebook Messenger desktop app",
+      "description": "Build your personal knowledge base with Trilium Notes",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sindresorhus/caprine",
-      "stargazersCount": 7387,
-      "forksCount": 617,
-      "openIssuesCount": 293,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
+      "htmlUrl": "https://github.com/TriliumNext/Trilium",
+      "stargazersCount": 38193,
+      "forksCount": 2569,
+      "openIssuesCount": 670,
+      "licenseSpdxId": "AGPL-3.0",
+      "licenseName": "GNU Affero General Public License v3.0",
       "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
+        "spdxId": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
       },
       "language": "TypeScript",
       "topics": [
-        "app",
-        "caprine",
-        "chat",
         "electron",
         "electron-app",
-        "facebook",
-        "facebook-messenger",
-        "macos",
-        "macos-app",
-        "messenger",
-        "nodejs"
+        "knowledge-base",
+        "knowledge-graph",
+        "knowledge-management",
+        "knowledge-management-graph",
+        "local-first",
+        "note-managment",
+        "note-taker",
+        "note-taking",
+        "notebook",
+        "notes",
+        "notes-app",
+        "personal-knowledge-base",
+        "personal-wiki",
+        "scriptable",
+        "self-hosted",
+        "self-hosting",
+        "wiki"
       ],
       "topicCodes": [
-        "messaging"
+        "notes",
+        "self-hosted"
       ],
-      "releasesUrl": "https://github.com/sindresorhus/caprine/releases",
-      "updatedAt": "2026-04-15 21:50:29+00",
-      "createdAt": "2015-09-16 08:20:12+00",
-      "pushedAt": "2026-01-02 00:12:38+00",
-      "latestReleaseDate": "2026-01-02 00:26:10+00",
-      "latestReleaseTag": "v2.61.0",
+      "releasesUrl": "https://github.com/TriliumNext/Trilium/releases",
+      "updatedAt": "2026-10-04 01:15:09+00",
+      "createdAt": "2017-05-23 00:30:20+00",
+      "pushedAt": "2026-10-04 06:29:47+00",
+      "latestReleaseDate": "2026-09-25 18:21:42+00",
+      "latestReleaseTag": "v0.106.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 23357495,
+      "downloadCount": 996605,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
@@ -8171,7 +8653,20 @@
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
-      "platformReleases": null,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.106.0",
+          "publishedAt": "2026-09-25T18:21:42Z"
+        },
+        "macos": {
+          "tag": "v0.106.0",
+          "publishedAt": "2026-09-25T18:21:42Z"
+        },
+        "linux": {
+          "tag": "v0.106.0",
+          "publishedAt": "2026-09-25T18:21:42Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -8225,55 +8720,60 @@
       "available_on": []
     },
     {
-      "id": 20884782,
-      "name": "Cura",
-      "fullName": "Ultimaker/Cura",
+      "id": 6887813,
+      "name": "crystal",
+      "fullName": "crystal-lang/crystal",
       "owner": {
-        "login": "Ultimaker",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/499557?v=4"
+        "login": "crystal-lang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6539796?v=4"
       },
-      "description": "3D printer / slicing GUI built on top of the Uranium framework",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Ultimaker/Cura",
-      "stargazersCount": 7048,
-      "forksCount": 2175,
-      "openIssuesCount": 3286,
-      "licenseSpdxId": "LGPL-3.0",
-      "licenseName": "GNU Lesser General Public License v3.0",
+      "description": "The Crystal Programming Language",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/crystal-lang/crystal",
+      "stargazersCount": 20440,
+      "forksCount": 1717,
+      "openIssuesCount": 2058,
+      "licenseSpdxId": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
       "license": {
-        "spdxId": "LGPL-3.0",
-        "name": "GNU Lesser General Public License v3.0"
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
       },
-      "language": "Python",
+      "language": "Crystal",
       "topics": [
-        "3d-printing",
-        "cura",
-        "gcode",
-        "gui",
-        "pyqt6",
-        "python",
-        "qml",
-        "slicer",
-        "uranium"
+        "compiler",
+        "crystal",
+        "crystal-language",
+        "hacktoberfest",
+        "programming-language"
       ],
       "topicCodes": [],
-      "releasesUrl": "https://github.com/Ultimaker/Cura/releases",
-      "updatedAt": "2026-04-16 16:25:57+00",
-      "createdAt": "2014-06-16 12:55:31+00",
-      "pushedAt": "2026-09-30 10:37:15+00",
-      "latestReleaseDate": "2026-05-28 14:22:22+00",
-      "latestReleaseTag": "5.13.0",
+      "releasesUrl": "https://github.com/crystal-lang/crystal/releases",
+      "updatedAt": "2026-05-03 19:24:35+00",
+      "createdAt": "2012-11-27 17:32:32+00",
+      "pushedAt": "2026-10-03 16:57:50+00",
+      "latestReleaseDate": "2026-09-26 12:21:28+00",
+      "latestReleaseTag": "1.21.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 24593780,
+      "downloadCount": 2273533,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": null,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.21.1",
+          "publishedAt": "2026-09-26T12:21:28Z"
+        },
+        "macos": {
+          "tag": "1.21.1",
+          "publishedAt": "2026-09-26T12:21:28Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     },
@@ -8346,6 +8846,72 @@
       "available_on": []
     },
     {
+      "id": 20884782,
+      "name": "Cura",
+      "fullName": "Ultimaker/Cura",
+      "owner": {
+        "login": "Ultimaker",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/499557?v=4"
+      },
+      "description": "3D printer / slicing GUI built on top of the Uranium framework",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Ultimaker/Cura",
+      "stargazersCount": 7050,
+      "forksCount": 2176,
+      "openIssuesCount": 3228,
+      "licenseSpdxId": "LGPL-3.0",
+      "licenseName": "GNU Lesser General Public License v3.0",
+      "license": {
+        "spdxId": "LGPL-3.0",
+        "name": "GNU Lesser General Public License v3.0"
+      },
+      "language": "Python",
+      "topics": [
+        "3d-printing",
+        "cura",
+        "gcode",
+        "gui",
+        "pyqt6",
+        "python",
+        "qml",
+        "slicer",
+        "uranium"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/Ultimaker/Cura/releases",
+      "updatedAt": "2026-04-16 16:25:57+00",
+      "createdAt": "2014-06-16 12:55:31+00",
+      "pushedAt": "2026-10-01 17:06:29+00",
+      "latestReleaseDate": "2026-05-28 14:22:22+00",
+      "latestReleaseTag": "5.13.0",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 24627937,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "5.13.0",
+          "publishedAt": "2026-05-28T14:22:22Z"
+        },
+        "macos": {
+          "tag": "5.13.0",
+          "publishedAt": "2026-05-28T14:22:22Z"
+        },
+        "linux": {
+          "tag": "5.13.0",
+          "publishedAt": "2026-05-28T14:22:22Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 845829920,
       "name": "PiliPlus",
       "fullName": "bggRGjQaUbCoE/PiliPlus",
@@ -8406,7 +8972,7 @@
       "description": "Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/kyleneideck/BackgroundMusic",
-      "stargazersCount": 19326,
+      "stargazersCount": 19327,
       "forksCount": 785,
       "openIssuesCount": 542,
       "licenseSpdxId": "GPL-2.0",
@@ -8434,7 +9000,7 @@
       "latestReleaseTag": "v0.5.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2301893,
+      "downloadCount": 2302577,
       "dailyStars": null,
       "trendingScore": null,
       "popularityScore": 20896.0,
@@ -8442,87 +9008,10 @@
       "hasInstallersWindows": false,
       "hasInstallersMacos": true,
       "hasInstallersLinux": false,
-      "platformReleases": null,
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 560284721,
-      "name": "ente",
-      "fullName": "ente/ente",
-      "owner": {
-        "login": "ente",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/64603161?v=4"
-      },
-      "description": "💚 End-to-end encrypted cloud for everything.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/ente/ente",
-      "stargazersCount": 29233,
-      "forksCount": 1842,
-      "openIssuesCount": 210,
-      "licenseSpdxId": "AGPL-3.0",
-      "licenseName": "GNU Affero General Public License v3.0",
-      "license": {
-        "spdxId": "AGPL-3.0",
-        "name": "GNU Affero General Public License v3.0"
-      },
-      "language": "Dart",
-      "topics": [
-        "2fa",
-        "android",
-        "authy",
-        "e2ee",
-        "encryption",
-        "end-to-end-encryption",
-        "flutter",
-        "golang",
-        "google-photos",
-        "google-photos-alternative",
-        "ios",
-        "opensource",
-        "photos",
-        "privacy",
-        "privacy-tools",
-        "typescript",
-        "zero-knowledge"
-      ],
-      "topicCodes": [
-        "privacy",
-        "security",
-        "photo"
-      ],
-      "releasesUrl": "https://github.com/ente/ente/releases",
-      "updatedAt": "2026-09-28 02:02:19+00",
-      "createdAt": "2022-11-01 06:10:25+00",
-      "pushedAt": "2026-10-04 02:47:41+00",
-      "latestReleaseDate": "2026-09-24 06:42:38+00",
-      "latestReleaseTag": "photos-v1.3.64",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 1281757,
-      "dailyStars": null,
-      "trendingScore": null,
-      "popularityScore": 29156.0,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
       "platformReleases": {
-        "android": {
-          "tag": "photos-v1.3.64",
-          "publishedAt": "2026-09-24T06:42:38Z"
-        },
-        "windows": {
-          "tag": "ensu-v0.1.20",
-          "publishedAt": "2026-09-17T06:38:39Z"
-        },
         "macos": {
-          "tag": "ensu-v0.1.20",
-          "publishedAt": "2026-09-17T06:38:39Z"
-        },
-        "linux": {
-          "tag": "ensu-v0.1.20",
-          "publishedAt": "2026-09-17T06:38:39Z"
+          "tag": "v0.5.0",
+          "publishedAt": "2026-06-10T08:45:52Z"
         }
       },
       "source_host": null,
@@ -8591,6 +9080,287 @@
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": null,
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 560284721,
+      "name": "ente",
+      "fullName": "ente/ente",
+      "owner": {
+        "login": "ente",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64603161?v=4"
+      },
+      "description": "💚 End-to-end encrypted cloud for everything.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/ente/ente",
+      "stargazersCount": 29234,
+      "forksCount": 1841,
+      "openIssuesCount": 210,
+      "licenseSpdxId": "AGPL-3.0",
+      "licenseName": "GNU Affero General Public License v3.0",
+      "license": {
+        "spdxId": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "language": "Dart",
+      "topics": [
+        "2fa",
+        "android",
+        "authy",
+        "e2ee",
+        "encryption",
+        "end-to-end-encryption",
+        "flutter",
+        "golang",
+        "google-photos",
+        "google-photos-alternative",
+        "ios",
+        "opensource",
+        "photos",
+        "privacy",
+        "privacy-tools",
+        "typescript",
+        "zero-knowledge"
+      ],
+      "topicCodes": [
+        "privacy",
+        "security",
+        "photo"
+      ],
+      "releasesUrl": "https://github.com/ente/ente/releases",
+      "updatedAt": "2026-09-28 02:02:19+00",
+      "createdAt": "2022-11-01 06:10:25+00",
+      "pushedAt": "2026-10-04 02:47:41+00",
+      "latestReleaseDate": "2026-09-24 06:42:38+00",
+      "latestReleaseTag": "photos-v1.3.64",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 1282017,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": 29156.0,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "photos-v1.3.64",
+          "publishedAt": "2026-09-24T06:42:38Z"
+        },
+        "windows": {
+          "tag": "ensu-v0.1.20",
+          "publishedAt": "2026-09-17T06:38:39Z"
+        },
+        "macos": {
+          "tag": "ensu-v0.1.20",
+          "publishedAt": "2026-09-17T06:38:39Z"
+        },
+        "linux": {
+          "tag": "ensu-v0.1.20",
+          "publishedAt": "2026-09-17T06:38:39Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 92205085,
+      "name": "aws-sam-cli",
+      "fullName": "aws/aws-sam-cli",
+      "owner": {
+        "login": "aws",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2232217?v=4"
+      },
+      "description": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM",
+      "defaultBranch": "develop",
+      "htmlUrl": "https://github.com/aws/aws-sam-cli",
+      "stargazersCount": 6735,
+      "forksCount": 1251,
+      "openIssuesCount": 545,
+      "licenseSpdxId": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "license": {
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "language": "Python",
+      "topics": [
+        "api-gateway",
+        "aws",
+        "docker",
+        "lambda",
+        "python",
+        "sam",
+        "serverless",
+        "serverlessapplicationmodel"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/aws/aws-sam-cli/releases",
+      "updatedAt": "2026-06-20 02:06:12+00",
+      "createdAt": "2017-05-23 18:16:23+00",
+      "pushedAt": "2026-10-02 21:04:57+00",
+      "latestReleaseDate": "2026-09-11 21:02:53+00",
+      "latestReleaseTag": "v1.166.2",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 17499640,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.166.2",
+          "publishedAt": "2026-09-11T21:02:53Z"
+        },
+        "macos": {
+          "tag": "v1.166.2",
+          "publishedAt": "2026-09-11T21:02:53Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 36648301,
+      "name": "openshot-qt",
+      "fullName": "OpenShot/openshot-qt",
+      "owner": {
+        "login": "OpenShot",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5551888?v=4"
+      },
+      "description": "OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.",
+      "defaultBranch": "develop",
+      "htmlUrl": "https://github.com/OpenShot/openshot-qt",
+      "stargazersCount": 6587,
+      "forksCount": 816,
+      "openIssuesCount": 430,
+      "licenseSpdxId": "NOASSERTION",
+      "licenseName": "Other",
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "language": "Python",
+      "topics": [
+        "c-plus-plus",
+        "ffmpeg",
+        "gplv3",
+        "openshot",
+        "python",
+        "qt5",
+        "video",
+        "video-editing",
+        "video-production"
+      ],
+      "topicCodes": [
+        "video"
+      ],
+      "releasesUrl": "https://github.com/OpenShot/openshot-qt/releases",
+      "updatedAt": "2026-09-10 19:48:27+00",
+      "createdAt": null,
+      "pushedAt": "2026-10-03 23:38:16+00",
+      "latestReleaseDate": "2026-09-27 22:16:25+00",
+      "latestReleaseTag": "v4.0.1",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 37239538,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v4.0.1",
+          "publishedAt": "2026-09-27T22:16:25Z"
+        },
+        "macos": {
+          "tag": "v4.0.1",
+          "publishedAt": "2026-09-27T22:16:25Z"
+        },
+        "linux": {
+          "tag": "v4.0.1",
+          "publishedAt": "2026-09-27T22:16:25Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 36580101,
+      "name": "ipfs-desktop",
+      "fullName": "ipfs/ipfs-desktop",
+      "owner": {
+        "login": "ipfs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10536621?v=4"
+      },
+      "description": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. ",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/ipfs/ipfs-desktop",
+      "stargazersCount": 6591,
+      "forksCount": 907,
+      "openIssuesCount": 115,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "language": "JavaScript",
+      "topics": [
+        "desktop",
+        "dweb",
+        "ipfs",
+        "ipfs-desktop",
+        "ipfs-gui",
+        "ipns",
+        "menubar",
+        "p2p",
+        "pinning",
+        "protocol",
+        "unixfs"
+      ],
+      "topicCodes": [
+        "networking"
+      ],
+      "releasesUrl": "https://github.com/ipfs/ipfs-desktop/releases",
+      "updatedAt": "2026-08-03 19:41:38+00",
+      "createdAt": null,
+      "pushedAt": "2026-10-01 04:55:03+00",
+      "latestReleaseDate": "2026-09-15 17:15:01+00",
+      "latestReleaseTag": "v0.50.1",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 9914658,
+      "dailyStars": null,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.50.1",
+          "publishedAt": "2026-09-15T17:15:01Z"
+        },
+        "macos": {
+          "tag": "v0.50.1",
+          "publishedAt": "2026-09-15T17:15:01Z"
+        },
+        "linux": {
+          "tag": "v0.50.1",
+          "publishedAt": "2026-09-15T17:15:01Z"
+        }
+      },
       "source_host": null,
       "available_on": []
     }
