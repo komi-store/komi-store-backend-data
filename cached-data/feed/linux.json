@@ -1,7 +1,7 @@
 {
   "category": "feed",
   "platform": "linux",
-  "lastUpdated": "2026-10-17T04:24:26.087448+00:00",
+  "lastUpdated": "2026-10-17T10:42:56.817468+00:00",
   "rotation": "2026-10-17",
   "totalCount": 150,
   "repositories": [
@@ -47,7 +47,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 14042845,
-      "dailyStars": 19,
+      "dailyStars": 17,
       "trendingScore": 443.94000244140625,
       "popularityScore": 117397.0,
       "hasInstallersAndroid": false,
@@ -113,7 +113,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 68116303,
-      "dailyStars": 80,
+      "dailyStars": 76,
       "trendingScore": 901.530029296875,
       "popularityScore": 150605.0,
       "hasInstallersAndroid": false,
@@ -165,7 +165,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 129316410,
-      "dailyStars": 411,
+      "dailyStars": 425,
       "trendingScore": 8029.02978515625,
       "popularityScore": 271936.0,
       "hasInstallersAndroid": false,
@@ -244,7 +244,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 21086129,
-      "dailyStars": 473,
+      "dailyStars": 413,
       "trendingScore": 6661.10009765625,
       "popularityScore": 164467.0,
       "hasInstallersAndroid": false,
@@ -269,65 +269,77 @@
       "available_on": []
     },
     {
-      "id": 578822531,
-      "name": "localsend",
-      "fullName": "localsend/localsend",
+      "id": 1183888342,
+      "name": "orca",
+      "fullName": "stablyai/orca",
       "owner": {
-        "login": "localsend",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/120677616?v=4"
+        "login": "stablyai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127256420?v=4"
       },
-      "description": "An open-source cross-platform alternative to AirDrop",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/localsend/localsend",
-      "stargazersCount": 94604,
-      "forksCount": 5295,
-      "openIssuesCount": 1024,
-      "licenseSpdxId": "Apache-2.0",
-      "licenseName": "Apache License 2.0",
+      "htmlUrl": "https://github.com/stablyai/orca",
+      "stargazersCount": 94712,
+      "forksCount": 6059,
+      "openIssuesCount": 8504,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
       "license": {
-        "spdxId": "Apache-2.0",
-        "name": "Apache License 2.0"
+        "spdxId": "MIT",
+        "name": "MIT License"
       },
-      "language": "Dart",
+      "language": "TypeScript",
       "topics": [
-        "dart",
-        "file-sharing",
-        "flutter",
-        "flutter-apps"
+        "ade",
+        "agent-ide",
+        "ai-agents",
+        "automation",
+        "bot",
+        "claude-code",
+        "codex",
+        "ghostty",
+        "grok-bot",
+        "hermes-agent",
+        "mobile-app",
+        "muse",
+        "openclaw",
+        "opencode",
+        "orchestration",
+        "pi",
+        "runtime",
+        "terminal",
+        "worktrees",
+        "yc-backed"
       ],
       "topicCodes": [],
-      "releasesUrl": "https://github.com/localsend/localsend/releases",
-      "updatedAt": "2026-10-17 02:35:12+00",
-      "createdAt": "2022-12-16 00:46:07+00",
-      "pushedAt": "2026-10-15 23:24:12+00",
-      "latestReleaseDate": "2026-08-21 14:02:01+00",
-      "latestReleaseTag": "v1.18.2",
+      "releasesUrl": "https://github.com/stablyai/orca/releases",
+      "updatedAt": "2026-10-17 02:44:29+00",
+      "createdAt": "2026-03-17 03:28:57+00",
+      "pushedAt": "2026-10-17 08:11:08+00",
+      "latestReleaseDate": "2026-10-17 06:54:05+00",
+      "latestReleaseTag": "v1.4.229",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 15007646,
-      "dailyStars": 79,
-      "trendingScore": 1359.47998046875,
-      "popularityScore": 105194.0,
-      "hasInstallersAndroid": true,
+      "downloadCount": 110220322,
+      "dailyStars": 959,
+      "trendingScore": 8877.240234375,
+      "popularityScore": 106635.0,
+      "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": {
-        "android": {
-          "tag": "v1.18.2",
-          "publishedAt": "2026-08-21T14:02:01Z"
-        },
         "windows": {
-          "tag": "v1.18.2",
-          "publishedAt": "2026-08-21T14:02:01Z"
+          "tag": "v1.4.229",
+          "publishedAt": "2026-10-17T06:54:05Z"
         },
         "macos": {
-          "tag": "v1.18.2",
-          "publishedAt": "2026-08-21T14:02:01Z"
+          "tag": "v1.4.229",
+          "publishedAt": "2026-10-17T06:54:05Z"
         },
         "linux": {
-          "tag": "v1.18.2",
-          "publishedAt": "2026-08-21T14:02:01Z"
+          "tag": "v1.4.229",
+          "publishedAt": "2026-10-17T06:54:05Z"
         }
       },
       "source_host": null,
@@ -344,9 +356,9 @@
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/rustdesk/rustdesk",
-      "stargazersCount": 126045,
-      "forksCount": 19768,
-      "openIssuesCount": 185,
+      "stargazersCount": 126061,
+      "forksCount": 19773,
+      "openIssuesCount": 186,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
       "license": {
@@ -386,8 +398,8 @@
       "latestReleaseTag": "1.5.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 77283004,
-      "dailyStars": 108,
+      "downloadCount": 77309311,
+      "dailyStars": 101,
       "trendingScore": 1177.1700439453125,
       "popularityScore": 165581.0,
       "hasInstallersAndroid": true,
@@ -416,77 +428,65 @@
       "available_on": []
     },
     {
-      "id": 1183888342,
-      "name": "orca",
-      "fullName": "stablyai/orca",
+      "id": 578822531,
+      "name": "localsend",
+      "fullName": "localsend/localsend",
       "owner": {
-        "login": "stablyai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/127256420?v=4"
+        "login": "localsend",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/120677616?v=4"
       },
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "description": "An open-source cross-platform alternative to AirDrop",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/stablyai/orca",
-      "stargazersCount": 94545,
-      "forksCount": 6045,
-      "openIssuesCount": 8492,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
+      "htmlUrl": "https://github.com/localsend/localsend",
+      "stargazersCount": 94626,
+      "forksCount": 5296,
+      "openIssuesCount": 1024,
+      "licenseSpdxId": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
       "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
       },
-      "language": "TypeScript",
+      "language": "Dart",
       "topics": [
-        "ade",
-        "agent-ide",
-        "ai-agents",
-        "automation",
-        "bot",
-        "claude-code",
-        "codex",
-        "ghostty",
-        "grok-bot",
-        "hermes-agent",
-        "mobile-app",
-        "muse",
-        "openclaw",
-        "opencode",
-        "orchestration",
-        "pi",
-        "runtime",
-        "terminal",
-        "worktrees",
-        "yc-backed"
+        "dart",
+        "file-sharing",
+        "flutter",
+        "flutter-apps"
       ],
       "topicCodes": [],
-      "releasesUrl": "https://github.com/stablyai/orca/releases",
-      "updatedAt": "2026-10-17 02:44:29+00",
-      "createdAt": "2026-03-17 03:28:57+00",
-      "pushedAt": "2026-10-17 02:45:07+00",
-      "latestReleaseDate": "2026-10-16 03:42:35+00",
-      "latestReleaseTag": "v1.4.227",
+      "releasesUrl": "https://github.com/localsend/localsend/releases",
+      "updatedAt": "2026-10-17 02:35:12+00",
+      "createdAt": "2022-12-16 00:46:07+00",
+      "pushedAt": "2026-10-15 23:24:12+00",
+      "latestReleaseDate": "2026-08-21 14:02:01+00",
+      "latestReleaseTag": "v1.18.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 112435434,
-      "dailyStars": 976,
-      "trendingScore": 8877.240234375,
-      "popularityScore": 106635.0,
-      "hasInstallersAndroid": false,
+      "downloadCount": 15013867,
+      "dailyStars": 108,
+      "trendingScore": 1359.47998046875,
+      "popularityScore": 105194.0,
+      "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": {
+        "android": {
+          "tag": "v1.18.2",
+          "publishedAt": "2026-08-21T14:02:01Z"
+        },
         "windows": {
-          "tag": "v1.4.227",
-          "publishedAt": "2026-10-16T03:42:35Z"
+          "tag": "v1.18.2",
+          "publishedAt": "2026-08-21T14:02:01Z"
         },
         "macos": {
-          "tag": "v1.4.227",
-          "publishedAt": "2026-10-16T03:42:35Z"
+          "tag": "v1.18.2",
+          "publishedAt": "2026-08-21T14:02:01Z"
         },
         "linux": {
-          "tag": "v1.4.227",
-          "publishedAt": "2026-10-16T03:42:35Z"
+          "tag": "v1.18.2",
+          "publishedAt": "2026-08-21T14:02:01Z"
         }
       },
       "source_host": null,
@@ -532,7 +532,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 100743225,
-      "dailyStars": 4,
+      "dailyStars": 12,
       "trendingScore": 377.57000732421875,
       "popularityScore": 106933.0,
       "hasInstallersAndroid": false,
@@ -595,7 +595,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 14805393,
-      "dailyStars": 16,
+      "dailyStars": 24,
       "trendingScore": 359.7099914550781,
       "popularityScore": 94847.0,
       "hasInstallersAndroid": false,
@@ -654,7 +654,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 48415620,
-      "dailyStars": 237,
+      "dailyStars": 227,
       "trendingScore": 2897.77001953125,
       "popularityScore": 173703.0,
       "hasInstallersAndroid": false,
@@ -718,7 +718,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 13549647,
-      "dailyStars": 11,
+      "dailyStars": 6,
       "trendingScore": 571.25,
       "popularityScore": 93414.0,
       "hasInstallersAndroid": false,
@@ -785,7 +785,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 13008584,
-      "dailyStars": 46,
+      "dailyStars": 30,
       "trendingScore": 378.55999755859375,
       "popularityScore": 88353.0,
       "hasInstallersAndroid": false,
@@ -845,7 +845,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 102773113,
-      "dailyStars": 62,
+      "dailyStars": 55,
       "trendingScore": 338.04998779296875,
       "popularityScore": 99040.0,
       "hasInstallersAndroid": false,
@@ -909,7 +909,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 111796874,
-      "dailyStars": 30,
+      "dailyStars": 27,
       "trendingScore": 386.1099853515625,
       "popularityScore": 100516.0,
       "hasInstallersAndroid": false,
@@ -963,7 +963,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 20362083,
-      "dailyStars": 15,
+      "dailyStars": 13,
       "trendingScore": 418.510009765625,
       "popularityScore": 83571.0,
       "hasInstallersAndroid": false,
@@ -1030,7 +1030,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 62515807,
-      "dailyStars": 27,
+      "dailyStars": 30,
       "trendingScore": 373.260009765625,
       "popularityScore": 80497.0,
       "hasInstallersAndroid": false,
@@ -1099,7 +1099,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 8164790,
-      "dailyStars": 35,
+      "dailyStars": 26,
       "trendingScore": 957.780029296875,
       "popularityScore": 84298.0,
       "hasInstallersAndroid": false,
@@ -1160,7 +1160,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 145776654,
-      "dailyStars": 14,
+      "dailyStars": 12,
       "trendingScore": 370.3599853515625,
       "popularityScore": 75112.0,
       "hasInstallersAndroid": false,
@@ -1240,7 +1240,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 10230344,
-      "dailyStars": 10,
+      "dailyStars": 31,
       "trendingScore": 268.54998779296875,
       "popularityScore": 71401.0,
       "hasInstallersAndroid": false,
@@ -1267,9 +1267,9 @@
       "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/chen08209/FlClash",
-      "stargazersCount": 56179,
-      "forksCount": 3595,
-      "openIssuesCount": 372,
+      "stargazersCount": 56212,
+      "forksCount": 3601,
+      "openIssuesCount": 374,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -1299,8 +1299,8 @@
       "latestReleaseTag": "v0.9.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 16841935,
-      "dailyStars": 192,
+      "downloadCount": 16861575,
+      "dailyStars": 175,
       "trendingScore": 979.1699829101562,
       "popularityScore": 63366.0,
       "hasInstallersAndroid": true,
@@ -1375,7 +1375,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 6796160,
-      "dailyStars": 76,
+      "dailyStars": 73,
       "trendingScore": 795.47998046875,
       "popularityScore": 89638.0,
       "hasInstallersAndroid": true,
@@ -1444,7 +1444,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 154839309,
-      "dailyStars": 30,
+      "dailyStars": 22,
       "trendingScore": 292.95001220703125,
       "popularityScore": 72769.0,
       "hasInstallersAndroid": false,
@@ -1479,8 +1479,8 @@
       "description": "一个基于 Electron 的音乐软件",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/lyswhut/lx-music-desktop",
-      "stargazersCount": 54494,
-      "forksCount": 7066,
+      "stargazersCount": 54504,
+      "forksCount": 7067,
       "openIssuesCount": 1297,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
@@ -1506,8 +1506,8 @@
       "latestReleaseTag": "v2.12.6",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 43832626,
-      "dailyStars": 22,
+      "downloadCount": 43846834,
+      "dailyStars": 26,
       "trendingScore": 415.9800109863281,
       "popularityScore": 68626.0,
       "hasInstallersAndroid": false,
@@ -1563,7 +1563,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 11270854,
-      "dailyStars": 119,
+      "dailyStars": 90,
       "trendingScore": 3848.679931640625,
       "popularityScore": 66912.0,
       "hasInstallersAndroid": false,
@@ -1641,7 +1641,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 17440166,
-      "dailyStars": 15,
+      "dailyStars": 14,
       "trendingScore": 321.8999938964844,
       "popularityScore": 69457.0,
       "hasInstallersAndroid": false,
@@ -1709,7 +1709,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 33584875,
-      "dailyStars": 20,
+      "dailyStars": 27,
       "trendingScore": 1203.0400390625,
       "popularityScore": 62849.0,
       "hasInstallersAndroid": false,
@@ -1986,7 +1986,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 46488335,
-      "dailyStars": 16,
+      "dailyStars": 13,
       "trendingScore": 260.6000061035156,
       "popularityScore": 60914.0,
       "hasInstallersAndroid": false,
@@ -2047,7 +2047,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 29591587,
-      "dailyStars": 17,
+      "dailyStars": 13,
       "trendingScore": 979.8400268554688,
       "popularityScore": 48656.0,
       "hasInstallersAndroid": false,
@@ -2140,9 +2140,9 @@
       "description": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/logseq/logseq",
-      "stargazersCount": 45262,
+      "stargazersCount": 45265,
       "forksCount": 2834,
-      "openIssuesCount": 1001,
+      "openIssuesCount": 1002,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
       "license": {
@@ -2169,13 +2169,13 @@
       "releasesUrl": "https://github.com/logseq/logseq/releases",
       "updatedAt": "2026-10-17 02:38:02+00",
       "createdAt": "2020-05-23 00:06:06+00",
-      "pushedAt": "2026-10-17 02:46:12+00",
+      "pushedAt": "2026-10-17 06:55:53+00",
       "latestReleaseDate": "2026-10-07 14:18:57+00",
       "latestReleaseTag": "2.0.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 92916777,
-      "dailyStars": 13,
+      "downloadCount": 92937695,
+      "dailyStars": 14,
       "trendingScore": 392.20001220703125,
       "popularityScore": 47679.0,
       "hasInstallersAndroid": true,
@@ -2256,7 +2256,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 13241277,
-      "dailyStars": 16,
+      "dailyStars": 14,
       "trendingScore": 282.3800048828125,
       "popularityScore": 68691.0,
       "hasInstallersAndroid": false,
@@ -2320,7 +2320,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 16306946,
-      "dailyStars": 14,
+      "dailyStars": 12,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -2387,7 +2387,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 141275252,
-      "dailyStars": 0,
+      "dailyStars": 1,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -2422,7 +2422,7 @@
       "description": "The universal proxy platform",
       "defaultBranch": "testing",
       "htmlUrl": "https://github.com/SagerNet/sing-box",
-      "stargazersCount": 38939,
+      "stargazersCount": 38940,
       "forksCount": 4753,
       "openIssuesCount": 377,
       "licenseSpdxId": "NOASSERTION",
@@ -2442,8 +2442,8 @@
       "latestReleaseTag": "v1.14.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 27885045,
-      "dailyStars": 39,
+      "downloadCount": 22816357,
+      "dailyStars": 28,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -2482,9 +2482,9 @@
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "defaultBranch": "develop",
       "htmlUrl": "https://github.com/rtk-ai/rtk",
-      "stargazersCount": 83629,
-      "forksCount": 5312,
-      "openIssuesCount": 1549,
+      "stargazersCount": 83645,
+      "forksCount": 5313,
+      "openIssuesCount": 1551,
       "licenseSpdxId": "Apache-2.0",
       "licenseName": "Apache License 2.0",
       "license": {
@@ -2519,8 +2519,8 @@
       "latestReleaseTag": "v1.0.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 4480148,
-      "dailyStars": 139,
+      "downloadCount": 4046613,
+      "dailyStars": 98,
       "trendingScore": 6280.0400390625,
       "popularityScore": 94253.0,
       "hasInstallersAndroid": false,
@@ -2585,7 +2585,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 2713755,
-      "dailyStars": 78,
+      "dailyStars": 60,
       "trendingScore": 1389.530029296875,
       "popularityScore": 117610.0,
       "hasInstallersAndroid": false,
@@ -2651,7 +2651,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 15914570,
-      "dailyStars": 15,
+      "dailyStars": 14,
       "trendingScore": 293.8800048828125,
       "popularityScore": 39638.0,
       "hasInstallersAndroid": false,
@@ -2735,7 +2735,7 @@
       "description": "🧡 Folo is the AI RSS Reader",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/RSSNext/Folo",
-      "stargazersCount": 39112,
+      "stargazersCount": 39110,
       "forksCount": 2134,
       "openIssuesCount": 122,
       "licenseSpdxId": "AGPL-3.0",
@@ -2764,8 +2764,8 @@
       "latestReleaseTag": "mobile/v0.6.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 30884605,
-      "dailyStars": 1,
+      "downloadCount": 30888111,
+      "dailyStars": 7,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -2804,7 +2804,7 @@
       "description": "Self-hosted game stream host for Moonlight.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/LizardByte/Sunshine",
-      "stargazersCount": 42288,
+      "stargazersCount": 42289,
       "forksCount": 2245,
       "openIssuesCount": 159,
       "licenseSpdxId": "GPL-3.0",
@@ -2836,13 +2836,13 @@
       "releasesUrl": "https://github.com/LizardByte/Sunshine/releases",
       "updatedAt": "2026-10-17 02:21:59+00",
       "createdAt": "2021-12-15 23:38:57+00",
-      "pushedAt": "2026-10-17 02:29:52+00",
+      "pushedAt": "2026-10-17 03:23:00+00",
       "latestReleaseDate": "2026-09-15 01:17:17+00",
       "latestReleaseTag": "v2026.914.233613",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 7616294,
-      "dailyStars": 36,
+      "downloadCount": 7615292,
+      "dailyStars": 31,
       "trendingScore": 494.9100036621094,
       "popularityScore": 46778.0,
       "hasInstallersAndroid": true,
@@ -2907,7 +2907,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 317099157,
-      "dailyStars": 15,
+      "dailyStars": 0,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -2980,7 +2980,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 31257729,
-      "dailyStars": 45,
+      "dailyStars": 49,
       "trendingScore": 173.5500030517578,
       "popularityScore": 46828.0,
       "hasInstallersAndroid": false,
@@ -3060,7 +3060,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 3584593,
-      "dailyStars": 71,
+      "dailyStars": 52,
       "trendingScore": 1491.47998046875,
       "popularityScore": 92575.0,
       "hasInstallersAndroid": false,
@@ -3130,7 +3130,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 20783083,
-      "dailyStars": 6,
+      "dailyStars": 10,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -3192,7 +3192,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 61339294,
-      "dailyStars": 72,
+      "dailyStars": 0,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -3261,7 +3261,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 6732782,
-      "dailyStars": 83,
+      "dailyStars": 0,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -3292,9 +3292,9 @@
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/openclaw/openclaw",
-      "stargazersCount": 392212,
-      "forksCount": 82458,
-      "openIssuesCount": 9457,
+      "stargazersCount": 392240,
+      "forksCount": 82459,
+      "openIssuesCount": 9352,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -3317,13 +3317,13 @@
       "releasesUrl": "https://github.com/openclaw/openclaw/releases",
       "updatedAt": "2026-10-17 02:45:21+00",
       "createdAt": "2025-11-24 10:16:47+00",
-      "pushedAt": "2026-10-17 03:10:58+00",
+      "pushedAt": "2026-10-17 09:40:24+00",
       "latestReleaseDate": "2026-10-16 00:36:19+00",
       "latestReleaseTag": "v2026.10.4",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2479105,
-      "dailyStars": 85,
+      "downloadCount": 2481426,
+      "dailyStars": 83,
       "trendingScore": 24061.599609375,
       "popularityScore": 557125.0,
       "hasInstallersAndroid": true,
@@ -3362,9 +3362,9 @@
       "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/hiddify/hiddify-app",
-      "stargazersCount": 33237,
+      "stargazersCount": 33238,
       "forksCount": 3107,
-      "openIssuesCount": 33,
+      "openIssuesCount": 32,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -3403,8 +3403,8 @@
       "latestReleaseTag": "v4.1.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 23707615,
-      "dailyStars": 19,
+      "downloadCount": 23711368,
+      "dailyStars": 13,
       "trendingScore": null,
       "popularityScore": 33952.0,
       "hasInstallersAndroid": true,
@@ -3443,7 +3443,7 @@
       "description": "🎧 Open source music streaming app! Available for both desktop & mobile!",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/team-spotube/spotube",
-      "stargazersCount": 50006,
+      "stargazersCount": 50013,
       "forksCount": 2342,
       "openIssuesCount": 869,
       "licenseSpdxId": "NOASSERTION",
@@ -3480,8 +3480,8 @@
       "latestReleaseTag": "v5.1.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 5418940,
-      "dailyStars": 49,
+      "downloadCount": 5419865,
+      "dailyStars": 28,
       "trendingScore": 493.1400146484375,
       "popularityScore": 54690.0,
       "hasInstallersAndroid": true,
@@ -3550,7 +3550,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 3939997,
-      "dailyStars": 23,
+      "dailyStars": 9,
       "trendingScore": 408.29998779296875,
       "popularityScore": 70136.0,
       "hasInstallersAndroid": false,
@@ -3610,7 +3610,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 7014902,
-      "dailyStars": 14,
+      "dailyStars": 11,
       "trendingScore": 794.0599975585938,
       "popularityScore": 51176.0,
       "hasInstallersAndroid": false,
@@ -3666,7 +3666,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 112440073,
-      "dailyStars": 0,
+      "dailyStars": 35,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -3733,7 +3733,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 3567866,
-      "dailyStars": 58,
+      "dailyStars": 50,
       "trendingScore": 396.8599853515625,
       "popularityScore": 71998.0,
       "hasInstallersAndroid": false,
@@ -3805,7 +3805,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 21224753,
-      "dailyStars": 23,
+      "dailyStars": 16,
       "trendingScore": 190.74000549316406,
       "popularityScore": 33179.0,
       "hasInstallersAndroid": false,
@@ -3840,9 +3840,9 @@
       "description": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/netbirdio/netbird",
-      "stargazersCount": 29997,
-      "forksCount": 1760,
-      "openIssuesCount": 794,
+      "stargazersCount": 30025,
+      "forksCount": 1762,
+      "openIssuesCount": 798,
       "licenseSpdxId": "NOASSERTION",
       "licenseName": "Other",
       "license": {
@@ -3868,13 +3868,13 @@
       "releasesUrl": "https://github.com/netbirdio/netbird/releases",
       "updatedAt": "2026-10-10 02:10:24+00",
       "createdAt": "2021-04-14 12:27:20+00",
-      "pushedAt": "2026-10-16 00:42:35+00",
-      "latestReleaseDate": "2026-10-16 00:42:35+00",
-      "latestReleaseTag": "v0.81.1",
+      "pushedAt": "2026-10-17 06:44:10+00",
+      "latestReleaseDate": "2026-10-16 09:18:31+00",
+      "latestReleaseTag": "v0.81.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 9561958,
-      "dailyStars": 116,
+      "downloadCount": 9636068,
+      "dailyStars": 13,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -3883,16 +3883,16 @@
       "hasInstallersLinux": true,
       "platformReleases": {
         "windows": {
-          "tag": "v0.81.1",
-          "publishedAt": "2026-10-16T00:42:35Z"
+          "tag": "v0.81.2",
+          "publishedAt": "2026-10-16T09:18:31Z"
         },
         "macos": {
-          "tag": "v0.81.1",
-          "publishedAt": "2026-10-16T00:42:35Z"
+          "tag": "v0.81.2",
+          "publishedAt": "2026-10-16T09:18:31Z"
         },
         "linux": {
-          "tag": "v0.81.1",
-          "publishedAt": "2026-10-16T00:42:35Z"
+          "tag": "v0.81.2",
+          "publishedAt": "2026-10-16T09:18:31Z"
         }
       },
       "source_host": null,
@@ -3930,7 +3930,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 55842113,
-      "dailyStars": 176,
+      "dailyStars": 206,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -3997,7 +3997,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 6660560,
-      "dailyStars": 294,
+      "dailyStars": 476,
       "trendingScore": null,
       "popularityScore": 25294.0,
       "hasInstallersAndroid": true,
@@ -4068,7 +4068,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 53718363,
-      "dailyStars": 0,
+      "dailyStars": 9,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -4305,8 +4305,8 @@
       "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Devolutions/UniGetUI",
-      "stargazersCount": 26622,
-      "forksCount": 949,
+      "stargazersCount": 26627,
+      "forksCount": 950,
       "openIssuesCount": 461,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
@@ -4338,8 +4338,8 @@
       "latestReleaseTag": "v2026.3.2",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 16117323,
-      "dailyStars": 12,
+      "downloadCount": 16127873,
+      "dailyStars": 18,
       "trendingScore": 301.1700134277344,
       "popularityScore": 28520.0,
       "hasInstallersAndroid": false,
@@ -4459,7 +4459,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 9390993,
-      "dailyStars": 8,
+      "dailyStars": 7,
       "trendingScore": 169.1300048828125,
       "popularityScore": 29700.0,
       "hasInstallersAndroid": false,
@@ -4525,7 +4525,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 31144181,
-      "dailyStars": 4,
+      "dailyStars": 0,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -4585,7 +4585,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 38161346,
-      "dailyStars": 10,
+      "dailyStars": 8,
       "trendingScore": 128.57000732421875,
       "popularityScore": 28435.0,
       "hasInstallersAndroid": false,
@@ -4637,7 +4637,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 9970515,
-      "dailyStars": 11,
+      "dailyStars": 9,
       "trendingScore": 263.010009765625,
       "popularityScore": 29517.0,
       "hasInstallersAndroid": false,
@@ -4774,7 +4774,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 77048036,
-      "dailyStars": 114,
+      "dailyStars": 0,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -4831,7 +4831,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 5716717,
-      "dailyStars": 88,
+      "dailyStars": 95,
       "trendingScore": 1142.1300048828125,
       "popularityScore": 40368.0,
       "hasInstallersAndroid": false,
@@ -4866,8 +4866,8 @@
       "description": "Community plugins list, theme list, and releases of Obsidian.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/obsidianmd/obsidian-releases",
-      "stargazersCount": 22258,
-      "forksCount": 7852,
+      "stargazersCount": 22292,
+      "forksCount": 7860,
       "openIssuesCount": 4,
       "licenseSpdxId": null,
       "licenseName": null,
@@ -4887,13 +4887,13 @@
       "releasesUrl": "https://github.com/obsidianmd/obsidian-releases/releases",
       "updatedAt": "2026-10-12 02:16:33+00",
       "createdAt": null,
-      "pushedAt": "2026-10-15 18:33:24+00",
+      "pushedAt": "2026-10-17 03:30:24+00",
       "latestReleaseDate": "2026-10-05 17:03:28+00",
       "latestReleaseTag": "v1.14.4",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 91589220,
-      "dailyStars": 11,
+      "downloadCount": 91840019,
+      "dailyStars": 0,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -4922,80 +4922,6 @@
       "available_on": []
     },
     {
-      "id": 291438522,
-      "name": "siyuan",
-      "fullName": "siyuan-note/siyuan",
-      "owner": {
-        "login": "siyuan-note",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/70468694?v=4"
-      },
-      "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/siyuan-note/siyuan",
-      "stargazersCount": 46806,
-      "forksCount": 3070,
-      "openIssuesCount": 7,
-      "licenseSpdxId": "AGPL-3.0",
-      "licenseName": "GNU Affero General Public License v3.0",
-      "license": {
-        "spdxId": "AGPL-3.0",
-        "name": "GNU Affero General Public License v3.0"
-      },
-      "language": "TypeScript",
-      "topics": [
-        "agentic-ai",
-        "ai-agent",
-        "knowledge-base",
-        "local-first",
-        "markdown",
-        "mcp",
-        "note-taking",
-        "self-hosted",
-        "siyuan"
-      ],
-      "topicCodes": [
-        "ai",
-        "notes",
-        "self-hosted"
-      ],
-      "releasesUrl": "https://github.com/siyuan-note/siyuan/releases",
-      "updatedAt": "2026-10-17 02:30:44+00",
-      "createdAt": "2020-08-30 09:21:35+00",
-      "pushedAt": "2026-10-17 01:39:03+00",
-      "latestReleaseDate": "2026-10-14 03:24:20+00",
-      "latestReleaseTag": "v3.8.7",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 3457382,
-      "dailyStars": 20,
-      "trendingScore": 421.44000244140625,
-      "popularityScore": 51314.0,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v3.8.7",
-          "publishedAt": "2026-10-14T03:24:20Z"
-        },
-        "windows": {
-          "tag": "v3.8.7",
-          "publishedAt": "2026-10-14T03:24:20Z"
-        },
-        "macos": {
-          "tag": "v3.8.7",
-          "publishedAt": "2026-10-14T03:24:20Z"
-        },
-        "linux": {
-          "tag": "v3.8.7",
-          "publishedAt": "2026-10-14T03:24:20Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 8986217,
       "name": "koreader",
       "fullName": "koreader/koreader",
@@ -5006,9 +4932,9 @@
       "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/koreader/koreader",
-      "stargazersCount": 30351,
-      "forksCount": 1975,
-      "openIssuesCount": 1395,
+      "stargazersCount": 30363,
+      "forksCount": 1978,
+      "openIssuesCount": 1399,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
       "license": {
@@ -5044,13 +4970,13 @@
       "releasesUrl": "https://github.com/koreader/koreader/releases",
       "updatedAt": "2026-08-15 02:06:52+00",
       "createdAt": null,
-      "pushedAt": "2026-10-16 06:44:39+00",
+      "pushedAt": "2026-10-17 03:01:42+00",
       "latestReleaseDate": "2026-08-01 11:10:30+00",
       "latestReleaseTag": "v2026.07.1",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 6249003,
-      "dailyStars": 41,
+      "downloadCount": 6250911,
+      "dailyStars": 5,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -5065,6 +4991,84 @@
         "linux": {
           "tag": "v2026.07.1",
           "publishedAt": "2026-08-01T11:10:30Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 1075381375,
+      "name": "paseo",
+      "fullName": "getpaseo/paseo",
+      "owner": {
+        "login": "getpaseo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/259503569?v=4"
+      },
+      "description": "Orchestrate multiple coding agents from desktop and mobile",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/getpaseo/paseo",
+      "stargazersCount": 21154,
+      "forksCount": 2513,
+      "openIssuesCount": 1352,
+      "licenseSpdxId": "NOASSERTION",
+      "licenseName": "Other",
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "ade",
+        "agents",
+        "android",
+        "claude-code",
+        "codex",
+        "copilot",
+        "developer-tools",
+        "hermes",
+        "ios",
+        "linux",
+        "mobile",
+        "opencode",
+        "orchestration",
+        "pi",
+        "windows"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/getpaseo/paseo/releases",
+      "updatedAt": "2026-10-17 01:58:46+00",
+      "createdAt": "2025-10-13 12:27:02+00",
+      "pushedAt": "2026-10-17 01:54:02+00",
+      "latestReleaseDate": "2026-10-15 18:53:21+00",
+      "latestReleaseTag": "v0.11.4",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 14482828,
+      "dailyStars": 139,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.11.4",
+          "publishedAt": "2026-10-15T18:53:21Z"
+        },
+        "windows": {
+          "tag": "v0.11.4",
+          "publishedAt": "2026-10-15T18:53:21Z"
+        },
+        "macos": {
+          "tag": "v0.11.4",
+          "publishedAt": "2026-10-15T18:53:21Z"
+        },
+        "linux": {
+          "tag": "v0.11.4",
+          "publishedAt": "2026-10-15T18:53:21Z"
         }
       },
       "source_host": null,
@@ -5110,7 +5114,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 272085554,
-      "dailyStars": 3,
+      "dailyStars": 4,
       "trendingScore": 102.43000030517578,
       "popularityScore": 24988.0,
       "hasInstallersAndroid": true,
@@ -5176,7 +5180,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 11872793,
-      "dailyStars": 15,
+      "dailyStars": 10,
       "trendingScore": 155.6199951171875,
       "popularityScore": 21962.0,
       "hasInstallersAndroid": false,
@@ -5195,84 +5199,6 @@
         "linux": {
           "tag": "v6.2.0",
           "publishedAt": "2026-10-04T00:44:48Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 1075381375,
-      "name": "paseo",
-      "fullName": "getpaseo/paseo",
-      "owner": {
-        "login": "getpaseo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/259503569?v=4"
-      },
-      "description": "Orchestrate multiple coding agents from desktop and mobile",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/getpaseo/paseo",
-      "stargazersCount": 21154,
-      "forksCount": 2513,
-      "openIssuesCount": 1352,
-      "licenseSpdxId": "NOASSERTION",
-      "licenseName": "Other",
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "language": "TypeScript",
-      "topics": [
-        "ade",
-        "agents",
-        "android",
-        "claude-code",
-        "codex",
-        "copilot",
-        "developer-tools",
-        "hermes",
-        "ios",
-        "linux",
-        "mobile",
-        "opencode",
-        "orchestration",
-        "pi",
-        "windows"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/getpaseo/paseo/releases",
-      "updatedAt": "2026-10-17 01:58:46+00",
-      "createdAt": "2025-10-13 12:27:02+00",
-      "pushedAt": "2026-10-17 01:54:02+00",
-      "latestReleaseDate": "2026-10-15 18:53:21+00",
-      "latestReleaseTag": "v0.11.4",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 14482828,
-      "dailyStars": 123,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.11.4",
-          "publishedAt": "2026-10-15T18:53:21Z"
-        },
-        "windows": {
-          "tag": "v0.11.4",
-          "publishedAt": "2026-10-15T18:53:21Z"
-        },
-        "macos": {
-          "tag": "v0.11.4",
-          "publishedAt": "2026-10-15T18:53:21Z"
-        },
-        "linux": {
-          "tag": "v0.11.4",
-          "publishedAt": "2026-10-15T18:53:21Z"
         }
       },
       "source_host": null,
@@ -5331,7 +5257,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 4460427,
-      "dailyStars": 3,
+      "dailyStars": 4,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -5350,6 +5276,71 @@
         "linux": {
           "tag": "v0.4.11",
           "publishedAt": "2026-10-10T11:14:24Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 1135492298,
+      "name": "cockpit-tools",
+      "fullName": "jlcodes99/cockpit-tools",
+      "owner": {
+        "login": "jlcodes99",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/224477852?v=4"
+      },
+      "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/jlcodes99/cockpit-tools",
+      "stargazersCount": 19039,
+      "forksCount": 1689,
+      "openIssuesCount": 865,
+      "licenseSpdxId": null,
+      "licenseName": null,
+      "license": null,
+      "language": "Rust",
+      "topics": [
+        "account-manager",
+        "ai",
+        "antigravity",
+        "codebuddy",
+        "codex",
+        "cursor",
+        "github-copilot",
+        "kiro",
+        "windsurf"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/jlcodes99/cockpit-tools/releases",
+      "updatedAt": "2026-10-17 02:34:43+00",
+      "createdAt": "2026-01-16 07:09:32+00",
+      "pushedAt": "2026-10-17 02:34:38+00",
+      "latestReleaseDate": "2026-10-16 07:02:50+00",
+      "latestReleaseTag": "v1.3.65",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 17661906,
+      "dailyStars": 19,
+      "trendingScore": 1410.800048828125,
+      "popularityScore": 22417.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.3.70",
+          "publishedAt": "2026-10-16T07:02:50Z"
+        },
+        "macos": {
+          "tag": "v1.3.70",
+          "publishedAt": "2026-10-16T07:02:50Z"
+        },
+        "linux": {
+          "tag": "v1.3.70",
+          "publishedAt": "2026-10-16T07:02:50Z"
         }
       },
       "source_host": null,
@@ -5398,7 +5389,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 10084388,
-      "dailyStars": 22,
+      "dailyStars": 2,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -5450,7 +5441,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 64887187,
-      "dailyStars": 0,
+      "dailyStars": 145,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -5465,71 +5456,6 @@
         "linux": {
           "tag": "v4.2.0",
           "publishedAt": "2026-10-15T21:46:29Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 1135492298,
-      "name": "cockpit-tools",
-      "fullName": "jlcodes99/cockpit-tools",
-      "owner": {
-        "login": "jlcodes99",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/224477852?v=4"
-      },
-      "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/jlcodes99/cockpit-tools",
-      "stargazersCount": 19039,
-      "forksCount": 1689,
-      "openIssuesCount": 865,
-      "licenseSpdxId": null,
-      "licenseName": null,
-      "license": null,
-      "language": "Rust",
-      "topics": [
-        "account-manager",
-        "ai",
-        "antigravity",
-        "codebuddy",
-        "codex",
-        "cursor",
-        "github-copilot",
-        "kiro",
-        "windsurf"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/jlcodes99/cockpit-tools/releases",
-      "updatedAt": "2026-10-17 02:34:43+00",
-      "createdAt": "2026-01-16 07:09:32+00",
-      "pushedAt": "2026-10-17 02:34:38+00",
-      "latestReleaseDate": "2026-10-16 07:02:50+00",
-      "latestReleaseTag": "v1.3.65",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 17661906,
-      "dailyStars": 36,
-      "trendingScore": 1410.800048828125,
-      "popularityScore": 22417.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v1.3.70",
-          "publishedAt": "2026-10-16T07:02:50Z"
-        },
-        "macos": {
-          "tag": "v1.3.70",
-          "publishedAt": "2026-10-16T07:02:50Z"
-        },
-        "linux": {
-          "tag": "v1.3.70",
-          "publishedAt": "2026-10-16T07:02:50Z"
         }
       },
       "source_host": null,
@@ -5577,7 +5503,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 107269774,
-      "dailyStars": 9,
+      "dailyStars": 5,
       "trendingScore": 116.83000183105469,
       "popularityScore": 24126.0,
       "hasInstallersAndroid": false,
@@ -5596,6 +5522,61 @@
         "linux": {
           "tag": "Audacity-4.0.1",
           "publishedAt": "2026-09-30T11:59:48Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 846698999,
+      "name": "goose",
+      "fullName": "aaif-goose/goose",
+      "owner": {
+        "login": "aaif-goose",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/271095942?v=4"
+      },
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/aaif-goose/goose",
+      "stargazersCount": 55351,
+      "forksCount": 6451,
+      "openIssuesCount": 493,
+      "licenseSpdxId": "Apache-2.0",
+      "licenseName": "Apache License 2.0",
+      "license": {
+        "spdxId": "Apache-2.0",
+        "name": "Apache License 2.0"
+      },
+      "language": "Rust",
+      "topics": [
+        "acp",
+        "ai",
+        "ai-agents",
+        "mcp"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/aaif-goose/goose/releases",
+      "updatedAt": "2026-10-17 02:40:39+00",
+      "createdAt": "2024-08-23 19:03:36+00",
+      "pushedAt": "2026-10-17 02:43:16+00",
+      "latestReleaseDate": "2026-10-16 16:58:21+00",
+      "latestReleaseTag": "v1.53.0",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 2034604,
+      "dailyStars": 26,
+      "trendingScore": 1427.9599609375,
+      "popularityScore": 68253.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "linux": {
+          "tag": "v1.55.0",
+          "publishedAt": "2026-10-16T16:58:21Z"
         }
       },
       "source_host": null,
@@ -5670,9 +5651,9 @@
       "description": "Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/getlantern/lantern",
-      "stargazersCount": 16350,
+      "stargazersCount": 16356,
       "forksCount": 11051,
-      "openIssuesCount": 43,
+      "openIssuesCount": 44,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
       "license": {
@@ -5695,13 +5676,13 @@
       "releasesUrl": "https://github.com/getlantern/lantern/releases",
       "updatedAt": "2026-10-17 02:45:24+00",
       "createdAt": null,
-      "pushedAt": "2026-10-17 02:40:09+00",
+      "pushedAt": "2026-10-17 04:42:30+00",
       "latestReleaseDate": "2026-10-13 15:36:07+00",
       "latestReleaseTag": "7.9.8",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 124624507,
-      "dailyStars": 44,
+      "downloadCount": 124625310,
+      "dailyStars": 39,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -5724,61 +5705,6 @@
         "linux": {
           "tag": "v10.0.0",
           "publishedAt": "2026-09-18T19:20:52Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 846698999,
-      "name": "goose",
-      "fullName": "aaif-goose/goose",
-      "owner": {
-        "login": "aaif-goose",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/271095942?v=4"
-      },
-      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/aaif-goose/goose",
-      "stargazersCount": 55351,
-      "forksCount": 6451,
-      "openIssuesCount": 493,
-      "licenseSpdxId": "Apache-2.0",
-      "licenseName": "Apache License 2.0",
-      "license": {
-        "spdxId": "Apache-2.0",
-        "name": "Apache License 2.0"
-      },
-      "language": "Rust",
-      "topics": [
-        "acp",
-        "ai",
-        "ai-agents",
-        "mcp"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/aaif-goose/goose/releases",
-      "updatedAt": "2026-10-17 02:40:39+00",
-      "createdAt": "2024-08-23 19:03:36+00",
-      "pushedAt": "2026-10-17 02:43:16+00",
-      "latestReleaseDate": "2026-10-16 16:58:21+00",
-      "latestReleaseTag": "v1.53.0",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 2034604,
-      "dailyStars": 34,
-      "trendingScore": 1427.9599609375,
-      "popularityScore": 68253.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "linux": {
-          "tag": "v1.55.0",
-          "publishedAt": "2026-10-16T16:58:21Z"
         }
       },
       "source_host": null,
@@ -5838,6 +5764,80 @@
         "linux": {
           "tag": "v2.18.3",
           "publishedAt": "2026-10-09T03:27:35Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 925270205,
+      "name": "cua",
+      "fullName": "trycua/cua",
+      "owner": {
+        "login": "trycua",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/191107687?v=4"
+      },
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/trycua/cua",
+      "stargazersCount": 29978,
+      "forksCount": 2148,
+      "openIssuesCount": 1219,
+      "licenseSpdxId": null,
+      "licenseName": null,
+      "license": null,
+      "language": "Rust",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "apple",
+        "computer-use",
+        "computer-use-agent",
+        "containerization",
+        "cua",
+        "desktop-automation",
+        "hacktoberfest",
+        "lume",
+        "macos",
+        "manus",
+        "operator",
+        "swift",
+        "virtualization",
+        "virtualization-framework",
+        "windows",
+        "windows-sandbox"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/trycua/cua/releases",
+      "updatedAt": "2026-10-17 02:44:48+00",
+      "createdAt": "2025-01-31 15:02:49+00",
+      "pushedAt": "2026-10-17 00:00:10+00",
+      "latestReleaseDate": "2026-10-16 03:47:31+00",
+      "latestReleaseTag": null,
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 4717098,
+      "dailyStars": 96,
+      "trendingScore": 978.3099975585938,
+      "popularityScore": 34274.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "cua-spaces-v0.9.3",
+          "publishedAt": "2026-10-16T03:14:52Z"
+        },
+        "macos": {
+          "tag": "cua-spaces-v0.9.3",
+          "publishedAt": "2026-10-16T03:14:52Z"
+        },
+        "linux": {
+          "tag": "cua-spaces-v0.9.3",
+          "publishedAt": "2026-10-16T03:14:52Z"
         }
       },
       "source_host": null,
@@ -5905,138 +5905,6 @@
       "available_on": []
     },
     {
-      "id": 15379620,
-      "name": "pcsx2",
-      "fullName": "PCSX2/pcsx2",
-      "owner": {
-        "login": "PCSX2",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6278711?v=4"
-      },
-      "description": "PCSX2 - The Playstation 2 Emulator",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/PCSX2/pcsx2",
-      "stargazersCount": 15820,
-      "forksCount": 2316,
-      "openIssuesCount": 804,
-      "licenseSpdxId": "GPL-3.0",
-      "licenseName": "GNU General Public License v3.0",
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "language": "C++",
-      "topics": [
-        "cpp",
-        "emulation",
-        "emulator",
-        "pcsx2",
-        "ps2"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/PCSX2/pcsx2/releases",
-      "updatedAt": "2026-10-17 01:12:17+00",
-      "createdAt": "2013-12-22 17:56:48+00",
-      "pushedAt": "2026-10-17 01:19:51+00",
-      "latestReleaseDate": "2026-09-04 23:04:48+00",
-      "latestReleaseTag": "v2.8.2",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 67421040,
-      "dailyStars": 7,
-      "trendingScore": 83.58999633789062,
-      "popularityScore": 20452.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v2.8.2",
-          "publishedAt": "2026-09-04T23:04:48Z"
-        },
-        "linux": {
-          "tag": "v2.8.2",
-          "publishedAt": "2026-09-04T23:04:48Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 925270205,
-      "name": "cua",
-      "fullName": "trycua/cua",
-      "owner": {
-        "login": "trycua",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/191107687?v=4"
-      },
-      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/trycua/cua",
-      "stargazersCount": 29978,
-      "forksCount": 2148,
-      "openIssuesCount": 1219,
-      "licenseSpdxId": null,
-      "licenseName": null,
-      "license": null,
-      "language": "Rust",
-      "topics": [
-        "agent",
-        "ai-agent",
-        "apple",
-        "computer-use",
-        "computer-use-agent",
-        "containerization",
-        "cua",
-        "desktop-automation",
-        "hacktoberfest",
-        "lume",
-        "macos",
-        "manus",
-        "operator",
-        "swift",
-        "virtualization",
-        "virtualization-framework",
-        "windows",
-        "windows-sandbox"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/trycua/cua/releases",
-      "updatedAt": "2026-10-17 02:44:48+00",
-      "createdAt": "2025-01-31 15:02:49+00",
-      "pushedAt": "2026-10-17 00:00:10+00",
-      "latestReleaseDate": "2026-10-16 03:47:31+00",
-      "latestReleaseTag": null,
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 4717098,
-      "dailyStars": 121,
-      "trendingScore": 978.3099975585938,
-      "popularityScore": 34274.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "cua-spaces-v0.9.3",
-          "publishedAt": "2026-10-16T03:14:52Z"
-        },
-        "macos": {
-          "tag": "cua-spaces-v0.9.3",
-          "publishedAt": "2026-10-16T03:14:52Z"
-        },
-        "linux": {
-          "tag": "cua-spaces-v0.9.3",
-          "publishedAt": "2026-10-16T03:14:52Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 1327739,
       "name": "ILSpy",
       "fullName": "icsharpcode/ILSpy",
@@ -6079,7 +5947,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 4712501,
-      "dailyStars": 22,
+      "dailyStars": 15,
       "trendingScore": 127.05999755859375,
       "popularityScore": 34227.0,
       "hasInstallersAndroid": false,
@@ -6137,7 +6005,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 22188024,
-      "dailyStars": 5,
+      "dailyStars": 4,
       "trendingScore": 90.36000061035156,
       "popularityScore": 18516.0,
       "hasInstallersAndroid": false,
@@ -6156,71 +6024,6 @@
         "linux": {
           "tag": "v26.9.27",
           "publishedAt": "2026-09-28T00:29:29Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 4454793,
-      "name": "MuseScore",
-      "fullName": "musescore/MuseScore",
-      "owner": {
-        "login": "musescore",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/380563?v=4"
-      },
-      "description": "MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/musescore/MuseScore",
-      "stargazersCount": 15254,
-      "forksCount": 3354,
-      "openIssuesCount": 4336,
-      "licenseSpdxId": "NOASSERTION",
-      "licenseName": "Other",
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "language": "C++",
-      "topics": [
-        "cpp",
-        "musescore",
-        "music-notation",
-        "musicxml",
-        "qt",
-        "sfz",
-        "sheet-music",
-        "sheetmusic"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/musescore/MuseScore/releases",
-      "updatedAt": "2026-10-17 02:04:49+00",
-      "createdAt": "2012-05-26 12:46:33+00",
-      "pushedAt": "2026-10-16 16:58:48+00",
-      "latestReleaseDate": "2026-09-08 13:45:04+00",
-      "latestReleaseTag": "v4.7.5",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 16711187,
-      "dailyStars": 9,
-      "trendingScore": 86.04000091552734,
-      "popularityScore": 21962.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v4.7.5",
-          "publishedAt": "2026-09-08T13:45:04Z"
-        },
-        "macos": {
-          "tag": "v4.7.5",
-          "publishedAt": "2026-09-08T13:45:04Z"
-        },
-        "linux": {
-          "tag": "v4.7.5",
-          "publishedAt": "2026-09-08T13:45:04Z"
         }
       },
       "source_host": null,
@@ -6279,7 +6082,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 6745885,
-      "dailyStars": 5,
+      "dailyStars": 9,
       "trendingScore": 168.8699951171875,
       "popularityScore": 27378.0,
       "hasInstallersAndroid": false,
@@ -6294,6 +6097,71 @@
         "linux": {
           "tag": "v0.59.0",
           "publishedAt": "2026-10-06T14:39:26Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 4454793,
+      "name": "MuseScore",
+      "fullName": "musescore/MuseScore",
+      "owner": {
+        "login": "musescore",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/380563?v=4"
+      },
+      "description": "MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/musescore/MuseScore",
+      "stargazersCount": 15254,
+      "forksCount": 3354,
+      "openIssuesCount": 4336,
+      "licenseSpdxId": "NOASSERTION",
+      "licenseName": "Other",
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "musescore",
+        "music-notation",
+        "musicxml",
+        "qt",
+        "sfz",
+        "sheet-music",
+        "sheetmusic"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/musescore/MuseScore/releases",
+      "updatedAt": "2026-10-17 02:04:49+00",
+      "createdAt": "2012-05-26 12:46:33+00",
+      "pushedAt": "2026-10-16 16:58:48+00",
+      "latestReleaseDate": "2026-09-08 13:45:04+00",
+      "latestReleaseTag": "v4.7.5",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 16711187,
+      "dailyStars": 5,
+      "trendingScore": 86.04000091552734,
+      "popularityScore": 21962.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v4.7.5",
+          "publishedAt": "2026-09-08T13:45:04Z"
+        },
+        "macos": {
+          "tag": "v4.7.5",
+          "publishedAt": "2026-09-08T13:45:04Z"
+        },
+        "linux": {
+          "tag": "v4.7.5",
+          "publishedAt": "2026-09-08T13:45:04Z"
         }
       },
       "source_host": null,
@@ -6338,7 +6206,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 9311445,
-      "dailyStars": 13,
+      "dailyStars": 21,
       "trendingScore": 221.9199981689453,
       "popularityScore": 22502.0,
       "hasInstallersAndroid": false,
@@ -6418,72 +6286,6 @@
       "available_on": []
     },
     {
-      "id": 90902132,
-      "name": "flameshot",
-      "fullName": "flameshot-org/flameshot",
-      "owner": {
-        "login": "flameshot-org",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/36951528?v=4"
-      },
-      "description": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/flameshot-org/flameshot",
-      "stargazersCount": 31219,
-      "forksCount": 2063,
-      "openIssuesCount": 741,
-      "licenseSpdxId": "GPL-3.0",
-      "licenseName": "GNU General Public License v3.0",
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "language": "C++",
-      "topics": [
-        "capture",
-        "cross-platform",
-        "free-software",
-        "gnu-linux",
-        "gui",
-        "hacktoberfest",
-        "image-editing",
-        "qt",
-        "screenshot"
-      ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/flameshot-org/flameshot/releases",
-      "updatedAt": "2026-10-17 00:33:26+00",
-      "createdAt": "2017-05-10 19:44:51+00",
-      "pushedAt": "2026-10-16 21:46:57+00",
-      "latestReleaseDate": "2026-06-19 01:20:33+00",
-      "latestReleaseTag": "v14.0.0",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 3492772,
-      "dailyStars": 17,
-      "trendingScore": 225.19000244140625,
-      "popularityScore": 35345.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v14.0.0",
-          "publishedAt": "2026-06-19T01:20:33Z"
-        },
-        "macos": {
-          "tag": "v14.0.0",
-          "publishedAt": "2026-06-19T01:20:33Z"
-        },
-        "linux": {
-          "tag": "v13.3.0",
-          "publishedAt": "2025-10-28T22:50:45Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 1161163182,
       "name": "openhuman",
       "fullName": "tinyhumansai/openhuman",
@@ -6532,7 +6334,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 2598608,
-      "dailyStars": 84,
+      "dailyStars": 38,
       "trendingScore": 3531.75,
       "popularityScore": 50426.0,
       "hasInstallersAndroid": false,
@@ -6551,6 +6353,72 @@
         "linux": {
           "tag": "v0.64.15",
           "publishedAt": "2026-10-09T05:08:30Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 90902132,
+      "name": "flameshot",
+      "fullName": "flameshot-org/flameshot",
+      "owner": {
+        "login": "flameshot-org",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36951528?v=4"
+      },
+      "description": "Powerful yet simple to use screenshot software :desktop_computer: :camera_flash:",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/flameshot-org/flameshot",
+      "stargazersCount": 31219,
+      "forksCount": 2063,
+      "openIssuesCount": 741,
+      "licenseSpdxId": "GPL-3.0",
+      "licenseName": "GNU General Public License v3.0",
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "language": "C++",
+      "topics": [
+        "capture",
+        "cross-platform",
+        "free-software",
+        "gnu-linux",
+        "gui",
+        "hacktoberfest",
+        "image-editing",
+        "qt",
+        "screenshot"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/flameshot-org/flameshot/releases",
+      "updatedAt": "2026-10-17 00:33:26+00",
+      "createdAt": "2017-05-10 19:44:51+00",
+      "pushedAt": "2026-10-16 21:46:57+00",
+      "latestReleaseDate": "2026-06-19 01:20:33+00",
+      "latestReleaseTag": "v14.0.0",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 3492772,
+      "dailyStars": 11,
+      "trendingScore": 225.19000244140625,
+      "popularityScore": 35345.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v14.0.0",
+          "publishedAt": "2026-06-19T01:20:33Z"
+        },
+        "macos": {
+          "tag": "v14.0.0",
+          "publishedAt": "2026-06-19T01:20:33Z"
+        },
+        "linux": {
+          "tag": "v13.3.0",
+          "publishedAt": "2025-10-28T22:50:45Z"
         }
       },
       "source_host": null,
@@ -6679,7 +6547,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 15096095,
-      "dailyStars": 14,
+      "dailyStars": 3,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -6698,6 +6566,80 @@
         "linux": {
           "tag": "desktop-v2026.10.0",
           "publishedAt": "2026-10-15T18:56:38Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 291438522,
+      "name": "siyuan",
+      "fullName": "siyuan-note/siyuan",
+      "owner": {
+        "login": "siyuan-note",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70468694?v=4"
+      },
+      "description": "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/siyuan-note/siyuan",
+      "stargazersCount": 46805,
+      "forksCount": 3070,
+      "openIssuesCount": 7,
+      "licenseSpdxId": "AGPL-3.0",
+      "licenseName": "GNU Affero General Public License v3.0",
+      "license": {
+        "spdxId": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "knowledge-base",
+        "local-first",
+        "markdown",
+        "mcp",
+        "note-taking",
+        "self-hosted",
+        "siyuan"
+      ],
+      "topicCodes": [
+        "ai",
+        "notes",
+        "self-hosted"
+      ],
+      "releasesUrl": "https://github.com/siyuan-note/siyuan/releases",
+      "updatedAt": "2026-10-17 02:30:44+00",
+      "createdAt": "2020-08-30 09:21:35+00",
+      "pushedAt": "2026-10-17 06:58:47+00",
+      "latestReleaseDate": "2026-10-14 03:24:20+00",
+      "latestReleaseTag": "v3.8.7",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 1954505,
+      "dailyStars": 15,
+      "trendingScore": 421.44000244140625,
+      "popularityScore": 51314.0,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v3.8.7",
+          "publishedAt": "2026-10-14T03:24:20Z"
+        },
+        "windows": {
+          "tag": "v3.8.7",
+          "publishedAt": "2026-10-14T03:24:20Z"
+        },
+        "macos": {
+          "tag": "v3.8.7",
+          "publishedAt": "2026-10-14T03:24:20Z"
+        },
+        "linux": {
+          "tag": "v3.8.7",
+          "publishedAt": "2026-10-14T03:24:20Z"
         }
       },
       "source_host": null,
@@ -6756,7 +6698,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 2208551,
-      "dailyStars": 12,
+      "dailyStars": 24,
       "trendingScore": 348.3299865722656,
       "popularityScore": 42000.0,
       "hasInstallersAndroid": false,
@@ -6767,85 +6709,6 @@
         "linux": {
           "tag": "v0.10.0",
           "publishedAt": "2026-07-04T12:41:16Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 1206390571,
-      "name": "VoiceStudio",
-      "fullName": "debpalash/VoiceStudio",
-      "owner": {
-        "login": "debpalash",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4178343?v=4"
-      },
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/debpalash/VoiceStudio",
-      "stargazersCount": 71368,
-      "forksCount": 7809,
-      "openIssuesCount": 203,
-      "licenseSpdxId": "AGPL-3.0",
-      "licenseName": "GNU Affero General Public License v3.0",
-      "license": {
-        "spdxId": "AGPL-3.0",
-        "name": "GNU Affero General Public License v3.0"
-      },
-      "language": "Python",
-      "topics": [
-        "ai",
-        "audiobook",
-        "cuda",
-        "dubbing",
-        "elevenlabs-alternative",
-        "huggingface",
-        "local-first",
-        "mlx",
-        "omnivoice-studio",
-        "speech-to-text",
-        "text-to-speech",
-        "transcription",
-        "translate",
-        "tts",
-        "voice-ai",
-        "voice-cloning",
-        "voice-generation",
-        "voicestudio",
-        "workflow"
-      ],
-      "topicCodes": [
-        "ai",
-        "notes"
-      ],
-      "releasesUrl": "https://github.com/debpalash/VoiceStudio/releases",
-      "updatedAt": "2026-10-17 02:45:47+00",
-      "createdAt": null,
-      "pushedAt": "2026-10-16 14:33:40+00",
-      "latestReleaseDate": "2026-09-23 08:53:32+00",
-      "latestReleaseTag": "v0.5.6",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 1046284,
-      "dailyStars": 2643,
-      "trendingScore": 7513.16015625,
-      "popularityScore": 86986.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v0.5.6",
-          "publishedAt": "2026-09-23T08:53:32Z"
-        },
-        "macos": {
-          "tag": "v0.5.6",
-          "publishedAt": "2026-09-23T08:53:32Z"
-        },
-        "linux": {
-          "tag": "v0.5.6",
-          "publishedAt": "2026-09-23T08:53:32Z"
         }
       },
       "source_host": null,
@@ -6892,7 +6755,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 9071465,
-      "dailyStars": 13,
+      "dailyStars": 7,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -6972,7 +6835,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 8489412,
-      "dailyStars": 7,
+      "dailyStars": 4,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -6995,6 +6858,85 @@
         "linux": {
           "tag": "v3.4.9",
           "publishedAt": "2026-10-06T04:22:57Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 1206390571,
+      "name": "VoiceStudio",
+      "fullName": "debpalash/VoiceStudio",
+      "owner": {
+        "login": "debpalash",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4178343?v=4"
+      },
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/debpalash/VoiceStudio",
+      "stargazersCount": 71368,
+      "forksCount": 7809,
+      "openIssuesCount": 203,
+      "licenseSpdxId": "AGPL-3.0",
+      "licenseName": "GNU Affero General Public License v3.0",
+      "license": {
+        "spdxId": "AGPL-3.0",
+        "name": "GNU Affero General Public License v3.0"
+      },
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "topicCodes": [
+        "ai",
+        "notes"
+      ],
+      "releasesUrl": "https://github.com/debpalash/VoiceStudio/releases",
+      "updatedAt": "2026-10-17 02:45:47+00",
+      "createdAt": null,
+      "pushedAt": "2026-10-16 14:33:40+00",
+      "latestReleaseDate": "2026-09-23 08:53:32+00",
+      "latestReleaseTag": "v0.5.6",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 1046284,
+      "dailyStars": 2097,
+      "trendingScore": 7513.16015625,
+      "popularityScore": 86986.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.5.6",
+          "publishedAt": "2026-09-23T08:53:32Z"
+        },
+        "macos": {
+          "tag": "v0.5.6",
+          "publishedAt": "2026-09-23T08:53:32Z"
+        },
+        "linux": {
+          "tag": "v0.5.6",
+          "publishedAt": "2026-09-23T08:53:32Z"
         }
       },
       "source_host": null,
@@ -7054,7 +6996,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 8219733,
-      "dailyStars": 9,
+      "dailyStars": 12,
       "trendingScore": 116.12000274658203,
       "popularityScore": 16155.0,
       "hasInstallersAndroid": false,
@@ -7073,81 +7015,6 @@
         "linux": {
           "tag": "10.0.6.906",
           "publishedAt": "2026-09-05T14:34:16Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 130688011,
-      "name": "meilisearch",
-      "fullName": "meilisearch/meilisearch",
-      "owner": {
-        "login": "meilisearch",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/43250847?v=4"
-      },
-      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/meilisearch/meilisearch",
-      "stargazersCount": 59584,
-      "forksCount": 2741,
-      "openIssuesCount": 321,
-      "licenseSpdxId": "NOASSERTION",
-      "licenseName": "Other",
-      "license": {
-        "spdxId": "NOASSERTION",
-        "name": "Other"
-      },
-      "language": "Rust",
-      "topics": [
-        "ai",
-        "api",
-        "app-search",
-        "database",
-        "enterprise-search",
-        "faceting",
-        "full-text-search",
-        "fuzzy-search",
-        "geosearch",
-        "hybrid-search",
-        "instantsearch",
-        "search",
-        "search-as-you-type",
-        "search-engine",
-        "semantic-search",
-        "site-search",
-        "typo-tolerance",
-        "vector-database",
-        "vector-search",
-        "vectors"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/meilisearch/meilisearch/releases",
-      "updatedAt": "2026-10-17 00:56:28+00",
-      "createdAt": "2018-04-23 11:45:28+00",
-      "pushedAt": "2026-10-15 15:53:55+00",
-      "latestReleaseDate": "2026-10-12 09:21:50+00",
-      "latestReleaseTag": "v1.55.0",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 1255461,
-      "dailyStars": 7,
-      "trendingScore": 400.6600036621094,
-      "popularityScore": 65066.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v1.55.0",
-          "publishedAt": "2026-10-12T09:21:50Z"
-        },
-        "linux": {
-          "tag": "v1.53.3",
-          "publishedAt": "2026-10-01T10:08:11Z"
         }
       },
       "source_host": null,
@@ -7251,7 +7118,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 7362810,
-      "dailyStars": 8,
+      "dailyStars": 17,
       "trendingScore": null,
       "popularityScore": 13027.0,
       "hasInstallersAndroid": true,
@@ -7274,6 +7141,81 @@
         "linux": {
           "tag": "v1.2.25.2802",
           "publishedAt": "2026-09-10T02:20:39Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 130688011,
+      "name": "meilisearch",
+      "fullName": "meilisearch/meilisearch",
+      "owner": {
+        "login": "meilisearch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43250847?v=4"
+      },
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/meilisearch/meilisearch",
+      "stargazersCount": 59584,
+      "forksCount": 2741,
+      "openIssuesCount": 321,
+      "licenseSpdxId": "NOASSERTION",
+      "licenseName": "Other",
+      "license": {
+        "spdxId": "NOASSERTION",
+        "name": "Other"
+      },
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "api",
+        "app-search",
+        "database",
+        "enterprise-search",
+        "faceting",
+        "full-text-search",
+        "fuzzy-search",
+        "geosearch",
+        "hybrid-search",
+        "instantsearch",
+        "search",
+        "search-as-you-type",
+        "search-engine",
+        "semantic-search",
+        "site-search",
+        "typo-tolerance",
+        "vector-database",
+        "vector-search",
+        "vectors"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/meilisearch/meilisearch/releases",
+      "updatedAt": "2026-10-17 00:56:28+00",
+      "createdAt": "2018-04-23 11:45:28+00",
+      "pushedAt": "2026-10-15 15:53:55+00",
+      "latestReleaseDate": "2026-10-12 09:21:50+00",
+      "latestReleaseTag": "v1.55.0",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 1255461,
+      "dailyStars": 7,
+      "trendingScore": 400.6600036621094,
+      "popularityScore": 65066.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.55.0",
+          "publishedAt": "2026-10-12T09:21:50Z"
+        },
+        "linux": {
+          "tag": "v1.53.3",
+          "publishedAt": "2026-10-01T10:08:11Z"
         }
       },
       "source_host": null,
@@ -7326,7 +7268,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 19520519,
-      "dailyStars": 32,
+      "dailyStars": 5,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -7385,7 +7327,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 2616241,
-      "dailyStars": 37,
+      "dailyStars": 34,
       "trendingScore": 2009.5799560546875,
       "popularityScore": 39267.0,
       "hasInstallersAndroid": false,
@@ -7441,7 +7383,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 9041198,
-      "dailyStars": 6,
+      "dailyStars": 4,
       "trendingScore": null,
       "popularityScore": 16233.0,
       "hasInstallersAndroid": false,
@@ -7506,7 +7448,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 2552073,
-      "dailyStars": 13,
+      "dailyStars": 9,
       "trendingScore": 259.4700012207031,
       "popularityScore": 33717.0,
       "hasInstallersAndroid": false,
@@ -7575,7 +7517,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 3233317,
-      "dailyStars": 159,
+      "dailyStars": 138,
       "trendingScore": 3208.7099609375,
       "popularityScore": 31900.0,
       "hasInstallersAndroid": false,
@@ -7639,7 +7581,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 3672123,
-      "dailyStars": 2,
+      "dailyStars": 1,
       "trendingScore": 122.01000213623047,
       "popularityScore": 28887.0,
       "hasInstallersAndroid": false,
@@ -7704,7 +7646,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 5398859,
-      "dailyStars": 7,
+      "dailyStars": 2,
       "trendingScore": null,
       "popularityScore": 21023.0,
       "hasInstallersAndroid": false,
@@ -7765,7 +7707,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 4430219,
-      "dailyStars": 1,
+      "dailyStars": 3,
       "trendingScore": 187.72000122070312,
       "popularityScore": 20760.0,
       "hasInstallersAndroid": false,
@@ -7840,7 +7782,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 6485288,
-      "dailyStars": 43,
+      "dailyStars": 49,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -7972,7 +7914,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 2477141,
-      "dailyStars": 8,
+      "dailyStars": 3,
       "trendingScore": 198.02000427246094,
       "popularityScore": 30221.0,
       "hasInstallersAndroid": false,
@@ -8034,7 +7976,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 13251129,
-      "dailyStars": 2,
+      "dailyStars": 10,
       "trendingScore": 194.19000244140625,
       "popularityScore": 13899.0,
       "hasInstallersAndroid": false,
@@ -8112,7 +8054,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 3723295,
-      "dailyStars": 96,
+      "dailyStars": 0,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -8176,7 +8118,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 5500659,
-      "dailyStars": 5,
+      "dailyStars": 4,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -8201,6 +8143,64 @@
       "available_on": []
     },
     {
+      "id": 15379620,
+      "name": "pcsx2",
+      "fullName": "PCSX2/pcsx2",
+      "owner": {
+        "login": "PCSX2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6278711?v=4"
+      },
+      "description": "PCSX2 - The Playstation 2 Emulator",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/PCSX2/pcsx2",
+      "stargazersCount": 15820,
+      "forksCount": 2317,
+      "openIssuesCount": 805,
+      "licenseSpdxId": "GPL-3.0",
+      "licenseName": "GNU General Public License v3.0",
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "language": "C++",
+      "topics": [
+        "cpp",
+        "emulation",
+        "emulator",
+        "pcsx2",
+        "ps2"
+      ],
+      "topicCodes": [],
+      "releasesUrl": "https://github.com/PCSX2/pcsx2/releases",
+      "updatedAt": "2026-10-17 01:12:17+00",
+      "createdAt": "2013-12-22 17:56:48+00",
+      "pushedAt": "2026-10-17 06:36:02+00",
+      "latestReleaseDate": "2026-09-04 23:04:48+00",
+      "latestReleaseTag": "v2.8.2",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 5728737,
+      "dailyStars": 3,
+      "trendingScore": 83.58999633789062,
+      "popularityScore": 20452.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.8.2",
+          "publishedAt": "2026-09-04T23:04:48Z"
+        },
+        "linux": {
+          "tag": "v2.8.2",
+          "publishedAt": "2026-09-04T23:04:48Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 182502850,
       "name": "gopeed",
       "fullName": "GopeedLab/gopeed",
@@ -8211,8 +8211,8 @@
       "description": "  A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/GopeedLab/gopeed",
-      "stargazersCount": 26958,
-      "forksCount": 1759,
+      "stargazersCount": 26964,
+      "forksCount": 1760,
       "openIssuesCount": 345,
       "licenseSpdxId": "GPL-3.0",
       "licenseName": "GNU General Public License v3.0",
@@ -8244,12 +8244,12 @@
       "releasesUrl": "https://github.com/GopeedLab/gopeed/releases",
       "updatedAt": "2026-04-17 03:43:36+00",
       "createdAt": "2019-04-21 07:23:32+00",
-      "pushedAt": "2026-10-14 12:09:12+00",
+      "pushedAt": "2026-10-17 03:22:34+00",
       "latestReleaseDate": "2026-03-18 12:54:20+00",
       "latestReleaseTag": "v1.9.3",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2612193,
+      "downloadCount": 2613758,
       "dailyStars": 22,
       "trendingScore": null,
       "popularityScore": null,
@@ -8322,7 +8322,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 13241537,
-      "dailyStars": 3,
+      "dailyStars": 2,
       "trendingScore": 72.0999984741211,
       "popularityScore": 12217.0,
       "hasInstallersAndroid": false,
@@ -8337,6 +8337,75 @@
         "linux": {
           "tag": "v26.3",
           "publishedAt": "2026-09-28T15:22:29Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 110178895,
+      "name": "brave-browser",
+      "fullName": "brave/brave-browser",
+      "owner": {
+        "login": "brave",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12301619?v=4"
+      },
+      "description": "Brave browser for Android, iOS, Linux, macOS, Windows.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/brave/brave-browser",
+      "stargazersCount": 23906,
+      "forksCount": 3251,
+      "openIssuesCount": 11080,
+      "licenseSpdxId": "MPL-2.0",
+      "licenseName": "Mozilla Public License 2.0",
+      "license": {
+        "spdxId": "MPL-2.0",
+        "name": "Mozilla Public License 2.0"
+      },
+      "language": null,
+      "topics": [
+        "brave",
+        "browser",
+        "chromium",
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "topicCodes": [
+        "browser"
+      ],
+      "releasesUrl": "https://github.com/brave/brave-browser/releases",
+      "updatedAt": "2026-10-14 19:57:36+00",
+      "createdAt": "2017-11-09 23:44:38+00",
+      "pushedAt": "2026-10-16 22:50:29+00",
+      "latestReleaseDate": "2026-10-16 13:27:43+00",
+      "latestReleaseTag": "v1.100.7",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 2935018,
+      "dailyStars": 8,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.100.6",
+          "publishedAt": "2026-10-16T01:21:06Z"
+        },
+        "windows": {
+          "tag": "v1.100.6",
+          "publishedAt": "2026-10-16T01:21:06Z"
+        },
+        "macos": {
+          "tag": "v1.100.7",
+          "publishedAt": "2026-10-16T13:27:43Z"
+        },
+        "linux": {
+          "tag": "v1.100.7",
+          "publishedAt": "2026-10-16T13:27:43Z"
         }
       },
       "source_host": null,
@@ -8391,75 +8460,6 @@
         "linux": {
           "tag": "v0.21.0",
           "publishedAt": "2026-10-02T17:34:33Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 110178895,
-      "name": "brave-browser",
-      "fullName": "brave/brave-browser",
-      "owner": {
-        "login": "brave",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12301619?v=4"
-      },
-      "description": "Brave browser for Android, iOS, Linux, macOS, Windows.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/brave/brave-browser",
-      "stargazersCount": 23906,
-      "forksCount": 3250,
-      "openIssuesCount": 11077,
-      "licenseSpdxId": "MPL-2.0",
-      "licenseName": "Mozilla Public License 2.0",
-      "license": {
-        "spdxId": "MPL-2.0",
-        "name": "Mozilla Public License 2.0"
-      },
-      "language": null,
-      "topics": [
-        "brave",
-        "browser",
-        "chromium",
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "topicCodes": [
-        "browser"
-      ],
-      "releasesUrl": "https://github.com/brave/brave-browser/releases",
-      "updatedAt": "2026-10-14 19:57:36+00",
-      "createdAt": "2017-11-09 23:44:38+00",
-      "pushedAt": "2026-10-16 22:50:29+00",
-      "latestReleaseDate": "2026-10-16 13:27:43+00",
-      "latestReleaseTag": "v1.100.7",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 2924062,
-      "dailyStars": 11,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.100.6",
-          "publishedAt": "2026-10-16T01:21:06Z"
-        },
-        "windows": {
-          "tag": "v1.100.6",
-          "publishedAt": "2026-10-16T01:21:06Z"
-        },
-        "macos": {
-          "tag": "v1.100.7",
-          "publishedAt": "2026-10-16T13:27:43Z"
-        },
-        "linux": {
-          "tag": "v1.100.7",
-          "publishedAt": "2026-10-16T13:27:43Z"
         }
       },
       "source_host": null,
@@ -8582,6 +8582,74 @@
       "available_on": []
     },
     {
+      "id": 1054790989,
+      "name": "openchamber",
+      "fullName": "openchamber/openchamber",
+      "owner": {
+        "login": "openchamber",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/265872876?v=4"
+      },
+      "description": "Agentic Development Environment based on OpenCode AI agent",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/openchamber/openchamber",
+      "stargazersCount": 11722,
+      "forksCount": 1310,
+      "openIssuesCount": 250,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "agentic-engineering",
+        "agents",
+        "ai",
+        "enginering",
+        "opencode"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/openchamber/openchamber/releases",
+      "updatedAt": "2026-10-14 22:58:56+00",
+      "createdAt": "2025-09-11 10:34:59+00",
+      "pushedAt": "2026-10-17 08:54:14+00",
+      "latestReleaseDate": "2026-10-17 00:52:03+00",
+      "latestReleaseTag": "v2.4.0",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 6684886,
+      "dailyStars": 35,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.4.0",
+          "publishedAt": "2026-10-17T00:52:03Z"
+        },
+        "windows": {
+          "tag": "v2.4.0",
+          "publishedAt": "2026-10-17T00:52:03Z"
+        },
+        "macos": {
+          "tag": "v2.4.0",
+          "publishedAt": "2026-10-17T00:52:03Z"
+        },
+        "linux": {
+          "tag": "v2.4.0",
+          "publishedAt": "2026-10-17T00:52:03Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
       "id": 245049028,
       "name": "koodo-reader",
       "fullName": "koodo-reader/koodo-reader",
@@ -8592,7 +8660,7 @@
       "description": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/koodo-reader/koodo-reader",
-      "stargazersCount": 28527,
+      "stargazersCount": 28530,
       "forksCount": 2138,
       "openIssuesCount": 273,
       "licenseSpdxId": "AGPL-3.0",
@@ -8629,13 +8697,13 @@
       "releasesUrl": "https://github.com/koodo-reader/koodo-reader/releases",
       "updatedAt": "2026-10-06 01:51:47+00",
       "createdAt": null,
-      "pushedAt": "2026-10-16 00:03:32+00",
+      "pushedAt": "2026-10-17 02:46:08+00",
       "latestReleaseDate": "2026-10-07 00:29:56+00",
       "latestReleaseTag": "v2.4.6",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1924190,
-      "dailyStars": 8,
+      "downloadCount": 1924416,
+      "dailyStars": 14,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -8695,7 +8763,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 4150562,
-      "dailyStars": 102,
+      "dailyStars": 107,
       "trendingScore": 1422.8399658203125,
       "popularityScore": 20070.0,
       "hasInstallersAndroid": false,
@@ -8706,80 +8774,6 @@
         "linux": {
           "tag": "v0.1.4",
           "publishedAt": "2026-10-13T20:48:39Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 649170660,
-      "name": "anything-llm",
-      "fullName": "Mintplex-Labs/anything-llm",
-      "owner": {
-        "login": "Mintplex-Labs",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/134426827?v=4"
-      },
-      "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/Mintplex-Labs/anything-llm",
-      "stargazersCount": 67221,
-      "forksCount": 7512,
-      "openIssuesCount": 328,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "language": "JavaScript",
-      "topics": [
-        "agent-computer",
-        "agent-harness",
-        "agent-orchestration",
-        "agentic-ai",
-        "agentic-workflow",
-        "ai-agents",
-        "computer-use",
-        "hermes-agent",
-        "llm",
-        "local-ai",
-        "localai",
-        "multimodal",
-        "rag",
-        "self-hosted-ai",
-        "vector-database"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/Mintplex-Labs/anything-llm/releases",
-      "updatedAt": "2026-10-17 02:30:55+00",
-      "createdAt": null,
-      "pushedAt": "2026-10-17 01:36:42+00",
-      "latestReleaseDate": "2026-10-13 16:15:52+00",
-      "latestReleaseTag": "v1.18.0",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 578414,
-      "dailyStars": 76,
-      "trendingScore": 1093.010009765625,
-      "popularityScore": 82245.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v1.18.0",
-          "publishedAt": "2026-10-13T16:15:52Z"
-        },
-        "macos": {
-          "tag": "v1.18.0",
-          "publishedAt": "2026-10-13T16:15:52Z"
-        },
-        "linux": {
-          "tag": "v1.18.0",
-          "publishedAt": "2026-10-13T16:15:52Z"
         }
       },
       "source_host": null,
@@ -8836,6 +8830,80 @@
         "linux": {
           "tag": "v1.6.7",
           "publishedAt": "2026-08-18T03:00:52Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 649170660,
+      "name": "anything-llm",
+      "fullName": "Mintplex-Labs/anything-llm",
+      "owner": {
+        "login": "Mintplex-Labs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/134426827?v=4"
+      },
+      "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Mintplex-Labs/anything-llm",
+      "stargazersCount": 67221,
+      "forksCount": 7512,
+      "openIssuesCount": 328,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "language": "JavaScript",
+      "topics": [
+        "agent-computer",
+        "agent-harness",
+        "agent-orchestration",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-agents",
+        "computer-use",
+        "hermes-agent",
+        "llm",
+        "local-ai",
+        "localai",
+        "multimodal",
+        "rag",
+        "self-hosted-ai",
+        "vector-database"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/Mintplex-Labs/anything-llm/releases",
+      "updatedAt": "2026-10-17 02:30:55+00",
+      "createdAt": null,
+      "pushedAt": "2026-10-17 01:36:42+00",
+      "latestReleaseDate": "2026-10-13 16:15:52+00",
+      "latestReleaseTag": "v1.18.0",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 578414,
+      "dailyStars": 49,
+      "trendingScore": 1093.010009765625,
+      "popularityScore": 82245.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.18.0",
+          "publishedAt": "2026-10-13T16:15:52Z"
+        },
+        "macos": {
+          "tag": "v1.18.0",
+          "publishedAt": "2026-10-13T16:15:52Z"
+        },
+        "linux": {
+          "tag": "v1.18.0",
+          "publishedAt": "2026-10-13T16:15:52Z"
         }
       },
       "source_host": null,
@@ -8963,74 +9031,6 @@
       "available_on": []
     },
     {
-      "id": 1054790989,
-      "name": "openchamber",
-      "fullName": "openchamber/openchamber",
-      "owner": {
-        "login": "openchamber",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/265872876?v=4"
-      },
-      "description": "Agentic Development Environment based on OpenCode AI agent",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/openchamber/openchamber",
-      "stargazersCount": 11667,
-      "forksCount": 1305,
-      "openIssuesCount": 212,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "language": "TypeScript",
-      "topics": [
-        "agentic-engineering",
-        "agents",
-        "ai",
-        "enginering",
-        "opencode"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/openchamber/openchamber/releases",
-      "updatedAt": "2026-10-14 22:58:56+00",
-      "createdAt": "2025-09-11 10:34:59+00",
-      "pushedAt": "2026-10-16 00:45:31+00",
-      "latestReleaseDate": "2026-10-14 23:28:53+00",
-      "latestReleaseTag": "v2.3.3",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 6567968,
-      "dailyStars": 46,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.3.3",
-          "publishedAt": "2026-10-14T23:28:53Z"
-        },
-        "windows": {
-          "tag": "v2.3.3",
-          "publishedAt": "2026-10-14T23:28:53Z"
-        },
-        "macos": {
-          "tag": "v2.3.3",
-          "publishedAt": "2026-10-14T23:28:53Z"
-        },
-        "linux": {
-          "tag": "v2.3.3",
-          "publishedAt": "2026-10-14T23:28:53Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 340181518,
       "name": "fastfetch",
       "fullName": "fastfetch-cli/fastfetch",
@@ -9041,9 +9041,9 @@
       "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/fastfetch-cli/fastfetch",
-      "stargazersCount": 25050,
-      "forksCount": 929,
-      "openIssuesCount": 104,
+      "stargazersCount": 25052,
+      "forksCount": 928,
+      "openIssuesCount": 105,
       "licenseSpdxId": "MIT",
       "licenseName": "MIT License",
       "license": {
@@ -9069,11 +9069,11 @@
       "createdAt": "2021-02-18 21:25:19+00",
       "pushedAt": "2026-10-17 02:30:19+00",
       "latestReleaseDate": "2026-10-14 08:39:27+00",
-      "latestReleaseTag": "2.69.0",
+      "latestReleaseTag": "2.70.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 2077624,
-      "dailyStars": 10,
+      "downloadCount": 2078692,
+      "dailyStars": 18,
       "trendingScore": null,
       "popularityScore": 26908.0,
       "hasInstallersAndroid": false,
@@ -9088,6 +9088,83 @@
         "linux": {
           "tag": "2.70.0",
           "publishedAt": "2026-10-14T08:39:27Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 551376520,
+      "name": "Pake",
+      "fullName": "tw93/Pake",
+      "owner": {
+        "login": "tw93",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8736212?v=4"
+      },
+      "description": "🤱🏻 Turn any website into a tiny, fast desktop app.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/tw93/Pake",
+      "stargazersCount": 62137,
+      "forksCount": 12786,
+      "openIssuesCount": 1,
+      "licenseSpdxId": "GPL-3.0",
+      "licenseName": "GNU General Public License v3.0",
+      "license": {
+        "spdxId": "GPL-3.0",
+        "name": "GNU General Public License v3.0"
+      },
+      "language": "Rust",
+      "topics": [
+        "chatgpt",
+        "claude",
+        "desktop",
+        "desktop-app",
+        "electron-alternative",
+        "gemini",
+        "high-performance",
+        "linux",
+        "macos",
+        "nativefier",
+        "no-electron",
+        "package",
+        "rust",
+        "tauri",
+        "webview",
+        "windows",
+        "youtube"
+      ],
+      "topicCodes": [
+        "ai",
+        "video"
+      ],
+      "releasesUrl": "https://github.com/tw93/Pake/releases",
+      "updatedAt": "2026-10-17 02:31:19+00",
+      "createdAt": "2022-10-14 09:32:57+00",
+      "pushedAt": "2026-10-17 01:58:54+00",
+      "latestReleaseDate": "2026-10-17 01:58:23+00",
+      "latestReleaseTag": "V3.17.5",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 601194,
+      "dailyStars": 16,
+      "trendingScore": 885.4199829101562,
+      "popularityScore": 87709.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "V3.17.6",
+          "publishedAt": "2026-10-17T01:58:23Z"
+        },
+        "macos": {
+          "tag": "V3.17.6",
+          "publishedAt": "2026-10-17T01:58:23Z"
+        },
+        "linux": {
+          "tag": "V3.17.6",
+          "publishedAt": "2026-10-17T01:58:23Z"
         }
       },
       "source_host": null,
@@ -9144,7 +9221,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 1836008,
-      "dailyStars": 46,
+      "dailyStars": 1,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -9213,7 +9290,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 16120230,
-      "dailyStars": 7,
+      "dailyStars": 4,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -9232,83 +9309,6 @@
         "linux": {
           "tag": "11.3.0",
           "publishedAt": "2026-09-26T07:51:15Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 551376520,
-      "name": "Pake",
-      "fullName": "tw93/Pake",
-      "owner": {
-        "login": "tw93",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8736212?v=4"
-      },
-      "description": "🤱🏻 Turn any website into a tiny, fast desktop app.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/tw93/Pake",
-      "stargazersCount": 62137,
-      "forksCount": 12786,
-      "openIssuesCount": 1,
-      "licenseSpdxId": "GPL-3.0",
-      "licenseName": "GNU General Public License v3.0",
-      "license": {
-        "spdxId": "GPL-3.0",
-        "name": "GNU General Public License v3.0"
-      },
-      "language": "Rust",
-      "topics": [
-        "chatgpt",
-        "claude",
-        "desktop",
-        "desktop-app",
-        "electron-alternative",
-        "gemini",
-        "high-performance",
-        "linux",
-        "macos",
-        "nativefier",
-        "no-electron",
-        "package",
-        "rust",
-        "tauri",
-        "webview",
-        "windows",
-        "youtube"
-      ],
-      "topicCodes": [
-        "ai",
-        "video"
-      ],
-      "releasesUrl": "https://github.com/tw93/Pake/releases",
-      "updatedAt": "2026-10-17 02:31:19+00",
-      "createdAt": "2022-10-14 09:32:57+00",
-      "pushedAt": "2026-10-17 01:58:54+00",
-      "latestReleaseDate": "2026-10-17 01:58:23+00",
-      "latestReleaseTag": "V3.17.5",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 601194,
-      "dailyStars": 35,
-      "trendingScore": 885.4199829101562,
-      "popularityScore": 87709.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "V3.17.6",
-          "publishedAt": "2026-10-17T01:58:23Z"
-        },
-        "macos": {
-          "tag": "V3.17.6",
-          "publishedAt": "2026-10-17T01:58:23Z"
-        },
-        "linux": {
-          "tag": "V3.17.6",
-          "publishedAt": "2026-10-17T01:58:23Z"
         }
       },
       "source_host": null,
@@ -9346,7 +9346,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 469699,
-      "dailyStars": 41,
+      "dailyStars": 51,
       "trendingScore": 1692.9599609375,
       "popularityScore": 85792.0,
       "hasInstallersAndroid": false,
@@ -9365,6 +9365,83 @@
         "linux": {
           "tag": "desktop-v0.0.47",
           "publishedAt": "2026-10-16T06:51:13Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 1216785679,
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "owner": {
+        "login": "esengine",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?v=4"
+      },
+      "description": "A reliable coding agent for complex software engineering tasks.",
+      "defaultBranch": "studio",
+      "htmlUrl": "https://github.com/esengine/DeepSeek-Reasonix",
+      "stargazersCount": 35820,
+      "forksCount": 2456,
+      "openIssuesCount": 351,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "deepseek",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "ink",
+        "llm",
+        "prompt-caching",
+        "r1",
+        "terminal",
+        "tool-use",
+        "tui",
+        "typescript"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/esengine/DeepSeek-Reasonix/releases",
+      "updatedAt": "2026-10-17 02:23:04+00",
+      "createdAt": "2026-04-21 08:27:02+00",
+      "pushedAt": "2026-10-17 02:22:58+00",
+      "latestReleaseDate": "2026-10-16 00:28:36+00",
+      "latestReleaseTag": "v2.40.0",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 1294361,
+      "dailyStars": 8,
+      "trendingScore": null,
+      "popularityScore": null,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "studio-v2.42.0",
+          "publishedAt": "2026-10-16T00:25:45Z"
+        },
+        "macos": {
+          "tag": "studio-v2.42.0",
+          "publishedAt": "2026-10-16T00:25:45Z"
+        },
+        "linux": {
+          "tag": "studio-v2.42.0",
+          "publishedAt": "2026-10-16T00:25:45Z"
         }
       },
       "source_host": null,
@@ -9407,7 +9484,7 @@
       "latestReleaseTag": "v5.1.0",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 3426534,
+      "downloadCount": 3427970,
       "dailyStars": 8,
       "trendingScore": null,
       "popularityScore": null,
@@ -9507,83 +9584,6 @@
       "available_on": []
     },
     {
-      "id": 1216785679,
-      "name": "DeepSeek-Reasonix",
-      "fullName": "esengine/DeepSeek-Reasonix",
-      "owner": {
-        "login": "esengine",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?v=4"
-      },
-      "description": "A reliable coding agent for complex software engineering tasks.",
-      "defaultBranch": "studio",
-      "htmlUrl": "https://github.com/esengine/DeepSeek-Reasonix",
-      "stargazersCount": 35820,
-      "forksCount": 2456,
-      "openIssuesCount": 351,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "language": "Go",
-      "topics": [
-        "agent",
-        "agent-framework",
-        "ai-agent",
-        "ai-coding",
-        "cli",
-        "coding-agent",
-        "deepseek",
-        "developer-tools",
-        "dsh",
-        "dsh-plugin",
-        "ink",
-        "llm",
-        "prompt-caching",
-        "r1",
-        "terminal",
-        "tool-use",
-        "tui",
-        "typescript"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/esengine/DeepSeek-Reasonix/releases",
-      "updatedAt": "2026-10-17 02:23:04+00",
-      "createdAt": "2026-04-21 08:27:02+00",
-      "pushedAt": "2026-10-17 02:22:58+00",
-      "latestReleaseDate": "2026-10-16 00:28:36+00",
-      "latestReleaseTag": "v2.40.0",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 1294361,
-      "dailyStars": 11,
-      "trendingScore": null,
-      "popularityScore": null,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "studio-v2.42.0",
-          "publishedAt": "2026-10-16T00:25:45Z"
-        },
-        "macos": {
-          "tag": "studio-v2.42.0",
-          "publishedAt": "2026-10-16T00:25:45Z"
-        },
-        "linux": {
-          "tag": "studio-v2.42.0",
-          "publishedAt": "2026-10-16T00:25:45Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
       "id": 871781831,
       "name": "readest",
       "fullName": "readest/readest",
@@ -9594,9 +9594,9 @@
       "description": "Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/readest/readest",
-      "stargazersCount": 25305,
-      "forksCount": 1713,
-      "openIssuesCount": 143,
+      "stargazersCount": 25328,
+      "forksCount": 1714,
+      "openIssuesCount": 148,
       "licenseSpdxId": "AGPL-3.0",
       "licenseName": "GNU Affero General Public License v3.0",
       "license": {
@@ -9633,13 +9633,13 @@
       "releasesUrl": "https://github.com/readest/readest/releases",
       "updatedAt": "2026-10-11 19:31:44+00",
       "createdAt": "2024-10-12 23:16:55+00",
-      "pushedAt": "2026-10-16 06:08:24+00",
+      "pushedAt": "2026-10-16 18:08:47+00",
       "latestReleaseDate": "2026-10-13 22:34:40+00",
       "latestReleaseTag": "v0.12.16",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1926342,
-      "dailyStars": 81,
+      "downloadCount": 1931023,
+      "dailyStars": 22,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": true,
@@ -9662,6 +9662,85 @@
         "linux": {
           "tag": "v0.12.16",
           "publishedAt": "2026-10-13T22:34:40Z"
+        }
+      },
+      "source_host": null,
+      "available_on": []
+    },
+    {
+      "id": 1157102282,
+      "name": "OmniRoute",
+      "fullName": "diegosouzapw/OmniRoute",
+      "owner": {
+        "login": "diegosouzapw",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8016841?v=4"
+      },
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
+      "defaultBranch": "release/v3.8.52",
+      "htmlUrl": "https://github.com/diegosouzapw/OmniRoute",
+      "stargazersCount": 77407,
+      "forksCount": 11206,
+      "openIssuesCount": 367,
+      "licenseSpdxId": "MIT",
+      "licenseName": "MIT License",
+      "license": {
+        "spdxId": "MIT",
+        "name": "MIT License"
+      },
+      "language": "TypeScript",
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "deepseek",
+        "free-ai",
+        "gemini",
+        "kimi",
+        "llm-gateway",
+        "mcp",
+        "openai",
+        "openai-proxy",
+        "qwen",
+        "token-saver"
+      ],
+      "topicCodes": [
+        "ai"
+      ],
+      "releasesUrl": "https://github.com/diegosouzapw/OmniRoute/releases",
+      "updatedAt": "2026-10-17 02:44:09+00",
+      "createdAt": "2026-02-13 12:38:31+00",
+      "pushedAt": "2026-10-17 02:44:01+00",
+      "latestReleaseDate": "2026-09-30 01:41:50+00",
+      "latestReleaseTag": "v3.8.51",
+      "releaseRecency": null,
+      "releaseRecencyText": null,
+      "downloadCount": 411646,
+      "dailyStars": 335,
+      "trendingScore": 6319.3701171875,
+      "popularityScore": 99819.0,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v3.8.51",
+          "publishedAt": "2026-09-30T01:41:50Z"
+        },
+        "macos": {
+          "tag": "v3.8.51",
+          "publishedAt": "2026-09-30T01:41:50Z"
+        },
+        "linux": {
+          "tag": "v3.8.51",
+          "publishedAt": "2026-09-30T01:41:50Z"
         }
       },
       "source_host": null,
@@ -9699,7 +9778,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 8720097,
-      "dailyStars": 11,
+      "dailyStars": 8,
       "trendingScore": 191.25,
       "popularityScore": 9837.0,
       "hasInstallersAndroid": true,
@@ -9778,7 +9857,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 1027142,
-      "dailyStars": 12,
+      "dailyStars": 23,
       "trendingScore": null,
       "popularityScore": null,
       "hasInstallersAndroid": false,
@@ -9797,85 +9876,6 @@
         "linux": {
           "tag": "v0.106.0",
           "publishedAt": "2026-09-25T18:21:42Z"
-        }
-      },
-      "source_host": null,
-      "available_on": []
-    },
-    {
-      "id": 1157102282,
-      "name": "OmniRoute",
-      "fullName": "diegosouzapw/OmniRoute",
-      "owner": {
-        "login": "diegosouzapw",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8016841?v=4"
-      },
-      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
-      "defaultBranch": "release/v3.8.52",
-      "htmlUrl": "https://github.com/diegosouzapw/OmniRoute",
-      "stargazersCount": 77407,
-      "forksCount": 11206,
-      "openIssuesCount": 367,
-      "licenseSpdxId": "MIT",
-      "licenseName": "MIT License",
-      "license": {
-        "spdxId": "MIT",
-        "name": "MIT License"
-      },
-      "language": "TypeScript",
-      "topics": [
-        "a2a",
-        "ai-agents",
-        "ai-gateway",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "cline",
-        "codex",
-        "copilot",
-        "cursor",
-        "deepseek",
-        "free-ai",
-        "gemini",
-        "kimi",
-        "llm-gateway",
-        "mcp",
-        "openai",
-        "openai-proxy",
-        "qwen",
-        "token-saver"
-      ],
-      "topicCodes": [
-        "ai"
-      ],
-      "releasesUrl": "https://github.com/diegosouzapw/OmniRoute/releases",
-      "updatedAt": "2026-10-17 02:44:09+00",
-      "createdAt": "2026-02-13 12:38:31+00",
-      "pushedAt": "2026-10-17 02:44:01+00",
-      "latestReleaseDate": "2026-09-30 01:41:50+00",
-      "latestReleaseTag": "v3.8.51",
-      "releaseRecency": null,
-      "releaseRecencyText": null,
-      "downloadCount": 411646,
-      "dailyStars": 424,
-      "trendingScore": 6319.3701171875,
-      "popularityScore": 99819.0,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v3.8.51",
-          "publishedAt": "2026-09-30T01:41:50Z"
-        },
-        "macos": {
-          "tag": "v3.8.51",
-          "publishedAt": "2026-09-30T01:41:50Z"
-        },
-        "linux": {
-          "tag": "v3.8.51",
-          "publishedAt": "2026-09-30T01:41:50Z"
         }
       },
       "source_host": null,
@@ -9932,7 +9932,7 @@
       "releaseRecency": null,
       "releaseRecencyText": null,
       "downloadCount": 3359525,
-      "dailyStars": 10,
+      "dailyStars": 4,
       "trendingScore": 99.79000091552734,
       "popularityScore": 20339.0,
       "hasInstallersAndroid": true,
@@ -9957,69 +9957,74 @@
       "available_on": []
     },
     {
-      "id": 268163609,
-      "name": "qdrant",
-      "fullName": "qdrant/qdrant",
+      "id": 633262635,
+      "name": "onyx",
+      "fullName": "onyx-dot-app/onyx",
       "owner": {
-        "login": "qdrant",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/73504361?v=4"
+        "login": "onyx-dot-app",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131946000?v=4"
       },
-      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/qdrant/qdrant",
-      "stargazersCount": 35106,
-      "forksCount": 2756,
-      "openIssuesCount": 787,
-      "licenseSpdxId": "Apache-2.0",
-      "licenseName": "Apache License 2.0",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/onyx-dot-app/onyx",
+      "stargazersCount": 32497,
+      "forksCount": 4566,
+      "openIssuesCount": 583,
+      "licenseSpdxId": "NOASSERTION",
+      "licenseName": "Other",
       "license": {
-        "spdxId": "Apache-2.0",
-        "name": "Apache License 2.0"
+        "spdxId": "NOASSERTION",
+        "name": "Other"
       },
-      "language": "Rust",
+      "language": "Python",
       "topics": [
-        "ai-search",
-        "ai-search-engine",
-        "embeddings-similarity",
-        "hnsw",
-        "hybrid-search",
-        "image-search",
-        "knn-algorithm",
-        "machine-learning",
-        "mlops",
-        "nearest-neighbor-search",
-        "neural-network",
-        "neural-search",
-        "recommender-system",
-        "search",
-        "search-engine",
-        "search-engines",
-        "similarity-search",
-        "vector-database",
-        "vector-search",
-        "vector-search-engine"
+        "ai",
+        "ai-chat",
+        "chatgpt",
+        "chatui",
+        "enterprise-search",
+        "gen-ai",
+        "information-retrieval",
+        "llm",
+        "llm-ui",
+        "nextjs",
+        "python",
+        "rag",
+        "self-hosted",
+        "vector-search"
       ],
-      "topicCodes": [],
-      "releasesUrl": "https://github.com/qdrant/qdrant/releases",
-      "updatedAt": "2026-10-16 23:47:04+00",
-      "createdAt": "2020-05-30 21:37:01+00",
-      "pushedAt": "2026-10-16 17:04:07+00",
-      "latestReleaseDate": "2026-10-05 14:16:50+00",
-      "latestReleaseTag": "v1.19.0",
+      "topicCodes": [
+        "ai",
+        "self-hosted"
+      ],
+      "releasesUrl": "https://github.com/onyx-dot-app/onyx/releases",
+      "updatedAt": "2026-10-15 22:54:08+00",
+      "createdAt": "2023-04-27 06:04:01+00",
+      "pushedAt": "2026-10-15 22:58:27+00",
+      "latestReleaseDate": "2026-10-15 22:24:53+00",
+      "latestReleaseTag": "v4.7.7",
       "releaseRecency": null,
       "releaseRecencyText": null,
-      "downloadCount": 1116836,
-      "dailyStars": 14,
-      "trendingScore": 317.3399963378906,
-      "popularityScore": 40618.0,
+      "downloadCount": 1351416,
+      "dailyStars": 0,
+      "trendingScore": null,
+      "popularityScore": null,
       "hasInstallersAndroid": false,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": {
+        "windows": {
+          "tag": "v4.9.2",
+          "publishedAt": "2026-10-15T22:24:53Z"
+        },
+        "macos": {
+          "tag": "v4.9.2",
+          "publishedAt": "2026-10-15T22:24:53Z"
+        },
         "linux": {
-          "tag": "v1.19.2",
-          "publishedAt": "2026-10-05T14:16:50Z"
+          "tag": "v4.9.2",
+          "publishedAt": "2026-10-15T22:24:53Z"
         }
       },
       "source_host": null,
