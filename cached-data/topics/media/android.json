@@ -1,8 +1,8 @@
 {
   "category": "topics/media",
   "platform": "android",
-  "lastUpdated": "2026-10-23T07:19:15.129812Z",
-  "totalCount": 25,
+  "lastUpdated": "2026-10-24T07:08:00.824065Z",
+  "totalCount": 102,
   "repositories": [
     {
       "id": 598940882,
@@ -15,8 +15,8 @@
       "description": "An Android native video player",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/anilbeesetti/nextplayer",
-      "stargazersCount": 4593,
-      "forksCount": 360,
+      "stargazersCount": 4602,
+      "forksCount": 361,
       "language": "Kotlin",
       "topics": [
         "android",
@@ -34,11 +34,11 @@
         "video-player"
       ],
       "releasesUrl": "https://api.github.com/repos/anilbeesetti/nextplayer/releases{/id}",
-      "updatedAt": "2026-10-23T01:33:05Z",
+      "updatedAt": "2026-10-24T07:12:32Z",
       "createdAt": "2023-02-08T05:34:22Z",
       "pushedAt": "2026-10-23T07:57:30Z",
-      "downloadCount": 206100,
-      "openIssuesCount": 494,
+      "downloadCount": 206600,
+      "openIssuesCount": 496,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -51,8 +51,178 @@
         }
       },
       "latestReleaseDate": "2026-10-09T14:30:00Z",
-      "releaseRecency": 13,
-      "releaseRecencyText": "Released 13 days ago"
+      "releaseRecency": 14,
+      "releaseRecencyText": "Released 14 days ago"
+    },
+    {
+      "id": 730239668,
+      "name": "LocalMusicHelper",
+      "fullName": "Winnie0408/LocalMusicHelper",
+      "owner": {
+        "login": "Winnie0408",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42741874?v=4"
+      },
+      "description": "将您保存在网易云音乐、QQ音乐等在线音乐平台的歌单数据，转换成本项目支持的本地音乐播放器（如Salt Player、APlayer、Poweramp等）可识别的歌单格式，完成歌单的导入操作，方便您快速从在线音乐平台迁移歌单到本地音乐播放器。Quickly migrate your playlists from online music platforms to local music players.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Winnie0408/LocalMusicHelper",
+      "stargazersCount": 421,
+      "forksCount": 9,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-application",
+        "html",
+        "id3",
+        "id3-reader",
+        "id3v2",
+        "jetpack-compose",
+        "kotlin",
+        "kotlin-android",
+        "kotlin-coroutines",
+        "music",
+        "playlist",
+        "playlist-parser"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Winnie0408/LocalMusicHelper/releases{/id}",
+      "updatedAt": "2026-10-22T13:05:30Z",
+      "createdAt": "2023-12-11T13:55:09Z",
+      "pushedAt": "2026-10-08T02:41:20Z",
+      "downloadCount": 3428,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.7.0",
+          "publishedAt": "2026-10-08T02:41:20Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-08T02:41:20Z",
+      "releaseRecency": 16,
+      "releaseRecencyText": "Released 16 days ago"
+    },
+    {
+      "id": 783330609,
+      "name": "Youamp",
+      "fullName": "siper/Youamp",
+      "owner": {
+        "login": "siper",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1479676?v=4"
+      },
+      "description": "Material You kotlin multiplatform player for subsonic music stream servers ",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/siper/Youamp",
+      "stargazersCount": 274,
+      "forksCount": 14,
+      "language": "Kotlin",
+      "topics": [
+        "airsonic",
+        "android",
+        "compose-multiplatform",
+        "jetpack-compose",
+        "kmp",
+        "kmp-app",
+        "material-design",
+        "multiplatform",
+        "music-player",
+        "subsonic"
+      ],
+      "releasesUrl": "https://api.github.com/repos/siper/Youamp/releases{/id}",
+      "updatedAt": "2026-10-17T05:24:48Z",
+      "createdAt": "2024-04-07T15:39:05Z",
+      "pushedAt": "2026-09-07T08:33:22Z",
+      "downloadCount": 3742,
+      "openIssuesCount": 25,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.1.5",
+          "publishedAt": "2026-02-22T05:12:17Z"
+        },
+        "windows": {
+          "tag": "v2.1.5",
+          "publishedAt": "2026-02-22T05:12:17Z"
+        },
+        "macos": {
+          "tag": "v2.1.5",
+          "publishedAt": "2026-02-22T05:12:17Z"
+        },
+        "linux": {
+          "tag": "v2.1.5",
+          "publishedAt": "2026-02-22T05:12:17Z"
+        }
+      },
+      "latestReleaseDate": "2026-02-22T05:12:17Z",
+      "releaseRecency": 244,
+      "releaseRecencyText": "Released 244 days ago"
+    },
+    {
+      "id": 754217830,
+      "name": "PodAura",
+      "fullName": "SkyD666/PodAura",
+      "owner": {
+        "login": "SkyD666",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32453770?v=4"
+      },
+      "description": "All-in-on podcast app for RSS, media dl & play. MVI arch, Material You style. ⭐️ Star to support!",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/SkyD666/PodAura",
+      "stargazersCount": 1273,
+      "forksCount": 42,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "compose",
+        "compose-multiplatform",
+        "flow",
+        "jetpack-compose",
+        "kotlin",
+        "kotlin-coroutines",
+        "kotlin-flow",
+        "material-design",
+        "md3",
+        "media-rss",
+        "mobile",
+        "mpv",
+        "mvi",
+        "mvi-architecture",
+        "paging3",
+        "player",
+        "podcast",
+        "room",
+        "rss"
+      ],
+      "releasesUrl": "https://api.github.com/repos/SkyD666/PodAura/releases{/id}",
+      "updatedAt": "2026-10-21T15:49:52Z",
+      "createdAt": "2024-02-07T16:20:43Z",
+      "pushedAt": "2026-10-21T15:49:46Z",
+      "downloadCount": 11591,
+      "openIssuesCount": 19,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "31",
+          "publishedAt": "2026-08-13T15:44:40Z"
+        },
+        "macos": {
+          "tag": "31",
+          "publishedAt": "2026-08-13T15:44:40Z"
+        }
+      },
+      "latestReleaseDate": "2026-08-13T15:44:40Z",
+      "releaseRecency": 71,
+      "releaseRecencyText": "Released 71 days ago"
     },
     {
       "id": 614314251,
@@ -65,8 +235,8 @@
       "description": "Media Gallery app for Android made with Jetpack Compose",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/IacobIonut01/ReFra",
-      "stargazersCount": 2933,
-      "forksCount": 173,
+      "stargazersCount": 2937,
+      "forksCount": 175,
       "language": "Kotlin",
       "topics": [
         "android",
@@ -76,11 +246,11 @@
         "kotlin"
       ],
       "releasesUrl": "https://api.github.com/repos/IacobIonut01/ReFra/releases{/id}",
-      "updatedAt": "2026-10-23T05:46:21Z",
+      "updatedAt": "2026-10-24T05:42:41Z",
       "createdAt": "2023-03-15T10:40:57Z",
       "pushedAt": "2026-10-22T11:39:43Z",
-      "downloadCount": 214066,
-      "openIssuesCount": 181,
+      "downloadCount": 214592,
+      "openIssuesCount": 191,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -93,8 +263,8 @@
         }
       },
       "latestReleaseDate": "2026-10-04T16:54:56Z",
-      "releaseRecency": 18,
-      "releaseRecencyText": "Released 18 days ago"
+      "releaseRecency": 19,
+      "releaseRecencyText": "Released 19 days ago"
     },
     {
       "id": 1088320038,
@@ -107,8 +277,8 @@
       "description": "A beautiful media player for android, based on mpv-android and built with Jetpack Compose. Forked from mpvKt",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/marlboro-advance/mpvEx",
-      "stargazersCount": 2695,
-      "forksCount": 220,
+      "stargazersCount": 2701,
+      "forksCount": 221,
       "language": "Kotlin",
       "topics": [
         "android",
@@ -122,11 +292,11 @@
         "videoplayer"
       ],
       "releasesUrl": "https://api.github.com/repos/marlboro-advance/mpvEx/releases{/id}",
-      "updatedAt": "2026-10-23T07:57:37Z",
+      "updatedAt": "2026-10-24T05:38:58Z",
       "createdAt": "2025-11-02T18:34:51Z",
       "pushedAt": "2026-09-27T04:56:51Z",
-      "downloadCount": 184614,
-      "openIssuesCount": 274,
+      "downloadCount": 185004,
+      "openIssuesCount": 275,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -139,8 +309,310 @@
         }
       },
       "latestReleaseDate": "2026-09-25T12:22:15Z",
-      "releaseRecency": 27,
-      "releaseRecencyText": "Released 27 days ago"
+      "releaseRecency": 28,
+      "releaseRecencyText": "Released 28 days ago"
+    },
+    {
+      "id": 1283291297,
+      "name": "Levyra-deepsound",
+      "fullName": "LUC4N3X/Levyra-deepsound",
+      "owner": {
+        "login": "LUC4N3X",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/241364318?v=4"
+      },
+      "description": "Made for listening, not logging in. Levyra is an open-source music player for Android and Windows, bringing music discovery, synced lyrics, radio and beautiful artwork together. No ads, no tracking, just music ♫",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/LUC4N3X/Levyra-deepsound",
+      "stargazersCount": 1204,
+      "forksCount": 32,
+      "language": "Kotlin",
+      "topics": [
+        "ad-free-music",
+        "android",
+        "android-music-player",
+        "apple-music",
+        "audio-player",
+        "foss",
+        "jetpack-compose",
+        "jiosaavn",
+        "kotlin",
+        "material3-expressive",
+        "music-client",
+        "music-downloader",
+        "music-player",
+        "music-streaming",
+        "newpipe",
+        "offline-music-player",
+        "open-source",
+        "spotify",
+        "youtube",
+        "youtube-music"
+      ],
+      "releasesUrl": "https://api.github.com/repos/LUC4N3X/Levyra-deepsound/releases{/id}",
+      "updatedAt": "2026-10-24T07:59:49Z",
+      "createdAt": "2026-06-28T19:00:45Z",
+      "pushedAt": "2026-10-24T07:59:45Z",
+      "downloadCount": 13470,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v3.0.1",
+          "publishedAt": "2026-10-23T20:01:33Z"
+        },
+        "windows": {
+          "tag": "desktop-v1.2.2",
+          "publishedAt": "2026-09-08T19:41:08Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T20:01:33Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1309699761,
+      "name": "Convx",
+      "fullName": "cosmictaserdev-creator/Convx",
+      "owner": {
+        "login": "cosmictaserdev-creator",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/278399831?v=4"
+      },
+      "description": "A free, open-source Android music player for YouTube Music with an iOS-style Liquid Glass interface, synced lyrics, Automix and Listen Together.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/cosmictaserdev-creator/Convx",
+      "stargazersCount": 926,
+      "forksCount": 49,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-app",
+        "automix",
+        "exoplayer",
+        "ios-design",
+        "jetpack-compose",
+        "kotlin",
+        "liquid-glass",
+        "lyrics",
+        "media3",
+        "music-player",
+        "open-source",
+        "streaming",
+        "youtube-music"
+      ],
+      "releasesUrl": "https://api.github.com/repos/cosmictaserdev-creator/Convx/releases{/id}",
+      "updatedAt": "2026-10-24T06:45:07Z",
+      "createdAt": "2026-07-23T08:19:17Z",
+      "pushedAt": "2026-10-24T02:29:30Z",
+      "downloadCount": 90201,
+      "openIssuesCount": 39,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.5.2",
+          "publishedAt": "2026-08-15T07:36:45Z"
+        }
+      },
+      "latestReleaseDate": "2026-08-15T07:36:45Z",
+      "releaseRecency": 70,
+      "releaseRecencyText": "Released 70 days ago"
+    },
+    {
+      "id": 1289784624,
+      "name": "dmt",
+      "fullName": "imjyotiraditya/dmt",
+      "owner": {
+        "login": "imjyotiraditya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81803340?v=4"
+      },
+      "description": "a tui-inspired local music player for android. dear music, thanks.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/imjyotiraditya/dmt",
+      "stargazersCount": 179,
+      "forksCount": 7,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "jetpack-compose",
+        "kotlin",
+        "media3",
+        "music-player",
+        "tui"
+      ],
+      "releasesUrl": "https://api.github.com/repos/imjyotiraditya/dmt/releases{/id}",
+      "updatedAt": "2026-10-22T21:07:34Z",
+      "createdAt": "2026-07-05T07:43:10Z",
+      "pushedAt": "2026-10-23T04:30:42Z",
+      "downloadCount": 3542,
+      "openIssuesCount": 15,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.4.0",
+          "publishedAt": "2026-08-01T23:46:50Z"
+        }
+      },
+      "latestReleaseDate": "2026-08-01T23:46:50Z",
+      "releaseRecency": 83,
+      "releaseRecencyText": "Released 83 days ago"
+    },
+    {
+      "id": 1337342898,
+      "name": "Mpv-infinity",
+      "fullName": "ZHINFINITY/Mpv-infinity",
+      "owner": {
+        "login": "ZHINFINITY",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/203890437?v=4"
+      },
+      "description": "Ad-free Android video and music player with MPV and Media3 engines, smooth-motion frame interpolation up to 120 fps, Liquid Glass UI, HDR/Dolby Vision, AI subtitle translation, Jellyfin and Seerr.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/ZHINFINITY/Mpv-infinity",
+      "stargazersCount": 141,
+      "forksCount": 10,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-media-player",
+        "audio-player",
+        "dolby-vision",
+        "exoplayer",
+        "frame-interpolation",
+        "hdr",
+        "hdr10-plus",
+        "jellyfin",
+        "jetpack-compose",
+        "kotlin",
+        "libmpv",
+        "liquid-glass",
+        "media-player",
+        "media3",
+        "mpv",
+        "seerr",
+        "subtitles",
+        "video-playback",
+        "video-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/ZHINFINITY/Mpv-infinity/releases{/id}",
+      "updatedAt": "2026-10-24T03:17:56Z",
+      "createdAt": "2026-08-17T15:48:02Z",
+      "pushedAt": "2026-10-24T05:33:58Z",
+      "downloadCount": 6636,
+      "openIssuesCount": 22,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.2.0",
+          "publishedAt": "2026-10-23T12:24:44Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T12:24:44Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 673692665,
+      "name": "Gramophone",
+      "fullName": "FoedusProgramme/Gramophone",
+      "owner": {
+        "login": "FoedusProgramme",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/157073664?v=4"
+      },
+      "description": "A sane music player built with media3 and material design library that is following android's standard strictly.",
+      "defaultBranch": "beta",
+      "htmlUrl": "https://github.com/FoedusProgramme/Gramophone",
+      "stargazersCount": 2359,
+      "forksCount": 144,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "f-droid",
+        "fdroid",
+        "kotlin",
+        "kotlin-android",
+        "localstorage",
+        "material-3",
+        "material-design",
+        "media3",
+        "music-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/FoedusProgramme/Gramophone/releases{/id}",
+      "updatedAt": "2026-10-23T23:18:11Z",
+      "createdAt": "2023-08-02T07:57:11Z",
+      "pushedAt": "2026-10-12T19:08:20Z",
+      "downloadCount": 55283,
+      "openIssuesCount": 314,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "1.1.2",
+          "publishedAt": "2026-08-20T10:00:43Z"
+        }
+      },
+      "latestReleaseDate": "2026-08-20T10:00:43Z",
+      "releaseRecency": 64,
+      "releaseRecencyText": "Released 64 days ago"
+    },
+    {
+      "id": 408710882,
+      "name": "Phonograph_Plus",
+      "fullName": "chr56/Phonograph_Plus",
+      "owner": {
+        "login": "chr56",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30681738?v=4"
+      },
+      "description": "Yet another independent fork of kabouzeid/Phonograph -- a  revived classic material designed music player for Android",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/chr56/Phonograph_Plus",
+      "stargazersCount": 733,
+      "forksCount": 42,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "kotlin",
+        "kotlin-android",
+        "material-design",
+        "music",
+        "music-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/chr56/Phonograph_Plus/releases{/id}",
+      "updatedAt": "2026-10-23T13:16:53Z",
+      "createdAt": "2021-09-21T06:26:56Z",
+      "pushedAt": "2026-10-23T13:16:47Z",
+      "downloadCount": 62182,
+      "openIssuesCount": 116,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.0.2",
+          "publishedAt": "2026-09-30T13:44:24Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-30T13:44:24Z",
+      "releaseRecency": 23,
+      "releaseRecencyText": "Released 23 days ago"
     },
     {
       "id": 799994079,
@@ -153,8 +625,8 @@
       "description": "A Material 3 Music Player for Android with local file & YouTube Music support. Forked from InnerTune",
       "defaultBranch": "lite",
       "htmlUrl": "https://github.com/OuterTune/OuterTune",
-      "stargazersCount": 5438,
-      "forksCount": 377,
+      "stargazersCount": 5440,
+      "forksCount": 378,
       "language": "Kotlin",
       "topics": [
         "android",
@@ -163,10 +635,10 @@
         "music-player"
       ],
       "releasesUrl": "https://api.github.com/repos/OuterTune/OuterTune/releases{/id}",
-      "updatedAt": "2026-10-23T06:59:45Z",
+      "updatedAt": "2026-10-23T15:43:13Z",
       "createdAt": "2024-05-13T13:55:37Z",
       "pushedAt": "2026-10-12T18:01:37Z",
-      "downloadCount": 1615270,
+      "downloadCount": 1616352,
       "openIssuesCount": 297,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -180,8 +652,164 @@
         }
       },
       "latestReleaseDate": "2025-12-19T04:38:56Z",
-      "releaseRecency": 308,
-      "releaseRecencyText": "Released 308 days ago"
+      "releaseRecency": 309,
+      "releaseRecencyText": "Released 309 days ago"
+    },
+    {
+      "id": 777815524,
+      "name": "Metadator",
+      "fullName": "BobbyESP/Metadator",
+      "owner": {
+        "login": "BobbyESP",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60316747?v=4"
+      },
+      "description": "An Android ID3 metadata editor and music player built with Jetpack Compose and Material 3",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/BobbyESP/Metadator",
+      "stargazersCount": 210,
+      "forksCount": 19,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "audio-analysis",
+        "id3",
+        "jetpack-compose",
+        "material-you",
+        "metadata-editor"
+      ],
+      "releasesUrl": "https://api.github.com/repos/BobbyESP/Metadator/releases{/id}",
+      "updatedAt": "2026-10-24T03:59:08Z",
+      "createdAt": "2024-03-26T14:55:37Z",
+      "pushedAt": "2026-10-20T16:36:01Z",
+      "downloadCount": 8871,
+      "openIssuesCount": 6,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.1.0",
+          "publishedAt": "2026-10-20T16:28:16Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-20T16:28:16Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 1281129901,
+      "name": "PixelMusicApp",
+      "fullName": "ianshulyadav/PixelMusicApp",
+      "owner": {
+        "login": "ianshulyadav",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/232447597?v=4"
+      },
+      "description": "Pixel Music is Material 3 Expressive YT music, Free Lossless and local music player for Android. Enjoy a beautiful, free Spotify and YT Premium alternative with local playback, high-res YouTube Music, and Telegram streaming. Loaded with synchronized LRC lyrics, custom 10-band EQ, gapless playback, Wear OS companion, AI playlist helpers.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/ianshulyadav/PixelMusicApp",
+      "stargazersCount": 180,
+      "forksCount": 15,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "equalizer",
+        "jetpack-compose",
+        "lossless",
+        "lossless-music",
+        "material-3-expressive",
+        "material-ui",
+        "material3",
+        "md3e",
+        "music",
+        "music-library",
+        "music-player",
+        "pixel-music",
+        "pixel-music-github",
+        "pixelmusic",
+        "pixelmusicapp",
+        "spotify",
+        "telegram",
+        "yt-dlp",
+        "yt-music-client"
+      ],
+      "releasesUrl": "https://api.github.com/repos/ianshulyadav/PixelMusicApp/releases{/id}",
+      "updatedAt": "2026-10-24T06:52:34Z",
+      "createdAt": "2026-06-26T08:48:29Z",
+      "pushedAt": "2026-10-05T20:44:41Z",
+      "downloadCount": 11176,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.7.10",
+          "publishedAt": "2026-10-04T21:16:19Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T21:16:19Z",
+      "releaseRecency": 19,
+      "releaseRecencyText": "Released 19 days ago"
+    },
+    {
+      "id": 1207521722,
+      "name": "LynMusic",
+      "fullName": "wesley666/LynMusic",
+      "owner": {
+        "login": "wesley666",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30249648?v=4"
+      },
+      "description": "A cross-platform local music player for Windows, Linux,  Android, iOS, and macOS.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/wesley666/LynMusic",
+      "stargazersCount": 376,
+      "forksCount": 51,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "compose-multiplatform",
+        "compose-ui",
+        "macos",
+        "music",
+        "player",
+        "winodws"
+      ],
+      "releasesUrl": "https://api.github.com/repos/wesley666/LynMusic/releases{/id}",
+      "updatedAt": "2026-10-23T19:54:04Z",
+      "createdAt": "2026-04-11T03:31:36Z",
+      "pushedAt": "2026-10-22T13:15:18Z",
+      "downloadCount": 10658,
+      "openIssuesCount": 18,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.1.3",
+          "publishedAt": "2026-10-20T14:33:20Z"
+        },
+        "windows": {
+          "tag": "v1.1.3",
+          "publishedAt": "2026-10-20T14:33:20Z"
+        },
+        "macos": {
+          "tag": "v1.1.3",
+          "publishedAt": "2026-10-20T14:33:20Z"
+        },
+        "linux": {
+          "tag": "v1.1.3",
+          "publishedAt": "2026-10-20T14:33:20Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-20T14:33:20Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
       "id": 418086942,
@@ -194,8 +822,8 @@
       "description": "🔥 PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to-use interface on your desktop.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/plainhub/plain-app",
-      "stargazersCount": 7013,
-      "forksCount": 434,
+      "stargazersCount": 7026,
+      "forksCount": 435,
       "language": "Kotlin",
       "topics": [
         "android",
@@ -220,11 +848,11 @@
         "web"
       ],
       "releasesUrl": "https://api.github.com/repos/plainhub/plain-app/releases{/id}",
-      "updatedAt": "2026-10-23T06:38:52Z",
+      "updatedAt": "2026-10-24T06:15:56Z",
       "createdAt": "2021-10-17T10:03:14Z",
-      "pushedAt": "2026-10-22T17:20:56Z",
-      "downloadCount": 93483,
-      "openIssuesCount": 67,
+      "pushedAt": "2026-10-24T06:15:48Z",
+      "downloadCount": 93645,
+      "openIssuesCount": 68,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -237,8 +865,8 @@
         }
       },
       "latestReleaseDate": "2026-09-11T14:10:31Z",
-      "releaseRecency": 41,
-      "releaseRecencyText": "Released 41 days ago"
+      "releaseRecency": 42,
+      "releaseRecencyText": "Released 42 days ago"
     },
     {
       "id": 283211901,
@@ -251,8 +879,8 @@
       "description": "Browse media content with your own rules on Android TV",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/yuliskov/SmartTube",
-      "stargazersCount": 35374,
-      "forksCount": 2177,
+      "stargazersCount": 35424,
+      "forksCount": 2185,
       "language": "Java",
       "topics": [
         "android",
@@ -264,11 +892,11 @@
         "rxjava-android"
       ],
       "releasesUrl": "https://api.github.com/repos/yuliskov/SmartTube/releases{/id}",
-      "updatedAt": "2026-10-23T08:09:54Z",
+      "updatedAt": "2026-10-24T07:45:14Z",
       "createdAt": "2020-07-28T12:53:52Z",
-      "pushedAt": "2026-10-22T23:52:41Z",
-      "downloadCount": 6221874,
-      "openIssuesCount": 795,
+      "pushedAt": "2026-10-24T02:56:20Z",
+      "downloadCount": 6677891,
+      "openIssuesCount": 797,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -281,8 +909,8 @@
         }
       },
       "latestReleaseDate": "2026-10-20T22:38:25Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
       "id": 1048623630,
@@ -295,8 +923,8 @@
       "description": "🌸 The Cutest Music Player With Support Local File and Youtube Music for Android!",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/rukamori/ArchiveTune",
-      "stargazersCount": 7492,
-      "forksCount": 324,
+      "stargazersCount": 7522,
+      "forksCount": 327,
       "language": "Kotlin",
       "topics": [
         "android-application",
@@ -319,11 +947,11 @@
         "youtube-music-client"
       ],
       "releasesUrl": "https://api.github.com/repos/rukamori/ArchiveTune/releases{/id}",
-      "updatedAt": "2026-10-23T07:00:48Z",
+      "updatedAt": "2026-10-24T07:49:49Z",
       "createdAt": "2025-09-01T18:42:42Z",
-      "pushedAt": "2026-10-23T08:01:30Z",
-      "downloadCount": 912536,
-      "openIssuesCount": 147,
+      "pushedAt": "2026-10-24T07:39:03Z",
+      "downloadCount": 917637,
+      "openIssuesCount": 149,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -336,8 +964,227 @@
         }
       },
       "latestReleaseDate": "2026-09-26T18:26:54Z",
-      "releaseRecency": 26,
-      "releaseRecencyText": "Released 26 days ago"
+      "releaseRecency": 27,
+      "releaseRecencyText": "Released 27 days ago"
+    },
+    {
+      "id": 785416690,
+      "name": "Chocola",
+      "fullName": "sosauce/Chocola",
+      "owner": {
+        "login": "sosauce",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98750531?v=4"
+      },
+      "description": "🍫 Chocola is a cute and powerful offline music player for Android!",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/sosauce/Chocola",
+      "stargazersCount": 1118,
+      "forksCount": 70,
+      "language": "Kotlin",
+      "topics": [
+        "android-app",
+        "jetpack-compose",
+        "kotlin"
+      ],
+      "releasesUrl": "https://api.github.com/repos/sosauce/Chocola/releases{/id}",
+      "updatedAt": "2026-10-24T07:24:49Z",
+      "createdAt": "2024-04-11T21:08:05Z",
+      "pushedAt": "2026-10-23T15:36:22Z",
+      "downloadCount": 28431,
+      "openIssuesCount": 35,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v4.4.6",
+          "publishedAt": "2026-10-15T23:34:26Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-15T23:34:26Z",
+      "releaseRecency": 8,
+      "releaseRecencyText": "Released 8 days ago"
+    },
+    {
+      "id": 985191632,
+      "name": "Rhythm",
+      "fullName": "cromaguy/Rhythm",
+      "owner": {
+        "login": "cromaguy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92791382?v=4"
+      },
+      "description": "Your Music, Your Rhythm. An open-source, privacy-first Android music player featuring a beautiful Material 3 Expressive UI. Built entirely in Kotlin.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/cromaguy/Rhythm",
+      "stargazersCount": 1048,
+      "forksCount": 84,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-studio",
+        "exoplayer",
+        "izzyondroid",
+        "kotlin",
+        "material3-expressive",
+        "media3",
+        "media3-exoplayer",
+        "music-player",
+        "obtanium"
+      ],
+      "releasesUrl": "https://api.github.com/repos/cromaguy/Rhythm/releases{/id}",
+      "updatedAt": "2026-10-24T07:25:16Z",
+      "createdAt": "2025-05-17T08:48:35Z",
+      "pushedAt": "2026-10-17T10:33:21Z",
+      "downloadCount": 128307,
+      "openIssuesCount": 43,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v5.5.499.1302-stable",
+          "publishedAt": "2026-10-13T16:16:57Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-13T16:16:57Z",
+      "releaseRecency": 10,
+      "releaseRecencyText": "Released 10 days ago"
+    },
+    {
+      "id": 1326314334,
+      "name": "TMPlayer",
+      "fullName": "dracu-lah/TMPlayer",
+      "owner": {
+        "login": "dracu-lah",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110589548?v=4"
+      },
+      "description": "TMPlayer is a free, open source, unofficial Telegram media player that plays the videos in your own Telegram chats on Android TV, Fire TV, Android phones, Windows, macOS and Linux, while they are still downloading.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/dracu-lah/TMPlayer",
+      "stargazersCount": 102,
+      "forksCount": 13,
+      "language": "Kotlin",
+      "topics": [
+        "android-tv",
+        "compose-multiplatform",
+        "exoplayer",
+        "fire-tv",
+        "google-tv",
+        "gpl3",
+        "jetpack-compose",
+        "kotlin",
+        "linux",
+        "media-player",
+        "media3",
+        "mpv",
+        "open-source",
+        "streaming",
+        "tdlib",
+        "telegram",
+        "telegram-client",
+        "telegram-video-player",
+        "video-player",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/dracu-lah/TMPlayer/releases{/id}",
+      "updatedAt": "2026-10-24T07:05:03Z",
+      "createdAt": "2026-08-07T06:53:04Z",
+      "pushedAt": "2026-10-24T05:54:50Z",
+      "downloadCount": 3018,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.28.1",
+          "publishedAt": "2026-10-23T19:20:50Z"
+        },
+        "windows": {
+          "tag": "v1.28.1",
+          "publishedAt": "2026-10-23T19:20:50Z"
+        },
+        "macos": {
+          "tag": "v1.28.1",
+          "publishedAt": "2026-10-23T19:20:50Z"
+        },
+        "linux": {
+          "tag": "v1.28.1",
+          "publishedAt": "2026-10-23T19:20:50Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T19:20:50Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1279786714,
+      "name": "FuoEvolve",
+      "fullName": "feeluown/FuoEvolve",
+      "owner": {
+        "login": "feeluown",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46749747?v=4"
+      },
+      "description": "Opensource multi-platform music player, based on FeelUOwn.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/feeluown/FuoEvolve",
+      "stargazersCount": 240,
+      "forksCount": 10,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-music-player",
+        "chaquopy",
+        "compose-multiplatform",
+        "feeluown",
+        "feeluown-mobile",
+        "gplv3",
+        "ios",
+        "kmp",
+        "kotlin-multiplatform",
+        "media3",
+        "music-player",
+        "open-source",
+        "python"
+      ],
+      "releasesUrl": "https://api.github.com/repos/feeluown/FuoEvolve/releases{/id}",
+      "updatedAt": "2026-10-24T05:10:39Z",
+      "createdAt": "2026-06-25T02:37:32Z",
+      "pushedAt": "2026-10-14T06:56:16Z",
+      "downloadCount": 5299,
+      "openIssuesCount": 14,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "1.6.3",
+          "publishedAt": "2026-09-23T15:30:58Z"
+        },
+        "windows": {
+          "tag": "1.6.3",
+          "publishedAt": "2026-09-23T15:30:58Z"
+        },
+        "macos": {
+          "tag": "1.6.3",
+          "publishedAt": "2026-09-23T15:30:58Z"
+        },
+        "linux": {
+          "tag": "1.6.3",
+          "publishedAt": "2026-09-23T15:30:58Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-23T15:30:58Z",
+      "releaseRecency": 30,
+      "releaseRecencyText": "Released 30 days ago"
     },
     {
       "id": 288218307,
@@ -350,8 +1197,8 @@
       "description": "A simple, rational music player for android",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/OxygenCobalt/Auxio",
-      "stargazersCount": 4380,
-      "forksCount": 344,
+      "stargazersCount": 4384,
+      "forksCount": 346,
       "language": "Kotlin",
       "topics": [
         "album",
@@ -373,10 +1220,10 @@
         "songs"
       ],
       "releasesUrl": "https://api.github.com/repos/OxygenCobalt/Auxio/releases{/id}",
-      "updatedAt": "2026-10-23T06:05:36Z",
+      "updatedAt": "2026-10-24T03:10:11Z",
       "createdAt": "2020-08-17T15:35:11Z",
       "pushedAt": "2026-09-08T01:53:10Z",
-      "downloadCount": 187513,
+      "downloadCount": 187743,
       "openIssuesCount": 197,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -390,8 +1237,382 @@
         }
       },
       "latestReleaseDate": "2026-08-04T04:07:24Z",
-      "releaseRecency": 80,
-      "releaseRecencyText": "Released 80 days ago"
+      "releaseRecency": 81,
+      "releaseRecencyText": "Released 81 days ago"
+    },
+    {
+      "id": 549732978,
+      "name": "symphony",
+      "fullName": "zyrouge/symphony",
+      "owner": {
+        "login": "zyrouge",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50770114?v=4"
+      },
+      "description": "🎵 Lightweight, elegant music player for Android 9+.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/zyrouge/symphony",
+      "stargazersCount": 1716,
+      "forksCount": 124,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-music-player",
+        "compose",
+        "foss",
+        "kotlin",
+        "material-ui",
+        "material-you",
+        "music",
+        "music-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/zyrouge/symphony/releases{/id}",
+      "updatedAt": "2026-10-23T04:31:05Z",
+      "createdAt": "2022-10-11T16:42:33Z",
+      "pushedAt": "2026-10-02T11:52:59Z",
+      "downloadCount": 55409,
+      "openIssuesCount": 205,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v2024.12.115",
+          "publishedAt": "2024-12-14T17:56:34Z"
+        }
+      },
+      "latestReleaseDate": "2024-12-14T17:56:34Z",
+      "releaseRecency": 678,
+      "releaseRecencyText": "Released 678 days ago"
+    },
+    {
+      "id": 967726102,
+      "name": "BoomingMusic",
+      "fullName": "mardous/BoomingMusic",
+      "owner": {
+        "login": "mardous",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37917778?v=4"
+      },
+      "description": "Clean, fast, and Material-driven Android music player with powerful features.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/mardous/BoomingMusic",
+      "stargazersCount": 583,
+      "forksCount": 53,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-music-player",
+        "audio",
+        "foss",
+        "kotlin",
+        "lyrics",
+        "material-ui",
+        "material3",
+        "media",
+        "media3",
+        "music",
+        "music-player",
+        "offline"
+      ],
+      "releasesUrl": "https://api.github.com/repos/mardous/BoomingMusic/releases{/id}",
+      "updatedAt": "2026-10-24T04:15:55Z",
+      "createdAt": "2025-04-16T22:51:10Z",
+      "pushedAt": "2026-09-28T18:53:16Z",
+      "downloadCount": 43636,
+      "openIssuesCount": 107,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.4.2",
+          "publishedAt": "2026-09-28T18:53:16Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-28T18:53:16Z",
+      "releaseRecency": 25,
+      "releaseRecencyText": "Released 25 days ago"
+    },
+    {
+      "id": 1223582282,
+      "name": "Halcyon",
+      "fullName": "Kifranei/Halcyon",
+      "owner": {
+        "login": "Kifranei",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79257237?v=4"
+      },
+      "description": "A MIUI / HyperOS-style Android music player with local playback, remote sources, online sources, word-by-word lyrics, floating lyrics, and FFmpeg decoding.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Kifranei/Halcyon",
+      "stargazersCount": 288,
+      "forksCount": 22,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "kotlin",
+        "miuix",
+        "music-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Kifranei/Halcyon/releases{/id}",
+      "updatedAt": "2026-10-24T07:15:55Z",
+      "createdAt": "2026-04-28T13:09:48Z",
+      "pushedAt": "2026-10-19T04:22:07Z",
+      "downloadCount": 6700,
+      "openIssuesCount": 29,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "1.3.0",
+          "publishedAt": "2026-10-11T13:58:28Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-11T13:58:28Z",
+      "releaseRecency": 12,
+      "releaseRecencyText": "Released 12 days ago"
+    },
+    {
+      "id": 579442409,
+      "name": "Felicity",
+      "fullName": "Hamza417/Felicity",
+      "owner": {
+        "login": "Hamza417",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23103729?v=4"
+      },
+      "description": "Premium audiophile grade offline music player with native DSP, Visualizer, 10-Band Equalizer, Parametric Equalizer with PreAmp and Milkdrop support, currently in initial alpha testing.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Hamza417/Felicity",
+      "stargazersCount": 233,
+      "forksCount": 22,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-app",
+        "audiophile",
+        "dsp",
+        "exoplayer",
+        "ffmpeg",
+        "java",
+        "kotlin",
+        "milkdrop",
+        "music-player",
+        "opengl",
+        "parametric-equalizer",
+        "visualizer"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Hamza417/Felicity/releases{/id}",
+      "updatedAt": "2026-10-23T06:55:47Z",
+      "createdAt": "2022-12-17T17:59:21Z",
+      "pushedAt": "2026-10-23T16:35:24Z",
+      "downloadCount": 7048,
+      "openIssuesCount": 17,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "0.0.32_alpha",
+          "publishedAt": "2026-10-15T17:22:53Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-15T17:22:53Z",
+      "releaseRecency": 8,
+      "releaseRecencyText": "Released 8 days ago"
+    },
+    {
+      "id": 462770331,
+      "name": "media-kit",
+      "fullName": "media-kit/media-kit",
+      "owner": {
+        "login": "media-kit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129732734?v=4"
+      },
+      "description": "A cross-platform video player & audio player for Flutter & Dart.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/media-kit/media-kit",
+      "stargazersCount": 1845,
+      "forksCount": 504,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "audio",
+        "audio-player",
+        "c",
+        "cpp",
+        "dart",
+        "flutter",
+        "ios",
+        "java",
+        "libmpv",
+        "linux",
+        "macos",
+        "media-player",
+        "obj-c",
+        "swift",
+        "video",
+        "video-player",
+        "web",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/media-kit/media-kit/releases{/id}",
+      "updatedAt": "2026-10-23T15:47:32Z",
+      "createdAt": "2022-02-23T14:30:01Z",
+      "pushedAt": "2026-08-30T17:32:28Z",
+      "downloadCount": 26147,
+      "openIssuesCount": 364,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "media_kit-v1.1.10",
+          "publishedAt": "2023-10-19T17:18:13Z"
+        }
+      },
+      "latestReleaseDate": "2023-10-19T17:18:01Z",
+      "releaseRecency": 1100,
+      "releaseRecencyText": "Released 1100 days ago"
+    },
+    {
+      "id": 458778240,
+      "name": "MediaBox",
+      "fullName": "RyensX/MediaBox",
+      "owner": {
+        "login": "RyensX",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16065331?v=4"
+      },
+      "description": "全能媒体容器，插件化网罗天下媒体，畅快浏览视频、漫画和任何你想要的媒体数据。A universal media container, aggregating media through plugins to browse videos, comics and any media data you want.",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/RyensX/MediaBox",
+      "stargazersCount": 1200,
+      "forksCount": 61,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "anime",
+        "hacktoberfest",
+        "jetpack",
+        "kotlin",
+        "manga",
+        "manga-reader",
+        "plugin-system",
+        "video"
+      ],
+      "releasesUrl": "https://api.github.com/repos/RyensX/MediaBox/releases{/id}",
+      "updatedAt": "2026-10-20T03:38:21Z",
+      "createdAt": "2022-02-13T10:38:15Z",
+      "pushedAt": "2026-09-28T14:48:35Z",
+      "downloadCount": 93055,
+      "openIssuesCount": 21,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "62",
+          "publishedAt": "2024-06-16T01:57:56Z"
+        }
+      },
+      "latestReleaseDate": "2024-06-16T01:57:56Z",
+      "releaseRecency": 860,
+      "releaseRecencyText": "Released 860 days ago"
+    },
+    {
+      "id": 564870379,
+      "name": "Music-Player",
+      "fullName": "FossifyOrg/Music-Player",
+      "owner": {
+        "login": "FossifyOrg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/152776864?v=4"
+      },
+      "description": "A clean music player with a customizable widget, stylish interface and no ads.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/FossifyOrg/Music-Player",
+      "stargazersCount": 948,
+      "forksCount": 106,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "foss",
+        "kotlin",
+        "music-player",
+        "open-source"
+      ],
+      "releasesUrl": "https://api.github.com/repos/FossifyOrg/Music-Player/releases{/id}",
+      "updatedAt": "2026-10-23T22:19:28Z",
+      "createdAt": "2022-11-11T17:41:12Z",
+      "pushedAt": "2026-10-20T09:50:55Z",
+      "downloadCount": 44658,
+      "openIssuesCount": 94,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "1.8.4",
+          "publishedAt": "2026-10-10T21:13:27Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-10T21:13:27Z",
+      "releaseRecency": 13,
+      "releaseRecencyText": "Released 13 days ago"
+    },
+    {
+      "id": 1030651309,
+      "name": "umihi-music",
+      "fullName": "ilianoKokoro/umihi-music",
+      "owner": {
+        "login": "ilianoKokoro",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62717259?v=4"
+      },
+      "description": "A simple Material YouTube Music player for Android made in Kotlin and Jetpack Compose",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/ilianoKokoro/umihi-music",
+      "stargazersCount": 297,
+      "forksCount": 27,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "material-design",
+        "music",
+        "player",
+        "youtube",
+        "youtube-music"
+      ],
+      "releasesUrl": "https://api.github.com/repos/ilianoKokoro/umihi-music/releases{/id}",
+      "updatedAt": "2026-10-23T14:28:16Z",
+      "createdAt": "2025-08-02T03:27:03Z",
+      "pushedAt": "2026-10-23T05:14:56Z",
+      "downloadCount": 19905,
+      "openIssuesCount": 23,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.16.1",
+          "publishedAt": "2026-10-23T05:14:56Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T05:14:56Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
     },
     {
       "id": 521189491,
@@ -404,8 +1625,8 @@
       "description": "Android app for streaming and downloading media.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/recloudstream/cloudstream",
-      "stargazersCount": 11036,
-      "forksCount": 1145,
+      "stargazersCount": 11049,
+      "forksCount": 1153,
       "language": "Kotlin",
       "topics": [
         "android",
@@ -416,11 +1637,11 @@
         "video-streaming"
       ],
       "releasesUrl": "https://api.github.com/repos/recloudstream/cloudstream/releases{/id}",
-      "updatedAt": "2026-10-23T06:52:38Z",
+      "updatedAt": "2026-10-24T06:54:21Z",
       "createdAt": "2022-08-04T08:42:38Z",
-      "pushedAt": "2026-10-23T06:20:11Z",
-      "downloadCount": 6789865,
-      "openIssuesCount": 564,
+      "pushedAt": "2026-10-23T09:20:53Z",
+      "downloadCount": 6802726,
+      "openIssuesCount": 565,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -433,8 +1654,8 @@
         }
       },
       "latestReleaseDate": "2026-07-10T00:16:24Z",
-      "releaseRecency": 105,
-      "releaseRecencyText": "Released 105 days ago"
+      "releaseRecency": 106,
+      "releaseRecencyText": "Released 106 days ago"
     },
     {
       "id": 142573775,
@@ -447,8 +1668,8 @@
       "description": "Best Material You Design music player for Android",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/RetroMusicPlayer/RetroMusicPlayer",
-      "stargazersCount": 5363,
-      "forksCount": 939,
+      "stargazersCount": 5365,
+      "forksCount": 940,
       "language": "Kotlin",
       "topics": [
         "android",
@@ -463,10 +1684,10 @@
         "mvvm-architecture"
       ],
       "releasesUrl": "https://api.github.com/repos/RetroMusicPlayer/RetroMusicPlayer/releases{/id}",
-      "updatedAt": "2026-10-23T07:47:38Z",
+      "updatedAt": "2026-10-24T05:48:02Z",
       "createdAt": "2018-07-27T12:21:51Z",
       "pushedAt": "2026-10-04T16:50:49Z",
-      "downloadCount": 91117,
+      "downloadCount": 91231,
       "openIssuesCount": 386,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -480,8 +1701,8 @@
         }
       },
       "latestReleaseDate": "2026-08-13T16:45:08Z",
-      "releaseRecency": 70,
-      "releaseRecencyText": "Released 70 days ago"
+      "releaseRecency": 71,
+      "releaseRecencyText": "Released 71 days ago"
     },
     {
       "id": 46907841,
@@ -494,7 +1715,7 @@
       "description": "An Android online music player like NetEase Cloud Music, based on Media3 and ExoPlayer",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/wangchenyan/ponymusic",
-      "stargazersCount": 2852,
+      "stargazersCount": 2853,
       "forksCount": 506,
       "language": "Kotlin",
       "topics": [
@@ -503,10 +1724,10 @@
         "netease-cloud-music"
       ],
       "releasesUrl": "https://api.github.com/repos/wangchenyan/ponymusic/releases{/id}",
-      "updatedAt": "2026-10-18T13:44:46Z",
+      "updatedAt": "2026-10-24T00:00:33Z",
       "createdAt": "2015-11-26T06:18:37Z",
       "pushedAt": "2026-09-16T13:15:25Z",
-      "downloadCount": 13467,
+      "downloadCount": 13475,
       "openIssuesCount": 11,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -520,8 +1741,8 @@
         }
       },
       "latestReleaseDate": "2025-10-30T09:30:41Z",
-      "releaseRecency": 357,
-      "releaseRecencyText": "Released 357 days ago"
+      "releaseRecency": 358,
+      "releaseRecencyText": "Released 358 days ago"
     },
     {
       "id": 311451920,
@@ -535,7 +1756,7 @@
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/moneytoo/Player",
       "stargazersCount": 2742,
-      "forksCount": 299,
+      "forksCount": 298,
       "language": "Java",
       "topics": [
         "android",
@@ -550,10 +1771,10 @@
         "video-player"
       ],
       "releasesUrl": "https://api.github.com/repos/moneytoo/Player/releases{/id}",
-      "updatedAt": "2026-10-22T19:55:25Z",
+      "updatedAt": "2026-10-24T06:09:01Z",
       "createdAt": "2020-11-09T20:05:41Z",
       "pushedAt": "2026-10-22T19:55:25Z",
-      "downloadCount": 185250,
+      "downloadCount": 185789,
       "openIssuesCount": 85,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -567,8 +1788,356 @@
         }
       },
       "latestReleaseDate": "2026-09-11T21:01:50Z",
-      "releaseRecency": 41,
-      "releaseRecencyText": "Released 41 days ago"
+      "releaseRecency": 42,
+      "releaseRecencyText": "Released 42 days ago"
+    },
+    {
+      "id": 49649355,
+      "name": "APlayer",
+      "fullName": "rRemix/APlayer",
+      "owner": {
+        "login": "rRemix",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16172563?v=4"
+      },
+      "description": "Android Music Player",
+      "defaultBranch": "compose",
+      "htmlUrl": "https://github.com/rRemix/APlayer",
+      "stargazersCount": 1849,
+      "forksCount": 221,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "compose",
+        "musicplayer"
+      ],
+      "releasesUrl": "https://api.github.com/repos/rRemix/APlayer/releases{/id}",
+      "updatedAt": "2026-10-24T00:18:44Z",
+      "createdAt": "2016-01-14T13:38:47Z",
+      "pushedAt": "2026-10-23T21:15:39Z",
+      "downloadCount": 346814,
+      "openIssuesCount": 21,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.1.2.1",
+          "publishedAt": "2026-09-14T12:06:11Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-14T12:06:11Z",
+      "releaseRecency": 39,
+      "releaseRecencyText": "Released 39 days ago"
+    },
+    {
+      "id": 843422414,
+      "name": "super-video-downloader",
+      "fullName": "alexch33/super-video-downloader",
+      "owner": {
+        "login": "alexch33",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33638165?v=4"
+      },
+      "description": "Video & Audio downloader for Android with web browser and player. M3U8 and MPD supported, live stream supported, using youtube-dlp and custom mp4/mp3/m3u8/mpd downloader, cookies supported, HTTP & SOCKS proxy chains supported, encrypted DNS, Adblocker with lists managenment",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/alexch33/super-video-downloader",
+      "stargazersCount": 970,
+      "forksCount": 122,
+      "language": "Kotlin",
+      "topics": [
+        "ad-block",
+        "all-in-one-video-downloader",
+        "all-video-downloader",
+        "android",
+        "android-video-downloader",
+        "audio",
+        "audio-downloader",
+        "download-manager",
+        "downloader-for-youtube",
+        "livestream",
+        "m3u8-downloader",
+        "mpd-downloader",
+        "video",
+        "video-download",
+        "video-download-tool",
+        "video-downloader",
+        "videoplayer",
+        "web-browser",
+        "youtube-dlp"
+      ],
+      "releasesUrl": "https://api.github.com/repos/alexch33/super-video-downloader/releases{/id}",
+      "updatedAt": "2026-10-23T13:50:06Z",
+      "createdAt": "2024-08-16T13:33:09Z",
+      "pushedAt": "2026-10-23T14:25:24Z",
+      "downloadCount": 107116,
+      "openIssuesCount": 12,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "0.9.0-RC-1",
+          "publishedAt": "2026-10-23T14:37:59Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T14:37:59Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1091779519,
+      "name": "REX-Player",
+      "fullName": "mpvRex/REX-Player",
+      "owner": {
+        "login": "mpvRex",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/325411401?v=4"
+      },
+      "description": "A modern Android video player powered by libmpv, built with Jetpack Compose.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/mpvRex/REX-Player",
+      "stargazersCount": 794,
+      "forksCount": 65,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-application",
+        "media-player",
+        "open-source",
+        "video-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/mpvRex/REX-Player/releases{/id}",
+      "updatedAt": "2026-10-24T03:18:40Z",
+      "createdAt": "2025-11-07T14:03:50Z",
+      "pushedAt": "2026-10-21T18:01:07Z",
+      "downloadCount": 69753,
+      "openIssuesCount": 147,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v5.3.0",
+          "publishedAt": "2026-10-01T22:34:58Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T22:34:58Z",
+      "releaseRecency": 22,
+      "releaseRecencyText": "Released 22 days ago"
+    },
+    {
+      "id": 1050830292,
+      "name": "sylvakru",
+      "fullName": "AfalpHy/sylvakru",
+      "owner": {
+        "login": "AfalpHy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76269898?v=4"
+      },
+      "description": "A cross-platform music player for local and self-hosted libraries, built with Flutter",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/AfalpHy/sylvakru",
+      "stargazersCount": 607,
+      "forksCount": 51,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "emby",
+        "flutter",
+        "ios",
+        "linux",
+        "macos",
+        "music",
+        "music-player",
+        "navidrome",
+        "self-hosted",
+        "webdav",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/AfalpHy/sylvakru/releases{/id}",
+      "updatedAt": "2026-10-22T05:34:48Z",
+      "createdAt": "2025-09-05T02:29:42Z",
+      "pushedAt": "2026-10-01T12:04:36Z",
+      "downloadCount": 14370,
+      "openIssuesCount": 21,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v4.4.1",
+          "publishedAt": "2026-10-01T12:04:36Z"
+        },
+        "linux": {
+          "tag": "v4.4.1",
+          "publishedAt": "2026-10-01T12:04:36Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T12:04:36Z",
+      "releaseRecency": 22,
+      "releaseRecencyText": "Released 22 days ago"
+    },
+    {
+      "id": 181241010,
+      "name": "soundcrowd",
+      "fullName": "soundcrowd/soundcrowd",
+      "owner": {
+        "login": "soundcrowd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49404557?v=4"
+      },
+      "description": "Android music player app with support for waveforms, audio tagging via Shazam, and streaming from SoundCloud, YouTube, Spotify, Beatport, and Tidal",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/soundcrowd/soundcrowd",
+      "stargazersCount": 381,
+      "forksCount": 22,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "cache",
+        "music",
+        "player",
+        "plugin",
+        "shazam",
+        "soundcloud",
+        "spotify",
+        "tagging",
+        "tidal",
+        "waveform",
+        "youtube"
+      ],
+      "releasesUrl": "https://api.github.com/repos/soundcrowd/soundcrowd/releases{/id}",
+      "updatedAt": "2026-10-23T22:05:34Z",
+      "createdAt": "2019-04-14T00:01:07Z",
+      "pushedAt": "2026-06-01T21:32:47Z",
+      "downloadCount": 10530,
+      "openIssuesCount": 16,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v4.3.3",
+          "publishedAt": "2026-06-01T21:44:02Z"
+        }
+      },
+      "latestReleaseDate": "2026-06-01T21:44:02Z",
+      "releaseRecency": 144,
+      "releaseRecencyText": "Released 144 days ago"
+    },
+    {
+      "id": 1304650010,
+      "name": "LocalViewer",
+      "fullName": "zmz125000/LocalViewer",
+      "owner": {
+        "login": "zmz125000",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11844731?v=4"
+      },
+      "description": "LocalViewer is a fast and full-featured Android SMB/WebDAV/CBZ photo/comic/ebook viewer and video player with folder and library support.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/zmz125000/LocalViewer",
+      "stargazersCount": 185,
+      "forksCount": 7,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "comic",
+        "comic-reader",
+        "comics",
+        "ebook",
+        "ebook-reader",
+        "epub",
+        "file-manager",
+        "hdr",
+        "jxr",
+        "manga",
+        "nas",
+        "photo-gallery",
+        "photography",
+        "raw-image",
+        "reader",
+        "smb",
+        "videoplayer",
+        "webdav"
+      ],
+      "releasesUrl": "https://api.github.com/repos/zmz125000/LocalViewer/releases{/id}",
+      "updatedAt": "2026-10-24T07:02:11Z",
+      "createdAt": "2026-07-18T06:11:00Z",
+      "pushedAt": "2026-10-24T07:03:33Z",
+      "downloadCount": 5894,
+      "openIssuesCount": 6,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "1.13.10",
+          "publishedAt": "2026-10-23T15:57:36Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T15:57:36Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 248594331,
+      "name": "AbleMusicPlayer",
+      "fullName": "uditkarode/AbleMusicPlayer",
+      "owner": {
+        "login": "uditkarode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30829387?v=4"
+      },
+      "description": "🎵 A Youtube Music like app with a Spotify like design - ad free, open source.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/uditkarode/AbleMusicPlayer",
+      "stargazersCount": 750,
+      "forksCount": 89,
+      "language": "Kotlin",
+      "topics": [
+        "able",
+        "ablemusic",
+        "android",
+        "android-music-player",
+        "apk",
+        "app",
+        "hacktoberfest",
+        "local-music-player",
+        "music-player",
+        "spotify",
+        "youtube",
+        "youtube-dl",
+        "youtube-music",
+        "youtube-player",
+        "yt-music"
+      ],
+      "releasesUrl": "https://api.github.com/repos/uditkarode/AbleMusicPlayer/releases{/id}",
+      "updatedAt": "2026-10-23T02:25:52Z",
+      "createdAt": "2020-03-19T20:04:42Z",
+      "pushedAt": "2026-08-16T06:42:30Z",
+      "downloadCount": 4362,
+      "openIssuesCount": 15,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "build-6179af22",
+          "publishedAt": "2026-08-16T06:42:30Z"
+        }
+      },
+      "latestReleaseDate": "2026-08-16T06:42:30Z",
+      "releaseRecency": 69,
+      "releaseRecencyText": "Released 69 days ago"
     },
     {
       "id": 73614722,
@@ -581,8 +2150,8 @@
       "description": "Video players (IJKplayer, ExoPlayer, MediaPlayer), HTTPS, 16k page size, danmaku (bullet chat) support, external subtitles, support for filters, watermarks, and GIF screenshots, pre-roll and mid-roll ads, multiple simultaneous playback, basic seeking/dragging, volume and brightness adjustment, play-while-cache support",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/CarGuo/GSYVideoPlayer",
-      "stargazersCount": 21523,
-      "forksCount": 4316,
+      "stargazersCount": 21524,
+      "forksCount": 4317,
       "language": "Java",
       "topics": [
         "16k",
@@ -597,10 +2166,10 @@
         "videocache"
       ],
       "releasesUrl": "https://api.github.com/repos/CarGuo/GSYVideoPlayer/releases{/id}",
-      "updatedAt": "2026-10-23T01:20:12Z",
+      "updatedAt": "2026-10-23T15:45:16Z",
       "createdAt": "2016-11-13T12:34:31Z",
       "pushedAt": "2026-10-10T05:15:46Z",
-      "downloadCount": 73906,
+      "downloadCount": 73924,
       "openIssuesCount": 15,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -614,8 +2183,237 @@
         }
       },
       "latestReleaseDate": "2026-10-10T04:07:35Z",
-      "releaseRecency": 13,
-      "releaseRecencyText": "Released 13 days ago"
+      "releaseRecency": 14,
+      "releaseRecencyText": "Released 14 days ago"
+    },
+    {
+      "id": 593020002,
+      "name": "telephoto",
+      "fullName": "saket/telephoto",
+      "owner": {
+        "login": "saket",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2387680?v=4"
+      },
+      "description": "Building blocks for designing media experiences in Compose UI",
+      "defaultBranch": "trunk",
+      "htmlUrl": "https://github.com/saket/telephoto",
+      "stargazersCount": 1571,
+      "forksCount": 58,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "compose",
+        "image",
+        "sub-sampling",
+        "subsampling",
+        "zoom",
+        "zoomable"
+      ],
+      "releasesUrl": "https://api.github.com/repos/saket/telephoto/releases{/id}",
+      "updatedAt": "2026-10-22T16:59:45Z",
+      "createdAt": "2023-01-25T02:59:42Z",
+      "pushedAt": "2026-07-22T17:59:36Z",
+      "downloadCount": 433,
+      "openIssuesCount": 24,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "0.19.0",
+          "publishedAt": "2026-04-02T07:00:50Z"
+        }
+      },
+      "latestReleaseDate": "2026-04-02T07:00:50Z",
+      "releaseRecency": 205,
+      "releaseRecencyText": "Released 205 days ago"
+    },
+    {
+      "id": 998120819,
+      "name": "RiPlay",
+      "fullName": "fast4x/RiPlay",
+      "owner": {
+        "login": "fast4x",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1484476?v=4"
+      },
+      "description": "Multiplatform Music Player",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/fast4x/RiPlay",
+      "stargazersCount": 480,
+      "forksCount": 36,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/fast4x/RiPlay/releases{/id}",
+      "updatedAt": "2026-10-24T02:12:32Z",
+      "createdAt": "2025-06-07T22:50:24Z",
+      "pushedAt": "2026-10-24T02:12:29Z",
+      "downloadCount": 164728,
+      "openIssuesCount": 30,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.8.0",
+          "publishedAt": "2026-10-17T20:14:02Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-17T20:14:02Z",
+      "releaseRecency": 6,
+      "releaseRecencyText": "Released 6 days ago"
+    },
+    {
+      "id": 1265227367,
+      "name": "qplayer",
+      "fullName": "TIMER-err/qplayer",
+      "owner": {
+        "login": "TIMER-err",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78411927?v=4"
+      },
+      "description": "Modern Music Player With Multi-Platform Support, Powered With QML4J Engine.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/TIMER-err/qplayer",
+      "stargazersCount": 331,
+      "forksCount": 25,
+      "language": "Java",
+      "topics": [
+        "apple-music",
+        "md3",
+        "netease",
+        "netease-cloud-music",
+        "player",
+        "qml",
+        "qml-applications",
+        "qplayer",
+        "skia"
+      ],
+      "releasesUrl": "https://api.github.com/repos/TIMER-err/qplayer/releases{/id}",
+      "updatedAt": "2026-10-24T06:56:14Z",
+      "createdAt": "2026-06-10T15:24:28Z",
+      "pushedAt": "2026-10-24T06:56:10Z",
+      "downloadCount": 19733,
+      "openIssuesCount": 7,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.8.7",
+          "publishedAt": "2026-10-24T04:38:02Z"
+        },
+        "windows": {
+          "tag": "v1.8.7",
+          "publishedAt": "2026-10-24T04:38:02Z"
+        },
+        "macos": {
+          "tag": "v1.8.7",
+          "publishedAt": "2026-10-24T04:38:02Z"
+        },
+        "linux": {
+          "tag": "v1.8.7",
+          "publishedAt": "2026-10-24T04:38:02Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-24T04:38:02Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 249820149,
+      "name": "mucke",
+      "fullName": "moritz-weber/mucke",
+      "owner": {
+        "login": "moritz-weber",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17176771?v=4"
+      },
+      "description": "mucke - android music player",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/moritz-weber/mucke",
+      "stargazersCount": 266,
+      "forksCount": 11,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "f-droid",
+        "fdroid",
+        "flutter",
+        "music",
+        "music-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/moritz-weber/mucke/releases{/id}",
+      "updatedAt": "2026-10-23T19:33:33Z",
+      "createdAt": "2020-03-24T21:18:18Z",
+      "pushedAt": "2026-10-23T19:33:28Z",
+      "downloadCount": 4191,
+      "openIssuesCount": 49,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.6.0",
+          "publishedAt": "2026-08-16T16:35:05Z"
+        }
+      },
+      "latestReleaseDate": "2026-08-16T16:35:05Z",
+      "releaseRecency": 68,
+      "releaseRecencyText": "Released 68 days ago"
+    },
+    {
+      "id": 1116351987,
+      "name": "Flick",
+      "fullName": "moss-apps/Flick",
+      "owner": {
+        "login": "moss-apps",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/280398201?v=4"
+      },
+      "description": "Flick is a high-performance music player for Android that delivers bit-perfect audio through external USB DACs and amplifiers via a custom Rust-based UAC 2.0 implementation. It features a 31-band equalizer, automatic music library scanning with metadata extraction, gapless playback built with Flutter.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/moss-apps/Flick",
+      "stargazersCount": 247,
+      "forksCount": 19,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "audiophile",
+        "bit-perfect",
+        "dart",
+        "dsd",
+        "flutter",
+        "music-player",
+        "riverpod",
+        "rust",
+        "uac2",
+        "usb-dac"
+      ],
+      "releasesUrl": "https://api.github.com/repos/moss-apps/Flick/releases{/id}",
+      "updatedAt": "2026-10-24T05:55:29Z",
+      "createdAt": "2025-12-14T17:33:36Z",
+      "pushedAt": "2026-10-24T05:55:33Z",
+      "downloadCount": 6757,
+      "openIssuesCount": 16,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "0.22.1-beta.3",
+          "publishedAt": "2026-10-01T14:55:30Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T14:55:30Z",
+      "releaseRecency": 22,
+      "releaseRecencyText": "Released 22 days ago"
     },
     {
       "id": 987110251,
@@ -628,16 +2426,16 @@
       "description": "privacy-first Android music player built with Material 3 Expressive. Play offline, sync lyrics, fine-tune with equalizer presets, and cast to your devices.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/PixelPlayerHQ/PixelPlayer",
-      "stargazersCount": 6773,
-      "forksCount": 545,
+      "stargazersCount": 6787,
+      "forksCount": 548,
       "language": "Kotlin",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/PixelPlayerHQ/PixelPlayer/releases{/id}",
-      "updatedAt": "2026-10-23T01:39:29Z",
+      "updatedAt": "2026-10-24T07:09:17Z",
       "createdAt": "2025-05-20T15:33:18Z",
       "pushedAt": "2026-09-21T07:25:24Z",
-      "downloadCount": 409415,
-      "openIssuesCount": 656,
+      "downloadCount": 410068,
+      "openIssuesCount": 659,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -650,8 +2448,8 @@
         }
       },
       "latestReleaseDate": "2026-06-13T21:44:52Z",
-      "releaseRecency": 131,
-      "releaseRecencyText": "Released 131 days ago"
+      "releaseRecency": 132,
+      "releaseRecencyText": "Released 132 days ago"
     },
     {
       "id": 600800971,
@@ -664,7 +2462,7 @@
       "description": "A Beautiful and Feature-rich Music & Video Player with Youtube Support, Built in Flutter",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/namidaco/namida",
-      "stargazersCount": 6696,
+      "stargazersCount": 6703,
       "forksCount": 368,
       "language": "Dart",
       "topics": [
@@ -690,11 +2488,11 @@
         "youtube"
       ],
       "releasesUrl": "https://api.github.com/repos/namidaco/namida/releases{/id}",
-      "updatedAt": "2026-10-23T07:44:56Z",
+      "updatedAt": "2026-10-24T07:49:30Z",
       "createdAt": "2023-02-12T16:36:03Z",
       "pushedAt": "2026-10-22T01:56:12Z",
-      "downloadCount": 822689,
-      "openIssuesCount": 56,
+      "downloadCount": 824375,
+      "openIssuesCount": 59,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -711,8 +2509,8 @@
         }
       },
       "latestReleaseDate": "2026-09-19T18:38:12Z",
-      "releaseRecency": 33,
-      "releaseRecencyText": "Released 33 days ago"
+      "releaseRecency": 34,
+      "releaseRecencyText": "Released 34 days ago"
     },
     {
       "id": 32483164,
@@ -725,7 +2523,7 @@
       "description": "a cross-platform, terminal-based music player, audio engine, metadata indexer, and server in c++",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/clangen/musikcube",
-      "stargazersCount": 4856,
+      "stargazersCount": 4857,
       "forksCount": 322,
       "language": "C++",
       "topics": [
@@ -744,10 +2542,10 @@
         "wasapi"
       ],
       "releasesUrl": "https://api.github.com/repos/clangen/musikcube/releases{/id}",
-      "updatedAt": "2026-10-23T06:28:06Z",
+      "updatedAt": "2026-10-23T22:52:48Z",
       "createdAt": "2015-03-18T20:41:57Z",
       "pushedAt": "2026-03-23T02:00:57Z",
-      "downloadCount": 149481,
+      "downloadCount": 149614,
       "openIssuesCount": 179,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -765,8 +2563,8 @@
         }
       },
       "latestReleaseDate": "2025-09-21T07:16:59Z",
-      "releaseRecency": 397,
-      "releaseRecencyText": "Released 397 days ago"
+      "releaseRecency": 398,
+      "releaseRecencyText": "Released 398 days ago"
     },
     {
       "id": 1080157453,
@@ -779,8 +2577,8 @@
       "description": "Modern cross-platform media server client built with Flutter",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/edde746/plezy",
-      "stargazersCount": 3898,
-      "forksCount": 410,
+      "stargazersCount": 3920,
+      "forksCount": 412,
       "language": "Dart",
       "topics": [
         "cross-platform",
@@ -796,11 +2594,11 @@
         "plexmediaserver"
       ],
       "releasesUrl": "https://api.github.com/repos/edde746/plezy/releases{/id}",
-      "updatedAt": "2026-10-23T05:12:12Z",
+      "updatedAt": "2026-10-24T04:42:49Z",
       "createdAt": "2025-10-21T00:37:03Z",
-      "pushedAt": "2026-10-22T11:49:24Z",
-      "downloadCount": 342434,
-      "openIssuesCount": 333,
+      "pushedAt": "2026-10-23T20:59:52Z",
+      "downloadCount": 344891,
+      "openIssuesCount": 332,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -825,8 +2623,8 @@
         }
       },
       "latestReleaseDate": "2026-10-21T17:38:15Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
     },
     {
       "id": 56722299,
@@ -839,8 +2637,8 @@
       "description": "Video player for Android based on libmpv ↦ #mpv-android @ irc.libera.chat",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/mpv-android/mpv-android",
-      "stargazersCount": 3639,
-      "forksCount": 519,
+      "stargazersCount": 3641,
+      "forksCount": 518,
       "language": "Kotlin",
       "topics": [
         "android-app",
@@ -851,10 +2649,10 @@
         "video-player"
       ],
       "releasesUrl": "https://api.github.com/repos/mpv-android/mpv-android/releases{/id}",
-      "updatedAt": "2026-10-23T03:13:07Z",
+      "updatedAt": "2026-10-23T21:24:23Z",
       "createdAt": "2016-04-20T21:29:44Z",
-      "pushedAt": "2026-10-20T16:06:00Z",
-      "downloadCount": 347936,
+      "pushedAt": "2026-10-23T16:27:21Z",
+      "downloadCount": 348731,
       "openIssuesCount": 163,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -868,8 +2666,365 @@
         }
       },
       "latestReleaseDate": "2026-09-17T15:33:45Z",
-      "releaseRecency": 35,
-      "releaseRecencyText": "Released 35 days ago"
+      "releaseRecency": 36,
+      "releaseRecencyText": "Released 36 days ago"
+    },
+    {
+      "id": 696575257,
+      "name": "PureMusic",
+      "fullName": "pure-music/PureMusic",
+      "owner": {
+        "login": "pure-music",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/122424360?v=4"
+      },
+      "description": "Cotton Music(棉花音乐): Player for Local file, Drive, Navidrome, Subsonic, Emby, Jellyfin, Plex.  Supports Android, iOS, and PC",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/pure-music/PureMusic",
+      "stargazersCount": 603,
+      "forksCount": 25,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/pure-music/PureMusic/releases{/id}",
+      "updatedAt": "2026-10-24T01:39:56Z",
+      "createdAt": "2023-09-26T02:53:20Z",
+      "pushedAt": "2026-10-23T06:21:51Z",
+      "downloadCount": 46221,
+      "openIssuesCount": 14,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v5.1.2",
+          "publishedAt": "2026-10-23T06:55:53Z"
+        },
+        "windows": {
+          "tag": "v5.1.2",
+          "publishedAt": "2026-10-23T06:55:53Z"
+        },
+        "macos": {
+          "tag": "v5.1.2",
+          "publishedAt": "2026-10-23T06:55:53Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T06:55:53Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 744397364,
+      "name": "MonsterMusic",
+      "fullName": "ZTFtrue/MonsterMusic",
+      "owner": {
+        "login": "ZTFtrue",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13563890?v=4"
+      },
+      "description": "A music player on android platform, developed by Android composer",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/ZTFtrue/MonsterMusic",
+      "stargazersCount": 541,
+      "forksCount": 35,
+      "language": "Java",
+      "topics": [
+        "android-app",
+        "composer",
+        "exoplayer",
+        "f-droid",
+        "fdroid",
+        "jectpack",
+        "jectpack-compose",
+        "music-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/ZTFtrue/MonsterMusic/releases{/id}",
+      "updatedAt": "2026-10-24T01:23:46Z",
+      "createdAt": "2024-01-17T08:07:21Z",
+      "pushedAt": "2026-10-16T11:40:11Z",
+      "downloadCount": 4144,
+      "openIssuesCount": 3,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "0.1.85",
+          "publishedAt": "2026-10-14T14:28:58Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-14T14:28:58Z",
+      "releaseRecency": 9,
+      "releaseRecencyText": "Released 9 days ago"
+    },
+    {
+      "id": 892080011,
+      "name": "iris",
+      "fullName": "nini22P/iris",
+      "owner": {
+        "login": "nini22P",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60903333?v=4"
+      },
+      "description": "A lightweight video player | 轻量级视频播放器",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/nini22P/iris",
+      "stargazersCount": 541,
+      "forksCount": 37,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "flutter",
+        "player",
+        "video-player",
+        "webdav",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/nini22P/iris/releases{/id}",
+      "updatedAt": "2026-10-20T16:52:10Z",
+      "createdAt": "2024-11-21T13:27:50Z",
+      "pushedAt": "2026-08-23T16:38:48Z",
+      "downloadCount": 21853,
+      "openIssuesCount": 25,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.5.2",
+          "publishedAt": "2025-11-01T08:40:22Z"
+        },
+        "windows": {
+          "tag": "v1.5.2",
+          "publishedAt": "2025-11-01T08:40:22Z"
+        }
+      },
+      "latestReleaseDate": "2025-11-01T08:40:22Z",
+      "releaseRecency": 356,
+      "releaseRecencyText": "Released 356 days ago"
+    },
+    {
+      "id": 891804355,
+      "name": "Phocid",
+      "fullName": "TJYSunset/Phocid",
+      "owner": {
+        "login": "TJYSunset",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12986688?v=4"
+      },
+      "description": "A modern offline music player with familiar designs for Android 11+.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/TJYSunset/Phocid",
+      "stargazersCount": 516,
+      "forksCount": 41,
+      "language": "Kotlin",
+      "topics": [
+        "android-application",
+        "music-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/TJYSunset/Phocid/releases{/id}",
+      "updatedAt": "2026-10-17T05:35:36Z",
+      "createdAt": "2024-11-21T01:33:15Z",
+      "pushedAt": "2026-06-10T13:06:01Z",
+      "downloadCount": 19781,
+      "openIssuesCount": 49,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v20260610",
+          "publishedAt": "2026-06-10T13:03:57Z"
+        }
+      },
+      "latestReleaseDate": "2026-06-10T13:03:57Z",
+      "releaseRecency": 135,
+      "releaseRecencyText": "Released 135 days ago"
+    },
+    {
+      "id": 774580896,
+      "name": "Classipod",
+      "fullName": "adeeteya/Classipod",
+      "owner": {
+        "login": "adeeteya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62930521?v=4"
+      },
+      "description": "A local music player app designed to capture the nostalgic essence of the iconic iPod Classic.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/adeeteya/Classipod",
+      "stargazersCount": 359,
+      "forksCount": 44,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "android-app",
+        "android-application",
+        "android-development",
+        "collaborate",
+        "emulator",
+        "flutter",
+        "flutter-app",
+        "flutter-apps",
+        "flutter-examples",
+        "github-pages",
+        "hacktoberfest",
+        "hacktoberfest-accepted",
+        "ipod-classic",
+        "ipod-music",
+        "music",
+        "music-player",
+        "music-player-application",
+        "riverpod",
+        "simulator"
+      ],
+      "releasesUrl": "https://api.github.com/repos/adeeteya/Classipod/releases{/id}",
+      "updatedAt": "2026-10-24T04:04:22Z",
+      "createdAt": "2024-03-19T19:54:43Z",
+      "pushedAt": "2026-10-02T06:27:49Z",
+      "downloadCount": 16412,
+      "openIssuesCount": 21,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "2.1.0",
+          "publishedAt": "2026-10-01T16:43:42Z"
+        },
+        "windows": {
+          "tag": "2.1.0",
+          "publishedAt": "2026-10-01T16:43:42Z"
+        },
+        "macos": {
+          "tag": "2.1.0",
+          "publishedAt": "2026-10-01T16:43:42Z"
+        },
+        "linux": {
+          "tag": "2.1.0",
+          "publishedAt": "2026-10-01T16:43:42Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-01T16:43:42Z",
+      "releaseRecency": 22,
+      "releaseRecencyText": "Released 22 days ago"
+    },
+    {
+      "id": 1254665304,
+      "name": "PixelPlayerOSS",
+      "fullName": "PixelPlayerHQ/PixelPlayerOSS",
+      "owner": {
+        "login": "PixelPlayerHQ",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/293479816?v=4"
+      },
+      "description": "Free and open-source edition of PixelPlayer - a modern offline music player for Android built with Jetpack Compose, Media3 & Material 3. Available on F-Droid.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/PixelPlayerHQ/PixelPlayerOSS",
+      "stargazersCount": 277,
+      "forksCount": 29,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/PixelPlayerHQ/PixelPlayerOSS/releases{/id}",
+      "updatedAt": "2026-10-24T05:21:26Z",
+      "createdAt": "2026-05-30T21:22:17Z",
+      "pushedAt": "2026-10-23T15:13:27Z",
+      "downloadCount": 5303,
+      "openIssuesCount": 8,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.2.0",
+          "publishedAt": "2026-07-16T21:06:53Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-17T10:59:45Z",
+      "releaseRecency": 6,
+      "releaseRecencyText": "Released 6 days ago"
+    },
+    {
+      "id": 204173848,
+      "name": "sweyer",
+      "fullName": "nt4f04uNd/sweyer",
+      "owner": {
+        "login": "nt4f04uNd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39104740?v=4"
+      },
+      "description": "Music player built with Flutter",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/nt4f04uNd/sweyer",
+      "stargazersCount": 223,
+      "forksCount": 47,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "dart",
+        "flutter",
+        "music-player"
+      ],
+      "releasesUrl": "https://api.github.com/repos/nt4f04uNd/sweyer/releases{/id}",
+      "updatedAt": "2026-10-08T07:57:01Z",
+      "createdAt": "2019-08-24T15:12:02Z",
+      "pushedAt": "2026-10-19T14:43:43Z",
+      "downloadCount": 1171,
+      "openIssuesCount": 90,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "1.0.14",
+          "publishedAt": "2026-04-28T23:44:45Z"
+        }
+      },
+      "latestReleaseDate": "2026-04-28T23:44:45Z",
+      "releaseRecency": 178,
+      "releaseRecencyText": "Released 178 days ago"
+    },
+    {
+      "id": 1228074436,
+      "name": "MetroFuse",
+      "fullName": "956tris/MetroFuse",
+      "owner": {
+        "login": "956tris",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/215219291?v=4"
+      },
+      "description": "YouTube Music client and Local player for Android With the twist of Many different backends and frontends",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/956tris/MetroFuse",
+      "stargazersCount": 182,
+      "forksCount": 12,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/956tris/MetroFuse/releases{/id}",
+      "updatedAt": "2026-10-15T03:16:44Z",
+      "createdAt": "2026-05-03T15:03:18Z",
+      "pushedAt": "2026-10-18T21:09:10Z",
+      "downloadCount": 18952,
+      "openIssuesCount": 6,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "8.0",
+          "publishedAt": "2026-09-16T22:12:42Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-16T22:12:42Z",
+      "releaseRecency": 37,
+      "releaseRecencyText": "Released 37 days ago"
     },
     {
       "id": 390549311,
@@ -882,16 +3037,16 @@
       "description": "A multi-platform local music player in continuous development since 2020, serving over one million users. This repository is used for issue tracking and official Android package releases.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Moriafly/SaltPlayerSource",
-      "stargazersCount": 7531,
+      "stargazersCount": 7540,
       "forksCount": 229,
       "language": null,
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/Moriafly/SaltPlayerSource/releases{/id}",
-      "updatedAt": "2026-10-23T06:59:54Z",
+      "updatedAt": "2026-10-24T06:52:04Z",
       "createdAt": "2021-07-29T00:32:09Z",
-      "pushedAt": "2026-10-07T05:20:59Z",
-      "downloadCount": 245286,
-      "openIssuesCount": 778,
+      "pushedAt": "2026-10-24T07:56:06Z",
+      "downloadCount": 245782,
+      "openIssuesCount": 768,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -899,13 +3054,428 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "12.4.1",
-          "publishedAt": "2026-10-07T05:21:00Z"
+          "tag": "12.5.0",
+          "publishedAt": "2026-10-24T02:01:40Z"
         }
       },
-      "latestReleaseDate": "2026-10-07T05:21:00Z",
-      "releaseRecency": 16,
-      "releaseRecencyText": "Released 16 days ago"
+      "latestReleaseDate": "2026-10-24T02:01:40Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 468685161,
+      "name": "Animiru",
+      "fullName": "animiruorg/Animiru",
+      "owner": {
+        "login": "animiruorg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/329257780?v=4"
+      },
+      "description": "video player and library manager",
+      "defaultBranch": "animiru-new-main",
+      "htmlUrl": "https://github.com/animiruorg/Animiru",
+      "stargazersCount": 900,
+      "forksCount": 36,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/animiruorg/Animiru/releases{/id}",
+      "updatedAt": "2026-10-23T18:22:54Z",
+      "createdAt": "2022-03-11T09:23:10Z",
+      "pushedAt": "2026-10-19T19:26:30Z",
+      "downloadCount": 335017,
+      "openIssuesCount": 45,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.20.0.1",
+          "publishedAt": "2026-09-14T11:06:30Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-14T11:06:30Z",
+      "releaseRecency": 39,
+      "releaseRecencyText": "Released 39 days ago"
+    },
+    {
+      "id": 734035874,
+      "name": "Chora",
+      "fullName": "CraftWorksMC/Chora",
+      "owner": {
+        "login": "CraftWorksMC",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60318701?v=4"
+      },
+      "description": "Simple Navidrome / Subsonic Music Player",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/CraftWorksMC/Chora",
+      "stargazersCount": 429,
+      "forksCount": 35,
+      "language": "Kotlin",
+      "topics": [
+        "music-player",
+        "navidrome-client",
+        "subsonic-client"
+      ],
+      "releasesUrl": "https://api.github.com/repos/CraftWorksMC/Chora/releases{/id}",
+      "updatedAt": "2026-10-23T12:28:03Z",
+      "createdAt": "2023-12-20T17:51:01Z",
+      "pushedAt": "2026-10-18T11:52:47Z",
+      "downloadCount": 5208,
+      "openIssuesCount": 48,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.31.1",
+          "publishedAt": "2026-06-28T08:53:11Z"
+        }
+      },
+      "latestReleaseDate": "2026-06-28T08:53:11Z",
+      "releaseRecency": 117,
+      "releaseRecencyText": "Released 117 days ago"
+    },
+    {
+      "id": 1179378288,
+      "name": "Lune",
+      "fullName": "MrDemonc/Lune",
+      "owner": {
+        "login": "MrDemonc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/182368138?v=4"
+      },
+      "description": "Music player inspired by Material 3: Expressive",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/MrDemonc/Lune",
+      "stargazersCount": 256,
+      "forksCount": 29,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/MrDemonc/Lune/releases{/id}",
+      "updatedAt": "2026-10-24T01:25:03Z",
+      "createdAt": "2026-03-12T01:04:14Z",
+      "pushedAt": "2026-10-15T16:00:43Z",
+      "downloadCount": 9477,
+      "openIssuesCount": 24,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "1.5.4",
+          "publishedAt": "2026-09-27T16:32:19Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-27T16:32:19Z",
+      "releaseRecency": 26,
+      "releaseRecencyText": "Released 26 days ago"
+    },
+    {
+      "id": 954408252,
+      "name": "fsplayer",
+      "fullName": "debugly/fsplayer",
+      "owner": {
+        "login": "debugly",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7333743?v=4"
+      },
+      "description": "iOS/Android/macOS/tvOS video player based on ijkplayer, using FFmpeg 8, support hw accel、4K、HDR、ass effect subtitle、bluray、smb...",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/debugly/fsplayer",
+      "stargazersCount": 235,
+      "forksCount": 47,
+      "language": "C",
+      "topics": [
+        "android",
+        "ffmpeg8",
+        "fsplayer",
+        "ijkplayer",
+        "ios",
+        "macos",
+        "tvos"
+      ],
+      "releasesUrl": "https://api.github.com/repos/debugly/fsplayer/releases{/id}",
+      "updatedAt": "2026-10-22T07:34:14Z",
+      "createdAt": "2025-03-25T03:20:03Z",
+      "pushedAt": "2026-10-23T10:44:53Z",
+      "downloadCount": 5347,
+      "openIssuesCount": 11,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "Aura-android-0.1.7",
+          "publishedAt": "2026-10-12T04:38:53Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T09:23:58Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1280464646,
+      "name": "resonus",
+      "fullName": "juananzzz/resonus",
+      "owner": {
+        "login": "juananzzz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/273425318?v=4"
+      },
+      "description": "A clean Android music player for your self-hosted server, and your local files.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/juananzzz/resonus",
+      "stargazersCount": 209,
+      "forksCount": 30,
+      "language": "TypeScript",
+      "topics": [
+        "ampache",
+        "android",
+        "ios",
+        "music-player",
+        "music-streaming",
+        "navidrome",
+        "open-source",
+        "opensubsonic",
+        "self-hosted",
+        "subsonic"
+      ],
+      "releasesUrl": "https://api.github.com/repos/juananzzz/resonus/releases{/id}",
+      "updatedAt": "2026-10-24T00:34:02Z",
+      "createdAt": "2026-06-25T15:58:07Z",
+      "pushedAt": "2026-10-23T20:39:16Z",
+      "downloadCount": 18697,
+      "openIssuesCount": 15,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.8.4",
+          "publishedAt": "2026-10-20T20:56:47Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-20T20:56:47Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 1270126592,
+      "name": "musicfy",
+      "fullName": "realidkroo/musicfy",
+      "owner": {
+        "login": "realidkroo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/123474119?v=4"
+      },
+      "description": "Musicfy repos. what is this? its a music player, offline or online, that you can use for free, with cool ui. pls star this thingthanks",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/realidkroo/musicfy",
+      "stargazersCount": 207,
+      "forksCount": 12,
+      "language": "Kotlin",
+      "topics": [
+        "music",
+        "music-player",
+        "player",
+        "player-video",
+        "players"
+      ],
+      "releasesUrl": "https://api.github.com/repos/realidkroo/musicfy/releases{/id}",
+      "updatedAt": "2026-10-24T07:32:59Z",
+      "createdAt": "2026-06-15T12:13:15Z",
+      "pushedAt": "2026-10-24T07:32:56Z",
+      "downloadCount": 8400,
+      "openIssuesCount": 30,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "musicfy-8.1.0",
+          "publishedAt": "2026-10-19T04:27:46Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-19T04:27:46Z",
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
+    },
+    {
+      "id": 541714986,
+      "name": "DangoPlayer",
+      "fullName": "brunochanrio/DangoPlayer",
+      "owner": {
+        "login": "brunochanrio",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16856395?v=4"
+      },
+      "description": "A fast video player and IPTV client for Android and TV",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/brunochanrio/DangoPlayer",
+      "stargazersCount": 170,
+      "forksCount": 8,
+      "language": null,
+      "topics": [
+        "android",
+        "android-tv",
+        "androidtv",
+        "androidx",
+        "exoplayer",
+        "google-tv",
+        "googletv",
+        "iptv",
+        "iptv-m3u",
+        "iptv-player",
+        "iptv-player-application",
+        "leanback",
+        "material-3-expressive",
+        "material-design-3",
+        "media3",
+        "media3-exoplayer",
+        "media3exoplayer",
+        "shoutcast-api",
+        "video-player",
+        "video-player-application"
+      ],
+      "releasesUrl": "https://api.github.com/repos/brunochanrio/DangoPlayer/releases{/id}",
+      "updatedAt": "2026-10-13T13:14:40Z",
+      "createdAt": "2022-09-26T17:54:09Z",
+      "pushedAt": "2026-10-11T21:19:39Z",
+      "downloadCount": 711,
+      "openIssuesCount": 8,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "unimarutchi_sr2",
+          "publishedAt": "2026-09-10T13:29:51Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-10T13:29:51Z",
+      "releaseRecency": 43,
+      "releaseRecencyText": "Released 43 days ago"
+    },
+    {
+      "id": 670590841,
+      "name": "JellyBoxPlayer",
+      "fullName": "avdept/JellyBoxPlayer",
+      "owner": {
+        "login": "avdept",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1757017?v=4"
+      },
+      "description": "A native desktop and mobile music player for Jellyfin and Emby with spotify-like playlists, playback handoff between devices, Carplay and Android Auto",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/avdept/JellyBoxPlayer",
+      "stargazersCount": 754,
+      "forksCount": 28,
+      "language": "Dart",
+      "topics": [
+        "androidauto",
+        "applemusic",
+        "audio-player",
+        "carplay",
+        "emby",
+        "emby-client",
+        "flac",
+        "jellyfin",
+        "jellyfin-client",
+        "loseless",
+        "music",
+        "player",
+        "self-hosted",
+        "spotify"
+      ],
+      "releasesUrl": "https://api.github.com/repos/avdept/JellyBoxPlayer/releases{/id}",
+      "updatedAt": "2026-10-23T16:55:20Z",
+      "createdAt": "2023-07-25T11:48:59Z",
+      "pushedAt": "2026-10-23T16:58:30Z",
+      "downloadCount": 6390,
+      "openIssuesCount": 36,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.10.0",
+          "publishedAt": "2026-10-14T18:06:52Z"
+        },
+        "windows": {
+          "tag": "v2.10.0",
+          "publishedAt": "2026-10-14T18:06:52Z"
+        },
+        "macos": {
+          "tag": "v2.10.0",
+          "publishedAt": "2026-10-14T18:06:52Z"
+        },
+        "linux": {
+          "tag": "v2.10.0",
+          "publishedAt": "2026-10-14T18:06:52Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-14T18:06:52Z",
+      "releaseRecency": 9,
+      "releaseRecencyText": "Released 9 days ago"
+    },
+    {
+      "id": 726282628,
+      "name": "Castafiore",
+      "fullName": "sawyerf/Castafiore",
+      "owner": {
+        "login": "sawyerf",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22857002?v=4"
+      },
+      "description": "🎶 Castafiore is a music player that support Navidrome and Subsonic API.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/sawyerf/Castafiore",
+      "stargazersCount": 376,
+      "forksCount": 41,
+      "language": "JavaScript",
+      "topics": [
+        "android",
+        "apk",
+        "ios",
+        "music-client",
+        "music-player",
+        "navidrome",
+        "navidrome-client",
+        "pwa",
+        "react-native",
+        "react-native-track-player",
+        "subsonic",
+        "subsonic-client",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/sawyerf/Castafiore/releases{/id}",
+      "updatedAt": "2026-10-17T02:10:25Z",
+      "createdAt": "2023-12-01T23:57:04Z",
+      "pushedAt": "2026-08-29T11:31:14Z",
+      "downloadCount": 4903,
+      "openIssuesCount": 45,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "2026.03.14",
+          "publishedAt": "2026-03-16T18:46:30Z"
+        }
+      },
+      "latestReleaseDate": "2026-03-16T18:46:30Z",
+      "releaseRecency": 221,
+      "releaseRecencyText": "Released 221 days ago"
     },
     {
       "id": 133509731,
@@ -918,7 +3488,7 @@
       "description": "NOVA opeN sOurce Video plAyer: main repository to build them all",
       "defaultBranch": "nova",
       "htmlUrl": "https://github.com/nova-video-player/aos-AVP",
-      "stargazersCount": 4752,
+      "stargazersCount": 4755,
       "forksCount": 278,
       "language": "HTML",
       "topics": [
@@ -930,10 +3500,10 @@
         "video"
       ],
       "releasesUrl": "https://api.github.com/repos/nova-video-player/aos-AVP/releases{/id}",
-      "updatedAt": "2026-10-23T07:37:26Z",
+      "updatedAt": "2026-10-24T07:27:19Z",
       "createdAt": "2018-05-15T11:59:08Z",
       "pushedAt": "2026-10-09T19:19:45Z",
-      "downloadCount": 549189,
+      "downloadCount": 549861,
       "openIssuesCount": 986,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -947,8 +3517,301 @@
         }
       },
       "latestReleaseDate": "2026-10-09T19:19:45Z",
-      "releaseRecency": 13,
-      "releaseRecencyText": "Released 13 days ago"
+      "releaseRecency": 14,
+      "releaseRecencyText": "Released 14 days ago"
+    },
+    {
+      "id": 840501891,
+      "name": "App",
+      "fullName": "Jellify-Music/App",
+      "owner": {
+        "login": "Jellify-Music",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/211732408?v=4"
+      },
+      "description": "A cross-platform, free and open source music player for Jellyfin, powered by React Native",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Jellify-Music/App",
+      "stargazersCount": 1863,
+      "forksCount": 75,
+      "language": "TypeScript",
+      "topics": [
+        "android-auto",
+        "blurhash",
+        "carplay",
+        "fastlane",
+        "jellify",
+        "jellyfin",
+        "music-player",
+        "nitro",
+        "react",
+        "react-native",
+        "react-native-mmkv",
+        "react-native-track-player",
+        "tamagui",
+        "tanstack-query",
+        "typescript",
+        "zustand"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Jellify-Music/App/releases{/id}",
+      "updatedAt": "2026-10-23T10:06:15Z",
+      "createdAt": "2024-08-09T21:22:59Z",
+      "pushedAt": "2026-10-23T18:15:12Z",
+      "downloadCount": 49074,
+      "openIssuesCount": 156,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "1.3.0",
+          "publishedAt": "2026-10-17T02:21:39Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-17T02:21:39Z",
+      "releaseRecency": 7,
+      "releaseRecencyText": "Released 7 days ago"
+    },
+    {
+      "id": 778461825,
+      "name": "Music",
+      "fullName": "MissingCore/Music",
+      "owner": {
+        "login": "MissingCore",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/164785725?v=4"
+      },
+      "description": "A Nothing inspired local music player.",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/MissingCore/Music",
+      "stargazersCount": 678,
+      "forksCount": 53,
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "expo",
+        "music-player",
+        "nothing",
+        "react-native"
+      ],
+      "releasesUrl": "https://api.github.com/repos/MissingCore/Music/releases{/id}",
+      "updatedAt": "2026-10-23T20:10:43Z",
+      "createdAt": "2024-03-27T19:15:44Z",
+      "pushedAt": "2026-10-23T20:10:39Z",
+      "downloadCount": 45180,
+      "openIssuesCount": 5,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v3.7.0",
+          "publishedAt": "2026-10-14T04:43:17Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-14T04:43:17Z",
+      "releaseRecency": 10,
+      "releaseRecencyText": "Released 10 days ago"
+    },
+    {
+      "id": 905480125,
+      "name": "yuzic",
+      "fullName": "yuzicapp/yuzic",
+      "owner": {
+        "login": "yuzicapp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/326159888?v=4"
+      },
+      "description": "A cross-platform, free and open source music player for Navidrome & Jellyfin",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/yuzicapp/yuzic",
+      "stargazersCount": 634,
+      "forksCount": 25,
+      "language": "TypeScript",
+      "topics": [
+        "expo",
+        "jellyfin",
+        "lidarr",
+        "navidrome",
+        "navidrome-client",
+        "react",
+        "react-native",
+        "typescript"
+      ],
+      "releasesUrl": "https://api.github.com/repos/yuzicapp/yuzic/releases{/id}",
+      "updatedAt": "2026-10-22T08:39:18Z",
+      "createdAt": "2024-12-18T23:10:13Z",
+      "pushedAt": "2026-10-20T15:09:43Z",
+      "downloadCount": 6984,
+      "openIssuesCount": 22,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "2.17.1",
+          "publishedAt": "2026-10-20T15:09:43Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-20T15:09:43Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 492203893,
+      "name": "Amethyst",
+      "fullName": "Geoxor/Amethyst",
+      "owner": {
+        "login": "Geoxor",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34042825?v=4"
+      },
+      "description": "A cross-platform music player made with Typescript",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Geoxor/Amethyst",
+      "stargazersCount": 317,
+      "forksCount": 43,
+      "language": "Vue",
+      "topics": [
+        "android-app",
+        "audio",
+        "audio-player",
+        "cross-platform",
+        "electron",
+        "flac",
+        "music",
+        "music-player",
+        "node-graph",
+        "typescript",
+        "vue"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Geoxor/Amethyst/releases{/id}",
+      "updatedAt": "2026-10-21T18:46:35Z",
+      "createdAt": "2022-05-14T12:02:23Z",
+      "pushedAt": "2026-09-21T11:22:36Z",
+      "downloadCount": 188757,
+      "openIssuesCount": 63,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.1.8",
+          "publishedAt": "2026-01-06T09:05:15Z"
+        },
+        "windows": {
+          "tag": "v2.1.8",
+          "publishedAt": "2026-01-06T09:05:15Z"
+        },
+        "macos": {
+          "tag": "v2.1.8",
+          "publishedAt": "2026-01-06T09:05:15Z"
+        },
+        "linux": {
+          "tag": "v2.1.8",
+          "publishedAt": "2026-01-06T09:05:15Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-21T11:22:37Z",
+      "releaseRecency": 32,
+      "releaseRecencyText": "Released 32 days ago"
+    },
+    {
+      "id": 1226426300,
+      "name": "looper",
+      "fullName": "sthrnilshaaa/looper",
+      "owner": {
+        "login": "sthrnilshaaa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103307760?v=4"
+      },
+      "description": "Offline music player for Android, Linux and Windows with word-synced lyrics, album-colour themes and an 18-band EQ with per-song presets.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/sthrnilshaaa/looper",
+      "stargazersCount": 173,
+      "forksCount": 10,
+      "language": "Dart",
+      "topics": [
+        "android-music-player",
+        "desktop-music-player",
+        "equalizer",
+        "flutter",
+        "foss",
+        "linux-music-player",
+        "lyrics",
+        "music-player",
+        "offline-music-player",
+        "synced-lyrics",
+        "windows-music-player",
+        "wordbyword-lyrics"
+      ],
+      "releasesUrl": "https://api.github.com/repos/sthrnilshaaa/looper/releases{/id}",
+      "updatedAt": "2026-10-23T06:16:53Z",
+      "createdAt": "2026-05-01T11:35:53Z",
+      "pushedAt": "2026-10-23T20:25:18Z",
+      "downloadCount": 11445,
+      "openIssuesCount": 6,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "2.7.4",
+          "publishedAt": "2026-10-16T16:44:16Z"
+        },
+        "windows": {
+          "tag": "2.7.4",
+          "publishedAt": "2026-10-16T16:44:16Z"
+        },
+        "linux": {
+          "tag": "2.7.4",
+          "publishedAt": "2026-10-16T16:44:16Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-16T16:44:16Z",
+      "releaseRecency": 7,
+      "releaseRecencyText": "Released 7 days ago"
+    },
+    {
+      "id": 1332696260,
+      "name": "xiaomiao-player",
+      "fullName": "azxcvn/xiaomiao-player",
+      "owner": {
+        "login": "azxcvn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90583891?v=4"
+      },
+      "description": "一款Android平台本地视频播放器。核心是本地播放集成Anime4K实时超分，并围绕本地播放打造了完善的配套功能，同时接入网络存储与哔哩哔哩生态等在线播放。详情请见README。 An Android local video player. Core: local playback with integrated real-time Anime4K upscaling, complemented by robust supporting features. Also supports online playback via network storage and Bilibili. See README for details.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/azxcvn/xiaomiao-player",
+      "stargazersCount": 157,
+      "forksCount": 2,
+      "language": "Dart",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/azxcvn/xiaomiao-player/releases{/id}",
+      "updatedAt": "2026-10-23T15:55:43Z",
+      "createdAt": "2026-08-13T04:26:48Z",
+      "pushedAt": "2026-10-21T04:17:16Z",
+      "downloadCount": 2565,
+      "openIssuesCount": 0,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.3.8",
+          "publishedAt": "2026-10-21T04:18:52Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-21T04:18:52Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
       "id": 291841401,
@@ -961,7 +3824,7 @@
       "description": "An open source music player made for Jellyfin",
       "defaultBranch": "redesign",
       "htmlUrl": "https://github.com/finamp-app/finamp",
-      "stargazersCount": 4376,
+      "stargazersCount": 4379,
       "forksCount": 316,
       "language": "Dart",
       "topics": [
@@ -971,11 +3834,11 @@
         "music"
       ],
       "releasesUrl": "https://api.github.com/repos/finamp-app/finamp/releases{/id}",
-      "updatedAt": "2026-10-23T08:01:08Z",
+      "updatedAt": "2026-10-24T07:42:30Z",
       "createdAt": "2020-08-31T22:51:36Z",
-      "pushedAt": "2026-10-19T22:03:22Z",
-      "downloadCount": 135444,
-      "openIssuesCount": 389,
+      "pushedAt": "2026-10-24T00:42:43Z",
+      "downloadCount": 135759,
+      "openIssuesCount": 391,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -988,8 +3851,8 @@
         }
       },
       "latestReleaseDate": "2026-10-11T17:54:08Z",
-      "releaseRecency": 11,
-      "releaseRecencyText": "Released 11 days ago"
+      "releaseRecency": 12,
+      "releaseRecencyText": "Released 12 days ago"
     },
     {
       "id": 862412685,
@@ -1002,8 +3865,8 @@
       "description": "一个视频播放器，支持网盘直连、元数据刮削、IPTV、文件管理等 /   A video player that supports direct connection to network disk, metadata scraping, IPTV, file management, etc.",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/GhostenEditor/Ghosten-Player",
-      "stargazersCount": 3365,
-      "forksCount": 209,
+      "stargazersCount": 3369,
+      "forksCount": 210,
       "language": "Dart",
       "topics": [
         "aliyundrive",
@@ -1019,11 +3882,11 @@
         "video-player"
       ],
       "releasesUrl": "https://api.github.com/repos/GhostenEditor/Ghosten-Player/releases{/id}",
-      "updatedAt": "2026-10-23T05:01:03Z",
+      "updatedAt": "2026-10-24T05:26:56Z",
       "createdAt": "2024-09-24T14:56:56Z",
       "pushedAt": "2026-09-21T17:26:18Z",
-      "downloadCount": 79053,
-      "openIssuesCount": 55,
+      "downloadCount": 79207,
+      "openIssuesCount": 56,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -1036,8 +3899,321 @@
         }
       },
       "latestReleaseDate": "2026-09-22T15:50:17Z",
-      "releaseRecency": 30,
-      "releaseRecencyText": "Released 30 days ago"
+      "releaseRecency": 31,
+      "releaseRecencyText": "Released 31 days ago"
+    },
+    {
+      "id": 255591318,
+      "name": "SongTube-App",
+      "fullName": "SongTube/SongTube-App",
+      "owner": {
+        "login": "SongTube",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66205690?v=4"
+      },
+      "description": "Simple & Beautiful App (Tool) made in Flutter to Download Media from YouTube",
+      "defaultBranch": "development",
+      "htmlUrl": "https://github.com/SongTube/SongTube-App",
+      "stargazersCount": 1393,
+      "forksCount": 162,
+      "language": "Dart",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/SongTube/SongTube-App/releases{/id}",
+      "updatedAt": "2026-10-21T20:47:00Z",
+      "createdAt": "2020-04-14T11:32:04Z",
+      "pushedAt": "2026-08-01T13:15:33Z",
+      "downloadCount": 984796,
+      "openIssuesCount": 26,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "7.4.0+6000",
+          "publishedAt": "2026-08-01T13:15:33Z"
+        }
+      },
+      "latestReleaseDate": "2026-08-01T13:15:33Z",
+      "releaseRecency": 83,
+      "releaseRecencyText": "Released 83 days ago"
+    },
+    {
+      "id": 1036785844,
+      "name": "Linx-Music",
+      "fullName": "GerryDush/Linx-Music",
+      "owner": {
+        "login": "GerryDush",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/115096454?v=4"
+      },
+      "description": "Local & private cloud music player (Flutter), supports MP3/M4A/WAV/FLAC, LRC & TTML lyrics, with Apple Music–style lyrics page. Future features: lyrics editing, MV playback, WebDav. Official site: https://lzf.geddy.cn/  本地&私有云音乐播放器（Flutter开发），支持 MP3/M4A/WAV/FLAC、LRC & TTML 歌词，拥有 Apple Music 风格歌词页。未来支持歌词编辑、MV 播放、WebDav。官网：https://lzf.geddy.cn/",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/GerryDush/Linx-Music",
+      "stargazersCount": 191,
+      "forksCount": 15,
+      "language": "Dart",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/GerryDush/Linx-Music/releases{/id}",
+      "updatedAt": "2026-10-17T12:44:04Z",
+      "createdAt": "2025-08-12T15:23:07Z",
+      "pushedAt": "2026-05-25T10:38:40Z",
+      "downloadCount": 2582,
+      "openIssuesCount": 7,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.4.5",
+          "publishedAt": "2026-03-22T02:54:06Z"
+        },
+        "windows": {
+          "tag": "v0.4.5",
+          "publishedAt": "2026-03-22T02:54:06Z"
+        },
+        "macos": {
+          "tag": "v0.4.5",
+          "publishedAt": "2026-03-22T02:54:06Z"
+        },
+        "linux": {
+          "tag": "v0.4.5",
+          "publishedAt": "2026-03-22T02:54:06Z"
+        }
+      },
+      "latestReleaseDate": "2026-03-22T02:54:06Z",
+      "releaseRecency": 216,
+      "releaseRecencyText": "Released 216 days ago"
+    },
+    {
+      "id": 1132091903,
+      "name": "BeatBoss",
+      "fullName": "TheVolecitor/BeatBoss",
+      "owner": {
+        "login": "TheVolecitor",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/182835798?v=4"
+      },
+      "description": "Music Player built with Flutter",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/TheVolecitor/BeatBoss",
+      "stargazersCount": 156,
+      "forksCount": 7,
+      "language": "Dart",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/TheVolecitor/BeatBoss/releases{/id}",
+      "updatedAt": "2026-10-20T13:58:34Z",
+      "createdAt": "2026-01-11T10:05:25Z",
+      "pushedAt": "2026-09-05T16:08:55Z",
+      "downloadCount": 19821,
+      "openIssuesCount": 5,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "Release_1.9",
+          "publishedAt": "2026-04-22T08:31:40Z"
+        },
+        "windows": {
+          "tag": "Release_1.9",
+          "publishedAt": "2026-04-22T08:31:40Z"
+        },
+        "linux": {
+          "tag": "Release_1.9",
+          "publishedAt": "2026-04-22T08:31:40Z"
+        }
+      },
+      "latestReleaseDate": "2026-04-22T08:31:40Z",
+      "releaseRecency": 184,
+      "releaseRecencyText": "Released 184 days ago"
+    },
+    {
+      "id": 1176761329,
+      "name": "vynody",
+      "fullName": "axel10/vynody",
+      "owner": {
+        "login": "axel10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25299157?v=4"
+      },
+      "description": "A visually appealing and feature-rich Flutter music player",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/axel10/vynody",
+      "stargazersCount": 156,
+      "forksCount": 13,
+      "language": "Dart",
+      "topics": [
+        "flutter-app",
+        "music-player",
+        "rust-audio"
+      ],
+      "releasesUrl": "https://api.github.com/repos/axel10/vynody/releases{/id}",
+      "updatedAt": "2026-10-24T03:03:50Z",
+      "createdAt": "2026-03-09T10:53:41Z",
+      "pushedAt": "2026-10-24T03:03:45Z",
+      "downloadCount": 7339,
+      "openIssuesCount": 26,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "2.23.3",
+          "publishedAt": "2026-10-21T09:33:27Z"
+        },
+        "windows": {
+          "tag": "2.23.3",
+          "publishedAt": "2026-10-21T09:33:27Z"
+        },
+        "macos": {
+          "tag": "2.23.3",
+          "publishedAt": "2026-10-21T09:33:27Z"
+        },
+        "linux": {
+          "tag": "2.23.3",
+          "publishedAt": "2026-10-21T09:33:27Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-21T09:33:27Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 387501920,
+      "name": "murglar-downloads",
+      "fullName": "badmannersteam/murglar-downloads",
+      "owner": {
+        "login": "badmannersteam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49683084?v=4"
+      },
+      "description": "Murglar is an Android/Desktop player/downloader for popular music streaming services.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/badmannersteam/murglar-downloads",
+      "stargazersCount": 699,
+      "forksCount": 17,
+      "language": null,
+      "topics": [
+        "audio-player",
+        "downloader",
+        "music-player",
+        "streaming"
+      ],
+      "releasesUrl": "https://api.github.com/repos/badmannersteam/murglar-downloads/releases{/id}",
+      "updatedAt": "2026-10-24T06:58:50Z",
+      "createdAt": "2021-07-19T14:57:15Z",
+      "pushedAt": "2026-10-23T02:04:58Z",
+      "downloadCount": 1902919,
+      "openIssuesCount": 3,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "Murglar-Android-6.9.325",
+          "publishedAt": "2026-10-23T02:04:58Z"
+        },
+        "macos": {
+          "tag": "Murglar-Desktop-6.8.163",
+          "publishedAt": "2026-10-14T22:16:16Z"
+        },
+        "linux": {
+          "tag": "Murglar-Desktop-6.8.163",
+          "publishedAt": "2026-10-14T22:16:16Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-23T02:04:58Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 1316011044,
+      "name": "Obsidian-Music",
+      "fullName": "Varun7009/Obsidian-Music",
+      "owner": {
+        "login": "Varun7009",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/172420519?v=4"
+      },
+      "description": "🌌 Obsidian Music: A premium, beautifully crafted local music player for Android. Built with Jetpack Compose, ExoPlayer, and stunning modern aesthetics🎧✨",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Varun7009/Obsidian-Music",
+      "stargazersCount": 300,
+      "forksCount": 12,
+      "language": null,
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/Varun7009/Obsidian-Music/releases{/id}",
+      "updatedAt": "2026-10-24T05:28:59Z",
+      "createdAt": "2026-07-29T10:44:31Z",
+      "pushedAt": "2026-09-28T15:52:20Z",
+      "downloadCount": 34503,
+      "openIssuesCount": 28,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "V2.5.1",
+          "publishedAt": "2026-09-28T15:50:04Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-28T15:50:04Z",
+      "releaseRecency": 25,
+      "releaseRecencyText": "Released 25 days ago"
+    },
+    {
+      "id": 1416231572,
+      "name": "musike",
+      "fullName": "Ernani1234/musike",
+      "owner": {
+        "login": "Ernani1234",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/167092532?v=4"
+      },
+      "description": "Open-source music player for YouTube Music's catalog, with genres, full albums and playlists. Windows, macOS, Linux, Android, iPhone and Docker. No account needed.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Ernani1234/musike",
+      "stargazersCount": 213,
+      "forksCount": 18,
+      "language": "TypeScript",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/Ernani1234/musike/releases{/id}",
+      "updatedAt": "2026-10-23T19:18:15Z",
+      "createdAt": "2026-10-12T23:27:38Z",
+      "pushedAt": "2026-10-20T18:59:09Z",
+      "downloadCount": 1861,
+      "openIssuesCount": 5,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.5.1",
+          "publishedAt": "2026-10-20T19:09:36Z"
+        },
+        "windows": {
+          "tag": "v1.5.1",
+          "publishedAt": "2026-10-20T19:09:36Z"
+        },
+        "macos": {
+          "tag": "v1.5.1",
+          "publishedAt": "2026-10-20T19:09:36Z"
+        },
+        "linux": {
+          "tag": "v1.5.1",
+          "publishedAt": "2026-10-20T19:09:36Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-20T19:09:36Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
       "id": 710867462,
@@ -1050,8 +4226,8 @@
       "description": "一个第三方音乐播放器、本地服务、桌面歌词、音乐下载、远程控制",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/algerkong/AlgerMusicPlayer",
-      "stargazersCount": 17063,
-      "forksCount": 1385,
+      "stargazersCount": 17071,
+      "forksCount": 1384,
       "language": "Vue",
       "topics": [
         "alger",
@@ -1059,10 +4235,10 @@
         "music-player"
       ],
       "releasesUrl": "https://api.github.com/repos/algerkong/AlgerMusicPlayer/releases{/id}",
-      "updatedAt": "2026-10-23T07:50:05Z",
+      "updatedAt": "2026-10-24T07:19:32Z",
       "createdAt": "2023-10-27T15:52:55Z",
-      "pushedAt": "2026-10-17T13:01:36Z",
-      "downloadCount": 3464884,
+      "pushedAt": "2026-10-23T16:57:32Z",
+      "downloadCount": 3471702,
       "openIssuesCount": 117,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -1088,8 +4264,8 @@
         }
       },
       "latestReleaseDate": "2026-03-22T14:55:27Z",
-      "releaseRecency": 214,
-      "releaseRecencyText": "Released 214 days ago"
+      "releaseRecency": 215,
+      "releaseRecencyText": "Released 215 days ago"
     },
     {
       "id": 555519447,
@@ -1103,14 +4279,14 @@
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/google-ai-edge/mediapipe-samples",
       "stargazersCount": 2871,
-      "forksCount": 784,
+      "forksCount": 785,
       "language": "Jupyter Notebook",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/google-ai-edge/mediapipe-samples/releases{/id}",
       "updatedAt": "2026-10-21T11:41:21Z",
       "createdAt": "2022-10-21T18:43:33Z",
-      "pushedAt": "2026-10-22T14:26:15Z",
-      "downloadCount": 22126,
+      "pushedAt": "2026-10-23T18:04:14Z",
+      "downloadCount": 22130,
       "openIssuesCount": 137,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -1124,8 +4300,8 @@
         }
       },
       "latestReleaseDate": "2025-05-01T00:18:24Z",
-      "releaseRecency": 540,
-      "releaseRecencyText": "Released 540 days ago"
+      "releaseRecency": 541,
+      "releaseRecencyText": "Released 541 days ago"
     },
     {
       "id": 200432345,
@@ -1155,11 +4331,11 @@
         "self-hosted"
       ],
       "releasesUrl": "https://api.github.com/repos/zoriya/Kyoo/releases{/id}",
-      "updatedAt": "2026-10-22T06:48:10Z",
+      "updatedAt": "2026-10-23T14:08:13Z",
       "createdAt": "2019-08-04T00:12:27Z",
-      "pushedAt": "2026-10-22T12:17:19Z",
-      "downloadCount": 13145,
-      "openIssuesCount": 59,
+      "pushedAt": "2026-10-23T17:06:04Z",
+      "downloadCount": 13182,
+      "openIssuesCount": 60,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -1172,8 +4348,532 @@
         }
       },
       "latestReleaseDate": "2026-08-27T23:35:27Z",
-      "releaseRecency": 56,
-      "releaseRecencyText": "Released 56 days ago"
+      "releaseRecency": 57,
+      "releaseRecencyText": "Released 57 days ago"
+    },
+    {
+      "id": 1071031551,
+      "name": "kopuz",
+      "fullName": "Kopuz-org/kopuz",
+      "owner": {
+        "login": "Kopuz-org",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/283358886?v=4"
+      },
+      "description": "Your next music player",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Kopuz-org/kopuz",
+      "stargazersCount": 1947,
+      "forksCount": 108,
+      "language": "Rust",
+      "topics": [
+        "applemusic",
+        "bazel",
+        "bazelisk",
+        "dioxus",
+        "jellyfin",
+        "music",
+        "music-player",
+        "navidrome",
+        "radio",
+        "rust",
+        "soundcloud",
+        "spotify",
+        "subsonic",
+        "tailwind",
+        "yt-dlp",
+        "yt-music"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Kopuz-org/kopuz/releases{/id}",
+      "updatedAt": "2026-10-23T22:54:30Z",
+      "createdAt": "2025-10-06T19:13:18Z",
+      "pushedAt": "2026-10-24T00:17:30Z",
+      "downloadCount": 19561,
+      "openIssuesCount": 83,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.22.0",
+          "publishedAt": "2026-10-20T14:50:37Z"
+        },
+        "windows": {
+          "tag": "v0.22.0",
+          "publishedAt": "2026-10-20T14:50:37Z"
+        },
+        "macos": {
+          "tag": "v0.22.0",
+          "publishedAt": "2026-10-20T14:50:37Z"
+        },
+        "linux": {
+          "tag": "v0.22.0",
+          "publishedAt": "2026-10-20T14:50:37Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-20T14:50:37Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 9232942,
+      "name": "FFmpegMediaMetadataRetriever",
+      "fullName": "wseemann/FFmpegMediaMetadataRetriever",
+      "owner": {
+        "login": "wseemann",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2296196?v=4"
+      },
+      "description": "FFmpegMediaMetadataRetriever provides a unified interface for retrieving frame and meta data from an input media file.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/wseemann/FFmpegMediaMetadataRetriever",
+      "stargazersCount": 1785,
+      "forksCount": 395,
+      "language": "C",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/wseemann/FFmpegMediaMetadataRetriever/releases{/id}",
+      "updatedAt": "2026-10-23T05:48:56Z",
+      "createdAt": "2013-04-05T03:14:19Z",
+      "pushedAt": "2026-06-28T00:31:27Z",
+      "downloadCount": 15269,
+      "openIssuesCount": 40,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.0.23",
+          "publishedAt": "2026-06-28T00:31:27Z"
+        }
+      },
+      "latestReleaseDate": "2026-06-28T00:31:27Z",
+      "releaseRecency": 118,
+      "releaseRecencyText": "Released 118 days ago"
+    },
+    {
+      "id": 3055052,
+      "name": "liquidsoap",
+      "fullName": "savonet/liquidsoap",
+      "owner": {
+        "login": "savonet",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1269092?v=4"
+      },
+      "description": "Liquidsoap is a statically typed scripting general-purpose language with dedicated operators and backend for all thing media, streaming, file generation, automation, HTTP backend and more.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/savonet/liquidsoap",
+      "stargazersCount": 1736,
+      "forksCount": 162,
+      "language": "OCaml",
+      "topics": [
+        "liquidsoap",
+        "streaming",
+        "webradio"
+      ],
+      "releasesUrl": "https://api.github.com/repos/savonet/liquidsoap/releases{/id}",
+      "updatedAt": "2026-10-23T19:38:32Z",
+      "createdAt": "2011-12-27T06:09:14Z",
+      "pushedAt": "2026-10-23T19:55:35Z",
+      "downloadCount": 248161,
+      "openIssuesCount": 272,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.4.6",
+          "publishedAt": "2026-10-09T13:47:40Z"
+        },
+        "linux": {
+          "tag": "v2.4.6",
+          "publishedAt": "2026-10-09T13:47:40Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-09T13:47:40Z",
+      "releaseRecency": 14,
+      "releaseRecencyText": "Released 14 days ago"
+    },
+    {
+      "id": 792165334,
+      "name": "vega-app",
+      "fullName": "vega-org/vega-app",
+      "owner": {
+        "login": "vega-org",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/206534500?v=4"
+      },
+      "description": "A app to Play, Stream or Cast Media for andorid.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/vega-org/vega-app",
+      "stargazersCount": 1611,
+      "forksCount": 234,
+      "language": "TypeScript",
+      "topics": [
+        "android-app",
+        "cast",
+        "casting",
+        "multimedia",
+        "react-native",
+        "video-streaming"
+      ],
+      "releasesUrl": "https://api.github.com/repos/vega-org/vega-app/releases{/id}",
+      "updatedAt": "2026-10-23T10:31:32Z",
+      "createdAt": "2024-04-26T05:34:49Z",
+      "pushedAt": "2026-10-23T06:53:57Z",
+      "downloadCount": 701060,
+      "openIssuesCount": 9,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v5.2.0",
+          "publishedAt": "2026-10-16T10:56:17Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-16T10:56:17Z",
+      "releaseRecency": 7,
+      "releaseRecencyText": "Released 7 days ago"
+    },
+    {
+      "id": 772839755,
+      "name": "iPlay",
+      "fullName": "saltpi/iPlay",
+      "owner": {
+        "login": "saltpi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33711476?v=4"
+      },
+      "description": "Enjoy Media Everywhere, On Every Platform 👀",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/saltpi/iPlay",
+      "stargazersCount": 1243,
+      "forksCount": 39,
+      "language": "C",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/saltpi/iPlay/releases{/id}",
+      "updatedAt": "2026-10-23T11:58:25Z",
+      "createdAt": "2024-03-16T02:57:45Z",
+      "pushedAt": "2026-05-17T08:01:11Z",
+      "downloadCount": 15329,
+      "openIssuesCount": 21,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.0.1154",
+          "publishedAt": "2025-10-17T11:17:03Z"
+        }
+      },
+      "latestReleaseDate": "2025-10-17T11:17:03Z",
+      "releaseRecency": 371,
+      "releaseRecencyText": "Released 371 days ago"
+    },
+    {
+      "id": 826280820,
+      "name": "rune",
+      "fullName": "Losses/rune",
+      "owner": {
+        "login": "Losses",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1384036?v=4"
+      },
+      "description": "Experience timeless melodies with a music player that blends classic design with modern technology.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Losses/rune",
+      "stargazersCount": 1014,
+      "forksCount": 32,
+      "language": "Rust",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/Losses/rune/releases{/id}",
+      "updatedAt": "2026-10-23T12:34:15Z",
+      "createdAt": "2024-07-09T12:01:46Z",
+      "pushedAt": "2026-10-23T02:52:14Z",
+      "downloadCount": 15967,
+      "openIssuesCount": 5,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.1.0",
+          "publishedAt": "2025-01-12T04:13:29Z"
+        },
+        "macos": {
+          "tag": "v1.1.0",
+          "publishedAt": "2025-01-12T04:13:29Z"
+        }
+      },
+      "latestReleaseDate": "2025-01-12T04:13:29Z",
+      "releaseRecency": 650,
+      "releaseRecencyText": "Released 650 days ago"
+    },
+    {
+      "id": 1094316389,
+      "name": "amcfy-music",
+      "fullName": "amcfy-music/amcfy-music",
+      "owner": {
+        "login": "amcfy-music",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/217696651?v=4"
+      },
+      "description": "Amcfy Music Player(箭头音乐) for 道理鱼音乐，Songloft，Subsonic，Navidrome，Emby，Jellyfin, Plex, webdav。",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/amcfy-music/amcfy-music",
+      "stargazersCount": 547,
+      "forksCount": 33,
+      "language": null,
+      "topics": [
+        "daoliyu",
+        "emby-client",
+        "jellyfin-client",
+        "navidrome-client",
+        "plexamp",
+        "songloft",
+        "subsonic-client",
+        "webdav"
+      ],
+      "releasesUrl": "https://api.github.com/repos/amcfy-music/amcfy-music/releases{/id}",
+      "updatedAt": "2026-10-24T03:44:22Z",
+      "createdAt": "2025-11-11T14:50:32Z",
+      "pushedAt": "2026-10-19T15:10:42Z",
+      "downloadCount": 1537,
+      "openIssuesCount": 59,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "1.2.15",
+          "publishedAt": "2026-09-24T15:31:43Z"
+        },
+        "macos": {
+          "tag": "1.2.15",
+          "publishedAt": "2026-09-24T15:31:43Z"
+        },
+        "linux": {
+          "tag": "1.2.11",
+          "publishedAt": "2026-08-28T14:08:16Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-24T15:31:43Z",
+      "releaseRecency": 29,
+      "releaseRecencyText": "Released 29 days ago"
+    },
+    {
+      "id": 1129465041,
+      "name": "Audion",
+      "fullName": "dupitydumb/Audion",
+      "owner": {
+        "login": "dupitydumb",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37872714?v=4"
+      },
+      "description": "An open-source music player for your local library featuring synchronized lyrics, themes, and plugins.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/dupitydumb/Audion",
+      "stargazersCount": 522,
+      "forksCount": 24,
+      "language": "Svelte",
+      "topics": [
+        "audio",
+        "desktop-app",
+        "music-player",
+        "music-streaming-application",
+        "rust",
+        "tauri"
+      ],
+      "releasesUrl": "https://api.github.com/repos/dupitydumb/Audion/releases{/id}",
+      "updatedAt": "2026-10-23T15:57:49Z",
+      "createdAt": "2026-01-07T06:06:07Z",
+      "pushedAt": "2026-10-14T15:30:59Z",
+      "downloadCount": 41744,
+      "openIssuesCount": 15,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.4.1",
+          "publishedAt": "2026-09-28T11:37:49Z"
+        },
+        "windows": {
+          "tag": "v1.4.1",
+          "publishedAt": "2026-09-28T11:37:49Z"
+        },
+        "macos": {
+          "tag": "v1.4.1",
+          "publishedAt": "2026-09-28T11:37:49Z"
+        },
+        "linux": {
+          "tag": "v1.4.1",
+          "publishedAt": "2026-09-28T11:37:49Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-28T11:37:49Z",
+      "releaseRecency": 25,
+      "releaseRecencyText": "Released 25 days ago"
+    },
+    {
+      "id": 848319999,
+      "name": "rockboxd",
+      "fullName": "tsirysndr/rockboxd",
+      "owner": {
+        "login": "tsirysndr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15877106?v=4"
+      },
+      "description": "A modern, network-enabled music player platform built on Rockbox technology https://www.rockbox.org",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/tsirysndr/rockboxd",
+      "stargazersCount": 302,
+      "forksCount": 4,
+      "language": "C",
+      "topics": [
+        "airplay",
+        "audio",
+        "flatpak",
+        "graphql",
+        "grpc",
+        "libadwaita",
+        "macosx",
+        "mpd",
+        "mpris",
+        "music-player",
+        "music-streaming",
+        "navidrome",
+        "rockbox",
+        "rust",
+        "self-hosted",
+        "snapcast",
+        "tokio",
+        "typescript",
+        "typesense",
+        "zig"
+      ],
+      "releasesUrl": "https://api.github.com/repos/tsirysndr/rockboxd/releases{/id}",
+      "updatedAt": "2026-10-20T21:31:49Z",
+      "createdAt": "2024-08-27T14:45:36Z",
+      "pushedAt": "2026-09-23T13:05:50Z",
+      "downloadCount": 4231,
+      "openIssuesCount": 5,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "macos": {
+          "tag": "2026.09.13",
+          "publishedAt": "2026-09-13T17:02:18Z"
+        },
+        "linux": {
+          "tag": "2026.09.13",
+          "publishedAt": "2026-09-13T17:02:18Z"
+        },
+        "android": {
+          "tag": "erlang-v1.2.0",
+          "publishedAt": "2026-07-29T09:17:29Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-13T17:02:18Z",
+      "releaseRecency": 40,
+      "releaseRecencyText": "Released 40 days ago"
+    },
+    {
+      "id": 419174287,
+      "name": "VVCEasy",
+      "fullName": "MartinEesmaa/VVCEasy",
+      "owner": {
+        "login": "MartinEesmaa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88035011?v=4"
+      },
+      "description": "VVCEasy provides ready prebuilt VVC (Versatile Video Codec) binaries & players. Simple, Easy, Encode and Decode.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/MartinEesmaa/VVCEasy",
+      "stargazersCount": 242,
+      "forksCount": 23,
+      "language": "Batchfile",
+      "topics": [
+        "bitmovin",
+        "bitmovin-player",
+        "codec",
+        "ffmpeg",
+        "ffmpeg-libraries",
+        "ffmpeg-player",
+        "h266",
+        "mpv",
+        "mpv-player",
+        "usac",
+        "video",
+        "vlc",
+        "vlc-media-player",
+        "vvc"
+      ],
+      "releasesUrl": "https://api.github.com/repos/MartinEesmaa/VVCEasy/releases{/id}",
+      "updatedAt": "2026-10-17T10:33:37Z",
+      "createdAt": "2021-10-20T03:37:55Z",
+      "pushedAt": "2026-10-06T14:24:25Z",
+      "downloadCount": 12415,
+      "openIssuesCount": 1,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v4.0.0",
+          "publishedAt": "2026-10-06T14:24:25Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-06T14:24:25Z",
+      "releaseRecency": 17,
+      "releaseRecencyText": "Released 17 days ago"
+    },
+    {
+      "id": 1198778583,
+      "name": "rogplay",
+      "fullName": "kunwarxshashank/rogplay",
+      "owner": {
+        "login": "kunwarxshashank",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/170116804?v=4"
+      },
+      "description": "Addons Based Streaming Platform, IPTV & Video Player",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/kunwarxshashank/rogplay",
+      "stargazersCount": 107,
+      "forksCount": 5,
+      "language": "TypeScript",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/kunwarxshashank/rogplay/releases{/id}",
+      "updatedAt": "2026-10-12T05:44:15Z",
+      "createdAt": "2026-04-01T18:47:12Z",
+      "pushedAt": "2026-09-24T10:13:21Z",
+      "downloadCount": 7522,
+      "openIssuesCount": 1,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "V7.2.0",
+          "publishedAt": "2026-09-08T09:56:29Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-24T10:13:21Z",
+      "releaseRecency": 29,
+      "releaseRecencyText": "Released 29 days ago"
     }
   ]
 }
