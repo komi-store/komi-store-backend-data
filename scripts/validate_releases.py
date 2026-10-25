@@ -79,7 +79,7 @@ def validate_platform(platform: str) -> dict:
         print(f"❌ File not found: {file_path}")
         return {'total': 0, 'validated': 0, 'errors': 0, 'mismatches': 0}
 
-    with open(file_path) as f:
+    with open(file_path, encoding='utf-8') as f:
         data = json.load(f)
 
     repos = data.get('repositories', [])

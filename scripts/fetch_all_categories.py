@@ -197,6 +197,11 @@ def parse_release_date(value: Optional[str]) -> Optional[datetime]:
         return None
 
 
+def _utcnow() -> datetime:
+    """Naive UTC now, a drop-in for datetime.utcnow() (deprecated since Python 3.12)."""
+    return datetime.now(timezone.utc).replace(tzinfo=None)
+
+
 def platform_availability(stable_releases: list[dict]) -> dict[str, dict]:
     """Newest stable release per platform, newest-first input, stale platforms dropped."""
     newest: dict[str, dict] = {}
@@ -311,7 +316,7 @@ class RepoCandidate:
             if "+" in s:
                 s = s.split("+")[0]
             rd = datetime.fromisoformat(s)
-            return max(0, (datetime.utcnow() - rd).days)
+            return max(0, (_utcnow() - rd).days)
         except Exception:
             return 999
 
@@ -630,7 +635,7 @@ async def verify_installers(
     """
     print(f"  Verifying installers for {len(candidates)} candidates...")
     results = []
-    now = datetime.utcnow()
+    now = _utcnow()
     start_requests = client._request_count
 
     # Effective floor: the higher of RATE_LIMIT_FLOOR or (remaining - budget)
@@ -780,7 +785,7 @@ async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[i
         (180, 200, 1.0),
         (365, 200, 0.9),
     ]:
-        past = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        past = (_utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
         base = f"stars:>{min_stars} archived:false pushed:>={past}"
         specs.append({
             "query": _build_query(base, topics=topics),
@@ -789,7 +794,7 @@ async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[i
 
     # Wider date ranges, lower star thresholds
     for days, min_stars in [(365, 50), (730, 200)]:
-        past = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        past = (_utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
         base = f"stars:>{min_stars} archived:false pushed:>={past}"
         specs.append({
             "query": _build_query(base, topics=topics),
@@ -797,7 +802,7 @@ async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[i
         })
 
     # Language-only queries (catches repos that don't use platform topics)
-    past = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
+    past = (_utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
     for lang in all_langs[:2]:
         base = f"stars:>1000 archived:false pushed:>={past}"
         specs.append({
@@ -849,7 +854,7 @@ async def fetch_new_releases(client: GitHubClient, platform: str, budget: Option
         (14, 10, "updated"),
         (21, 50, "stars"),
     ]:
-        past = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        past = (_utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
         base = f"stars:>{min_stars} archived:false pushed:>={past}"
         specs.append({
             "query": _build_query(base, topics=topics),
@@ -858,7 +863,7 @@ async def fetch_new_releases(client: GitHubClient, platform: str, budget: Option
 
     # Lower star threshold, broader reach
     for days in [14, 21]:
-        past = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        past = (_utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
         base = f"stars:>0 archived:false pushed:>={past}"
         specs.append({
             "query": _build_query(base, topics=topics),
@@ -866,7 +871,7 @@ async def fetch_new_releases(client: GitHubClient, platform: str, budget: Option
         })
 
     # Language queries
-    past14 = (datetime.utcnow() - timedelta(days=14)).strftime("%Y-%m-%d")
+    past14 = (_utcnow() - timedelta(days=14)).strftime("%Y-%m-%d")
     for lang in all_langs[:2]:
         base = f"stars:>50 archived:false pushed:>={past14}"
         specs.append({
@@ -915,8 +920,8 @@ async def fetch_most_popular(client: GitHubClient, platform: str, budget: Option
     all_langs = PLATFORMS[platform]["languages"]["primary"] + PLATFORMS[platform]["languages"]["secondary"]
     seen: set[str] = set()
 
-    one_year = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
-    two_years = (datetime.utcnow() - timedelta(days=730)).strftime("%Y-%m-%d")
+    one_year = (_utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
+    two_years = (_utcnow() - timedelta(days=730)).strftime("%Y-%m-%d")
 
     # All search specs in one pass
     specs = []
@@ -1028,8 +1033,8 @@ async def search_topic_candidates(
     keywords = topic_config["keywords"]
     seen: set[str] = set()
 
-    one_year = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
-    two_years = (datetime.utcnow() - timedelta(days=730)).strftime("%Y-%m-%d")
+    one_year = (_utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
+    two_years = (_utcnow() - timedelta(days=730)).strftime("%Y-%m-%d")
 
     specs = []
 
@@ -1343,7 +1348,7 @@ async def process_category(client: GitHubClient, category: str, fetch_fn, timest
 
 
 async def main():
-    timestamp = datetime.utcnow().isoformat() + "Z"
+    timestamp = _utcnow().isoformat() + "Z"
     start = time.time()
     total_requests = 0
     total_cache_entries = 0
