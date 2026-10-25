@@ -1,0 +1,30 @@
+name: Lint
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  ruff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Must match required-version in pyproject.toml, or ruff exits with an error.
+      - name: Install ruff
+        run: pip install ruff==0.17.2
+
+      - name: Ruff
+        run: ruff check --output-format=github
