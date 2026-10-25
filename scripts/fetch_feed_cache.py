@@ -19,8 +19,8 @@ feed/<platform>.json exactly like trending/<platform>.json.
 import json
 import os
 import sys
-import urllib.request
 import urllib.error
+import urllib.request
 from datetime import datetime, timezone
 
 BACKEND = os.environ.get("FEED_BACKEND_ORIGIN", "https://api.github-store.org")

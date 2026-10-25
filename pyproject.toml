@@ -1,0 +1,8 @@
+[tool.ruff]
+required-version = "==0.17.2"
+target-version = "py39"
+line-length = 120
+src = ["scripts"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "B", "UP", "I"]

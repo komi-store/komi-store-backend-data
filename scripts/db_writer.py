@@ -12,7 +12,6 @@ Usage from fetch_all_categories.py:
 import json
 import os
 import sys
-from typing import List, Dict, Optional
 
 try:
     import psycopg2
@@ -33,7 +32,7 @@ def _get_connection():
     return psycopg2.connect(DATABASE_URL)
 
 
-def save_to_postgres(category: str, platform: str, repos: List[Dict]):
+def save_to_postgres(category: str, platform: str, repos: list[dict]):
     """UPSERT repos into Postgres and update category/topic rankings."""
     conn = _get_connection()
     if conn is None:
@@ -61,7 +60,7 @@ def save_to_postgres(category: str, platform: str, repos: List[Dict]):
         conn.close()
 
 
-def _upsert_repo(cur, repo: Dict, platform: str):
+def _upsert_repo(cur, repo: dict, platform: str):
     """UPSERT a single repo into the repos table."""
     owner = repo.get("owner", {})
     repo_id = repo["id"]
@@ -200,7 +199,7 @@ def save_daily_snapshot():
         conn.close()
 
 
-def _update_categories(cur, category: str, platform: str, repos: List[Dict]):
+def _update_categories(cur, category: str, platform: str, repos: list[dict]):
     """Replace category rankings for this category+platform."""
     # Delete old rankings
     cur.execute(
@@ -211,12 +210,13 @@ def _update_categories(cur, category: str, platform: str, repos: List[Dict]):
     # Insert new rankings
     for rank, repo in enumerate(repos, start=1):
         cur.execute(
-            "INSERT INTO repo_categories (repo_id, category, platform, rank) VALUES (%s, %s, %s, %s) ON CONFLICT DO NOTHING",
+            "INSERT INTO repo_categories (repo_id, category, platform, rank) VALUES (%s, %s, %s, %s) "
+            "ON CONFLICT DO NOTHING",
             (repo["id"], category, platform, rank)
         )
 
 
-def _update_topic_bucket(cur, bucket: str, platform: str, repos: List[Dict]):
+def _update_topic_bucket(cur, bucket: str, platform: str, repos: list[dict]):
     """Replace topic bucket rankings for this bucket+platform."""
     cur.execute(
         "DELETE FROM repo_topic_buckets WHERE bucket = %s AND platform = %s",
@@ -225,6 +225,7 @@ def _update_topic_bucket(cur, bucket: str, platform: str, repos: List[Dict]):
 
     for rank, repo in enumerate(repos, start=1):
         cur.execute(
-            "INSERT INTO repo_topic_buckets (repo_id, bucket, platform, rank) VALUES (%s, %s, %s, %s) ON CONFLICT DO NOTHING",
+            "INSERT INTO repo_topic_buckets (repo_id, bucket, platform, rank) VALUES (%s, %s, %s, %s) "
+            "ON CONFLICT DO NOTHING",
             (repo["id"], bucket, platform, rank)
         )

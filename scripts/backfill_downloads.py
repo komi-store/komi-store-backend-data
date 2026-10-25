@@ -7,15 +7,15 @@ GH_TOKEN_* tokens (same ones run_fetcher.sh uses) so the backfill finishes
 in ~20-30 min instead of ~2.5 hours on a single token.
 """
 
-import os
-import sys
 import json
+import os
 import re
 import socket
+import sys
 import threading
 import time
-import urllib.request
 import urllib.error
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # urllib's per-call timeout argument doesn't always cover DNS / TCP handshake

@@ -11,11 +11,11 @@ Env vars:
     MEILI_MASTER_KEY - Meilisearch API key
 """
 
+import json
 import os
 import sys
-import json
-import urllib.request
 import urllib.error
+import urllib.request
 
 try:
     import psycopg2
