@@ -132,6 +132,12 @@ GITHUB_TOKEN=ghp_xxx python scripts/validate_releases.py [platform]
 
 # Install deps
 pip install -r scripts/requirements.txt
+
+# Lint (the ruff version is pinned in pyproject.toml)
+pip install ruff==0.17.2 && ruff check
+
+# Offline smoke run of every script with warnings as errors (also needs psycopg2-binary)
+python -W error -X warn_default_encoding tests/smoke.py
 ```
 
 ## Output JSON Format
@@ -161,8 +167,9 @@ Each `{platform}.json`:
 
 ## Development Notes
 
-- Python 3.11, no type-checking or linting configured
-- No tests beyond `validate_releases.py`
+- Python 3.11 in Actions. The VPS cron's Python version is unrecorded; 3.9 is the known floor, so ruff targets `py39` and code must still run on 3.9
+- Linted with ruff (rules and pinned version in `pyproject.toml`); no type-checking
+- `tests/smoke.py` runs every script with HTTP and Postgres stubbed and writes only to a temp dir; the `Lint` workflow runs it under `-W error` on 3.9 and 3.14 on every PR, next to `ruff check`
 - Each category creates its own `GitHubClient` — release cache is per-client, shared across platforms within the same category
 - Platforms are processed sequentially within each category (search API pacing handled by sliding window rate limiter)
 - Typical runtime: 10-20 minutes with 3 dedicated tokens

@@ -5,14 +5,24 @@ Optimized for speed using asyncio + aiohttp with smart batching.
 Typical runtime: 5-15 minutes (down from 60+ minutes).
 """
 
+import asyncio
+import collections
+import json
 import os
 import re
 import sys
-import json
-import asyncio
-import aiohttp
 import time
-import collections
+from dataclasses import dataclass, field
+from datetime import datetime, timedelta, timezone
+from typing import Optional
+
+import aiohttp
+
+try:
+    from db_writer import save_daily_snapshot, save_to_postgres
+except ImportError:
+    save_to_postgres = None
+    save_daily_snapshot = None
 
 _LINK_NEXT_RE = re.compile(r'<([^>]+)>;\s*rel="next"')
 
@@ -22,15 +32,6 @@ def _parse_next_link(link_header):
         return None
     m = _LINK_NEXT_RE.search(link_header)
     return m.group(1) if m else None
-from datetime import datetime, timedelta, timezone
-from typing import List, Dict, Optional, Tuple, Set
-from dataclasses import dataclass, field
-
-try:
-    from db_writer import save_to_postgres, save_daily_snapshot
-except ImportError:
-    save_to_postgres = None
-    save_daily_snapshot = None
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
@@ -91,7 +92,7 @@ BLOCKED_TOPICS = {
 }
 
 
-def _is_blocked(repo: Dict) -> bool:
+def _is_blocked(repo: dict) -> bool:
     """Return True if the repo's topics or description contain blocked terms."""
     topics = {t.lower() for t in repo.get("topics", [])}
     if topics & BLOCKED_TOPICS:
@@ -173,7 +174,7 @@ PLATFORMS = {
 STALE_PLATFORM_DAYS = 365
 
 
-def ships_installer(platform: str, assets: List[Dict]) -> bool:
+def ships_installer(platform: str, assets: list[dict]) -> bool:
     for asset in assets:
         name = asset.get("name", "").lower()
         if platform == "android":
@@ -196,9 +197,14 @@ def parse_release_date(value: Optional[str]) -> Optional[datetime]:
         return None
 
 
-def platform_availability(stable_releases: List[Dict]) -> Dict[str, Dict]:
+def _utcnow() -> datetime:
+    """Naive UTC now, a drop-in for datetime.utcnow() (deprecated since Python 3.12)."""
+    return datetime.now(timezone.utc).replace(tzinfo=None)
+
+
+def platform_availability(stable_releases: list[dict]) -> dict[str, dict]:
     """Newest stable release per platform, newest-first input, stale platforms dropped."""
-    newest: Dict[str, Dict] = {}
+    newest: dict[str, dict] = {}
     for release in stable_releases:
         for platform in PLATFORMS:
             if platform not in newest and ships_installer(platform, release.get("assets", [])):
@@ -223,10 +229,9 @@ class ReleaseInfo:
     """Cached release information for a repo."""
     has_release: bool = False
     published_at: Optional[str] = None
-    has_installers: Dict[str, bool] = field(default_factory=dict)  # platform -> bool
-    # platform -> {"tag", "publishedAt"} of the newest stable release shipping it.
-    # Same shape as the backend's RepoResponse.platformReleases.
-    platform_releases: Dict[str, Dict] = field(default_factory=dict)
+    has_installers: dict[str, bool] = field(default_factory=dict)  # platform -> bool
+    # platform -> {"tag", "publishedAt"} of its newest stable release (backend RepoResponse.platformReleases shape).
+    platform_releases: dict[str, dict] = field(default_factory=dict)
     total_downloads: int = 0  # sum of asset.download_count across ALL releases
 
 
@@ -243,7 +248,7 @@ class RepoCandidate:
     stars: int
     forks: int
     language: Optional[str]
-    topics: List[str]
+    topics: list[str]
     releases_url: str
     updated_at: str
     created_at: str
@@ -251,14 +256,14 @@ class RepoCandidate:
     pushed_at: Optional[str] = None
     score: int = 0
     has_installers: bool = False
-    platform_releases: Dict[str, Dict] = field(default_factory=dict)
+    platform_releases: dict[str, dict] = field(default_factory=dict)
     recent_stars_velocity: float = 0.0
     latest_release_date: Optional[str] = None
     download_count: int = 0
     open_issues: int = 0
     archived: bool = False
 
-    def to_summary(self, category: str = "trending") -> Dict:
+    def to_summary(self, category: str = "trending") -> dict:
         base = {
             "id": self.id,
             "name": self.name,
@@ -311,7 +316,7 @@ class RepoCandidate:
             if "+" in s:
                 s = s.split("+")[0]
             rd = datetime.fromisoformat(s)
-            return max(0, (datetime.utcnow() - rd).days)
+            return max(0, (_utcnow() - rd).days)
         except Exception:
             return 999
 
@@ -338,7 +343,7 @@ class GitHubClient:
         self._search_call_times: collections.deque = collections.deque()
         self._search_rate_lock = asyncio.Lock()
         # Cross-repo release cache: full_name -> ReleaseInfo
-        self.release_cache: Dict[str, ReleaseInfo] = {}
+        self.release_cache: dict[str, ReleaseInfo] = {}
 
     async def __aenter__(self):
         timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
@@ -385,11 +390,12 @@ class GitHubClient:
                 oldest = self._search_call_times[0]
                 wait = SEARCH_RATE_WINDOW - (now - oldest) + 1
                 if wait > 0:
-                    print(f"    ⏳ Search rate limit: {len(self._search_call_times)}/{SEARCH_RATE_LIMIT} in last 60s, pausing {wait:.0f}s")
+                    print(f"    ⏳ Search rate limit: {len(self._search_call_times)}/{SEARCH_RATE_LIMIT} in last 60s, "
+                          f"pausing {wait:.0f}s")
                     await asyncio.sleep(wait)
             self._search_call_times.append(time.time())
 
-    async def get(self, url: str, params: Optional[Dict] = None,
+    async def get(self, url: str, params: Optional[dict] = None,
                   with_link: bool = False):
         """GET with retry, rate-limit handling, and concurrency control.
 
@@ -441,7 +447,7 @@ class GitHubClient:
             return (None, "Max retries exceeded", None) if with_link else (None, "Max retries exceeded")
 
     async def search_repos(self, query: str, sort: str = "stars", order: str = "desc",
-                           pages: int = 3) -> List[Dict]:
+                           pages: int = 3) -> list[dict]:
         """Search repositories, fetching multiple pages concurrently."""
         query = f"fork:true {query}"
         async with self._search_sem:
@@ -469,7 +475,7 @@ class GitHubClient:
                         )
                     )
                 results = await asyncio.gather(*tasks)
-                for page_data, page_err in results:
+                for page_data, _ in results:
                     if page_data:
                         items.extend(page_data.get("items", []))
 
@@ -522,7 +528,7 @@ class GitHubClient:
 # ─── Scoring ───────────────────────────────────────────────────────────────────
 
 
-def calculate_platform_score(repo: Dict, platform: str) -> int:
+def calculate_platform_score(repo: dict, platform: str) -> int:
     score = 0
     topics = [t.lower() for t in repo.get("topics", [])]
     language = (repo.get("language") or "").lower()
@@ -565,7 +571,7 @@ def calculate_platform_score(repo: Dict, platform: str) -> int:
     return score
 
 
-def calculate_velocity(repo: Dict) -> float:
+def calculate_velocity(repo: dict) -> float:
     try:
         created = datetime.fromisoformat(repo["created_at"].replace("Z", "+00:00"))
         updated = datetime.fromisoformat(repo["updated_at"].replace("Z", "+00:00"))
@@ -584,7 +590,7 @@ def calculate_velocity(repo: Dict) -> float:
         return 0.0
 
 
-def make_candidate(repo: Dict, platform: str, velocity: float = 0.0, score_weight: float = 1.0) -> RepoCandidate:
+def make_candidate(repo: dict, platform: str, velocity: float = 0.0, score_weight: float = 1.0) -> RepoCandidate:
     score = int(calculate_platform_score(repo, platform) * score_weight)
     return RepoCandidate(
         id=repo["id"],
@@ -615,12 +621,12 @@ def make_candidate(repo: Dict, platform: str, velocity: float = 0.0, score_weigh
 
 async def verify_installers(
     client: GitHubClient,
-    candidates: List[RepoCandidate],
+    candidates: list[RepoCandidate],
     platform: str,
     need_release_date: bool = False,
     max_age_days: Optional[int] = None,
     budget: Optional[int] = None,
-) -> List[RepoCandidate]:
+) -> list[RepoCandidate]:
     """
     Check candidates for platform-specific installers concurrently.
     Uses the cross-repo release cache so repeated checks are free.
@@ -629,7 +635,7 @@ async def verify_installers(
     """
     print(f"  Verifying installers for {len(candidates)} candidates...")
     results = []
-    now = datetime.utcnow()
+    now = _utcnow()
     start_requests = client._request_count
 
     # Effective floor: the higher of RATE_LIMIT_FLOOR or (remaining - budget)
@@ -698,7 +704,7 @@ async def verify_installers(
 
 def _build_query(
     base_filters: str,
-    topics: Optional[List[str]] = None,
+    topics: Optional[list[str]] = None,
     language: Optional[str] = None,
     description_kw: Optional[str] = None,
 ) -> str:
@@ -716,17 +722,17 @@ def _build_query(
 
 async def _collect_candidates(
     client: GitHubClient,
-    search_specs: List[Dict],
+    search_specs: list[dict],
     platform: str,
-    seen: Set[str],
+    seen: set[str],
     compute_velocity: bool = False,
     min_score: int = 0,
-) -> List[RepoCandidate]:
+) -> list[RepoCandidate]:
     """
     Run a list of search specs concurrently and return de-duped candidates.
     Each spec: {query, sort, order, pages, weight (optional)}.
     """
-    candidates: List[RepoCandidate] = []
+    candidates: list[RepoCandidate] = []
 
     async def _run(spec):
         return (
@@ -760,14 +766,14 @@ async def _collect_candidates(
 # ─── Category fetchers ─────────────────────────────────────────────────────────
 
 
-async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[int] = None) -> List[Dict]:
+async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[int] = None) -> list[dict]:
     print(f"\n{'='*60}")
     print(f"TRENDING — {platform.upper()}")
     print(f"{'='*60}")
 
     topics = PLATFORMS[platform]["topics"]
     all_langs = PLATFORMS[platform]["languages"]["primary"] + PLATFORMS[platform]["languages"]["secondary"]
-    seen: Set[str] = set()
+    seen: set[str] = set()
 
     # All search specs in one pass — no artificial caps, no escalation rounds
     specs = []
@@ -779,7 +785,7 @@ async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[i
         (180, 200, 1.0),
         (365, 200, 0.9),
     ]:
-        past = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        past = (_utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
         base = f"stars:>{min_stars} archived:false pushed:>={past}"
         specs.append({
             "query": _build_query(base, topics=topics),
@@ -788,7 +794,7 @@ async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[i
 
     # Wider date ranges, lower star thresholds
     for days, min_stars in [(365, 50), (730, 200)]:
-        past = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        past = (_utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
         base = f"stars:>{min_stars} archived:false pushed:>={past}"
         specs.append({
             "query": _build_query(base, topics=topics),
@@ -796,7 +802,7 @@ async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[i
         })
 
     # Language-only queries (catches repos that don't use platform topics)
-    past = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
+    past = (_utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
     for lang in all_langs[:2]:
         base = f"stars:>1000 archived:false pushed:>={past}"
         specs.append({
@@ -828,7 +834,7 @@ async def fetch_trending(client: GitHubClient, platform: str, budget: Optional[i
     return [r.to_summary("trending") for r in verified]
 
 
-async def fetch_new_releases(client: GitHubClient, platform: str, budget: Optional[int] = None) -> List[Dict]:
+async def fetch_new_releases(client: GitHubClient, platform: str, budget: Optional[int] = None) -> list[dict]:
     """Fetch repos with new releases in the last 14 days."""
     print(f"\n{'='*60}")
     print(f"NEW RELEASES — {platform.upper()}")
@@ -838,7 +844,7 @@ async def fetch_new_releases(client: GitHubClient, platform: str, budget: Option
 
     topics = PLATFORMS[platform]["topics"]
     all_langs = PLATFORMS[platform]["languages"]["primary"] + PLATFORMS[platform]["languages"]["secondary"]
-    seen: Set[str] = set()
+    seen: set[str] = set()
 
     # All search specs in one pass
     specs = []
@@ -848,7 +854,7 @@ async def fetch_new_releases(client: GitHubClient, platform: str, budget: Option
         (14, 10, "updated"),
         (21, 50, "stars"),
     ]:
-        past = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        past = (_utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
         base = f"stars:>{min_stars} archived:false pushed:>={past}"
         specs.append({
             "query": _build_query(base, topics=topics),
@@ -857,7 +863,7 @@ async def fetch_new_releases(client: GitHubClient, platform: str, budget: Option
 
     # Lower star threshold, broader reach
     for days in [14, 21]:
-        past = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        past = (_utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
         base = f"stars:>0 archived:false pushed:>={past}"
         specs.append({
             "query": _build_query(base, topics=topics),
@@ -865,7 +871,7 @@ async def fetch_new_releases(client: GitHubClient, platform: str, budget: Option
         })
 
     # Language queries
-    past14 = (datetime.utcnow() - timedelta(days=14)).strftime("%Y-%m-%d")
+    past14 = (_utcnow() - timedelta(days=14)).strftime("%Y-%m-%d")
     for lang in all_langs[:2]:
         base = f"stars:>50 archived:false pushed:>={past14}"
         specs.append({
@@ -902,7 +908,7 @@ async def fetch_new_releases(client: GitHubClient, platform: str, budget: Option
     return [r.to_summary("new-releases") for r in verified]
 
 
-async def fetch_most_popular(client: GitHubClient, platform: str, budget: Optional[int] = None) -> List[Dict]:
+async def fetch_most_popular(client: GitHubClient, platform: str, budget: Optional[int] = None) -> list[dict]:
     """Fetch the most popular repos — minimum 5000 stars."""
     print(f"\n{'='*60}")
     print(f"MOST POPULAR — {platform.upper()}")
@@ -912,10 +918,10 @@ async def fetch_most_popular(client: GitHubClient, platform: str, budget: Option
 
     topics = PLATFORMS[platform]["topics"]
     all_langs = PLATFORMS[platform]["languages"]["primary"] + PLATFORMS[platform]["languages"]["secondary"]
-    seen: Set[str] = set()
+    seen: set[str] = set()
 
-    one_year = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
-    two_years = (datetime.utcnow() - timedelta(days=730)).strftime("%Y-%m-%d")
+    one_year = (_utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
+    two_years = (_utcnow() - timedelta(days=730)).strftime("%Y-%m-%d")
 
     # All search specs in one pass
     specs = []
@@ -1013,8 +1019,8 @@ TOPIC_CATEGORIES = {
 async def search_topic_candidates(
     client: GitHubClient,
     topic_name: str,
-    topic_config: Dict,
-) -> List[RepoCandidate]:
+    topic_config: dict,
+) -> list[RepoCandidate]:
     """Search GitHub for repos matching a topic category (platform-agnostic).
 
     Returns unverified candidates — call verify_installers() per platform.
@@ -1025,10 +1031,10 @@ async def search_topic_candidates(
 
     topics = topic_config["topics"]
     keywords = topic_config["keywords"]
-    seen: Set[str] = set()
+    seen: set[str] = set()
 
-    one_year = (datetime.utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
-    two_years = (datetime.utcnow() - timedelta(days=730)).strftime("%Y-%m-%d")
+    one_year = (_utcnow() - timedelta(days=365)).strftime("%Y-%m-%d")
+    two_years = (_utcnow() - timedelta(days=730)).strftime("%Y-%m-%d")
 
     specs = []
 
@@ -1084,11 +1090,11 @@ async def search_topic_candidates(
 
 async def verify_topic_for_platform(
     client: GitHubClient,
-    candidates: List[RepoCandidate],
+    candidates: list[RepoCandidate],
     platform: str,
     topic_name: str,
     budget: Optional[int] = None,
-) -> List[Dict]:
+) -> list[dict]:
     """Verify which candidates have installers for a specific platform."""
     print(f"\n  --- {topic_name}/{platform}: verifying {len(candidates)} candidates ---")
     verified = await verify_installers(
@@ -1130,7 +1136,7 @@ async def process_topics(client: GitHubClient, timestamp: str):
     total_verify_slots = num_topics * num_platforms
 
     # Track results for final summary
-    results_summary: Dict[str, Dict[str, int]] = {}
+    results_summary: dict[str, dict[str, int]] = {}
 
     for topic_idx, (topic_name, topic_config) in enumerate(TOPIC_CATEGORIES.items()):
         print(f"\n--- Topic {topic_idx + 1}/{num_topics}: {topic_name} ---")
@@ -1149,14 +1155,14 @@ async def process_topics(client: GitHubClient, timestamp: str):
                 platforms_needed.append(platform)
 
         if not platforms_needed:
-            print(f"  All platforms cached — skipping")
+            print("  All platforms cached — skipping")
             continue
 
         # Search once for this topic (platform-agnostic)
         candidates = await search_topic_candidates(client, topic_name, topic_config)
 
         if not candidates:
-            print(f"  ⚠ 0 candidates found — skipping all platforms")
+            print("  ⚠ 0 candidates found — skipping all platforms")
             for platform in platforms_needed:
                 existing = _load_existing_count(f"topics/{topic_name}", platform)
                 results_summary[topic_name][platform] = existing
@@ -1193,7 +1199,7 @@ async def process_topics(client: GitHubClient, timestamp: str):
 
     # ─── Final summary ────────────────────────────────────────────────────
     print(f"\n{'='*70}")
-    print(f"TOPICS SUMMARY")
+    print("TOPICS SUMMARY")
     print(f"{'='*70}")
 
     # Header
@@ -1233,7 +1239,7 @@ async def process_topics(client: GitHubClient, timestamp: str):
 # ─── Cache I/O ─────────────────────────────────────────────────────────────────
 
 
-def load_cache(category: str, platform: str) -> Optional[Dict]:
+def load_cache(category: str, platform: str) -> Optional[dict]:
     if FORCE_REFRESH:
         print(f"  Force refresh: skipping cache for {category}/{platform}")
         return None
@@ -1241,7 +1247,7 @@ def load_cache(category: str, platform: str) -> Optional[Dict]:
     if not os.path.exists(cache_file):
         return None
     try:
-        with open(cache_file, "r", encoding="utf-8") as f:
+        with open(cache_file, encoding="utf-8") as f:
             data = json.load(f)
         count = data.get("totalCount", 0)
         min_threshold = 10 if category == "new-releases" else 30
@@ -1262,14 +1268,14 @@ def _load_existing_count(category: str, platform: str) -> int:
     """Return the repo count from an existing cache file, or 0 if none."""
     cache_file = os.path.join(CACHE_DIR, category, f"{platform}.json")
     try:
-        with open(cache_file, "r", encoding="utf-8") as f:
+        with open(cache_file, encoding="utf-8") as f:
             data = json.load(f)
         return data.get("totalCount", 0)
     except Exception:
         return 0
 
 
-def save_data(category: str, platform: str, repos: List[Dict], timestamp: str):
+def save_data(category: str, platform: str, repos: list[dict], timestamp: str):
     out = {
         "category": category,
         "platform": platform,
@@ -1342,7 +1348,7 @@ async def process_category(client: GitHubClient, category: str, fetch_fn, timest
 
 
 async def main():
-    timestamp = datetime.utcnow().isoformat() + "Z"
+    timestamp = _utcnow().isoformat() + "Z"
     start = time.time()
     total_requests = 0
     total_cache_entries = 0
@@ -1359,9 +1365,9 @@ async def main():
     shared_token = len(set(tokens)) < num_categories
 
     if shared_token:
-        print(f"\n⚠ Some categories share the same token — budget will be split evenly")
-        print(f"  TIP: Set GH_TOKEN_TRENDING, GH_TOKEN_NEW_RELEASES, GH_TOKEN_MOST_POPULAR "
-              f"to 3 separate PATs for 3× the rate limit")
+        print("\n⚠ Some categories share the same token — budget will be split evenly")
+        print("  TIP: Set GH_TOKEN_TRENDING, GH_TOKEN_NEW_RELEASES, GH_TOKEN_MOST_POPULAR "
+              "to 3 separate PATs for 3× the rate limit")
 
     for cat_idx, (cat_name, cat_fn) in enumerate(categories):
         token = tokens[cat_idx]
@@ -1402,7 +1408,7 @@ async def main():
     topics_token = CATEGORY_TOKENS.get("topics") or FALLBACK_TOKEN
     if topics_token:
         print(f"\n{'#'*70}")
-        print(f"# PHASE 2: TOPICS")
+        print("# PHASE 2: TOPICS")
         print(f"{'#'*70}")
 
         # Collect all usable tokens: dedicated topics token + leftover from category tokens
@@ -1413,7 +1419,7 @@ async def main():
                 topic_tokens.append(cat_token)
 
         # Deduplicate while preserving order
-        seen_tokens: Set[str] = set()
+        seen_tokens: set[str] = set()
         unique_tokens = []
         for t in topic_tokens:
             if t not in seen_tokens:
