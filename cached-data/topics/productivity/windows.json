@@ -1,9 +1,65 @@
 {
   "category": "topics/productivity",
   "platform": "windows",
-  "lastUpdated": "2026-10-27T07:38:18.572561Z",
-  "totalCount": 24,
+  "lastUpdated": "2026-10-28T08:14:07.658651Z",
+  "totalCount": 55,
   "repositories": [
+    {
+      "id": 669697660,
+      "name": "keyguard-app",
+      "fullName": "AChep/keyguard-app",
+      "owner": {
+        "login": "AChep",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/990982?v=4"
+      },
+      "description": "A password manager that supports Bitwarden platform and KeePass (KDBX) files. It autofills your logins, supports passkeys, works offline, and runs a Watchtower that finds leaked and reused passwords and other issues.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/AChep/keyguard-app",
+      "stargazersCount": 3581,
+      "forksCount": 119,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "bitwarden",
+        "compose",
+        "desktop",
+        "jvm",
+        "kotlin",
+        "multiplatform"
+      ],
+      "releasesUrl": "https://api.github.com/repos/AChep/keyguard-app/releases{/id}",
+      "updatedAt": "2026-10-28T08:45:52Z",
+      "createdAt": "2023-07-23T06:12:36Z",
+      "pushedAt": "2026-10-28T08:46:25Z",
+      "downloadCount": 211133,
+      "openIssuesCount": 177,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "r20261027",
+          "publishedAt": "2026-10-27T22:09:54Z"
+        },
+        "windows": {
+          "tag": "r20261027",
+          "publishedAt": "2026-10-27T22:09:54Z"
+        },
+        "macos": {
+          "tag": "r20261027",
+          "publishedAt": "2026-10-27T22:09:54Z"
+        },
+        "linux": {
+          "tag": "r20261027",
+          "publishedAt": "2026-10-27T22:09:54Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-27T22:09:54Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
     {
       "id": 516598834,
       "name": "saber",
@@ -15,8 +71,8 @@
       "description": "The cross-platform open-source app built for handwriting",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/saber-notes/saber",
-      "stargazersCount": 4971,
-      "forksCount": 409,
+      "stargazersCount": 4976,
+      "forksCount": 412,
       "language": "Dart",
       "topics": [
         "android",
@@ -35,10 +91,10 @@
         "windows"
       ],
       "releasesUrl": "https://api.github.com/repos/saber-notes/saber/releases{/id}",
-      "updatedAt": "2026-10-27T06:27:08Z",
+      "updatedAt": "2026-10-28T07:59:48Z",
       "createdAt": "2022-07-22T03:39:01Z",
-      "pushedAt": "2026-10-26T19:25:39Z",
-      "downloadCount": 161583,
+      "pushedAt": "2026-10-27T19:31:14Z",
+      "downloadCount": 161996,
       "openIssuesCount": 404,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -60,8 +116,176 @@
         }
       },
       "latestReleaseDate": "2026-10-26T00:06:09Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 323279421,
+      "name": "Butterfly",
+      "fullName": "LinwoodDev/Butterfly",
+      "owner": {
+        "login": "LinwoodDev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110480390?v=4"
+      },
+      "description": "🎨 Powerful, minimalistic, cross-platform, opensource note-taking app",
+      "defaultBranch": "develop",
+      "htmlUrl": "https://github.com/LinwoodDev/Butterfly",
+      "stargazersCount": 2077,
+      "forksCount": 155,
+      "language": "Dart",
+      "topics": [
+        "android",
+        "app",
+        "cross-platform",
+        "customizable",
+        "dart",
+        "dartlang",
+        "drawing",
+        "flutter",
+        "linux",
+        "note",
+        "note-taking",
+        "notes",
+        "notes-app",
+        "onenote",
+        "opensource",
+        "productivity",
+        "web",
+        "windows",
+        "writing"
+      ],
+      "releasesUrl": "https://api.github.com/repos/LinwoodDev/Butterfly/releases{/id}",
+      "updatedAt": "2026-10-27T18:34:11Z",
+      "createdAt": "2020-12-21T08:47:28Z",
+      "pushedAt": "2026-10-25T09:01:29Z",
+      "downloadCount": 195216,
+      "openIssuesCount": 65,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.6.1",
+          "publishedAt": "2026-10-15T14:34:59Z"
+        },
+        "windows": {
+          "tag": "v2.6.1",
+          "publishedAt": "2026-10-15T14:34:59Z"
+        },
+        "macos": {
+          "tag": "v2.6.1",
+          "publishedAt": "2026-10-15T14:34:59Z"
+        },
+        "linux": {
+          "tag": "v2.6.1",
+          "publishedAt": "2026-10-15T14:34:59Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-15T14:34:59Z",
+      "releaseRecency": 12,
+      "releaseRecencyText": "Released 12 days ago"
+    },
+    {
+      "id": 680275879,
+      "name": "FocusBloom",
+      "fullName": "joelkanyi/FocusBloom",
+      "owner": {
+        "login": "joelkanyi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50293753?v=4"
+      },
+      "description": "A Kotlin Multiplatform app that helps users enhance their productivity and time management skills through focused work intervals and short breaks.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/joelkanyi/FocusBloom",
+      "stargazersCount": 588,
+      "forksCount": 76,
+      "language": "Kotlin",
+      "topics": [
+        "cmp",
+        "compose-multiplatform",
+        "kmp",
+        "kotlin-multiplatform",
+        "sqldelight"
+      ],
+      "releasesUrl": "https://api.github.com/repos/joelkanyi/FocusBloom/releases{/id}",
+      "updatedAt": "2026-10-13T11:54:21Z",
+      "createdAt": "2023-08-18T19:22:49Z",
+      "pushedAt": "2026-10-23T03:15:16Z",
+      "downloadCount": 345,
+      "openIssuesCount": 12,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "1.0.5",
+          "publishedAt": "2024-06-19T07:50:36Z"
+        },
+        "windows": {
+          "tag": "1.0.5",
+          "publishedAt": "2024-06-19T07:50:36Z"
+        },
+        "macos": {
+          "tag": "1.0.5",
+          "publishedAt": "2024-06-19T07:50:36Z"
+        },
+        "linux": {
+          "tag": "1.0.5",
+          "publishedAt": "2024-06-19T07:50:36Z"
+        }
+      },
+      "latestReleaseDate": "2024-06-19T07:50:36Z",
+      "releaseRecency": 861,
+      "releaseRecencyText": "Released 861 days ago"
+    },
+    {
+      "id": 16462032,
+      "name": "mucommander",
+      "fullName": "mucommander/mucommander",
+      "owner": {
+        "login": "mucommander",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6019906?v=4"
+      },
+      "description": "A lightweight, cross-platform file manager with a dual-pane interface",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/mucommander/mucommander",
+      "stargazersCount": 1293,
+      "forksCount": 213,
+      "language": "Java",
+      "topics": [
+        "hacktoberfest"
+      ],
+      "releasesUrl": "https://api.github.com/repos/mucommander/mucommander/releases{/id}",
+      "updatedAt": "2026-10-28T04:16:33Z",
+      "createdAt": "2014-02-02T20:07:35Z",
+      "pushedAt": "2026-10-28T03:36:33Z",
+      "downloadCount": 920564,
+      "openIssuesCount": 117,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "1.6.2-1",
+          "publishedAt": "2026-05-14T15:25:55Z"
+        },
+        "macos": {
+          "tag": "1.6.2-1",
+          "publishedAt": "2026-05-14T15:25:55Z"
+        },
+        "linux": {
+          "tag": "1.6.2-1",
+          "publishedAt": "2026-05-14T15:25:55Z"
+        }
+      },
+      "latestReleaseDate": "2026-05-14T15:25:55Z",
+      "releaseRecency": 166,
+      "releaseRecencyText": "Released 166 days ago"
     },
     {
       "id": 48593559,
@@ -74,7 +298,7 @@
       "description": "Fast and beautiful note-taking app written in C++. Write down your thoughts.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/nuttyartist/notes",
-      "stargazersCount": 4263,
+      "stargazersCount": 4264,
       "forksCount": 384,
       "language": "C++",
       "topics": [
@@ -95,10 +319,10 @@
         "qt6"
       ],
       "releasesUrl": "https://api.github.com/repos/nuttyartist/notes/releases{/id}",
-      "updatedAt": "2026-10-26T04:21:33Z",
+      "updatedAt": "2026-10-28T08:46:47Z",
       "createdAt": "2015-12-25T23:10:32Z",
       "pushedAt": "2026-05-15T19:11:56Z",
-      "downloadCount": 1417238,
+      "downloadCount": 1417410,
       "openIssuesCount": 137,
       "archived": false,
       "hasInstallersAndroid": false,
@@ -120,8 +344,110 @@
         }
       },
       "latestReleaseDate": "2024-10-01T12:59:01Z",
-      "releaseRecency": 755,
-      "releaseRecencyText": "Released 755 days ago"
+      "releaseRecency": 756,
+      "releaseRecencyText": "Released 756 days ago"
+    },
+    {
+      "id": 19042567,
+      "name": "file-commander",
+      "fullName": "VioletGiraffe/file-commander",
+      "owner": {
+        "login": "VioletGiraffe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1175926?v=4"
+      },
+      "description": "Cross-platform Total Commander-like orthodox file manager for Windows, Mac and Linux",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/VioletGiraffe/file-commander",
+      "stargazersCount": 456,
+      "forksCount": 64,
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "cpp",
+        "file-browser",
+        "file-manager",
+        "linux",
+        "macos",
+        "multi-threading",
+        "qt",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/VioletGiraffe/file-commander/releases{/id}",
+      "updatedAt": "2026-10-25T23:29:50Z",
+      "createdAt": "2014-04-22T19:11:27Z",
+      "pushedAt": "2026-10-25T23:36:56Z",
+      "downloadCount": 12927,
+      "openIssuesCount": 80,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "0.9.9.7",
+          "publishedAt": "2026-04-25T09:33:53Z"
+        },
+        "macos": {
+          "tag": "0.9.9.7",
+          "publishedAt": "2026-04-25T09:33:53Z"
+        },
+        "linux": {
+          "tag": "0.9.9.7",
+          "publishedAt": "2026-04-25T09:33:53Z"
+        }
+      },
+      "latestReleaseDate": "2026-04-25T09:33:53Z",
+      "releaseRecency": 185,
+      "releaseRecencyText": "Released 185 days ago"
+    },
+    {
+      "id": 834899046,
+      "name": "whph",
+      "fullName": "ahmet-cetinkaya/whph",
+      "owner": {
+        "login": "ahmet-cetinkaya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53148314?v=4"
+      },
+      "description": "WHPH is a comprehensive productivity app designed to help you manage tasks, develop new habits, and optimize your time.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/ahmet-cetinkaya/whph",
+      "stargazersCount": 444,
+      "forksCount": 28,
+      "language": "Dart",
+      "topics": [
+        "app",
+        "cross-platform",
+        "flutter",
+        "foss",
+        "habit-tracking",
+        "task-manager",
+        "time-management"
+      ],
+      "releasesUrl": "https://api.github.com/repos/ahmet-cetinkaya/whph/releases{/id}",
+      "updatedAt": "2026-10-21T10:42:32Z",
+      "createdAt": "2024-07-28T17:27:37Z",
+      "pushedAt": "2026-10-26T21:23:59Z",
+      "downloadCount": 15503,
+      "openIssuesCount": 49,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.24.4",
+          "publishedAt": "2026-10-04T20:08:22Z"
+        },
+        "windows": {
+          "tag": "v0.24.4",
+          "publishedAt": "2026-10-04T20:08:22Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-04T20:08:22Z",
+      "releaseRecency": 23,
+      "releaseRecencyText": "Released 23 days ago"
     },
     {
       "id": 79162682,
@@ -134,8 +460,8 @@
       "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/laurent22/joplin",
-      "stargazersCount": 56897,
-      "forksCount": 6370,
+      "stargazersCount": 56911,
+      "forksCount": 6372,
       "language": "TypeScript",
       "topics": [
         "android",
@@ -158,11 +484,11 @@
         "webdav"
       ],
       "releasesUrl": "https://api.github.com/repos/laurent22/joplin/releases{/id}",
-      "updatedAt": "2026-10-27T08:17:28Z",
+      "updatedAt": "2026-10-28T08:26:26Z",
       "createdAt": "2017-01-16T21:49:41Z",
-      "pushedAt": "2026-10-27T00:06:08Z",
-      "downloadCount": 17562599,
-      "openIssuesCount": 649,
+      "pushedAt": "2026-10-27T10:32:57Z",
+      "downloadCount": 17574672,
+      "openIssuesCount": 659,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
@@ -183,8 +509,176 @@
         }
       },
       "latestReleaseDate": "2026-09-25T21:31:12Z",
-      "releaseRecency": 31,
-      "releaseRecencyText": "Released 31 days ago"
+      "releaseRecency": 32,
+      "releaseRecencyText": "Released 32 days ago"
+    },
+    {
+      "id": 78243781,
+      "name": "super-productivity",
+      "fullName": "super-productivity/super-productivity",
+      "owner": {
+        "login": "super-productivity",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/215719836?v=4"
+      },
+      "description": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/super-productivity/super-productivity",
+      "stargazersCount": 23205,
+      "forksCount": 2213,
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "flowmodoro",
+        "flowtime",
+        "habit-tracker",
+        "ios",
+        "issue-tracker",
+        "linux",
+        "local-first",
+        "macos",
+        "open-source",
+        "pomodoro",
+        "pomodoro-timer",
+        "privacy",
+        "productivity",
+        "task-manager",
+        "time-tracker",
+        "time-tracking",
+        "to-do-list",
+        "todo",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/super-productivity/super-productivity/releases{/id}",
+      "updatedAt": "2026-10-28T08:24:01Z",
+      "createdAt": "2017-01-06T22:30:58Z",
+      "pushedAt": "2026-10-27T23:52:50Z",
+      "downloadCount": 1693112,
+      "openIssuesCount": 1497,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v19.3.1",
+          "publishedAt": "2026-10-25T14:42:30Z"
+        },
+        "windows": {
+          "tag": "v19.3.1",
+          "publishedAt": "2026-10-25T14:42:30Z"
+        },
+        "macos": {
+          "tag": "v19.3.1",
+          "publishedAt": "2026-10-25T14:42:30Z"
+        },
+        "linux": {
+          "tag": "v19.3.1",
+          "publishedAt": "2026-10-25T14:42:30Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-25T14:42:30Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 1076980,
+      "name": "PeaZip",
+      "fullName": "peazip/PeaZip",
+      "owner": {
+        "login": "peazip",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/479850?v=4"
+      },
+      "description": "Free Zip / Unzip software and Rar file extractor. Cross-platform file and archive manager. Features volume spanning, compression, authenticated encryption. Supports 7Z, 7-Zip sfx, ACE, ARJ, Brotli, BZ2, CAB, CHM, CPIO, DEB, GZ, ISO, JAR, LHA/LZH, NSIS, OOo, PAQ/LPAQ, PEA, QUAD, RAR, RPM, split, TAR, Z, ZIP, ZIPX, Zstandard.",
+      "defaultBranch": "sources",
+      "htmlUrl": "https://github.com/peazip/PeaZip",
+      "stargazersCount": 8034,
+      "forksCount": 422,
+      "language": "Pascal",
+      "topics": [
+        "archiver",
+        "brotli",
+        "compression",
+        "encryption",
+        "extractor",
+        "paq",
+        "peazip",
+        "rar",
+        "zip",
+        "zstandard"
+      ],
+      "releasesUrl": "https://api.github.com/repos/peazip/PeaZip/releases{/id}",
+      "updatedAt": "2026-10-28T08:55:54Z",
+      "createdAt": "2010-11-13T08:47:03Z",
+      "pushedAt": "2026-10-21T08:48:49Z",
+      "downloadCount": 16270459,
+      "openIssuesCount": 18,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "11.4.0",
+          "publishedAt": "2026-10-17T06:08:59Z"
+        },
+        "macos": {
+          "tag": "11.4.0",
+          "publishedAt": "2026-10-17T06:08:59Z"
+        },
+        "linux": {
+          "tag": "11.4.0",
+          "publishedAt": "2026-10-17T06:08:59Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-17T06:08:59Z",
+      "releaseRecency": 11,
+      "releaseRecencyText": "Released 11 days ago"
+    },
+    {
+      "id": 122294881,
+      "name": "doublecmd",
+      "fullName": "doublecmd/doublecmd",
+      "owner": {
+        "login": "doublecmd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13401450?v=4"
+      },
+      "description": "Double Commander is a free cross platform open source file manager with two panels side by side.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/doublecmd/doublecmd",
+      "stargazersCount": 4690,
+      "forksCount": 370,
+      "language": "Pascal",
+      "topics": [
+        "cross-platform",
+        "double-commander",
+        "file-manager"
+      ],
+      "releasesUrl": "https://api.github.com/repos/doublecmd/doublecmd/releases{/id}",
+      "updatedAt": "2026-10-28T06:07:54Z",
+      "createdAt": "2018-02-21T05:05:38Z",
+      "pushedAt": "2026-10-27T07:07:32Z",
+      "downloadCount": 1190535,
+      "openIssuesCount": 649,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.2.9",
+          "publishedAt": "2026-09-27T09:27:05Z"
+        },
+        "macos": {
+          "tag": "v1.2.9",
+          "publishedAt": "2026-09-27T09:27:05Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-27T09:27:05Z",
+      "releaseRecency": 30,
+      "releaseRecencyText": "Released 30 days ago"
     },
     {
       "id": 846315744,
@@ -197,7 +691,7 @@
       "description": "A node-based visual tool for organizing thoughts and notes in a non-linear way.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/graphif/project-graph",
-      "stargazersCount": 4512,
+      "stargazersCount": 4514,
       "forksCount": 300,
       "language": "TypeScript",
       "topics": [
@@ -216,10 +710,10 @@
         "vitejs"
       ],
       "releasesUrl": "https://api.github.com/repos/graphif/project-graph/releases{/id}",
-      "updatedAt": "2026-10-27T07:04:22Z",
+      "updatedAt": "2026-10-28T07:19:21Z",
       "createdAt": "2024-08-23T00:32:36Z",
-      "pushedAt": "2026-10-27T03:44:39Z",
-      "downloadCount": 127327,
+      "pushedAt": "2026-10-28T04:01:12Z",
+      "downloadCount": 127440,
       "openIssuesCount": 60,
       "archived": false,
       "hasInstallersAndroid": false,
@@ -241,8 +735,8 @@
         }
       },
       "latestReleaseDate": "2026-10-24T21:35:59Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
       "id": 1166837809,
@@ -255,8 +749,8 @@
       "description": "AI-powered cross-platform e-book reader with semantic search, RAG chat, local vector store, notes, TTS, and WebDAV sync.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/codedogQBY/ReadAny",
-      "stargazersCount": 2892,
-      "forksCount": 239,
+      "stargazersCount": 2903,
+      "forksCount": 240,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -281,11 +775,11 @@
         "vector-search"
       ],
       "releasesUrl": "https://api.github.com/repos/codedogQBY/ReadAny/releases{/id}",
-      "updatedAt": "2026-10-27T03:10:33Z",
+      "updatedAt": "2026-10-28T05:04:17Z",
       "createdAt": "2026-02-25T16:59:27Z",
       "pushedAt": "2026-10-07T14:50:19Z",
-      "downloadCount": 82224,
-      "openIssuesCount": 392,
+      "downloadCount": 82755,
+      "openIssuesCount": 394,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -310,102 +804,250 @@
         }
       },
       "latestReleaseDate": "2026-08-16T07:35:40Z",
-      "releaseRecency": 72,
-      "releaseRecencyText": "Released 72 days ago"
+      "releaseRecency": 73,
+      "releaseRecencyText": "Released 73 days ago"
     },
     {
-      "id": 111233587,
-      "name": "tomboy-ng",
-      "fullName": "tomboy-notes/tomboy-ng",
+      "id": 475238966,
+      "name": "mdx-notes",
+      "fullName": "maqi1520/mdx-notes",
       "owner": {
-        "login": "tomboy-notes",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5675471?v=4"
+        "login": "maqi1520",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9312044?v=4"
       },
-      "description": "Next generation of Tomboy",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/tomboy-notes/tomboy-ng",
-      "stargazersCount": 452,
-      "forksCount": 45,
-      "language": "Pascal",
+      "description": "⛷ Cross-platform note-taking software, public layout editor, using MDX ⛷ 跨平台笔记软件，公众号排版编辑器，使用MDX来排版",
+      "defaultBranch": "tauri-app",
+      "htmlUrl": "https://github.com/maqi1520/mdx-notes",
+      "stargazersCount": 1596,
+      "forksCount": 185,
+      "language": "TypeScript",
+      "topics": [
+        "markdown",
+        "markdown-editor",
+        "mdx",
+        "nextjs",
+        "note-taking",
+        "notes"
+      ],
+      "releasesUrl": "https://api.github.com/repos/maqi1520/mdx-notes/releases{/id}",
+      "updatedAt": "2026-10-23T01:33:09Z",
+      "createdAt": "2022-03-29T01:35:42Z",
+      "pushedAt": "2026-02-16T05:29:39Z",
+      "downloadCount": 36469,
+      "openIssuesCount": 26,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.3",
+          "publishedAt": "2024-10-28T00:21:21Z"
+        },
+        "macos": {
+          "tag": "v1.0.3",
+          "publishedAt": "2024-10-28T00:21:21Z"
+        },
+        "linux": {
+          "tag": "v1.0.3",
+          "publishedAt": "2024-10-28T00:21:21Z"
+        }
+      },
+      "latestReleaseDate": "2024-10-28T00:21:21Z",
+      "releaseRecency": 730,
+      "releaseRecencyText": "Released 730 days ago"
+    },
+    {
+      "id": 1214821189,
+      "name": "omnyssh",
+      "fullName": "timhartmann7/omnyssh",
+      "owner": {
+        "login": "timhartmann7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/162906779?v=4"
+      },
+      "description": "Fast, open-source SSH client and server manager for macOS, Windows and Linux. Desktop GUI and terminal TUI with a live metrics dashboard, tabbed terminal, SFTP file manager, port forwarding, one-click SSH keys and snippets. Built in Rust.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/timhartmann7/omnyssh",
+      "stargazersCount": 1247,
+      "forksCount": 71,
+      "language": "Rust",
       "topics": [
         "cross-platform",
-        "freepascal",
-        "linux",
-        "mac",
-        "note-taking",
-        "notes-app",
-        "raspberry-pi",
-        "synchronisation",
-        "tomboy",
-        "windows"
+        "desktop-app",
+        "devops",
+        "gui",
+        "homelab",
+        "port-forwarding",
+        "rust",
+        "server-monitoring",
+        "sftp",
+        "sftp-client",
+        "ssh",
+        "ssh-client",
+        "ssh-manager",
+        "ssh-tunnel",
+        "sysadmin",
+        "tauri",
+        "terminal",
+        "tui"
       ],
-      "releasesUrl": "https://api.github.com/repos/tomboy-notes/tomboy-ng/releases{/id}",
-      "updatedAt": "2026-10-23T17:27:58Z",
-      "createdAt": "2017-11-18T19:38:37Z",
-      "pushedAt": "2026-10-16T10:56:32Z",
-      "downloadCount": 38107,
+      "releasesUrl": "https://api.github.com/repos/timhartmann7/omnyssh/releases{/id}",
+      "updatedAt": "2026-10-28T06:27:17Z",
+      "createdAt": "2026-04-19T05:02:19Z",
+      "pushedAt": "2026-10-09T08:23:10Z",
+      "downloadCount": 15092,
       "openIssuesCount": 37,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
+      "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": {
         "windows": {
-          "tag": "v0.42c",
-          "publishedAt": "2026-07-24T05:41:15Z"
+          "tag": "v1.1.5",
+          "publishedAt": "2026-10-09T08:31:50Z"
+        },
+        "macos": {
+          "tag": "v1.1.5",
+          "publishedAt": "2026-10-09T08:31:50Z"
         },
         "linux": {
-          "tag": "v0.42c",
-          "publishedAt": "2026-07-24T05:41:15Z"
+          "tag": "v1.1.5",
+          "publishedAt": "2026-10-09T08:31:50Z"
         }
       },
-      "latestReleaseDate": "2026-07-24T05:41:15Z",
-      "releaseRecency": 95,
-      "releaseRecencyText": "Released 95 days ago"
+      "latestReleaseDate": "2026-10-09T08:31:50Z",
+      "releaseRecency": 19,
+      "releaseRecencyText": "Released 19 days ago"
     },
     {
-      "id": 1227817920,
-      "name": "PrivacyNotes.app",
-      "fullName": "LifetimeLabsDev/PrivacyNotes.app",
+      "id": 249058235,
+      "name": "Camelot",
+      "fullName": "IngvarX/Camelot",
       "owner": {
-        "login": "LifetimeLabsDev",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/277476673?v=4"
+        "login": "IngvarX",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10050680?v=4"
       },
-      "description": "End-to-end encrypted notes, tasks, files, passwords, journal and bookmarks. Keyed by a 12-word BIP-39 phrase: no email, no password, no account to leak. The full client source for web, desktop and mobile is published, along with the encryption (XChaCha20-Poly1305, HKDF-SHA256, Ed25519) and the threat model, so the privacy claims are falsifiable.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/LifetimeLabsDev/PrivacyNotes.app",
-      "stargazersCount": 574,
-      "forksCount": 41,
-      "language": "TypeScript",
+      "description": "Camelot is a cross-platform file manager written in C#",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/IngvarX/Camelot",
+      "stargazersCount": 548,
+      "forksCount": 50,
+      "language": "C#",
       "topics": [
-        "client-side-encryption",
-        "cryptography",
-        "e2ee",
-        "encrypted-notes",
-        "encryption",
-        "end-to-end-encryption",
-        "evernote",
-        "google-keep",
-        "local-first",
-        "markdown",
-        "note-taking",
-        "note-taking-app",
-        "notes",
-        "notes-app",
-        "notion-alternative",
-        "personal-knowledge-base",
-        "privacy",
-        "privacy-tools",
-        "security",
-        "zero-knowledge-encryption"
+        "avalonia",
+        "camelot",
+        "commander",
+        "cross-platform",
+        "csharp",
+        "csharp-code",
+        "dotnet",
+        "file-manager",
+        "linux",
+        "macos",
+        "twin-panel",
+        "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/LifetimeLabsDev/PrivacyNotes.app/releases{/id}",
-      "updatedAt": "2026-10-27T06:41:06Z",
-      "createdAt": "2026-05-03T07:49:36Z",
-      "pushedAt": "2026-10-23T11:29:15Z",
-      "downloadCount": 8215,
-      "openIssuesCount": 49,
+      "releasesUrl": "https://api.github.com/repos/IngvarX/Camelot/releases{/id}",
+      "updatedAt": "2026-10-23T14:55:50Z",
+      "createdAt": "2020-03-21T20:48:11Z",
+      "pushedAt": "2025-12-12T06:16:55Z",
+      "downloadCount": 8042,
+      "openIssuesCount": 15,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.3.1",
+          "publishedAt": "2024-12-04T05:35:00Z"
+        }
+      },
+      "latestReleaseDate": "2024-12-04T05:35:00Z",
+      "releaseRecency": 693,
+      "releaseRecencyText": "Released 693 days ago"
+    },
+    {
+      "id": 107807404,
+      "name": "FarManager",
+      "fullName": "FarGroup/FarManager",
+      "owner": {
+        "login": "FarGroup",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3636093?v=4"
+      },
+      "description": "File and Archive Manager",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/FarGroup/FarManager",
+      "stargazersCount": 2250,
+      "forksCount": 252,
+      "language": "C++",
+      "topics": [
+        "7-zip",
+        "c",
+        "c-plus-plus",
+        "colorer",
+        "command-line",
+        "cpp",
+        "editor",
+        "far-manager",
+        "farmanager",
+        "file-handling",
+        "file-management",
+        "file-manager",
+        "filemanager",
+        "ftp-client",
+        "lua",
+        "ofm",
+        "plugins",
+        "shell",
+        "windows",
+        "winscp"
+      ],
+      "releasesUrl": "https://api.github.com/repos/FarGroup/FarManager/releases{/id}",
+      "updatedAt": "2026-10-27T21:46:14Z",
+      "createdAt": "2017-10-21T18:55:45Z",
+      "pushedAt": "2026-10-27T22:31:10Z",
+      "downloadCount": 299974,
+      "openIssuesCount": 156,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "ci/v3.0.6747.5029",
+          "publishedAt": "2026-10-27T22:31:10Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-27T22:31:10Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 933052538,
+      "name": "SpeedyNote",
+      "fullName": "alpha-liu-01/SpeedyNote",
+      "owner": {
+        "login": "alpha-liu-01",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116528196?v=4"
+      },
+      "description": "A simple note app with good performance and PDF import support",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/alpha-liu-01/SpeedyNote",
+      "stargazersCount": 1708,
+      "forksCount": 99,
+      "language": "C++",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/alpha-liu-01/SpeedyNote/releases{/id}",
+      "updatedAt": "2026-10-28T07:09:51Z",
+      "createdAt": "2025-02-15T03:17:58Z",
+      "pushedAt": "2026-10-18T19:43:28Z",
+      "downloadCount": 14256,
+      "openIssuesCount": 21,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -413,25 +1055,128 @@
       "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "v0.696.1",
-          "publishedAt": "2026-10-23T11:29:15Z"
+          "tag": "v1.6.3",
+          "publishedAt": "2026-09-03T05:58:09Z"
         },
         "windows": {
-          "tag": "v0.696.1",
-          "publishedAt": "2026-10-23T11:29:15Z"
+          "tag": "v1.6.3",
+          "publishedAt": "2026-09-03T05:58:09Z"
         },
         "macos": {
-          "tag": "v0.696.1",
-          "publishedAt": "2026-10-23T11:29:15Z"
+          "tag": "v1.6.3",
+          "publishedAt": "2026-09-03T05:58:09Z"
         },
         "linux": {
-          "tag": "v0.696.1",
-          "publishedAt": "2026-10-23T11:29:15Z"
+          "tag": "v1.6.3",
+          "publishedAt": "2026-09-03T05:58:09Z"
         }
       },
-      "latestReleaseDate": "2026-10-23T11:29:15Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
+      "latestReleaseDate": "2026-09-03T05:58:09Z",
+      "releaseRecency": 55,
+      "releaseRecencyText": "Released 55 days ago"
+    },
+    {
+      "id": 184456251,
+      "name": "PowerToys",
+      "fullName": "microsoft/PowerToys",
+      "owner": {
+        "login": "microsoft",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4"
+      },
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/microsoft/PowerToys",
+      "stargazersCount": 140109,
+      "forksCount": 8655,
+      "language": "C",
+      "topics": [
+        "advanced-paste",
+        "color-picker",
+        "command-palette",
+        "desktop",
+        "fancyzones",
+        "keyboard-manager",
+        "microsoft-powertoys",
+        "powerrename",
+        "powertoys",
+        "windows",
+        "windows-10",
+        "windows-11"
+      ],
+      "releasesUrl": "https://api.github.com/repos/microsoft/PowerToys/releases{/id}",
+      "updatedAt": "2026-10-28T08:49:29Z",
+      "createdAt": "2019-05-01T17:44:02Z",
+      "pushedAt": "2026-10-28T08:54:11Z",
+      "downloadCount": 148569219,
+      "openIssuesCount": 7916,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.102.3001",
+          "publishedAt": "2026-10-27T10:10:02Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-27T10:10:02Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 805155266,
+      "name": "cherry-studio",
+      "fullName": "CherryHQ/cherry-studio",
+      "owner": {
+        "login": "CherryHQ",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/187777663?v=4"
+      },
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/CherryHQ/cherry-studio",
+      "stargazersCount": 53035,
+      "forksCount": 5136,
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "hermes-agent",
+        "open-code-review",
+        "skills",
+        "vibe-coding"
+      ],
+      "releasesUrl": "https://api.github.com/repos/CherryHQ/cherry-studio/releases{/id}",
+      "updatedAt": "2026-10-28T09:00:31Z",
+      "createdAt": "2024-05-24T01:56:26Z",
+      "pushedAt": "2026-10-28T09:04:27Z",
+      "downloadCount": 34814967,
+      "openIssuesCount": 2218,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.1.8",
+          "publishedAt": "2026-10-26T08:56:13Z"
+        },
+        "macos": {
+          "tag": "v2.1.8",
+          "publishedAt": "2026-10-26T08:56:13Z"
+        },
+        "linux": {
+          "tag": "v2.1.8",
+          "publishedAt": "2026-10-26T08:56:13Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-26T08:56:13Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
     },
     {
       "id": 92111509,
@@ -444,8 +1189,8 @@
       "description": "Build your personal knowledge base with Trilium Notes",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/TriliumNext/Trilium",
-      "stargazersCount": 38583,
-      "forksCount": 2601,
+      "stargazersCount": 38600,
+      "forksCount": 2605,
       "language": "TypeScript",
       "topics": [
         "electron",
@@ -469,11 +1214,11 @@
         "wiki"
       ],
       "releasesUrl": "https://api.github.com/repos/TriliumNext/Trilium/releases{/id}",
-      "updatedAt": "2026-10-27T04:16:46Z",
+      "updatedAt": "2026-10-28T07:39:49Z",
       "createdAt": "2017-05-23T00:30:20Z",
-      "pushedAt": "2026-10-26T22:27:36Z",
-      "downloadCount": 1046213,
-      "openIssuesCount": 593,
+      "pushedAt": "2026-10-28T07:39:43Z",
+      "downloadCount": 1048887,
+      "openIssuesCount": 586,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
@@ -494,8 +1239,8 @@
         }
       },
       "latestReleaseDate": "2026-10-23T21:07:15Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
     },
     {
       "id": 908589694,
@@ -508,8 +1253,8 @@
       "description": "Privacy first AI meeting note taker. Download Free and open source granola, otter ai, fireflies alternative. Parakeet / Whisper live transcription, on-device speaker diarization, built on Rust. 100% local processing. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker & Assistant for macOS & Windows",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Zackriya-Solutions/meetily",
-      "stargazersCount": 32211,
-      "forksCount": 3531,
+      "stargazersCount": 32264,
+      "forksCount": 3535,
       "language": "Rust",
       "topics": [
         "ai",
@@ -534,11 +1279,11 @@
         "windows"
       ],
       "releasesUrl": "https://api.github.com/repos/Zackriya-Solutions/meetily/releases{/id}",
-      "updatedAt": "2026-10-27T08:18:49Z",
+      "updatedAt": "2026-10-28T08:57:08Z",
       "createdAt": "2024-12-26T12:52:14Z",
-      "pushedAt": "2026-10-24T10:35:27Z",
-      "downloadCount": 717992,
-      "openIssuesCount": 377,
+      "pushedAt": "2026-10-28T09:03:02Z",
+      "downloadCount": 723640,
+      "openIssuesCount": 379,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
@@ -555,8 +1300,8 @@
         }
       },
       "latestReleaseDate": "2026-09-12T06:15:42Z",
-      "releaseRecency": 45,
-      "releaseRecencyText": "Released 45 days ago"
+      "releaseRecency": 46,
+      "releaseRecencyText": "Released 46 days ago"
     },
     {
       "id": 353775942,
@@ -569,7 +1314,7 @@
       "description": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/streetwriters/notesnook",
-      "stargazersCount": 14834,
+      "stargazersCount": 14845,
       "forksCount": 1039,
       "language": "TypeScript",
       "topics": [
@@ -594,11 +1339,11 @@
         "self-hosted"
       ],
       "releasesUrl": "https://api.github.com/repos/streetwriters/notesnook/releases{/id}",
-      "updatedAt": "2026-10-27T05:52:57Z",
+      "updatedAt": "2026-10-28T07:51:01Z",
       "createdAt": "2021-04-01T17:25:54Z",
-      "pushedAt": "2026-10-27T07:40:30Z",
-      "downloadCount": 8628760,
-      "openIssuesCount": 1122,
+      "pushedAt": "2026-10-28T07:11:34Z",
+      "downloadCount": 8645105,
+      "openIssuesCount": 1121,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -623,8 +1368,8 @@
         }
       },
       "latestReleaseDate": "2026-10-26T12:23:43Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
     },
     {
       "id": 838659679,
@@ -637,7 +1382,7 @@
       "description": "Capture first. Organize later. A local-first Markdown app that turns scattered records into clear notes with AI.",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/codexu/note-gen",
-      "stargazersCount": 12924,
+      "stargazersCount": 12933,
       "forksCount": 977,
       "language": "TypeScript",
       "topics": [
@@ -659,11 +1404,11 @@
         "webdav"
       ],
       "releasesUrl": "https://api.github.com/repos/codexu/note-gen/releases{/id}",
-      "updatedAt": "2026-10-27T05:51:39Z",
+      "updatedAt": "2026-10-28T08:06:23Z",
       "createdAt": "2024-08-06T05:20:16Z",
-      "pushedAt": "2026-10-27T02:55:10Z",
-      "downloadCount": 243305,
-      "openIssuesCount": 69,
+      "pushedAt": "2026-10-28T03:36:38Z",
+      "downloadCount": 244221,
+      "openIssuesCount": 72,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -671,25 +1416,25 @@
       "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "note-gen-v0.39.0",
-          "publishedAt": "2026-10-25T03:55:30Z"
+          "tag": "note-gen-v0.39.1",
+          "publishedAt": "2026-10-28T03:36:39Z"
         },
         "windows": {
-          "tag": "note-gen-v0.39.0",
-          "publishedAt": "2026-10-25T03:55:30Z"
+          "tag": "note-gen-v0.39.1",
+          "publishedAt": "2026-10-28T03:36:39Z"
         },
         "macos": {
-          "tag": "note-gen-v0.39.0",
-          "publishedAt": "2026-10-25T03:55:30Z"
+          "tag": "note-gen-v0.39.1",
+          "publishedAt": "2026-10-28T03:36:39Z"
         },
         "linux": {
-          "tag": "note-gen-v0.39.0",
-          "publishedAt": "2026-10-25T03:55:30Z"
+          "tag": "note-gen-v0.39.1",
+          "publishedAt": "2026-10-28T03:36:39Z"
         }
       },
-      "latestReleaseDate": "2026-10-25T03:55:30Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
+      "latestReleaseDate": "2026-10-28T03:36:39Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
     },
     {
       "id": 393045142,
@@ -702,8 +1447,8 @@
       "description": "Sketch and take handwritten notes.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/flxzt/rnote",
-      "stargazersCount": 11812,
-      "forksCount": 525,
+      "stargazersCount": 11811,
+      "forksCount": 526,
       "language": "Rust",
       "topics": [
         "drawing",
@@ -721,11 +1466,11 @@
         "wacom-tablet"
       ],
       "releasesUrl": "https://api.github.com/repos/flxzt/rnote/releases{/id}",
-      "updatedAt": "2026-10-27T07:56:38Z",
+      "updatedAt": "2026-10-28T03:58:43Z",
       "createdAt": "2021-08-05T13:04:32Z",
       "pushedAt": "2026-10-26T17:42:48Z",
-      "downloadCount": 121685,
-      "openIssuesCount": 437,
+      "downloadCount": 121853,
+      "openIssuesCount": 436,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
@@ -738,8 +1483,8 @@
         }
       },
       "latestReleaseDate": "2026-05-01T11:07:16Z",
-      "releaseRecency": 178,
-      "releaseRecencyText": "Released 178 days ago"
+      "releaseRecency": 179,
+      "releaseRecencyText": "Released 179 days ago"
     },
     {
       "id": 877230294,
@@ -752,8 +1497,8 @@
       "description": "An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/blinkospace/blinko",
-      "stargazersCount": 11121,
-      "forksCount": 789,
+      "stargazersCount": 11124,
+      "forksCount": 790,
       "language": "TypeScript",
       "topics": [
         "markdown",
@@ -766,11 +1511,11 @@
         "self-hosted"
       ],
       "releasesUrl": "https://api.github.com/repos/blinkospace/blinko/releases{/id}",
-      "updatedAt": "2026-10-27T07:47:26Z",
+      "updatedAt": "2026-10-27T22:01:50Z",
       "createdAt": "2024-10-23T10:04:59Z",
       "pushedAt": "2026-08-27T05:11:11Z",
-      "downloadCount": 34910,
-      "openIssuesCount": 424,
+      "downloadCount": 34987,
+      "openIssuesCount": 426,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -795,8 +1540,57 @@
         }
       },
       "latestReleaseDate": "2026-06-20T08:30:09Z",
-      "releaseRecency": 128,
-      "releaseRecencyText": "Released 128 days ago"
+      "releaseRecency": 130,
+      "releaseRecencyText": "Released 130 days ago"
+    },
+    {
+      "id": 62500776,
+      "name": "cerebro",
+      "fullName": "cerebroapp/cerebro",
+      "owner": {
+        "login": "cerebroapp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78750988?v=4"
+      },
+      "description": "🔵 Cerebro is an open-source launcher to improve your productivity and efficiency",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/cerebroapp/cerebro",
+      "stargazersCount": 8564,
+      "forksCount": 453,
+      "language": "JavaScript",
+      "topics": [
+        "cerebro",
+        "electron",
+        "launcher",
+        "search"
+      ],
+      "releasesUrl": "https://api.github.com/repos/cerebroapp/cerebro/releases{/id}",
+      "updatedAt": "2026-10-26T08:26:41Z",
+      "createdAt": "2016-07-03T14:42:01Z",
+      "pushedAt": "2026-10-25T01:58:08Z",
+      "downloadCount": 2288609,
+      "openIssuesCount": 73,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.11.0",
+          "publishedAt": "2023-02-09T01:27:03Z"
+        },
+        "macos": {
+          "tag": "v0.11.0",
+          "publishedAt": "2023-02-09T01:27:03Z"
+        },
+        "linux": {
+          "tag": "v0.11.0",
+          "publishedAt": "2023-02-09T01:27:03Z"
+        }
+      },
+      "latestReleaseDate": "2023-02-09T01:27:03Z",
+      "releaseRecency": 1357,
+      "releaseRecencyText": "Released 1357 days ago"
     },
     {
       "id": 475337801,
@@ -809,7 +1603,7 @@
       "description": "A free, open-source developer workspace. Snippets, notes, HTTP requests, calculations, and dev tools in one local-first app.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/massCodeIO/massCode",
-      "stargazersCount": 7089,
+      "stargazersCount": 7088,
       "forksCount": 280,
       "language": "TypeScript",
       "topics": [
@@ -832,10 +1626,10 @@
         "windows"
       ],
       "releasesUrl": "https://api.github.com/repos/massCodeIO/massCode/releases{/id}",
-      "updatedAt": "2026-10-27T02:16:51Z",
+      "updatedAt": "2026-10-27T13:33:13Z",
       "createdAt": "2022-03-29T07:54:21Z",
       "pushedAt": "2026-10-15T04:03:59Z",
-      "downloadCount": 564242,
+      "downloadCount": 567931,
       "openIssuesCount": 4,
       "archived": false,
       "hasInstallersAndroid": false,
@@ -857,8 +1651,57 @@
         }
       },
       "latestReleaseDate": "2026-10-15T03:47:12Z",
-      "releaseRecency": 12,
-      "releaseRecencyText": "Released 12 days ago"
+      "releaseRecency": 13,
+      "releaseRecencyText": "Released 13 days ago"
+    },
+    {
+      "id": 370679811,
+      "name": "sigma-file-manager",
+      "fullName": "aleksey-hoffman/sigma-file-manager",
+      "owner": {
+        "login": "aleksey-hoffman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61761672?v=4"
+      },
+      "description": "\"Sigma File Manager\" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/aleksey-hoffman/sigma-file-manager",
+      "stargazersCount": 6736,
+      "forksCount": 297,
+      "language": "TypeScript",
+      "topics": [
+        "app",
+        "electron",
+        "electron-app",
+        "electronjs",
+        "file-manager",
+        "filemanager",
+        "modern-applications",
+        "vue"
+      ],
+      "releasesUrl": "https://api.github.com/repos/aleksey-hoffman/sigma-file-manager/releases{/id}",
+      "updatedAt": "2026-10-28T08:44:09Z",
+      "createdAt": "2021-05-25T12:08:52Z",
+      "pushedAt": "2026-10-28T00:40:28Z",
+      "downloadCount": 160242,
+      "openIssuesCount": 204,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.2.0",
+          "publishedAt": "2026-07-17T17:12:51Z"
+        },
+        "linux": {
+          "tag": "v2.2.0",
+          "publishedAt": "2026-07-17T17:12:51Z"
+        }
+      },
+      "latestReleaseDate": "2026-07-17T17:12:51Z",
+      "releaseRecency": 102,
+      "releaseRecencyText": "Released 102 days ago"
     },
     {
       "id": 75675698,
@@ -871,8 +1714,8 @@
       "description": "Think fearlessly with end-to-end encrypted notes and files. For issues, visit https://standardnotes.com/forum or https://standardnotes.com/help.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/standardnotes/app",
-      "stargazersCount": 6682,
-      "forksCount": 563,
+      "stargazersCount": 6684,
+      "forksCount": 565,
       "language": "TypeScript",
       "topics": [
         "encrypted",
@@ -885,11 +1728,11 @@
         "snippets"
       ],
       "releasesUrl": "https://api.github.com/repos/standardnotes/app/releases{/id}",
-      "updatedAt": "2026-10-26T21:14:19Z",
+      "updatedAt": "2026-10-28T03:59:12Z",
       "createdAt": "2016-12-05T23:31:33Z",
-      "pushedAt": "2026-10-23T21:25:31Z",
-      "downloadCount": 45316149,
-      "openIssuesCount": 95,
+      "pushedAt": "2026-10-27T15:16:00Z",
+      "downloadCount": 45383081,
+      "openIssuesCount": 96,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
@@ -910,8 +1753,157 @@
         }
       },
       "latestReleaseDate": "2026-10-23T21:24:19Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
+    },
+    {
+      "id": 1246399437,
+      "name": "PilotDeck",
+      "fullName": "OpenBMB/PilotDeck",
+      "owner": {
+        "login": "OpenBMB",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89920203?v=4"
+      },
+      "description": "Task-oriented AI Agent productivity platform",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/OpenBMB/PilotDeck",
+      "stargazersCount": 4908,
+      "forksCount": 545,
+      "language": "TypeScript",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/OpenBMB/PilotDeck/releases{/id}",
+      "updatedAt": "2026-10-28T08:56:06Z",
+      "createdAt": "2026-05-22T06:50:28Z",
+      "pushedAt": "2026-10-28T08:12:18Z",
+      "downloadCount": 11328,
+      "openIssuesCount": 191,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2026.10.28",
+          "publishedAt": "2026-10-27T22:24:47Z"
+        },
+        "macos": {
+          "tag": "v2026.10.28",
+          "publishedAt": "2026-10-27T22:24:47Z"
+        },
+        "linux": {
+          "tag": "v2026.10.28",
+          "publishedAt": "2026-10-27T22:24:47Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-27T22:24:47Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1158449837,
+      "name": "golutra",
+      "fullName": "golutra/golutra",
+      "owner": {
+        "login": "golutra",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/255504227?v=4"
+      },
+      "description": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/golutra/golutra",
+      "stargazersCount": 3861,
+      "forksCount": 442,
+      "language": "Rust",
+      "topics": [
+        "agent",
+        "ai",
+        "automation",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "desktop-app",
+        "developer",
+        "developer-tools",
+        "gemini",
+        "multi-agent",
+        "openai",
+        "openclaw",
+        "opencode",
+        "orchestration",
+        "productivity",
+        "qwen-coder",
+        "workflows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/golutra/golutra/releases{/id}",
+      "updatedAt": "2026-10-28T03:08:46Z",
+      "createdAt": "2026-02-15T11:49:39Z",
+      "pushedAt": "2026-09-28T10:52:20Z",
+      "downloadCount": 15845,
+      "openIssuesCount": 55,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.3.4",
+          "publishedAt": "2026-09-28T10:52:21Z"
+        },
+        "macos": {
+          "tag": "v0.3.4",
+          "publishedAt": "2026-09-28T10:52:21Z"
+        },
+        "linux": {
+          "tag": "v0.3.4",
+          "publishedAt": "2026-09-28T10:52:21Z"
+        }
+      },
+      "latestReleaseDate": "2026-09-28T10:52:21Z",
+      "releaseRecency": 29,
+      "releaseRecencyText": "Released 29 days ago"
+    },
+    {
+      "id": 436414970,
+      "name": "walk",
+      "fullName": "antonmedv/walk",
+      "owner": {
+        "login": "antonmedv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/141232?v=4"
+      },
+      "description": "Terminal file manager",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/antonmedv/walk",
+      "stargazersCount": 3649,
+      "forksCount": 110,
+      "language": "Go",
+      "topics": [
+        "cli",
+        "file-manager",
+        "terminal"
+      ],
+      "releasesUrl": "https://api.github.com/repos/antonmedv/walk/releases{/id}",
+      "updatedAt": "2026-10-26T12:12:50Z",
+      "createdAt": "2021-12-08T22:50:51Z",
+      "pushedAt": "2026-01-06T09:07:56Z",
+      "downloadCount": 53634,
+      "openIssuesCount": 10,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.13.0",
+          "publishedAt": "2025-02-19T13:04:38Z"
+        }
+      },
+      "latestReleaseDate": "2025-02-19T13:04:38Z",
+      "releaseRecency": 615,
+      "releaseRecencyText": "Released 615 days ago"
     },
     {
       "id": 1079906817,
@@ -947,7 +1939,7 @@
       "updatedAt": "2026-10-26T22:03:17Z",
       "createdAt": "2025-10-20T15:09:57Z",
       "pushedAt": "2026-08-24T17:05:49Z",
-      "downloadCount": 16870,
+      "downloadCount": 16914,
       "openIssuesCount": 33,
       "archived": false,
       "hasInstallersAndroid": false,
@@ -969,8 +1961,8 @@
         }
       },
       "latestReleaseDate": "2026-04-29T21:15:25Z",
-      "releaseRecency": 180,
-      "releaseRecencyText": "Released 180 days ago"
+      "releaseRecency": 181,
+      "releaseRecencyText": "Released 181 days ago"
     },
     {
       "id": 1143312686,
@@ -983,8 +1975,8 @@
       "description": "Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Otter, Granola, Final Round AI, Fireflies, and Interview Coder. Real-time transcription, AI meeting notes, lecture recording, local RAG, BYOK, and stealth mode. Runs locally. No subscriptions. No data breaches.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
-      "stargazersCount": 3098,
-      "forksCount": 647,
+      "stargazersCount": 3110,
+      "forksCount": 650,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -1009,11 +2001,11 @@
         "trending-repositories"
       ],
       "releasesUrl": "https://api.github.com/repos/Natively-AI-assistant/natively-cluely-ai-assistant/releases{/id}",
-      "updatedAt": "2026-10-27T08:01:05Z",
+      "updatedAt": "2026-10-28T08:24:13Z",
       "createdAt": "2026-01-27T12:32:08Z",
-      "pushedAt": "2026-10-27T08:01:02Z",
-      "downloadCount": 96255,
-      "openIssuesCount": 78,
+      "pushedAt": "2026-10-28T07:45:41Z",
+      "downloadCount": 97992,
+      "openIssuesCount": 75,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
@@ -1030,8 +2022,8 @@
         }
       },
       "latestReleaseDate": "2026-10-05T21:45:47Z",
-      "releaseRecency": 21,
-      "releaseRecencyText": "Released 21 days ago"
+      "releaseRecency": 22,
+      "releaseRecencyText": "Released 22 days ago"
     },
     {
       "id": 1250907197,
@@ -1044,8 +2036,8 @@
       "description": "A minimalist Windows desktop sticky note tool. It puts a few quiet, usable, and unobtrusive sheets of paper on your desktop. Native WPF, with support for to-dos and Markdown.——极简 Windows 桌面便签工具。让桌面上有几张安静、可用、不会打扰人的纸。WPF 原生，支持待办与 Markdown。",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/snownico0722/PaperTodo",
-      "stargazersCount": 2614,
-      "forksCount": 133,
+      "stargazersCount": 2623,
+      "forksCount": 135,
       "language": "C#",
       "topics": [
         "avalonedit",
@@ -1062,11 +2054,11 @@
         "wpf"
       ],
       "releasesUrl": "https://api.github.com/repos/snownico0722/PaperTodo/releases{/id}",
-      "updatedAt": "2026-10-27T04:56:05Z",
+      "updatedAt": "2026-10-28T08:09:54Z",
       "createdAt": "2026-05-27T04:28:22Z",
       "pushedAt": "2026-10-26T21:31:21Z",
-      "downloadCount": 36307,
-      "openIssuesCount": 34,
+      "downloadCount": 36641,
+      "openIssuesCount": 31,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
@@ -1079,8 +2071,8 @@
         }
       },
       "latestReleaseDate": "2026-10-20T15:48:13Z",
-      "releaseRecency": 6,
-      "releaseRecencyText": "Released 6 days ago"
+      "releaseRecency": 7,
+      "releaseRecencyText": "Released 7 days ago"
     },
     {
       "id": 1207965399,
@@ -1094,7 +2086,7 @@
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/ZenNotes/zennotes",
       "stargazersCount": 2560,
-      "forksCount": 152,
+      "forksCount": 153,
       "language": "TypeScript",
       "topics": [
         "electron",
@@ -1105,10 +2097,201 @@
         "vim"
       ],
       "releasesUrl": "https://api.github.com/repos/ZenNotes/zennotes/releases{/id}",
-      "updatedAt": "2026-10-27T04:40:47Z",
+      "updatedAt": "2026-10-28T01:29:45Z",
       "createdAt": "2026-04-11T16:32:15Z",
-      "pushedAt": "2026-10-26T23:19:43Z",
-      "downloadCount": 228727,
+      "pushedAt": "2026-10-28T02:10:14Z",
+      "downloadCount": 231820,
+      "openIssuesCount": 100,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.78.0",
+          "publishedAt": "2026-10-27T20:42:54Z"
+        },
+        "macos": {
+          "tag": "v2.78.0",
+          "publishedAt": "2026-10-27T20:42:54Z"
+        },
+        "linux": {
+          "tag": "v2.78.0",
+          "publishedAt": "2026-10-27T20:42:54Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-27T20:42:54Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 624122214,
+      "name": "Neurite",
+      "fullName": "satellitecomponent/Neurite",
+      "owner": {
+        "login": "satellitecomponent",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129367899?v=4"
+      },
+      "description": "Fractal Graph-of-Thought. Rhizomatic Mind-Mapping for Ai-Agents, Web-Links, Notes, and Code.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/satellitecomponent/Neurite",
+      "stargazersCount": 2158,
+      "forksCount": 171,
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "ai-agents-framework",
+        "ai-graphs",
+        "ai-os",
+        "fractals",
+        "graph-of-thoughts",
+        "knowledge-graph",
+        "llm-os",
+        "mandelbrot",
+        "mindmap",
+        "multi-agent-simulation",
+        "note-taking",
+        "ollama",
+        "ollama-gui",
+        "rag",
+        "second-brain",
+        "swarm-intelligence",
+        "tree-of-thoughts",
+        "web-browsing",
+        "web-desktop"
+      ],
+      "releasesUrl": "https://api.github.com/repos/satellitecomponent/Neurite/releases{/id}",
+      "updatedAt": "2026-10-28T05:21:28Z",
+      "createdAt": "2023-04-05T19:43:37Z",
+      "pushedAt": "2026-03-16T18:51:10Z",
+      "downloadCount": 3731,
+      "openIssuesCount": 7,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "electron-2025.06.18.233853",
+          "publishedAt": "2025-06-18T23:45:30Z"
+        },
+        "macos": {
+          "tag": "electron-2025.06.18.233853",
+          "publishedAt": "2025-06-18T23:45:30Z"
+        },
+        "linux": {
+          "tag": "electron-2025.06.18.233853",
+          "publishedAt": "2025-06-18T23:45:30Z"
+        }
+      },
+      "latestReleaseDate": "2025-06-18T23:45:30Z",
+      "releaseRecency": 496,
+      "releaseRecencyText": "Released 496 days ago"
+    },
+    {
+      "id": 271776886,
+      "name": "TidGi-Desktop",
+      "fullName": "tiddly-gittly/TidGi-Desktop",
+      "owner": {
+        "login": "tiddly-gittly",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66825358?v=4"
+      },
+      "description": "TidGi is an privacy-in-mind, automated, auto-git-backup, freely-deployed knowledge management Desktop note app, based on Tiddlywiki, with REST API for web-clipping and Anki connect. 「 太记 」是一个基于「 太微 TiddlyWiki 」的知识管理桌面应用，能保护隐私内容、高级自动化、自动Git云备份、部署为博客，且可通过RESTAPI与Anki等应用连接。（迭代开发中欢迎试用，开发进度见下方链接）(Under active development, see website below for details) ",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/tiddly-gittly/TidGi-Desktop",
+      "stargazersCount": 2008,
+      "forksCount": 116,
+      "language": "TypeScript",
+      "topics": [
+        "all-in-one",
+        "anki",
+        "backlinks",
+        "electron",
+        "evernote",
+        "knowledge-graph",
+        "knowledge-management",
+        "linux",
+        "local-first",
+        "macos",
+        "note-taking",
+        "notebook",
+        "notes-app",
+        "notion",
+        "obsidian",
+        "pkm",
+        "tiddlywiki",
+        "tiddlywiki5",
+        "windows",
+        "zettelkasten"
+      ],
+      "releasesUrl": "https://api.github.com/repos/tiddly-gittly/TidGi-Desktop/releases{/id}",
+      "updatedAt": "2026-10-27T03:38:33Z",
+      "createdAt": "2020-06-12T10:59:18Z",
+      "pushedAt": "2026-10-28T06:41:58Z",
+      "downloadCount": 69703,
+      "openIssuesCount": 18,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.14.2",
+          "publishedAt": "2026-08-04T08:44:22Z"
+        },
+        "linux": {
+          "tag": "v0.14.2",
+          "publishedAt": "2026-08-04T08:44:22Z"
+        }
+      },
+      "latestReleaseDate": "2026-08-04T08:44:22Z",
+      "releaseRecency": 85,
+      "releaseRecencyText": "Released 85 days ago"
+    },
+    {
+      "id": 151837779,
+      "name": "yarle",
+      "fullName": "akosbalasko/yarle",
+      "owner": {
+        "login": "akosbalasko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11886731?v=4"
+      },
+      "description": "Yarle - The ultimate converter of Evernote notes to Markdown",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/akosbalasko/yarle",
+      "stargazersCount": 1815,
+      "forksCount": 114,
+      "language": "TypeScript",
+      "topics": [
+        "converter",
+        "desktop-application",
+        "electron-app",
+        "enex",
+        "enex-files",
+        "evernote",
+        "evernote-enex",
+        "evernote-export",
+        "evernote-markup-language",
+        "evernote-to-logseq",
+        "logseq",
+        "markdown",
+        "markdown-converter",
+        "metadata",
+        "note-taking",
+        "obsidian",
+        "obsidian-md",
+        "ultimate-converter",
+        "zero-install",
+        "zettelkasten"
+      ],
+      "releasesUrl": "https://api.github.com/repos/akosbalasko/yarle/releases{/id}",
+      "updatedAt": "2026-10-23T19:06:59Z",
+      "createdAt": "2018-10-06T12:27:54Z",
+      "pushedAt": "2026-03-31T19:44:02Z",
+      "downloadCount": 65718,
       "openIssuesCount": 94,
       "archived": false,
       "hasInstallersAndroid": false,
@@ -1117,105 +2300,644 @@
       "hasInstallersLinux": true,
       "platformReleases": {
         "windows": {
-          "tag": "v2.77.0",
-          "publishedAt": "2026-10-26T21:49:11Z"
+          "tag": "v6.16.1",
+          "publishedAt": "2026-03-05T07:32:28Z"
         },
         "macos": {
-          "tag": "v2.77.0",
-          "publishedAt": "2026-10-26T21:49:11Z"
+          "tag": "v6.16.1",
+          "publishedAt": "2026-03-05T07:32:28Z"
         },
         "linux": {
-          "tag": "v2.77.0",
-          "publishedAt": "2026-10-26T21:49:11Z"
+          "tag": "v6.16.1",
+          "publishedAt": "2026-03-05T07:32:28Z"
         }
       },
-      "latestReleaseDate": "2026-10-26T21:49:11Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
+      "latestReleaseDate": "2026-03-05T07:32:28Z",
+      "releaseRecency": 237,
+      "releaseRecencyText": "Released 237 days ago"
     },
     {
-      "id": 1183851079,
-      "name": "clin-rs",
-      "fullName": "reekta92/clin-rs",
+      "id": 1176808813,
+      "name": "opencove",
+      "fullName": "DeadWaveWave/opencove",
       "owner": {
-        "login": "reekta92",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/170321834?v=4"
+        "login": "DeadWaveWave",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90459902?v=4"
       },
-      "description": "Feature-packed TUI note management app inspired by Obsidian",
+      "description": "Your infinite canvas workspace for agents, tasks, knowledge, and research. An infinite canvas for Claude Code, Codex, terminals, tasks, and notes.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/reekta92/clin-rs",
-      "stargazersCount": 572,
-      "forksCount": 18,
-      "language": "Rust",
+      "htmlUrl": "https://github.com/DeadWaveWave/opencove",
+      "stargazersCount": 1642,
+      "forksCount": 148,
+      "language": "TypeScript",
       "topics": [
-        "graf",
-        "markdown",
-        "note-managment",
-        "note-taking",
-        "notes-app",
-        "pinstar",
-        "ratatui",
-        "rust",
-        "tui-app"
+        "agents",
+        "ai",
+        "ai-agents",
+        "canvas",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "electron",
+        "gemini",
+        "infinite-canvas",
+        "react",
+        "typescript"
       ],
-      "releasesUrl": "https://api.github.com/repos/reekta92/clin-rs/releases{/id}",
-      "updatedAt": "2026-10-26T17:03:29Z",
-      "createdAt": "2026-03-17T02:25:00Z",
-      "pushedAt": "2026-10-25T11:48:23Z",
-      "downloadCount": 3142,
-      "openIssuesCount": 4,
+      "releasesUrl": "https://api.github.com/repos/DeadWaveWave/opencove/releases{/id}",
+      "updatedAt": "2026-10-28T03:42:02Z",
+      "createdAt": "2026-03-09T11:56:55Z",
+      "pushedAt": "2026-10-17T22:15:39Z",
+      "downloadCount": 33723,
+      "openIssuesCount": 21,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": {
+        "windows": {
+          "tag": "v0.4.0",
+          "publishedAt": "2026-10-12T03:43:28Z"
+        },
         "macos": {
-          "tag": "v0.13.2",
-          "publishedAt": "2026-10-02T12:05:00Z"
+          "tag": "v0.4.0",
+          "publishedAt": "2026-10-12T03:43:28Z"
         },
         "linux": {
-          "tag": "v0.13.2",
-          "publishedAt": "2026-10-02T12:05:00Z"
-        },
-        "windows": {
-          "tag": "v0.7.0-61",
-          "publishedAt": "2026-05-10T18:00:16Z"
+          "tag": "v0.4.0",
+          "publishedAt": "2026-10-12T03:43:28Z"
         }
       },
-      "latestReleaseDate": "2026-10-02T12:05:00Z",
-      "releaseRecency": 24,
-      "releaseRecencyText": "Released 24 days ago"
+      "latestReleaseDate": "2026-10-12T03:43:28Z",
+      "releaseRecency": 16,
+      "releaseRecencyText": "Released 16 days ago"
     },
     {
-      "id": 714360271,
-      "name": "memospot",
-      "fullName": "memospot/memospot",
+      "id": 1146390057,
+      "name": "scratch",
+      "fullName": "erictli/scratch",
       "owner": {
-        "login": "memospot",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/170063124?v=4"
+        "login": "erictli",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16714122?v=4"
       },
-      "description": "Memospot is a self-contained desktop version of Memos -a privacy-first, lightweight note-taking service.",
+      "description": "A minimalist, offline-first markdown note-taking app",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/memospot/memospot",
-      "stargazersCount": 316,
-      "forksCount": 25,
-      "language": "Rust",
+      "htmlUrl": "https://github.com/erictli/scratch",
+      "stargazersCount": 1603,
+      "forksCount": 159,
+      "language": "TypeScript",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/erictli/scratch/releases{/id}",
+      "updatedAt": "2026-10-28T08:13:31Z",
+      "createdAt": "2026-01-31T02:45:07Z",
+      "pushedAt": "2026-07-28T01:12:57Z",
+      "downloadCount": 91523,
+      "openIssuesCount": 83,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.0",
+          "publishedAt": "2026-07-28T03:19:02Z"
+        },
+        "macos": {
+          "tag": "v1.0.0",
+          "publishedAt": "2026-07-28T03:19:02Z"
+        },
+        "linux": {
+          "tag": "v1.0.0",
+          "publishedAt": "2026-07-28T03:19:02Z"
+        }
+      },
+      "latestReleaseDate": "2026-07-28T03:19:02Z",
+      "releaseRecency": 92,
+      "releaseRecencyText": "Released 92 days ago"
+    },
+    {
+      "id": 1263494700,
+      "name": "reflect-open",
+      "fullName": "team-reflect/reflect-open",
+      "owner": {
+        "login": "team-reflect",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73365487?v=4"
+      },
+      "description": "Open-source Reflect rewrite: A local-first AI agent-friendly Markdown note-taking app",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/team-reflect/reflect-open",
+      "stargazersCount": 1600,
+      "forksCount": 140,
+      "language": "TypeScript",
       "topics": [
-        "desktop-app",
-        "memo",
-        "memos",
-        "microblog",
-        "note-taking",
-        "rust",
-        "self-hosted",
-        "tauri"
+        "agent",
+        "markdown",
+        "note-taking"
       ],
-      "releasesUrl": "https://api.github.com/repos/memospot/memospot/releases{/id}",
-      "updatedAt": "2026-10-23T19:18:36Z",
-      "createdAt": "2023-11-04T17:16:51Z",
-      "pushedAt": "2026-10-21T05:24:24Z",
-      "downloadCount": 11958,
+      "releasesUrl": "https://api.github.com/repos/team-reflect/reflect-open/releases{/id}",
+      "updatedAt": "2026-10-28T01:29:02Z",
+      "createdAt": "2026-06-09T02:23:15Z",
+      "pushedAt": "2026-10-28T01:29:38Z",
+      "downloadCount": 62363,
+      "openIssuesCount": 99,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.16.0",
+          "publishedAt": "2026-10-25T02:47:56Z"
+        },
+        "macos": {
+          "tag": "v0.16.0",
+          "publishedAt": "2026-10-25T02:47:56Z"
+        },
+        "linux": {
+          "tag": "v0.16.0",
+          "publishedAt": "2026-10-25T02:47:56Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-25T02:47:56Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 1114124458,
+      "name": "browserwing",
+      "fullName": "browserwing/browserwing",
+      "owner": {
+        "login": "browserwing",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/248979480?v=4"
+      },
+      "description": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably. Say goodbye to slow, token-heavy LLM interactions — let agents call commands directly for faster automation. Perfect for AI-driven tasks, browser automation, and boosting productivity.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/browserwing/browserwing",
+      "stargazersCount": 1423,
+      "forksCount": 132,
+      "language": "Go",
+      "topics": [
+        "aibrowser",
+        "golang",
+        "llm",
+        "react"
+      ],
+      "releasesUrl": "https://api.github.com/repos/browserwing/browserwing/releases{/id}",
+      "updatedAt": "2026-10-26T06:40:35Z",
+      "createdAt": "2025-12-10T23:54:17Z",
+      "pushedAt": "2026-08-08T05:47:13Z",
+      "downloadCount": 8317,
+      "openIssuesCount": 23,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.0",
+          "publishedAt": "2026-01-25T15:07:45Z"
+        }
+      },
+      "latestReleaseDate": "2026-04-20T05:36:44Z",
+      "releaseRecency": 191,
+      "releaseRecencyText": "Released 191 days ago"
+    },
+    {
+      "id": 665999824,
+      "name": "Beaver-Notes",
+      "fullName": "Beaver-Notes/Beaver-Notes",
+      "owner": {
+        "login": "Beaver-Notes",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/169441317?v=4"
+      },
+      "description": "Open-source, local-first workspace for notes, projects, and meetings. Your data stays yours.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Beaver-Notes/Beaver-Notes",
+      "stargazersCount": 1357,
+      "forksCount": 64,
+      "language": "JavaScript",
+      "topics": [
+        "beaver-notes",
+        "linux-app",
+        "macos-app",
+        "note-taking-app",
+        "notes",
+        "open-source",
+        "privacy",
+        "windows-app"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Beaver-Notes/Beaver-Notes/releases{/id}",
+      "updatedAt": "2026-10-27T18:33:23Z",
+      "createdAt": "2023-07-13T13:26:05Z",
+      "pushedAt": "2026-10-17T08:25:49Z",
+      "downloadCount": 194149,
+      "openIssuesCount": 16,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "4.4.0",
+          "publishedAt": "2026-04-17T16:21:15Z"
+        },
+        "macos": {
+          "tag": "4.4.0",
+          "publishedAt": "2026-04-17T16:21:15Z"
+        },
+        "linux": {
+          "tag": "4.4.0",
+          "publishedAt": "2026-04-17T16:21:15Z"
+        }
+      },
+      "latestReleaseDate": "2026-04-17T16:21:15Z",
+      "releaseRecency": 193,
+      "releaseRecencyText": "Released 193 days ago"
+    },
+    {
+      "id": 1324755488,
+      "name": "Lertaro",
+      "fullName": "Lertaro/Lertaro",
+      "owner": {
+        "login": "Lertaro",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/313702004?v=4"
+      },
+      "description": "A modern, high-performance local file search and productivity tool for Windows. A sleek, customizable alternative to Everything and Listary built with C# WPF and NT Services, featuring instant NTFS MFT parsing, real-time USN monitoring, and plugin support.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Lertaro/Lertaro",
+      "stargazersCount": 1322,
+      "forksCount": 61,
+      "language": "C#",
+      "topics": [
+        "application-launcher",
+        "desktop",
+        "efficiency",
+        "everyting",
+        "keyboard-launcher",
+        "launcher",
+        "listary",
+        "plugins",
+        "productivity",
+        "productivity-tools",
+        "search",
+        "windows",
+        "windows-search"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Lertaro/Lertaro/releases{/id}",
+      "updatedAt": "2026-10-28T08:24:40Z",
+      "createdAt": "2026-08-06T05:00:57Z",
+      "pushedAt": "2026-10-28T05:04:57Z",
+      "downloadCount": 80651,
+      "openIssuesCount": 9,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v5.11.1",
+          "publishedAt": "2026-10-24T16:30:04Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-24T16:30:04Z",
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
+    },
+    {
+      "id": 160967201,
+      "name": "dstask",
+      "fullName": "naggie/dstask",
+      "owner": {
+        "login": "naggie",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/208440?v=4"
+      },
+      "description": "Git powered terminal-based todo/note manager --  markdown note page per task. Single binary!",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/naggie/dstask",
+      "stargazersCount": 1214,
+      "forksCount": 67,
+      "language": "Go",
+      "topics": [
+        "bash",
+        "cli",
+        "command-line",
+        "git",
+        "gtd",
+        "notes",
+        "notes-app",
+        "notes-management-system",
+        "notes-tool",
+        "sync",
+        "task",
+        "taskwarrior",
+        "terminal",
+        "terminal-based",
+        "todo",
+        "zsh"
+      ],
+      "releasesUrl": "https://api.github.com/repos/naggie/dstask/releases{/id}",
+      "updatedAt": "2026-10-20T16:56:21Z",
+      "createdAt": "2018-12-08T18:26:53Z",
+      "pushedAt": "2026-05-11T06:48:13Z",
+      "downloadCount": 12237,
+      "openIssuesCount": 44,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.0.1",
+          "publishedAt": "2026-01-10T12:21:29Z"
+        }
+      },
+      "latestReleaseDate": "2026-01-10T12:21:29Z",
+      "releaseRecency": 290,
+      "releaseRecencyText": "Released 290 days ago"
+    },
+    {
+      "id": 672619978,
+      "name": "MemoAI",
+      "fullName": "Makememo/MemoAI",
+      "owner": {
+        "login": "Makememo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/140973261?v=4"
+      },
+      "description": "MemoAI Video to translated text, subtitles and notes made easy.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Makememo/MemoAI",
+      "stargazersCount": 1076,
+      "forksCount": 111,
+      "language": null,
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/Makememo/MemoAI/releases{/id}",
+      "updatedAt": "2026-10-27T08:42:38Z",
+      "createdAt": "2023-07-30T17:39:18Z",
+      "pushedAt": "2026-10-26T17:35:02Z",
+      "downloadCount": 1344350,
+      "openIssuesCount": 108,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.8.9",
+          "publishedAt": "2026-10-26T17:35:02Z"
+        },
+        "macos": {
+          "tag": "v1.8.9",
+          "publishedAt": "2026-10-26T17:35:02Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-26T17:35:02Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 903270862,
+      "name": "HyperChat",
+      "fullName": "BigSweetPotatoStudio/HyperChat",
+      "owner": {
+        "login": "BigSweetPotatoStudio",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/175242978?v=4"
+      },
+      "description": "HyperChat is a Chat client that strives for openness, utilizing APIs from various LLMs to achieve the best Chat experience, as well as implementing productivity tools through the MCP protocol.",
+      "defaultBranch": "dev2",
+      "htmlUrl": "https://github.com/BigSweetPotatoStudio/HyperChat",
+      "stargazersCount": 708,
+      "forksCount": 74,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "chat-application",
+        "llm",
+        "local-agent",
+        "mcp",
+        "modelcontextprotocol"
+      ],
+      "releasesUrl": "https://api.github.com/repos/BigSweetPotatoStudio/HyperChat/releases{/id}",
+      "updatedAt": "2026-10-28T07:35:37Z",
+      "createdAt": "2024-12-14T06:46:41Z",
+      "pushedAt": "2026-08-26T21:14:57Z",
+      "downloadCount": 78222,
+      "openIssuesCount": 30,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v1.8.4",
+          "publishedAt": "2025-06-18T07:39:56Z"
+        },
+        "macos": {
+          "tag": "v1.8.4",
+          "publishedAt": "2025-06-18T07:39:56Z"
+        },
+        "linux": {
+          "tag": "v1.8.4",
+          "publishedAt": "2025-06-18T07:39:56Z"
+        }
+      },
+      "latestReleaseDate": "2025-06-18T07:39:56Z",
+      "releaseRecency": 497,
+      "releaseRecencyText": "Released 497 days ago"
+    },
+    {
+      "id": 306907376,
+      "name": "QPrompt-Teleprompter",
+      "fullName": "Cuperino/QPrompt-Teleprompter",
+      "owner": {
+        "login": "Cuperino",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1840407?v=4"
+      },
+      "description": "Teleprompter software for all video creators. Built with ease of use, productivity, control accuracy, and smooth performance in mind.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Cuperino/QPrompt-Teleprompter",
+      "stargazersCount": 618,
+      "forksCount": 60,
+      "language": "QML",
+      "topics": [
+        "autocue",
+        "freesoftware",
+        "opensource",
+        "qml",
+        "qt",
+        "teleprompter",
+        "text-editor"
+      ],
+      "releasesUrl": "https://api.github.com/repos/Cuperino/QPrompt-Teleprompter/releases{/id}",
+      "updatedAt": "2026-10-26T19:27:26Z",
+      "createdAt": "2020-10-24T14:59:35Z",
+      "pushedAt": "2026-10-26T23:22:46Z",
+      "downloadCount": 14893,
+      "openIssuesCount": 143,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v2.0.2",
+          "publishedAt": "2026-06-04T20:16:50Z"
+        },
+        "macos": {
+          "tag": "v2.0.2",
+          "publishedAt": "2026-06-04T20:16:50Z"
+        },
+        "linux": {
+          "tag": "v2.0.2",
+          "publishedAt": "2026-06-04T20:16:50Z"
+        }
+      },
+      "latestReleaseDate": "2026-10-25T16:35:10Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
+    },
+    {
+      "id": 1023135889,
+      "name": "priospace",
+      "fullName": "AnoyRC/priospace",
+      "owner": {
+        "login": "AnoyRC",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38689344?v=4"
+      },
+      "description": "All-in-one Productivity App",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/AnoyRC/priospace",
+      "stargazersCount": 567,
+      "forksCount": 52,
+      "language": "JavaScript",
+      "topics": [
+        "ios",
+        "mac",
+        "open-source",
+        "private",
+        "productivity",
+        "website",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/AnoyRC/priospace/releases{/id}",
+      "updatedAt": "2026-10-14T02:20:59Z",
+      "createdAt": "2025-07-20T15:49:37Z",
+      "pushedAt": "2026-01-19T14:36:31Z",
+      "downloadCount": 1333,
+      "openIssuesCount": 3,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "0.1.4",
+          "publishedAt": "2026-01-19T14:00:51Z"
+        },
+        "windows": {
+          "tag": "0.1.4",
+          "publishedAt": "2026-01-19T14:00:51Z"
+        },
+        "macos": {
+          "tag": "0.1.4",
+          "publishedAt": "2026-01-19T14:00:51Z"
+        }
+      },
+      "latestReleaseDate": "2026-01-19T14:00:51Z",
+      "releaseRecency": 281,
+      "releaseRecencyText": "Released 281 days ago"
+    },
+    {
+      "id": 1179548338,
+      "name": "ClawWork",
+      "fullName": "clawwork-ai/ClawWork",
+      "owner": {
+        "login": "clawwork-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/267831974?v=4"
+      },
+      "description": "Client for OpenClaw — Connect ClawWork to your own OpenClaw and unlock 10x multi-session productivity.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/clawwork-ai/ClawWork",
+      "stargazersCount": 531,
+      "forksCount": 71,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-tools",
+        "desktop-app",
+        "developer-tools",
+        "electron",
+        "git",
+        "llm",
+        "macos",
+        "openclaw",
+        "openclaw-alternative",
+        "react",
+        "sqlite",
+        "tailwindcss",
+        "task-management",
+        "typescript",
+        "zustand"
+      ],
+      "releasesUrl": "https://api.github.com/repos/clawwork-ai/ClawWork/releases{/id}",
+      "updatedAt": "2026-10-23T07:37:31Z",
+      "createdAt": "2026-03-12T06:11:44Z",
+      "pushedAt": "2026-10-26T03:35:28Z",
+      "downloadCount": 12343,
+      "openIssuesCount": 35,
+      "archived": false,
+      "hasInstallersAndroid": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "windows": {
+          "tag": "v0.0.16",
+          "publishedAt": "2026-05-16T03:44:59Z"
+        },
+        "macos": {
+          "tag": "v0.0.16",
+          "publishedAt": "2026-05-16T03:44:59Z"
+        },
+        "linux": {
+          "tag": "v0.0.16",
+          "publishedAt": "2026-05-16T03:44:59Z"
+        }
+      },
+      "latestReleaseDate": "2026-05-16T03:44:59Z",
+      "releaseRecency": 165,
+      "releaseRecencyText": "Released 165 days ago"
+    },
+    {
+      "id": 1149551913,
+      "name": "hive",
+      "fullName": "morapelker/hive",
+      "owner": {
+        "login": "morapelker",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18011776?v=4"
+      },
+      "description": "Project/Worktree manager, deeply integrated with AI agents to increase productivity and multitask efficiently",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/morapelker/hive",
+      "stargazersCount": 472,
+      "forksCount": 56,
+      "language": "TypeScript",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/morapelker/hive/releases{/id}",
+      "updatedAt": "2026-10-24T07:42:36Z",
+      "createdAt": "2026-02-04T08:43:35Z",
+      "pushedAt": "2026-09-29T20:24:18Z",
+      "downloadCount": 40127,
       "openIssuesCount": 3,
       "archived": false,
       "hasInstallersAndroid": false,
@@ -1224,174 +2946,71 @@
       "hasInstallersLinux": true,
       "platformReleases": {
         "windows": {
-          "tag": "v1.0.5",
-          "publishedAt": "2026-10-10T19:39:20Z"
+          "tag": "v1.2.49",
+          "publishedAt": "2026-09-29T20:44:00Z"
         },
         "macos": {
-          "tag": "v1.0.5",
-          "publishedAt": "2026-10-10T19:39:20Z"
+          "tag": "v1.2.49",
+          "publishedAt": "2026-09-29T20:44:00Z"
         },
         "linux": {
-          "tag": "v1.0.5",
-          "publishedAt": "2026-10-10T19:39:20Z"
+          "tag": "v1.2.49",
+          "publishedAt": "2026-09-29T20:44:00Z"
         }
       },
-      "latestReleaseDate": "2026-10-10T19:39:20Z",
-      "releaseRecency": 16,
-      "releaseRecencyText": "Released 16 days ago"
+      "latestReleaseDate": "2026-09-29T20:44:00Z",
+      "releaseRecency": 28,
+      "releaseRecencyText": "Released 28 days ago"
     },
     {
-      "id": 1269112987,
-      "name": "nodus",
-      "fullName": "jorgepb96/nodus",
+      "id": 1258883863,
+      "name": "SwiftList",
+      "fullName": "SwiftList/SwiftList",
       "owner": {
-        "login": "jorgepb96",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/41027003?v=4"
+        "login": "SwiftList",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/290573186?v=4"
       },
-      "description": "Open-source research workspace for connecting sources, evidence, notes and ideas. Built for academic research with Zotero integration. Available on MacOS, Windows and Linux.",
+      "description": "A modern, high-performance local file search and productivity tool for Windows. A sleek, customizable alternative to Everything and Listary built with C# WPF and NT Services, featuring instant NTFS MFT parsing, real-time USN monitoring, and plugin support.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/jorgepb96/nodus",
-      "stargazersCount": 288,
-      "forksCount": 25,
-      "language": "TypeScript",
+      "htmlUrl": "https://github.com/SwiftList/SwiftList",
+      "stargazersCount": 458,
+      "forksCount": 22,
+      "language": "C#",
       "topics": [
-        "academic-research",
-        "academic-tools",
-        "archive",
-        "database",
-        "database-management",
-        "graph",
-        "investigation",
-        "knowledge-graph",
-        "library",
-        "local-first",
-        "open-science",
-        "open-source",
-        "papers",
-        "pkm",
-        "research",
-        "study",
-        "study-notes",
-        "zotero",
-        "zotero-addon",
-        "zotero-plugin"
+        "application-launcher",
+        "desktop",
+        "efficiency",
+        "everyting",
+        "keyboard-launcher",
+        "launcher",
+        "listary",
+        "plugins",
+        "productivity",
+        "productivity-tools",
+        "search",
+        "windows",
+        "windows-search"
       ],
-      "releasesUrl": "https://api.github.com/repos/jorgepb96/nodus/releases{/id}",
-      "updatedAt": "2026-10-26T16:21:14Z",
-      "createdAt": "2026-06-14T10:19:02Z",
-      "pushedAt": "2026-10-26T12:15:24Z",
-      "downloadCount": 19378,
-      "openIssuesCount": 5,
-      "archived": false,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v5.16.1",
-          "publishedAt": "2026-10-25T12:01:36Z"
-        },
-        "macos": {
-          "tag": "v5.16.1",
-          "publishedAt": "2026-10-25T12:01:36Z"
-        },
-        "linux": {
-          "tag": "v5.16.1",
-          "publishedAt": "2026-10-25T12:01:36Z"
-        }
-      },
-      "latestReleaseDate": "2026-10-25T12:01:36Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1258640923,
-      "name": "webobsidian",
-      "fullName": "xnohat/webobsidian",
-      "owner": {
-        "login": "xnohat",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4613808?v=4"
-      },
-      "description": "Web based Obsidian Notes App",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/xnohat/webobsidian",
-      "stargazersCount": 278,
-      "forksCount": 132,
-      "language": "TypeScript",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/xnohat/webobsidian/releases{/id}",
-      "updatedAt": "2026-10-24T17:31:40Z",
-      "createdAt": "2026-06-03T19:20:54Z",
-      "pushedAt": "2026-06-27T19:02:22Z",
-      "downloadCount": 290,
-      "openIssuesCount": 27,
-      "archived": false,
-      "hasInstallersAndroid": false,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "windows": {
-          "tag": "v0.1.0",
-          "publishedAt": "2026-06-25T04:46:28Z"
-        },
-        "macos": {
-          "tag": "v0.1.0",
-          "publishedAt": "2026-06-25T04:46:28Z"
-        },
-        "linux": {
-          "tag": "v0.1.0",
-          "publishedAt": "2026-06-25T04:46:28Z"
-        }
-      },
-      "latestReleaseDate": "2026-06-25T04:46:28Z",
-      "releaseRecency": 124,
-      "releaseRecencyText": "Released 124 days ago"
-    },
-    {
-      "id": 854989941,
-      "name": "orca-note",
-      "fullName": "sethyuan/orca-note",
-      "owner": {
-        "login": "sethyuan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3410293?v=4"
-      },
-      "description": "A note taking application that is good both for outlining and long-form writing.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sethyuan/orca-note",
-      "stargazersCount": 221,
-      "forksCount": 2,
-      "language": null,
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/sethyuan/orca-note/releases{/id}",
-      "updatedAt": "2026-10-20T06:10:37Z",
-      "createdAt": "2024-09-10T05:37:49Z",
-      "pushedAt": "2026-10-24T01:27:16Z",
-      "downloadCount": 48880,
+      "releasesUrl": "https://api.github.com/repos/SwiftList/SwiftList/releases{/id}",
+      "updatedAt": "2026-10-28T08:34:01Z",
+      "createdAt": "2026-06-04T02:26:05Z",
+      "pushedAt": "2026-08-05T06:05:29Z",
+      "downloadCount": 14374,
       "openIssuesCount": 17,
       "archived": false,
       "hasInstallersAndroid": false,
       "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
       "platformReleases": {
         "windows": {
-          "tag": "v1.98.1",
-          "publishedAt": "2026-10-24T01:27:17Z"
-        },
-        "macos": {
-          "tag": "v1.98.1",
-          "publishedAt": "2026-10-24T01:27:17Z"
-        },
-        "linux": {
-          "tag": "v1.98.1",
-          "publishedAt": "2026-10-24T01:27:17Z"
+          "tag": "v4.2.2",
+          "publishedAt": "2026-08-05T06:07:43Z"
         }
       },
-      "latestReleaseDate": "2026-10-24T01:27:17Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
+      "latestReleaseDate": "2026-08-05T06:07:43Z",
+      "releaseRecency": 84,
+      "releaseRecencyText": "Released 84 days ago"
     }
   ]
 }
