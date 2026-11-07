@@ -28,10 +28,9 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
-          # No repo token needed — this deploy authenticates over SSH, so don't
-          # leave GITHUB_TOKEN in .git/config (zizmor artipacked).
+          # The deploy authenticates over SSH, so keep GITHUB_TOKEN out of .git/config (zizmor artipacked).
           persist-credentials: false
 
       - name: Configure SSH
