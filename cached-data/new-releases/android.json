@@ -1,475 +1,131 @@
 {
   "category": "new-releases",
   "platform": "android",
-  "lastUpdated": "2026-11-15T09:07:07.992784Z",
-  "totalCount": 90,
+  "lastUpdated": "2026-11-16T09:23:26.768285Z",
+  "totalCount": 46,
   "repositories": [
     {
-      "id": 1086478147,
-      "name": "XHS_Downloader_Android",
-      "fullName": "NEORUAA/XHS_Downloader_Android",
+      "id": 1136941149,
+      "name": "go-music-dl",
+      "fullName": "guohuiyuan/go-music-dl",
       "owner": {
-        "login": "NEORUAA",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/75155966?v=4"
+        "login": "guohuiyuan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54976075?v=4"
       },
-      "description": "小红书无压缩无水印原图下载器",
+      "description": "一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：755087923",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/NEORUAA/XHS_Downloader_Android",
-      "stargazersCount": 637,
-      "forksCount": 38,
-      "language": "Kotlin",
+      "htmlUrl": "https://github.com/guohuiyuan/go-music-dl",
+      "stargazersCount": 6440,
+      "forksCount": 611,
+      "language": "Go",
       "topics": [
-        "android-application",
-        "downloader",
-        "jetpack-compose",
-        "miuix",
-        "rednote",
-        "xiaohongshu"
+        "go",
+        "music"
       ],
-      "releasesUrl": "https://api.github.com/repos/NEORUAA/XHS_Downloader_Android/releases{/id}",
-      "updatedAt": "2026-11-15T09:16:53Z",
-      "createdAt": "2025-10-30T13:26:55Z",
-      "pushedAt": "2026-11-15T08:48:12Z",
-      "downloadCount": 11333,
+      "releasesUrl": "https://api.github.com/repos/guohuiyuan/go-music-dl/releases{/id}",
+      "updatedAt": "2026-11-16T09:39:40Z",
+      "createdAt": "2026-01-18T16:29:10Z",
+      "pushedAt": "2026-11-16T09:28:22Z",
+      "downloadCount": 136075,
       "openIssuesCount": 17,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "1.4.5",
-          "publishedAt": "2026-11-15T09:23:34Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T09:23:34Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 204363144,
-      "name": "termux-x11",
-      "fullName": "termux/termux-x11",
-      "owner": {
-        "login": "termux",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8104776?v=4"
-      },
-      "description": "Termux X-server add-on.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/termux/termux-x11",
-      "stargazersCount": 5148,
-      "forksCount": 834,
-      "language": "Java",
-      "topics": [
-        "android",
-        "graphics",
-        "linux",
-        "termux",
-        "x11"
-      ],
-      "releasesUrl": "https://api.github.com/repos/termux/termux-x11/releases{/id}",
-      "updatedAt": "2026-11-15T09:03:46Z",
-      "createdAt": "2019-08-25T23:51:04Z",
-      "pushedAt": "2026-11-15T09:19:11Z",
-      "downloadCount": 0,
-      "openIssuesCount": 22,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "nightly",
-          "publishedAt": "2026-11-15T09:19:12Z"
-        },
-        "linux": {
-          "tag": "nightly",
-          "publishedAt": "2026-11-15T09:19:12Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T09:19:12Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1451870852,
-      "name": "ff7-recomp-android",
-      "fullName": "bhuiyah/ff7-recomp-android",
-      "owner": {
-        "login": "bhuiyah",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/66151125?v=4"
-      },
-      "description": "FINAL FANTASY VII (PC) statically recompiled to native ARM64 Android, with an FFNx renderer and a 7th Heaven-style mod launcher. No game files included.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/bhuiyah/ff7-recomp-android",
-      "stargazersCount": 71,
-      "forksCount": 3,
-      "language": "Java",
-      "topics": [
-        "7th-heaven",
-        "android",
-        "ayn-thor",
-        "ffnx",
-        "final-fantasy-vii",
-        "static-recompilation"
-      ],
-      "releasesUrl": "https://api.github.com/repos/bhuiyah/ff7-recomp-android/releases{/id}",
-      "updatedAt": "2026-11-15T08:43:13Z",
-      "createdAt": "2026-11-09T20:55:11Z",
-      "pushedAt": "2026-11-15T09:16:50Z",
-      "downloadCount": 3496,
-      "openIssuesCount": 10,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.1.5",
-          "publishedAt": "2026-11-15T09:16:51Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T09:16:51Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 867141682,
-      "name": "Breeze",
-      "fullName": "breeze-project-org/Breeze",
-      "owner": {
-        "login": "breeze-project-org",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/353260149?v=4"
-      },
-      "description": "使用flutter构建的漫画阅读器，通过插件提供漫画支持。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/breeze-project-org/Breeze",
-      "stargazersCount": 3079,
-      "forksCount": 86,
-      "language": "Dart",
-      "topics": [
-        "android",
-        "flutter-apps",
-        "ios",
-        "linux",
-        "macos",
-        "windows"
-      ],
-      "releasesUrl": "https://api.github.com/repos/breeze-project-org/Breeze/releases{/id}",
-      "updatedAt": "2026-11-15T09:12:12Z",
-      "createdAt": "2024-10-03T14:20:24Z",
-      "pushedAt": "2026-11-15T09:04:37Z",
-      "downloadCount": 543479,
-      "openIssuesCount": 9,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": {
-        "android": {
-          "tag": "v3.0.38",
-          "publishedAt": "2026-11-15T09:03:41Z"
-        },
-        "windows": {
-          "tag": "v3.0.38",
-          "publishedAt": "2026-11-15T09:03:41Z"
-        },
         "macos": {
-          "tag": "v3.0.38",
-          "publishedAt": "2026-11-15T09:03:41Z"
+          "tag": "v1.1.7",
+          "publishedAt": "2026-11-16T09:34:47Z"
         },
         "linux": {
-          "tag": "v3.0.38",
-          "publishedAt": "2026-11-15T09:03:41Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T09:03:41Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1335751078,
-      "name": "Open-Box",
-      "fullName": "liandu2024/Open-Box",
-      "owner": {
-        "login": "liandu2024",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/155928686?v=4"
-      },
-      "description": "Open-Box 一体化透明代理：OpenWrt / Debian / Ubuntu / Docker；自有程序闭源，第三方组件遵守原许可。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/liandu2024/Open-Box",
-      "stargazersCount": 2743,
-      "forksCount": 504,
-      "language": "Shell",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/liandu2024/Open-Box/releases{/id}",
-      "updatedAt": "2026-11-15T09:10:42Z",
-      "createdAt": "2026-08-16T08:36:42Z",
-      "pushedAt": "2026-11-15T09:01:54Z",
-      "downloadCount": 33288,
-      "openIssuesCount": 265,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.1.437",
-          "publishedAt": "2026-11-15T04:33:42Z"
+          "tag": "v1.1.7",
+          "publishedAt": "2026-11-16T09:34:47Z"
         },
-        "windows": {
-          "tag": "v0.1.437",
-          "publishedAt": "2026-11-15T04:33:42Z"
-        },
-        "macos": {
-          "tag": "v0.1.437",
-          "publishedAt": "2026-11-15T04:33:42Z"
-        },
-        "linux": {
-          "tag": "v0.1.437",
-          "publishedAt": "2026-11-15T04:33:42Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T09:01:54Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1418828130,
-      "name": "Supernova",
-      "fullName": "tanujnotes/Supernova",
-      "owner": {
-        "login": "tanujnotes",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11060605?v=4"
-      },
-      "description": "Open source alternative to Nova launcher. No network permission.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/tanujnotes/Supernova",
-      "stargazersCount": 162,
-      "forksCount": 18,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "android-app",
-        "cutomization",
-        "homescreen",
-        "homescreen-widgets",
-        "launcher",
-        "launcher-application",
-        "launcher3",
-        "launchers",
-        "supernova",
-        "widgets"
-      ],
-      "releasesUrl": "https://api.github.com/repos/tanujnotes/Supernova/releases{/id}",
-      "updatedAt": "2026-11-15T09:14:34Z",
-      "createdAt": "2026-10-14T11:52:18Z",
-      "pushedAt": "2026-11-15T08:42:56Z",
-      "downloadCount": 2928,
-      "openIssuesCount": 7,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
         "android": {
-          "tag": "v0.2.2",
-          "publishedAt": "2026-11-15T08:50:17Z"
+          "tag": "v1.1.6",
+          "publishedAt": "2026-11-15T13:01:26Z"
         }
       },
-      "latestReleaseDate": "2026-11-15T08:50:17Z",
+      "latestReleaseDate": "2026-11-16T09:34:47Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1324919741,
-      "name": "RippleFiles-FileManager",
-      "fullName": "GokulSB/RippleFiles-FileManager",
+      "id": 1096175506,
+      "name": "okou",
+      "fullName": "okou-ai/okou",
       "owner": {
-        "login": "GokulSB",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/108936229?v=4"
+        "login": "okou-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/242540347?v=4"
       },
-      "description": null,
+      "description": "Okou connects to the tools your team already uses and does the work — across marketing, sales, engineering, and operations, under your control.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/GokulSB/RippleFiles-FileManager",
-      "stargazersCount": 146,
-      "forksCount": 7,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/GokulSB/RippleFiles-FileManager/releases{/id}",
-      "updatedAt": "2026-11-15T09:22:32Z",
-      "createdAt": "2026-08-06T07:55:12Z",
-      "pushedAt": "2026-11-15T08:47:19Z",
-      "downloadCount": 6741,
-      "openIssuesCount": 0,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "V3.1.2",
-          "publishedAt": "2026-11-15T08:47:20Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T08:47:20Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1451397905,
-      "name": "HGhubX",
-      "fullName": "zxsos/HGhubX",
-      "owner": {
-        "login": "zxsos",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/88264662?v=4"
-      },
-      "description": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/zxsos/HGhubX",
-      "stargazersCount": 3482,
-      "forksCount": 2326,
+      "htmlUrl": "https://github.com/okou-ai/okou",
+      "stargazersCount": 1163,
+      "forksCount": 73,
       "language": "TypeScript",
       "topics": [
-        "android",
-        "cross-platform",
-        "hls",
-        "linux",
-        "macos",
-        "react",
-        "rust",
-        "tauri",
-        "typescript",
-        "video-player",
-        "vite",
-        "windows"
-      ],
-      "releasesUrl": "https://api.github.com/repos/zxsos/HGhubX/releases{/id}",
-      "updatedAt": "2026-11-15T09:22:18Z",
-      "createdAt": "2026-11-09T13:23:43Z",
-      "pushedAt": "2026-11-15T09:22:10Z",
-      "downloadCount": 162539,
-      "openIssuesCount": 14,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.1.0",
-          "publishedAt": "2026-11-15T08:37:59Z"
-        },
-        "windows": {
-          "tag": "v2.1.0",
-          "publishedAt": "2026-11-15T08:37:59Z"
-        },
-        "macos": {
-          "tag": "v2.1.0",
-          "publishedAt": "2026-11-15T08:37:59Z"
-        },
-        "linux": {
-          "tag": "v2.1.0",
-          "publishedAt": "2026-11-15T08:37:59Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T08:37:59Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1448515937,
-      "name": "pinky",
-      "fullName": "DIYgod/pinky",
-      "owner": {
-        "login": "DIYgod",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8266075?v=4"
-      },
-      "description": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/DIYgod/pinky",
-      "stargazersCount": 2179,
-      "forksCount": 238,
-      "language": "Go",
-      "topics": [
+        "agentic-workflow",
         "ai-agent",
-        "android",
-        "claude-code",
-        "ios",
-        "iphone",
-        "mcp",
-        "mcp-server",
-        "phone-automation"
+        "ai-runtime",
+        "ai-sandbox",
+        "dev-tools",
+        "sandbox"
       ],
-      "releasesUrl": "https://api.github.com/repos/DIYgod/pinky/releases{/id}",
-      "updatedAt": "2026-11-15T09:11:41Z",
-      "createdAt": "2026-11-06T16:53:14Z",
-      "pushedAt": "2026-11-15T08:18:46Z",
-      "downloadCount": 62455,
-      "openIssuesCount": 27,
+      "releasesUrl": "https://api.github.com/repos/okou-ai/okou/releases{/id}",
+      "updatedAt": "2026-11-16T09:38:12Z",
+      "createdAt": "2025-11-14T03:27:22Z",
+      "pushedAt": "2026-11-16T09:40:43Z",
+      "downloadCount": 3608,
+      "openIssuesCount": 153,
       "archived": false,
       "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
+      "hasInstallersWindows": false,
       "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
+      "hasInstallersLinux": false,
       "platformReleases": {
-        "android": {
-          "tag": "v2026.1115.6",
-          "publishedAt": "2026-11-15T08:30:19Z"
-        },
-        "windows": {
-          "tag": "v2026.1115.6",
-          "publishedAt": "2026-11-15T08:30:19Z"
-        },
         "macos": {
-          "tag": "v2026.1115.6",
-          "publishedAt": "2026-11-15T08:30:19Z"
+          "tag": "okou-desktop-v0.56.6",
+          "publishedAt": "2026-11-16T09:27:24Z"
         },
-        "linux": {
-          "tag": "v2026.1115.6",
-          "publishedAt": "2026-11-15T08:30:19Z"
+        "android": {
+          "tag": "android-v0.14.2",
+          "publishedAt": "2026-11-16T09:17:51Z"
         }
       },
-      "latestReleaseDate": "2026-11-15T08:30:19Z",
+      "latestReleaseDate": "2026-11-16T09:18:10Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1249975515,
-      "name": "skyadb",
-      "fullName": "sky22333/skyadb",
+      "id": 1425118974,
+      "name": "vulcan-launcher",
+      "fullName": "krishnanunnir/vulcan-launcher",
       "owner": {
-        "login": "sky22333",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/115192496?v=4"
+        "login": "krishnanunnir",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13539828?v=4"
       },
-      "description": "Android 上的 adb 助手，可以很方便的管理安卓手机、平板、电视和盒子。支持AI控制。",
+      "description": "An Android home screen with Nova's depth and no internet access at all. No ads, trackers or analytics.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sky22333/skyadb",
-      "stargazersCount": 771,
-      "forksCount": 57,
+      "htmlUrl": "https://github.com/krishnanunnir/vulcan-launcher",
+      "stargazersCount": 89,
+      "forksCount": 9,
       "language": "Kotlin",
       "topics": [
-        "adb",
         "android",
-        "android-app",
-        "android-application",
-        "miuix",
-        "shizuku",
-        "shizuku-adb"
+        "android-launcher",
+        "kotlin",
+        "launcher",
+        "nova-launcher",
+        "privacy"
       ],
-      "releasesUrl": "https://api.github.com/repos/sky22333/skyadb/releases{/id}",
-      "updatedAt": "2026-11-15T09:10:15Z",
-      "createdAt": "2026-05-26T07:35:50Z",
-      "pushedAt": "2026-11-15T08:27:24Z",
-      "downloadCount": 7202,
-      "openIssuesCount": 0,
+      "releasesUrl": "https://api.github.com/repos/krishnanunnir/vulcan-launcher/releases{/id}",
+      "updatedAt": "2026-11-16T09:39:24Z",
+      "createdAt": "2026-10-19T04:44:27Z",
+      "pushedAt": "2026-11-16T08:18:55Z",
+      "downloadCount": 1639,
+      "openIssuesCount": 11,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -477,607 +133,167 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v1.2.2",
-          "publishedAt": "2026-11-15T08:27:24Z"
+          "tag": "v0.31",
+          "publishedAt": "2026-11-16T08:21:02Z"
         }
       },
-      "latestReleaseDate": "2026-11-15T08:27:24Z",
+      "latestReleaseDate": "2026-11-16T08:21:02Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1266034215,
-      "name": "CallVault",
-      "fullName": "madkongo/CallVault",
+      "id": 1444372497,
+      "name": "HGhub",
+      "fullName": "Minireel/HGhub",
       "owner": {
-        "login": "madkongo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/138137377?v=4"
+        "login": "Minireel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/328980256?v=4"
       },
-      "description": "FOSS call recorder for Android, no root or PC — records both sides of a call on its own over built-in ADB, or through Shizuku if you already use it. Fork of ShizuCallRecorder.",
+      "description": "Plug-in media player",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/madkongo/CallVault",
-      "stargazersCount": 242,
-      "forksCount": 30,
-      "language": "Kotlin",
+      "htmlUrl": "https://github.com/Minireel/HGhub",
+      "stargazersCount": 9296,
+      "forksCount": 7636,
+      "language": "Rust",
       "topics": [
-        "adb",
         "android",
-        "call-recorder",
-        "shizuku"
+        "drama",
+        "free",
+        "movie-web-app",
+        "reels",
+        "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/madkongo/CallVault/releases{/id}",
-      "updatedAt": "2026-11-15T09:11:43Z",
-      "createdAt": "2026-06-11T09:16:12Z",
-      "pushedAt": "2026-11-15T08:52:17Z",
-      "downloadCount": 22381,
+      "releasesUrl": "https://api.github.com/repos/Minireel/HGhub/releases{/id}",
+      "updatedAt": "2026-11-16T09:40:04Z",
+      "createdAt": "2026-11-03T14:04:27Z",
+      "pushedAt": "2026-11-16T09:38:28Z",
+      "downloadCount": 658,
       "openIssuesCount": 6,
       "archived": false,
       "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.5.1",
-          "publishedAt": "2026-11-15T07:53:16Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T07:53:16Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1432292524,
-      "name": "c001apk",
-      "fullName": "KiritoXDone/c001apk",
-      "owner": {
-        "login": "KiritoXDone",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/58523182?v=4"
-      },
-      "description": "基于 Jetpack Compose 与原生 miuix 的非官方酷安客户端",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/KiritoXDone/c001apk",
-      "stargazersCount": 272,
-      "forksCount": 11,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/KiritoXDone/c001apk/releases{/id}",
-      "updatedAt": "2026-11-15T09:19:34Z",
-      "createdAt": "2026-10-24T14:57:37Z",
-      "pushedAt": "2026-11-15T07:39:24Z",
-      "downloadCount": 6426,
-      "openIssuesCount": 4,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.5.6",
-          "publishedAt": "2026-11-15T07:52:28Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T07:52:28Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1332818329,
-      "name": "ReveriePaint",
-      "fullName": "LanRhyme/ReveriePaint",
-      "owner": {
-        "login": "LanRhyme",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/113491998?v=4"
-      },
-      "description": "基于 Krita 核心引擎的 Android 原生数字绘画应用",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/LanRhyme/ReveriePaint",
-      "stargazersCount": 304,
-      "forksCount": 21,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "art",
-        "digital-painting",
-        "drawing",
-        "krita",
-        "reveriepaint",
-        "stylus"
-      ],
-      "releasesUrl": "https://api.github.com/repos/LanRhyme/ReveriePaint/releases{/id}",
-      "updatedAt": "2026-11-15T09:02:11Z",
-      "createdAt": "2026-08-13T07:13:59Z",
-      "pushedAt": "2026-11-15T07:22:12Z",
-      "downloadCount": 22141,
-      "openIssuesCount": 7,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.9.0",
-          "publishedAt": "2026-11-15T07:27:34Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T07:27:34Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1447645061,
-      "name": "LinzinDeskClock",
-      "fullName": "linzin86/LinzinDeskClock",
-      "owner": {
-        "login": "linzin86",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/353112592?v=4"
-      },
-      "description": "A Desk Clock App Made for Android Foldables / 專為Android大摺疊機打造的桌面時鐘App",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/linzin86/LinzinDeskClock",
-      "stargazersCount": 150,
-      "forksCount": 3,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/linzin86/LinzinDeskClock/releases{/id}",
-      "updatedAt": "2026-11-15T09:22:53Z",
-      "createdAt": "2026-11-06T00:06:20Z",
-      "pushedAt": "2026-11-15T07:11:21Z",
-      "downloadCount": 2817,
-      "openIssuesCount": 10,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.1",
-          "publishedAt": "2026-11-15T07:11:23Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T07:11:23Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1447439755,
-      "name": "ola-s1-mods",
-      "fullName": "Asjohn720/ola-s1-mods",
-      "owner": {
-        "login": "Asjohn720",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/52655205?v=4"
-      },
-      "description": "1-Click mod toolkit for Ola S1 & S1 Pro (MoveOS). Safely unlocks wireless ADB, floating touch navigation, and ad-free music with zero flash modification.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Asjohn720/ola-s1-mods",
-      "stargazersCount": 52,
-      "forksCount": 19,
-      "language": "Kotlin",
-      "topics": [
-        "mods",
-        "ola-electric",
-        "ola-mods",
-        "ola-s1",
-        "ola-s1-pro"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Asjohn720/ola-s1-mods/releases{/id}",
-      "updatedAt": "2026-11-15T09:03:02Z",
-      "createdAt": "2026-11-05T19:42:53Z",
-      "pushedAt": "2026-11-15T06:49:23Z",
-      "downloadCount": 15637,
-      "openIssuesCount": 4,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.4",
-          "publishedAt": "2026-11-15T06:49:24Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T06:49:24Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1411026273,
-      "name": "LASRecomp",
-      "fullName": "peiikai/LASRecomp",
-      "owner": {
-        "login": "peiikai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/339721950?v=4"
-      },
-      "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/peiikai/LASRecomp",
-      "stargazersCount": 2419,
-      "forksCount": 309,
-      "language": "C",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/peiikai/LASRecomp/releases{/id}",
-      "updatedAt": "2026-11-15T08:49:38Z",
-      "createdAt": "2026-10-08T22:42:12Z",
-      "pushedAt": "2026-11-15T09:06:56Z",
-      "downloadCount": 32525,
-      "openIssuesCount": 16,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
+      "hasInstallersWindows": true,
       "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "beta_6",
-          "publishedAt": "2026-11-15T06:35:20Z"
-        },
-        "macos": {
-          "tag": "beta_6",
-          "publishedAt": "2026-11-15T06:35:20Z"
-        },
-        "linux": {
-          "tag": "beta_6",
-          "publishedAt": "2026-11-15T06:35:20Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T06:35:20Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1414237866,
-      "name": "RawlineMobile",
-      "fullName": "ttrroyy/RawlineMobile",
-      "owner": {
-        "login": "ttrroyy",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/268503256?v=4"
-      },
-      "description": "Rawline: Android-клиент sing-box/Xray с поддержкой MRTT, qWDTT, CSQTT, WDTT Plus, FreeTurn, olcRTC, OpenFlux, DNS-туннелей и S3 Bypass",
-      "defaultBranch": "dev",
-      "htmlUrl": "https://github.com/ttrroyy/RawlineMobile",
-      "stargazersCount": 161,
-      "forksCount": 11,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "censorship-circumvention",
-        "dnstt",
-        "proxy",
-        "rawline",
-        "sing-box",
-        "vless",
-        "vpn",
-        "xray"
-      ],
-      "releasesUrl": "https://api.github.com/repos/ttrroyy/RawlineMobile/releases{/id}",
-      "updatedAt": "2026-11-15T09:21:24Z",
-      "createdAt": "2026-10-11T11:00:08Z",
-      "pushedAt": "2026-11-15T05:12:15Z",
-      "downloadCount": 36248,
-      "openIssuesCount": 0,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "rawline-1.1.4",
-          "publishedAt": "2026-11-15T05:12:16Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T05:12:16Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1431782080,
-      "name": "TaoSheng",
-      "fullName": "0xCoach/TaoSheng",
-      "owner": {
-        "login": "0xCoach",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/24619544?v=4"
-      },
-      "description": "涛声 TaoSheng：用一部安卓手机全天收音 → 转写 → 认人 → AI 整理成待办与记忆。无需硬件、无需账号，数据只在你手机里。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/0xCoach/TaoSheng",
-      "stargazersCount": 397,
-      "forksCount": 55,
-      "language": "Kotlin",
-      "topics": [
-        "ai",
-        "android",
-        "jetpack-compose",
-        "kotlin",
-        "lifelog",
-        "llm",
-        "omi",
-        "on-device-ai",
-        "personal-memory",
-        "second-brain",
-        "speech-to-text",
-        "voiceprint"
-      ],
-      "releasesUrl": "https://api.github.com/repos/0xCoach/TaoSheng/releases{/id}",
-      "updatedAt": "2026-11-15T09:21:38Z",
-      "createdAt": "2026-10-24T03:39:54Z",
-      "pushedAt": "2026-11-15T09:01:09Z",
-      "downloadCount": 1896,
-      "openIssuesCount": 13,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.4.0",
-          "publishedAt": "2026-11-15T04:45:38Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T04:45:38Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1329789617,
-      "name": "wmkeyboard",
-      "fullName": "wasi-master/wmkeyboard",
-      "owner": {
-        "login": "wasi-master",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/63045920?v=4"
-      },
-      "description": "A modern, privacy-first Android keyboard: offline intelligence, 600+ languages, themes, tools and an addon ecosystem.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/wasi-master/wmkeyboard",
-      "stargazersCount": 970,
-      "forksCount": 56,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "bengali",
-        "ime",
-        "input-method",
-        "jetpack-compose",
-        "keyboard",
-        "kotlin",
-        "material-you",
-        "privacy"
-      ],
-      "releasesUrl": "https://api.github.com/repos/wasi-master/wmkeyboard/releases{/id}",
-      "updatedAt": "2026-11-15T09:23:16Z",
-      "createdAt": "2026-08-10T12:14:22Z",
-      "pushedAt": "2026-11-15T04:30:00Z",
-      "downloadCount": 48762,
-      "openIssuesCount": 23,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.6.7",
-          "publishedAt": "2026-11-15T04:29:18Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T04:29:18Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1426780056,
-      "name": "aerial-tv",
-      "fullName": "pengchujin/aerial-tv",
-      "owner": {
-        "login": "pengchujin",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/16513318?v=4"
-      },
-      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/pengchujin/aerial-tv",
-      "stargazersCount": 11940,
-      "forksCount": 1030,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/pengchujin/aerial-tv/releases{/id}",
-      "updatedAt": "2026-11-15T09:11:30Z",
-      "createdAt": "2026-10-20T09:13:06Z",
-      "pushedAt": "2026-11-15T04:29:15Z",
-      "downloadCount": 149926,
-      "openIssuesCount": 382,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.98",
-          "publishedAt": "2026-11-15T04:27:12Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T04:27:12Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1438540053,
-      "name": "Mika",
-      "fullName": "wangzan101/Mika",
-      "owner": {
-        "login": "wangzan101",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/102038245?v=4"
-      },
-      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/wangzan101/Mika",
-      "stargazersCount": 8660,
-      "forksCount": 1975,
-      "language": "Kotlin",
-      "topics": [
-        "accessibility",
-        "ai-agent",
-        "android",
-        "automation",
-        "jetpack-compose",
-        "kotlin",
-        "llm",
-        "mobile-agent"
-      ],
-      "releasesUrl": "https://api.github.com/repos/wangzan101/Mika/releases{/id}",
-      "updatedAt": "2026-11-15T09:13:46Z",
-      "createdAt": "2026-10-29T14:34:07Z",
-      "pushedAt": "2026-11-15T06:28:13Z",
-      "downloadCount": 73904,
-      "openIssuesCount": 120,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.1.43",
-          "publishedAt": "2026-11-15T03:56:33Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T03:56:33Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1151210358,
-      "name": "songloft",
-      "fullName": "songloft-org/songloft",
-      "owner": {
-        "login": "songloft-org",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/288701258?v=4"
-      },
-      "description": "🎵 插件化、无广告的免费音乐服务器",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/songloft-org/songloft",
-      "stargazersCount": 2250,
-      "forksCount": 182,
-      "language": "Go",
-      "topics": [
-        "docker",
-        "docker-compose",
-        "home-server",
-        "miot",
-        "music",
-        "music-player",
-        "music-server",
-        "nas",
-        "navidrome",
-        "songloft",
-        "subsonic",
-        "webdav",
-        "xiaomusic"
-      ],
-      "releasesUrl": "https://api.github.com/repos/songloft-org/songloft/releases{/id}",
-      "updatedAt": "2026-11-15T08:36:12Z",
-      "createdAt": "2026-02-06T07:20:42Z",
-      "pushedAt": "2026-11-15T08:21:23Z",
-      "downloadCount": 118354,
-      "openIssuesCount": 44,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.13.10",
-          "publishedAt": "2026-11-15T03:31:04Z"
+          "tag": "v0.0.1",
+          "publishedAt": "2026-11-16T08:06:08Z"
         },
         "windows": {
-          "tag": "v2.13.10",
-          "publishedAt": "2026-11-15T03:31:04Z"
+          "tag": "v0.0.1",
+          "publishedAt": "2026-11-16T08:06:08Z"
+        },
+        "macos": {
+          "tag": "v0.0.1",
+          "publishedAt": "2026-11-16T08:06:08Z"
+        },
+        "linux": {
+          "tag": "v0.0.1",
+          "publishedAt": "2026-11-16T08:06:08Z"
         }
       },
-      "latestReleaseDate": "2026-11-15T03:31:04Z",
+      "latestReleaseDate": "2026-11-16T08:06:08Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1436164729,
-      "name": "stream-goat",
-      "fullName": "sherazi5110/stream-goat",
+      "id": 1075381375,
+      "name": "paseo",
+      "fullName": "getpaseo/paseo",
       "owner": {
-        "login": "sherazi5110",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/100144510?v=4"
+        "login": "getpaseo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/259503569?v=4"
       },
-      "description": "Stream Goat: movies, series, anime and Live TV on Windows, Linux, Android and Android TV. Runs CloudStream extensions and Stremio add-ons. Created by Syed Ali Hamza.",
+      "description": "Orchestrate multiple coding agents from desktop and mobile",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sherazi5110/stream-goat",
-      "stargazersCount": 98,
-      "forksCount": 6,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/sherazi5110/stream-goat/releases{/id}",
-      "updatedAt": "2026-11-15T08:58:42Z",
-      "createdAt": "2026-10-27T19:06:18Z",
-      "pushedAt": "2026-11-15T08:50:08Z",
-      "downloadCount": 5620,
-      "openIssuesCount": 1,
+      "htmlUrl": "https://github.com/getpaseo/paseo",
+      "stargazersCount": 24155,
+      "forksCount": 2979,
+      "language": "TypeScript",
+      "topics": [
+        "ade",
+        "agents",
+        "android",
+        "claude-code",
+        "codex",
+        "copilot",
+        "developer-tools",
+        "hermes",
+        "ios",
+        "linux",
+        "mobile",
+        "opencode",
+        "orchestration",
+        "pi",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/getpaseo/paseo/releases{/id}",
+      "updatedAt": "2026-11-16T09:34:00Z",
+      "createdAt": "2025-10-13T12:27:02Z",
+      "pushedAt": "2026-11-16T09:28:04Z",
+      "downloadCount": 20982867,
+      "openIssuesCount": 2094,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
+      "hasInstallersMacos": true,
       "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "V8.0.1",
-          "publishedAt": "2026-11-15T03:28:06Z"
+          "tag": "v0.16.0",
+          "publishedAt": "2026-11-16T06:58:16Z"
         },
         "windows": {
-          "tag": "V8.0.1",
-          "publishedAt": "2026-11-15T03:28:06Z"
+          "tag": "v0.16.0",
+          "publishedAt": "2026-11-16T06:58:16Z"
+        },
+        "macos": {
+          "tag": "v0.16.0",
+          "publishedAt": "2026-11-16T06:58:16Z"
         },
         "linux": {
-          "tag": "V8.0.1",
-          "publishedAt": "2026-11-15T03:28:06Z"
+          "tag": "v0.16.0",
+          "publishedAt": "2026-11-16T06:58:16Z"
         }
       },
-      "latestReleaseDate": "2026-11-15T03:28:06Z",
+      "latestReleaseDate": "2026-11-16T06:58:16Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1448505867,
-      "name": "openshelf",
-      "fullName": "wingedpanther/openshelf",
+      "id": 646227237,
+      "name": "Paperize",
+      "fullName": "Anthonyy232/Paperize",
       "owner": {
-        "login": "wingedpanther",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15865285?v=4"
+        "login": "Anthonyy232",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60626873?v=4"
       },
-      "description": "An app store for Android TV that installs open-source TV apps from GitHub releases",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/wingedpanther/openshelf",
-      "stargazersCount": 310,
-      "forksCount": 21,
+      "description": "Android wallpaper changer: rotate your own albums on the home and lock screen on a schedule, with blur, dim and vignette effects",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/Anthonyy232/Paperize",
+      "stargazersCount": 1276,
+      "forksCount": 71,
       "language": "Kotlin",
       "topics": [
-        "android-tv",
-        "app-store",
-        "apps",
-        "fire-tv",
-        "google-tv",
+        "android",
+        "androidapp",
+        "fdroid",
         "jetpack-compose",
-        "leanback",
-        "open-source",
-        "sideload"
+        "kotlin",
+        "live-wallpaper",
+        "material-3",
+        "material-design",
+        "material-you",
+        "wallpaper",
+        "wallpaper-app",
+        "wallpaper-changer",
+        "wallpapers"
       ],
-      "releasesUrl": "https://api.github.com/repos/wingedpanther/openshelf/releases{/id}",
-      "updatedAt": "2026-11-15T08:54:06Z",
-      "createdAt": "2026-11-06T16:43:38Z",
-      "pushedAt": "2026-11-15T02:46:22Z",
-      "downloadCount": 4649,
+      "releasesUrl": "https://api.github.com/repos/Anthonyy232/Paperize/releases{/id}",
+      "updatedAt": "2026-11-16T09:39:44Z",
+      "createdAt": "2023-05-27T17:38:36Z",
+      "pushedAt": "2026-11-16T06:24:53Z",
+      "downloadCount": 39615,
       "openIssuesCount": 5,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -1086,11 +302,72 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v0.7.0",
-          "publishedAt": "2026-11-15T02:46:34Z"
+          "tag": "v4.3.0",
+          "publishedAt": "2026-11-16T06:30:16Z"
         }
       },
-      "latestReleaseDate": "2026-11-15T02:46:34Z",
+      "latestReleaseDate": "2026-11-16T06:30:16Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 531380835,
+      "name": "sherpa-onnx",
+      "fullName": "k2-fsa/sherpa-onnx",
+      "owner": {
+        "login": "k2-fsa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71431748?v=4"
+      },
+      "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/k2-fsa/sherpa-onnx",
+      "stargazersCount": 15980,
+      "forksCount": 1880,
+      "language": "C++",
+      "topics": [
+        "aarch64",
+        "android",
+        "arm32",
+        "asr",
+        "cpp",
+        "csharp",
+        "dotnet",
+        "ios",
+        "lazarus",
+        "linux",
+        "macos",
+        "mfc",
+        "object-pascal",
+        "onnx",
+        "raspberry-pi",
+        "risc-v",
+        "speech-to-text",
+        "text-to-speech",
+        "vits",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/k2-fsa/sherpa-onnx/releases{/id}",
+      "updatedAt": "2026-11-16T09:35:30Z",
+      "createdAt": "2022-09-01T05:47:33Z",
+      "pushedAt": "2026-11-16T09:36:10Z",
+      "downloadCount": 40463484,
+      "openIssuesCount": 650,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "apk-fa",
+          "publishedAt": "2026-11-16T06:14:10Z"
+        },
+        "windows": {
+          "tag": "v2.0.1",
+          "publishedAt": "2026-10-26T15:24:29Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-16T06:14:10Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
@@ -1105,7 +382,7 @@
       "description": "Launcher para pantallas Android de auto: 1.8 MB con escáner OBD2, presión de llantas (TPMS), radio FM de fábrica, reproductor USB y mapa · Android 6+ · Lightweight car launcher for Android head units with OBD2, TPMS, FM radio, USB player and map",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/IrvingGuerra/litedash",
-      "stargazersCount": 69,
+      "stargazersCount": 94,
       "forksCount": 19,
       "language": "Kotlin",
       "topics": [
@@ -1130,11 +407,11 @@
         "tpms"
       ],
       "releasesUrl": "https://api.github.com/repos/IrvingGuerra/litedash/releases{/id}",
-      "updatedAt": "2026-11-15T08:39:36Z",
+      "updatedAt": "2026-11-16T09:40:39Z",
       "createdAt": "2026-10-31T16:30:53Z",
-      "pushedAt": "2026-11-15T05:21:27Z",
-      "downloadCount": 40065,
-      "openIssuesCount": 7,
+      "pushedAt": "2026-11-16T08:53:44Z",
+      "downloadCount": 40473,
+      "openIssuesCount": 14,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -1142,271 +419,273 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v1.4.161",
-          "publishedAt": "2026-11-15T02:19:48Z"
+          "tag": "v1.4.162",
+          "publishedAt": "2026-11-16T06:10:07Z"
         }
       },
-      "latestReleaseDate": "2026-11-15T02:19:48Z",
+      "latestReleaseDate": "2026-11-16T06:10:07Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1328301514,
-      "name": "MeloX-Android",
-      "fullName": "lladlam/MeloX-Android",
+      "id": 1355334712,
+      "name": "msime",
+      "fullName": "metasequoiaime/msime",
       "owner": {
-        "login": "lladlam",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/159025061?v=4"
+        "login": "metasequoiaime",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/324869696?v=4"
       },
-      "description": "A third-party music client based on MeloX, styled after Apple Music and featuring unique functions.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/lladlam/MeloX-Android",
-      "stargazersCount": 327,
-      "forksCount": 31,
-      "language": "Kotlin",
+      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
+      "defaultBranch": "develop",
+      "htmlUrl": "https://github.com/metasequoiaime/msime",
+      "stargazersCount": 1327,
+      "forksCount": 100,
+      "language": "Rust",
       "topics": [
         "android",
-        "android-app",
-        "apple",
-        "apple-music",
-        "kugou-music",
-        "kuwo-music",
-        "music",
-        "music-player",
-        "netease-cloud-music",
-        "qqmusic",
-        "spotify",
-        "youtube-music"
+        "chinese",
+        "cpp",
+        "harmonyos",
+        "ime",
+        "input-method",
+        "inputmethodkit",
+        "ios",
+        "linux",
+        "macos",
+        "pinyin",
+        "rust",
+        "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/lladlam/MeloX-Android/releases{/id}",
-      "updatedAt": "2026-11-15T09:03:48Z",
-      "createdAt": "2026-08-09T00:53:09Z",
-      "pushedAt": "2026-11-15T09:01:02Z",
-      "downloadCount": 11879,
-      "openIssuesCount": 16,
+      "releasesUrl": "https://api.github.com/repos/metasequoiaime/msime/releases{/id}",
+      "updatedAt": "2026-11-16T09:33:49Z",
+      "createdAt": "2026-09-02T23:44:10Z",
+      "pushedAt": "2026-11-16T09:37:34Z",
+      "downloadCount": 41792,
+      "openIssuesCount": 108,
       "archived": false,
       "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
       "platformReleases": {
+        "macos": {
+          "tag": "macos-v0.60.0",
+          "publishedAt": "2026-11-16T05:35:58Z"
+        },
         "android": {
-          "tag": "0.7.3",
-          "publishedAt": "2026-11-15T01:48:41Z"
+          "tag": "android-v0.7.4",
+          "publishedAt": "2026-11-12T03:22:43Z"
+        },
+        "linux": {
+          "tag": "linux-v0.16.1",
+          "publishedAt": "2026-11-10T07:42:43Z"
+        },
+        "windows": {
+          "tag": "windows7-v0.6.0",
+          "publishedAt": "2026-11-07T08:56:22Z"
         }
       },
-      "latestReleaseDate": "2026-11-15T01:48:41Z",
+      "latestReleaseDate": "2026-11-16T05:35:58Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1373833057,
-      "name": "NuvioMobile-Reshaped",
-      "fullName": "DavidVamaiotu/NuvioMobile-Reshaped",
+      "id": 1154079142,
+      "name": "castbay",
+      "fullName": "weenas/castbay",
       "owner": {
-        "login": "DavidVamaiotu",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/159152663?v=4"
+        "login": "weenas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8909330?v=4"
       },
-      "description": "Official Nuvio Mobile Repository",
-      "defaultBranch": "subtitle-autosync",
-      "htmlUrl": "https://github.com/DavidVamaiotu/NuvioMobile-Reshaped",
-      "stargazersCount": 111,
-      "forksCount": 2,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/DavidVamaiotu/NuvioMobile-Reshaped/releases{/id}",
-      "updatedAt": "2026-11-15T08:56:14Z",
-      "createdAt": "2026-09-17T02:19:52Z",
-      "pushedAt": "2026-11-15T01:46:24Z",
-      "downloadCount": 29694,
-      "openIssuesCount": 0,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "0.6.12-beta-autosync.4",
-          "publishedAt": "2026-11-15T01:46:24Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T01:46:24Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1432967563,
-      "name": "dsh-Go",
-      "fullName": "ccch1mneyyy/dsh-Go",
-      "owner": {
-        "login": "ccch1mneyyy",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/268149062?v=4"
-      },
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "description": "映湾 CastBay: a free, open-source AirPlay and DLNA receiver for Android big screens — TVs, TV boxes, car displays and tablets. Screen mirroring, music with lyrics, video casting.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/ccch1mneyyy/dsh-Go",
-      "stargazersCount": 23201,
-      "forksCount": 1078,
-      "language": "Dart",
-      "topics": [
-        "ai-agent",
-        "android",
-        "android-app",
-        "coding-agent",
-        "deepseek",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "dsh-tui",
-        "flutter",
-        "llm"
-      ],
-      "releasesUrl": "https://api.github.com/repos/ccch1mneyyy/dsh-Go/releases{/id}",
-      "updatedAt": "2026-11-15T09:21:50Z",
-      "createdAt": "2026-10-25T08:09:52Z",
-      "pushedAt": "2026-11-15T09:09:54Z",
-      "downloadCount": 535464,
-      "openIssuesCount": 606,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.1.0",
-          "publishedAt": "2026-11-15T01:15:18Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T01:15:18Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1317816289,
-      "name": "helper-for-morphe",
-      "fullName": "rushiranpise/helper-for-morphe",
-      "owner": {
-        "login": "rushiranpise",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/37355997?v=4"
-      },
-      "description": "Standalone APK download helper for Morphe Manager",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/rushiranpise/helper-for-morphe",
-      "stargazersCount": 492,
-      "forksCount": 6,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/rushiranpise/helper-for-morphe/releases{/id}",
-      "updatedAt": "2026-11-15T09:02:50Z",
-      "createdAt": "2026-07-31T01:30:08Z",
-      "pushedAt": "2026-11-15T04:25:17Z",
-      "downloadCount": 32945,
-      "openIssuesCount": 10,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v5.3.0",
-          "publishedAt": "2026-11-15T00:11:22Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T00:11:22Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1191699186,
-      "name": "Stash",
-      "fullName": "rawnaldclark/Stash",
-      "owner": {
-        "login": "rawnaldclark",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/253507429?v=4"
-      },
-      "description": "Your Spotify + YouTube Music library & daily mixes. Free and open source forever. ",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/rawnaldclark/Stash",
-      "stargazersCount": 1650,
-      "forksCount": 60,
+      "htmlUrl": "https://github.com/weenas/castbay",
+      "stargazersCount": 62,
+      "forksCount": 11,
       "language": "Kotlin",
       "topics": [
+        "airplay",
+        "airplay-receiver",
         "android",
-        "exoplayer",
-        "flac",
-        "hi-res",
+        "android-tv",
+        "car-infotainment",
+        "casting",
+        "dlna",
+        "dlna-renderer",
+        "google-tv",
         "jetpack-compose",
         "kotlin",
-        "lossless",
-        "material3",
-        "mp3-downloader",
-        "music",
-        "music-player",
-        "offline-music",
-        "open-source",
-        "qobuz",
-        "spotify",
-        "youtube",
-        "youtube-music",
-        "yt-dlp"
+        "screen-mirroring",
+        "tv-box",
+        "uxplay"
       ],
-      "releasesUrl": "https://api.github.com/repos/rawnaldclark/Stash/releases{/id}",
-      "updatedAt": "2026-11-15T09:06:25Z",
-      "createdAt": "2026-03-25T13:56:36Z",
-      "pushedAt": "2026-11-15T04:32:54Z",
-      "downloadCount": 206967,
-      "openIssuesCount": 18,
+      "releasesUrl": "https://api.github.com/repos/weenas/castbay/releases{/id}",
+      "updatedAt": "2026-11-16T09:33:20Z",
+      "createdAt": "2026-02-10T01:45:57Z",
+      "pushedAt": "2026-11-16T05:11:51Z",
+      "downloadCount": 2960,
+      "openIssuesCount": 2,
       "archived": false,
       "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
+      "hasInstallersWindows": true,
       "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
+      "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "v0.9.125",
-          "publishedAt": "2026-11-14T23:56:10Z"
+          "tag": "v1.10.1",
+          "publishedAt": "2026-11-16T05:15:41Z"
+        },
+        "windows": {
+          "tag": "desktop-v0.1.8",
+          "publishedAt": "2026-11-09T14:15:49Z"
+        },
+        "linux": {
+          "tag": "desktop-v0.1.8",
+          "publishedAt": "2026-11-09T14:15:49Z"
         }
       },
-      "latestReleaseDate": "2026-11-14T23:56:10Z",
+      "latestReleaseDate": "2026-11-16T05:15:41Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1445899853,
-      "name": "StradaOS",
-      "fullName": "lordnordic-debug/StradaOS",
+      "id": 1436164729,
+      "name": "stream-goat",
+      "fullName": "sherazi5110/stream-goat",
       "owner": {
-        "login": "lordnordic-debug",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/293109340?v=4"
+        "login": "sherazi5110",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100144510?v=4"
       },
-      "description": "Una nueva vida para la pantalla Android de tu vehículo",
+      "description": "Stream Goat: movies, series, anime and Live TV on Windows, Linux, Android and Android TV. Runs CloudStream extensions and Stremio add-ons. Created by Syed Ali Hamza.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/lordnordic-debug/StradaOS",
-      "stargazersCount": 310,
-      "forksCount": 38,
-      "language": "Java",
+      "htmlUrl": "https://github.com/sherazi5110/stream-goat",
+      "stargazersCount": 143,
+      "forksCount": 11,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/sherazi5110/stream-goat/releases{/id}",
+      "updatedAt": "2026-11-16T09:27:31Z",
+      "createdAt": "2026-10-27T19:06:18Z",
+      "pushedAt": "2026-11-16T08:26:05Z",
+      "downloadCount": 8387,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "V9.0.1",
+          "publishedAt": "2026-11-16T03:57:24Z"
+        },
+        "windows": {
+          "tag": "V9.0.1",
+          "publishedAt": "2026-11-16T03:57:24Z"
+        },
+        "macos": {
+          "tag": "V9.0.1",
+          "publishedAt": "2026-11-16T03:57:24Z"
+        },
+        "linux": {
+          "tag": "V9.0.1",
+          "publishedAt": "2026-11-16T03:57:24Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-16T03:57:24Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1434568293,
+      "name": "ink-music",
+      "fullName": "inkappdev/ink-music",
+      "owner": {
+        "login": "inkappdev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348110936?v=4"
+      },
+      "description": "A music player that looks like nothing else. Free and open source for Android, Mac, Windows and Linux: your files, Navidrome, YouTube Music and independent radio. No ads, no accounts, no paywall, ever. Made by the makers of ink.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/inkappdev/ink-music",
+      "stargazersCount": 71,
+      "forksCount": 3,
+      "language": "Kotlin",
       "topics": [
         "android",
-        "android-4-4",
-        "android-app",
-        "android-application",
-        "android-automation",
-        "android-launcher",
-        "android17",
-        "car-launcher",
-        "head-unit",
-        "offline-maps",
-        "openstreetmap"
+        "android-auto",
+        "autoeq",
+        "chromecast",
+        "dlna",
+        "equalizer",
+        "foss",
+        "internet-radio",
+        "jetpack-compose",
+        "kotlin",
+        "lastfm",
+        "listenbrainz",
+        "media3",
+        "music-player",
+        "navidrome",
+        "replaygain",
+        "scrobbler",
+        "subsonic",
+        "synced-lyrics",
+        "youtube-music"
       ],
-      "releasesUrl": "https://api.github.com/repos/lordnordic-debug/StradaOS/releases{/id}",
-      "updatedAt": "2026-11-15T09:17:18Z",
-      "createdAt": "2026-11-04T16:15:37Z",
-      "pushedAt": "2026-11-15T07:59:21Z",
-      "downloadCount": 6459,
-      "openIssuesCount": 20,
+      "releasesUrl": "https://api.github.com/repos/inkappdev/ink-music/releases{/id}",
+      "updatedAt": "2026-11-16T09:36:00Z",
+      "createdAt": "2026-10-26T15:26:26Z",
+      "pushedAt": "2026-11-16T03:39:42Z",
+      "downloadCount": 1992,
+      "openIssuesCount": 1,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.1.18",
+          "publishedAt": "2026-11-16T03:39:42Z"
+        },
+        "windows": {
+          "tag": "v2.1.18",
+          "publishedAt": "2026-11-16T03:39:42Z"
+        },
+        "macos": {
+          "tag": "v2.1.18",
+          "publishedAt": "2026-11-16T03:39:42Z"
+        },
+        "linux": {
+          "tag": "v2.1.18",
+          "publishedAt": "2026-11-16T03:39:42Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-16T03:39:42Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1426780056,
+      "name": "aerial-tv",
+      "fullName": "pengchujin/aerial-tv",
+      "owner": {
+        "login": "pengchujin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16513318?v=4"
+      },
+      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/pengchujin/aerial-tv",
+      "stargazersCount": 12131,
+      "forksCount": 1049,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/pengchujin/aerial-tv/releases{/id}",
+      "updatedAt": "2026-11-16T09:39:27Z",
+      "createdAt": "2026-10-20T09:13:06Z",
+      "pushedAt": "2026-11-16T05:53:57Z",
+      "downloadCount": 153474,
+      "openIssuesCount": 390,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -1414,11 +693,256 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v2.21.1",
-          "publishedAt": "2026-11-14T22:59:59Z"
+          "tag": "v1.99",
+          "publishedAt": "2026-11-16T02:10:59Z"
         }
       },
-      "latestReleaseDate": "2026-11-14T22:59:59Z",
+      "latestReleaseDate": "2026-11-16T02:10:59Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1440971520,
+      "name": "Claude-Cage",
+      "fullName": "Lee-xeo/Claude-Cage",
+      "owner": {
+        "login": "Lee-xeo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/120454108?v=4"
+      },
+      "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Lee-xeo/Claude-Cage",
+      "stargazersCount": 5942,
+      "forksCount": 677,
+      "language": "Go",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/Lee-xeo/Claude-Cage/releases{/id}",
+      "updatedAt": "2026-11-16T09:36:28Z",
+      "createdAt": "2026-10-31T15:07:08Z",
+      "pushedAt": "2026-11-16T09:18:45Z",
+      "downloadCount": 33176,
+      "openIssuesCount": 148,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.1.8",
+          "publishedAt": "2026-11-16T01:45:09Z"
+        },
+        "windows": {
+          "tag": "v0.1.8",
+          "publishedAt": "2026-11-16T01:45:09Z"
+        },
+        "macos": {
+          "tag": "v0.1.8",
+          "publishedAt": "2026-11-16T01:45:09Z"
+        },
+        "linux": {
+          "tag": "v0.1.8",
+          "publishedAt": "2026-11-16T01:45:09Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-16T01:45:09Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1431865125,
+      "name": "OneOS",
+      "fullName": "fahadalijaved/OneOS",
+      "owner": {
+        "login": "fahadalijaved",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/289961908?v=4"
+      },
+      "description": "Another Android, next to One UI: switch a rooted Samsung Galaxy into another Android system and back, without flashing.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/fahadalijaved/OneOS",
+      "stargazersCount": 614,
+      "forksCount": 75,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "container",
+        "gsi",
+        "kernelsu",
+        "one-ui",
+        "root",
+        "samsung"
+      ],
+      "releasesUrl": "https://api.github.com/repos/fahadalijaved/OneOS/releases{/id}",
+      "updatedAt": "2026-11-16T09:31:10Z",
+      "createdAt": "2026-10-24T05:56:45Z",
+      "pushedAt": "2026-11-16T00:18:27Z",
+      "downloadCount": 217196,
+      "openIssuesCount": 131,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.5.17",
+          "publishedAt": "2026-11-16T00:18:27Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-16T00:18:27Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1457758888,
+      "name": "Wupp",
+      "fullName": "hanzalaramz/Wupp",
+      "owner": {
+        "login": "hanzalaramz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/290024815?v=4"
+      },
+      "description": "Native Android WhatsApp companion in Jetpack Compose & Go, with anti-ban rate-limit protection, privacy switches, channels, and in-app updates.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/hanzalaramz/Wupp",
+      "stargazersCount": 64,
+      "forksCount": 3,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/hanzalaramz/Wupp/releases{/id}",
+      "updatedAt": "2026-11-16T09:27:35Z",
+      "createdAt": "2026-11-14T13:03:06Z",
+      "pushedAt": "2026-11-15T22:21:11Z",
+      "downloadCount": 1094,
+      "openIssuesCount": 24,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.3.0",
+          "publishedAt": "2026-11-15T22:21:11Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-15T22:21:11Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1438540053,
+      "name": "Mika",
+      "fullName": "wangzan101/Mika",
+      "owner": {
+        "login": "wangzan101",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/102038245?v=4"
+      },
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/wangzan101/Mika",
+      "stargazersCount": 8791,
+      "forksCount": 2002,
+      "language": "Kotlin",
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "releasesUrl": "https://api.github.com/repos/wangzan101/Mika/releases{/id}",
+      "updatedAt": "2026-11-16T09:36:45Z",
+      "createdAt": "2026-10-29T14:34:07Z",
+      "pushedAt": "2026-11-16T08:27:30Z",
+      "downloadCount": 77328,
+      "openIssuesCount": 128,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.1.44",
+          "publishedAt": "2026-11-15T19:45:04Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-15T19:45:04Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 964702894,
+      "name": "NuvioMobile",
+      "fullName": "NuvioMedia/NuvioMobile",
+      "owner": {
+        "login": "NuvioMedia",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/267417830?v=4"
+      },
+      "description": "Official Nuvio Mobile Repository",
+      "defaultBranch": "cmp-rewrite",
+      "htmlUrl": "https://github.com/NuvioMedia/NuvioMobile",
+      "stargazersCount": 4620,
+      "forksCount": 801,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/NuvioMedia/NuvioMobile/releases{/id}",
+      "updatedAt": "2026-11-16T09:31:21Z",
+      "createdAt": "2025-04-11T16:38:58Z",
+      "pushedAt": "2026-11-16T08:19:57Z",
+      "downloadCount": 1989220,
+      "openIssuesCount": 656,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "1.0.0",
+          "publishedAt": "2026-11-15T18:28:31Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-15T18:28:31Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1046496211,
+      "name": "legado-with-MD3",
+      "fullName": "HapeLee/legado-with-MD3",
+      "owner": {
+        "login": "HapeLee",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63206378?v=4"
+      },
+      "description": "使用 Material Design 3 全新设计的阅读 3.0",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/HapeLee/legado-with-MD3",
+      "stargazersCount": 7039,
+      "forksCount": 822,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/HapeLee/legado-with-MD3/releases{/id}",
+      "updatedAt": "2026-11-16T09:32:58Z",
+      "createdAt": "2025-08-28T19:16:22Z",
+      "pushedAt": "2026-11-16T07:31:02Z",
+      "downloadCount": 331143,
+      "openIssuesCount": 86,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "3.26.28",
+          "publishedAt": "2026-11-15T18:10:59Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-15T18:10:59Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
@@ -1433,7 +957,7 @@
       "description": "Material 3-focused independent fork of NewPipe for Android, with dynamic themes, visual polish, signed releases, and preserved NewPipe behavior.",
       "defaultBranch": "pipe",
       "htmlUrl": "https://github.com/wizdom13/WizeStream",
-      "stargazersCount": 429,
+      "stargazersCount": 433,
       "forksCount": 18,
       "language": "Java",
       "topics": [
@@ -1458,11 +982,11 @@
         "youtube-music"
       ],
       "releasesUrl": "https://api.github.com/repos/wizdom13/WizeStream/releases{/id}",
-      "updatedAt": "2026-11-15T08:27:05Z",
+      "updatedAt": "2026-11-16T09:40:14Z",
       "createdAt": "2026-06-03T08:20:12Z",
-      "pushedAt": "2026-11-15T09:17:36Z",
-      "downloadCount": 52955,
-      "openIssuesCount": 23,
+      "pushedAt": "2026-11-16T09:29:54Z",
+      "downloadCount": 54040,
+      "openIssuesCount": 11,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -1470,71 +994,113 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v1.42.0",
-          "publishedAt": "2026-11-14T22:56:08Z"
+          "tag": "v1.43.0",
+          "publishedAt": "2026-11-15T17:55:27Z"
         }
       },
-      "latestReleaseDate": "2026-11-14T22:56:08Z",
+      "latestReleaseDate": "2026-11-15T17:55:27Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1449615019,
-      "name": "PUIInstaller",
-      "fullName": "sakurakingfifth-debug/PUIInstaller",
+      "id": 1408042332,
+      "name": "hongguo-drama",
+      "fullName": "jackotom/hongguo-drama",
       "owner": {
-        "login": "sakurakingfifth-debug",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/344007428?v=4"
+        "login": "jackotom",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/282187345?v=4"
       },
-      "description": null,
+      "description": "红果短剧桌面版 · 支持 M 系列 Mac、Intel Mac 和 Windows · 三来源搜索、播放、下载与追剧 · GPL-3.0 开源",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sakurakingfifth-debug/PUIInstaller",
-      "stargazersCount": 229,
-      "forksCount": 7,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/sakurakingfifth-debug/PUIInstaller/releases{/id}",
-      "updatedAt": "2026-11-15T09:10:46Z",
-      "createdAt": "2026-11-07T18:08:30Z",
-      "pushedAt": "2026-11-14T22:07:27Z",
-      "downloadCount": 3603,
-      "openIssuesCount": 3,
+      "htmlUrl": "https://github.com/jackotom/hongguo-drama",
+      "stargazersCount": 1417,
+      "forksCount": 208,
+      "language": "JavaScript",
+      "topics": [
+        "apple-silicon",
+        "electron",
+        "hongguo",
+        "macos",
+        "short-drama",
+        "video-downloader",
+        "video-player",
+        "xifan"
+      ],
+      "releasesUrl": "https://api.github.com/repos/jackotom/hongguo-drama/releases{/id}",
+      "updatedAt": "2026-11-16T09:39:48Z",
+      "createdAt": "2026-10-07T00:06:45Z",
+      "pushedAt": "2026-11-16T09:34:05Z",
+      "downloadCount": 263099,
+      "openIssuesCount": 0,
       "archived": false,
       "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
       "platformReleases": {
+        "windows": {
+          "tag": "v7.4",
+          "publishedAt": "2026-11-15T12:27:56Z"
+        },
+        "macos": {
+          "tag": "v7.4",
+          "publishedAt": "2026-11-15T12:27:56Z"
+        },
+        "linux": {
+          "tag": "v7.4",
+          "publishedAt": "2026-11-15T12:27:56Z"
+        },
         "android": {
-          "tag": "v3.7.76",
-          "publishedAt": "2026-11-14T22:07:36Z"
+          "tag": "v7.2",
+          "publishedAt": "2026-11-13T07:32:56Z"
         }
       },
-      "latestReleaseDate": "2026-11-14T22:07:36Z",
+      "latestReleaseDate": "2026-11-15T12:27:56Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
     {
-      "id": 1046496211,
-      "name": "legado-with-MD3",
-      "fullName": "HapeLee/legado-with-MD3",
+      "id": 1372676301,
+      "name": "Trackhop",
+      "fullName": "xlollx/Trackhop",
       "owner": {
-        "login": "HapeLee",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/63206378?v=4"
+        "login": "xlollx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72248161?v=4"
       },
-      "description": "使用 Material Design 3 全新设计的阅读 3.0",
+      "description": "Free, open-source playlist sync for Android, Windows, macOS, Linux and Docker. Keeps playlists identical across Spotify, YouTube Music, Apple Music, Amazon Music, TIDAL, Deezer, LiveOne, Anghami, Navidrome, Jellyfin and Plex. Scheduled syncs, easy review of tracks not found. No Trackhop account or server: everything stays on your devices.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/HapeLee/legado-with-MD3",
-      "stargazersCount": 7015,
-      "forksCount": 815,
+      "htmlUrl": "https://github.com/xlollx/Trackhop",
+      "stargazersCount": 237,
+      "forksCount": 8,
       "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/HapeLee/legado-with-MD3/releases{/id}",
-      "updatedAt": "2026-11-15T08:46:18Z",
-      "createdAt": "2025-08-28T19:16:22Z",
-      "pushedAt": "2026-11-14T22:07:11Z",
-      "downloadCount": 325185,
-      "openIssuesCount": 81,
+      "topics": [
+        "amazon-music",
+        "android",
+        "apple-music",
+        "f-droid",
+        "jellyfin",
+        "kotlin",
+        "liveone",
+        "music-library",
+        "music-playlists",
+        "navidrome",
+        "playlist",
+        "playlist-management",
+        "playlist-manager",
+        "playlist-sync",
+        "playlists",
+        "self-hosted",
+        "spotify",
+        "spotify-playlist",
+        "youtube-music",
+        "youtube-music-playlist"
+      ],
+      "releasesUrl": "https://api.github.com/repos/xlollx/Trackhop/releases{/id}",
+      "updatedAt": "2026-11-16T09:36:01Z",
+      "createdAt": "2026-09-16T07:25:02Z",
+      "pushedAt": "2026-11-16T09:10:07Z",
+      "downloadCount": 12121,
+      "openIssuesCount": 2,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -1542,13 +1108,193 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "3.26.27",
-          "publishedAt": "2026-11-14T22:07:07Z"
+          "tag": "v2.0.0",
+          "publishedAt": "2026-11-15T11:34:24Z"
         }
       },
-      "latestReleaseDate": "2026-11-14T22:07:07Z",
+      "latestReleaseDate": "2026-11-15T11:34:24Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
+    },
+    {
+      "id": 1266034215,
+      "name": "CallVault",
+      "fullName": "madkongo/CallVault",
+      "owner": {
+        "login": "madkongo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/138137377?v=4"
+      },
+      "description": "FOSS call recorder for Android, no root or PC — records both sides of a call on its own over built-in ADB, or through Shizuku if you already use it. Fork of ShizuCallRecorder.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/madkongo/CallVault",
+      "stargazersCount": 266,
+      "forksCount": 33,
+      "language": "Kotlin",
+      "topics": [
+        "adb",
+        "android",
+        "call-recorder",
+        "shizuku"
+      ],
+      "releasesUrl": "https://api.github.com/repos/madkongo/CallVault/releases{/id}",
+      "updatedAt": "2026-11-16T09:26:11Z",
+      "createdAt": "2026-06-11T09:16:12Z",
+      "pushedAt": "2026-11-16T08:54:08Z",
+      "downloadCount": 24957,
+      "openIssuesCount": 6,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v2.5.1",
+          "publishedAt": "2026-11-15T07:53:16Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-15T07:53:16Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 1332818329,
+      "name": "ReveriePaint",
+      "fullName": "LanRhyme/ReveriePaint",
+      "owner": {
+        "login": "LanRhyme",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113491998?v=4"
+      },
+      "description": "基于 Krita 核心引擎的 Android 原生数字绘画应用",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/LanRhyme/ReveriePaint",
+      "stargazersCount": 311,
+      "forksCount": 23,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "art",
+        "digital-painting",
+        "drawing",
+        "krita",
+        "reveriepaint",
+        "stylus"
+      ],
+      "releasesUrl": "https://api.github.com/repos/LanRhyme/ReveriePaint/releases{/id}",
+      "updatedAt": "2026-11-16T09:36:32Z",
+      "createdAt": "2026-08-13T07:13:59Z",
+      "pushedAt": "2026-11-16T09:38:46Z",
+      "downloadCount": 23820,
+      "openIssuesCount": 8,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.9.0",
+          "publishedAt": "2026-11-15T07:27:34Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-15T07:27:34Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 1191699186,
+      "name": "Stash",
+      "fullName": "rawnaldclark/Stash",
+      "owner": {
+        "login": "rawnaldclark",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/253507429?v=4"
+      },
+      "description": "Your Spotify + YouTube Music library & daily mixes. Free and open source forever. ",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/rawnaldclark/Stash",
+      "stargazersCount": 1658,
+      "forksCount": 61,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "exoplayer",
+        "flac",
+        "hi-res",
+        "jetpack-compose",
+        "kotlin",
+        "lossless",
+        "material3",
+        "mp3-downloader",
+        "music",
+        "music-player",
+        "offline-music",
+        "open-source",
+        "qobuz",
+        "spotify",
+        "youtube",
+        "youtube-music",
+        "yt-dlp"
+      ],
+      "releasesUrl": "https://api.github.com/repos/rawnaldclark/Stash/releases{/id}",
+      "updatedAt": "2026-11-16T09:37:52Z",
+      "createdAt": "2026-03-25T13:56:36Z",
+      "pushedAt": "2026-11-16T03:39:56Z",
+      "downloadCount": 209616,
+      "openIssuesCount": 18,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.9.125",
+          "publishedAt": "2026-11-14T23:56:10Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-14T23:56:10Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
+    },
+    {
+      "id": 1359423285,
+      "name": "Backplane",
+      "fullName": "BackplaneWorks/Backplane",
+      "owner": {
+        "login": "BackplaneWorks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348510587?v=4"
+      },
+      "description": "Agentic hardware development with KiCad, written in Rust",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/BackplaneWorks/Backplane",
+      "stargazersCount": 1040,
+      "forksCount": 79,
+      "language": "Rust",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/BackplaneWorks/Backplane/releases{/id}",
+      "updatedAt": "2026-11-16T09:34:11Z",
+      "createdAt": "2026-09-06T18:42:20Z",
+      "pushedAt": "2026-11-16T09:38:38Z",
+      "downloadCount": 9711,
+      "openIssuesCount": 1,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": true,
+      "platformReleases": {
+        "android": {
+          "tag": "v0.15.3",
+          "publishedAt": "2026-11-14T22:15:48Z"
+        },
+        "linux": {
+          "tag": "v0.14.0",
+          "publishedAt": "2026-11-04T03:24:38Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-14T22:15:48Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
     },
     {
       "id": 1283291297,
@@ -1561,8 +1307,8 @@
       "description": "Made for listening, not logging in. Levyra is an open-source music player for Android and Windows, bringing music discovery, synced lyrics, radio and beautiful artwork together. No ads, no tracking, just music ♫",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/LUC4N3X/Levyra-deepsound",
-      "stargazersCount": 1897,
-      "forksCount": 47,
+      "stargazersCount": 2089,
+      "forksCount": 49,
       "language": "Kotlin",
       "topics": [
         "ad-free-music",
@@ -1587,11 +1333,11 @@
         "youtube-music"
       ],
       "releasesUrl": "https://api.github.com/repos/LUC4N3X/Levyra-deepsound/releases{/id}",
-      "updatedAt": "2026-11-15T09:21:22Z",
+      "updatedAt": "2026-11-16T09:33:28Z",
       "createdAt": "2026-06-28T19:00:45Z",
-      "pushedAt": "2026-11-15T09:21:40Z",
-      "downloadCount": 20146,
-      "openIssuesCount": 4,
+      "pushedAt": "2026-11-16T09:33:46Z",
+      "downloadCount": 20495,
+      "openIssuesCount": 2,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -1608,352 +1354,66 @@
         }
       },
       "latestReleaseDate": "2026-11-14T21:23:30Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
     },
     {
-      "id": 1300094690,
-      "name": "ThroneForAndroid",
-      "fullName": "throneproj/ThroneForAndroid",
+      "id": 1246211773,
+      "name": "Agents-Anywhere",
+      "fullName": "anywhere-labs/Agents-Anywhere",
       "owner": {
-        "login": "throneproj",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/220557208?v=4"
+        "login": "anywhere-labs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/286827603?v=4"
       },
-      "description": "Android GUI proxy utility (Empowered by sing-box)",
+      "description": "跨设备的开源Agent工作台",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/throneproj/ThroneForAndroid",
-      "stargazersCount": 821,
-      "forksCount": 41,
-      "language": "Kotlin",
+      "htmlUrl": "https://github.com/anywhere-labs/Agents-Anywhere",
+      "stargazersCount": 3462,
+      "forksCount": 293,
+      "language": "TypeScript",
       "topics": [
-        "android",
-        "anytls",
-        "mieru",
-        "nekobox",
-        "nekobox-for-android",
-        "proxy",
-        "reality",
-        "sing-box",
-        "vless",
-        "vpn",
-        "xhttp"
+        "acp",
+        "agentclientprotocol",
+        "agents",
+        "claudecode",
+        "codex",
+        "codex-app",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "llm",
+        "opencode",
+        "remote",
+        "remote-control"
       ],
-      "releasesUrl": "https://api.github.com/repos/throneproj/ThroneForAndroid/releases{/id}",
-      "updatedAt": "2026-11-15T08:52:11Z",
-      "createdAt": "2026-07-14T06:23:38Z",
-      "pushedAt": "2026-11-14T20:59:26Z",
-      "downloadCount": 57914,
-      "openIssuesCount": 4,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.0.7",
-          "publishedAt": "2026-11-14T20:59:26Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T20:59:26Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1202113785,
-      "name": "radikall",
-      "fullName": "baudmusic/radikall",
-      "owner": {
-        "login": "baudmusic",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/253951382?v=4"
-      },
-      "description": "A Windows + Android radio client for Japanese stations — listen to every Radiko station from anywhere in the world.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/baudmusic/radikall",
-      "stargazersCount": 132,
-      "forksCount": 7,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/baudmusic/radikall/releases{/id}",
-      "updatedAt": "2026-11-15T08:34:25Z",
-      "createdAt": "2026-04-05T16:05:20Z",
-      "pushedAt": "2026-11-14T19:38:48Z",
-      "downloadCount": 974,
-      "openIssuesCount": 1,
+      "releasesUrl": "https://api.github.com/repos/anywhere-labs/Agents-Anywhere/releases{/id}",
+      "updatedAt": "2026-11-16T09:37:28Z",
+      "createdAt": "2026-05-22T01:33:33Z",
+      "pushedAt": "2026-11-16T09:28:31Z",
+      "downloadCount": 19626,
+      "openIssuesCount": 68,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
+      "hasInstallersMacos": true,
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "1.0.1",
-          "publishedAt": "2026-11-14T19:38:48Z"
+          "tag": "v2.2.0",
+          "publishedAt": "2026-11-14T17:55:01Z"
         },
         "windows": {
-          "tag": "1.0.1",
-          "publishedAt": "2026-11-14T19:38:48Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T19:38:48Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1428769066,
-      "name": "Horizon-Maps",
-      "fullName": "benbishop028-arch/Horizon-Maps",
-      "owner": {
-        "login": "benbishop028-arch",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/255750941?v=4"
-      },
-      "description": null,
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/benbishop028-arch/Horizon-Maps",
-      "stargazersCount": 177,
-      "forksCount": 14,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/benbishop028-arch/Horizon-Maps/releases{/id}",
-      "updatedAt": "2026-11-15T08:26:04Z",
-      "createdAt": "2026-10-21T18:21:01Z",
-      "pushedAt": "2026-11-14T19:25:36Z",
-      "downloadCount": 77666,
-      "openIssuesCount": 15,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.0.547",
-          "publishedAt": "2026-11-14T19:25:36Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T19:25:36Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1225695735,
-      "name": "Solipsism",
-      "fullName": "Kenneth-Cho-InfoSec/Solipsism",
-      "owner": {
-        "login": "Kenneth-Cho-InfoSec",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/184309093?v=4"
-      },
-      "description": "Innovative Android browser. Built-in adblock, antivirus, servo & more.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Kenneth-Cho-InfoSec/Solipsism",
-      "stargazersCount": 269,
-      "forksCount": 16,
-      "language": "Kotlin",
-      "topics": [
-        "android-application",
-        "android-package",
-        "browser",
-        "material-ui",
-        "material3",
-        "privacy"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Kenneth-Cho-InfoSec/Solipsism/releases{/id}",
-      "updatedAt": "2026-11-15T08:46:02Z",
-      "createdAt": "2026-04-30T14:40:07Z",
-      "pushedAt": "2026-11-14T18:46:32Z",
-      "downloadCount": 34462,
-      "openIssuesCount": 11,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v9.4.3",
-          "publishedAt": "2026-11-14T18:09:17Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T18:09:17Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1434364021,
-      "name": "MarcoMovie",
-      "fullName": "Pilipala9919/MarcoMovie",
-      "owner": {
-        "login": "Pilipala9919",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/326339322?v=4"
-      },
-      "description": "由 Pilipala 开发的 Android 电视播放器。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Pilipala9919/MarcoMovie",
-      "stargazersCount": 913,
-      "forksCount": 79,
-      "language": "Java",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/Pilipala9919/MarcoMovie/releases{/id}",
-      "updatedAt": "2026-11-15T08:57:06Z",
-      "createdAt": "2026-10-26T12:40:21Z",
-      "pushedAt": "2026-11-15T07:45:51Z",
-      "downloadCount": 43269,
-      "openIssuesCount": 49,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "windows": {
-          "tag": "windows-v0.5.20",
-          "publishedAt": "2026-11-14T17:36:00Z"
+          "tag": "v2.2.0",
+          "publishedAt": "2026-11-14T17:55:01Z"
         },
-        "android": {
-          "tag": "android-tv-v0.5.24",
-          "publishedAt": "2026-11-14T17:28:07Z"
+        "macos": {
+          "tag": "v2.2.0",
+          "publishedAt": "2026-11-14T17:55:01Z"
         }
       },
-      "latestReleaseDate": "2026-11-14T17:36:00Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 598940882,
-      "name": "nextplayer",
-      "fullName": "anilbeesetti/nextplayer",
-      "owner": {
-        "login": "anilbeesetti",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/66936649?v=4"
-      },
-      "description": "An Android native video player",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/anilbeesetti/nextplayer",
-      "stargazersCount": 4747,
-      "forksCount": 404,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "exoplayer",
-        "ffmpeg",
-        "ffmpeg-android",
-        "jetpack-compose",
-        "jni-android",
-        "kotlin",
-        "kotlin-android",
-        "kotlin-coroutines",
-        "media3",
-        "player",
-        "room-database",
-        "video-player"
-      ],
-      "releasesUrl": "https://api.github.com/repos/anilbeesetti/nextplayer/releases{/id}",
-      "updatedAt": "2026-11-15T08:34:09Z",
-      "createdAt": "2023-02-08T05:34:22Z",
-      "pushedAt": "2026-11-14T17:39:04Z",
-      "downloadCount": 220761,
-      "openIssuesCount": 513,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.21.0",
-          "publishedAt": "2026-11-14T16:03:53Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T16:03:53Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1186208712,
-      "name": "silentsuite",
-      "fullName": "silent-suite/silentsuite",
-      "owner": {
-        "login": "silent-suite",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/265568982?v=4"
-      },
-      "description": "End to end encrypted sync for calendar, contacts and tasks",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/silent-suite/silentsuite",
-      "stargazersCount": 119,
-      "forksCount": 29,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/silent-suite/silentsuite/releases{/id}",
-      "updatedAt": "2026-11-15T08:58:03Z",
-      "createdAt": "2026-03-19T11:37:25Z",
-      "pushedAt": "2026-11-15T09:13:57Z",
-      "downloadCount": 8688,
-      "openIssuesCount": 25,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.5.19-beta.2",
-          "publishedAt": "2026-11-14T14:22:10Z"
-        },
-        "windows": {
-          "tag": "v0.5.19-beta.2",
-          "publishedAt": "2026-11-14T14:22:10Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T14:22:10Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1358141270,
-      "name": "actua",
-      "fullName": "azimul-kabir/actua",
-      "owner": {
-        "login": "azimul-kabir",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/29450017?v=4"
-      },
-      "description": "Native Android client for Actual Budget, with standalone offline support.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/azimul-kabir/actua",
-      "stargazersCount": 71,
-      "forksCount": 4,
-      "language": "Kotlin",
-      "topics": [
-        "actual",
-        "actual-budget",
-        "actualbudget",
-        "android",
-        "android-app",
-        "budget",
-        "budget-app",
-        "budget-tracker",
-        "budgeting",
-        "finance"
-      ],
-      "releasesUrl": "https://api.github.com/repos/azimul-kabir/actua/releases{/id}",
-      "updatedAt": "2026-11-15T08:35:41Z",
-      "createdAt": "2026-09-05T11:56:02Z",
-      "pushedAt": "2026-11-15T06:58:48Z",
-      "downloadCount": 3088,
-      "openIssuesCount": 36,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.7.0",
-          "publishedAt": "2026-11-14T12:29:13Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T12:29:13Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
+      "latestReleaseDate": "2026-11-14T17:55:01Z",
+      "releaseRecency": 1,
+      "releaseRecencyText": "Released yesterday"
     },
     {
       "id": 677376114,
@@ -1963,40 +1423,32 @@
         "login": "MetrolistGroup",
         "avatarUrl": "https://avatars.githubusercontent.com/u/260068764?v=4"
       },
-      "description": "YouTube Music client for Android",
+      "description": "Material Design YouTube Music client for Android, iOS and desktop",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/MetrolistGroup/Metrolist",
-      "stargazersCount": 14375,
-      "forksCount": 1317,
+      "stargazersCount": 14468,
+      "forksCount": 1335,
       "language": "Kotlin",
       "topics": [
         "android",
-        "desktop-app",
-        "foss",
-        "innertube",
         "ios-app",
         "kotlin",
-        "linux-desktop",
+        "kotlin-multiplatform",
+        "linux-app",
         "macos-app",
         "material-design",
         "material-ui",
-        "material3",
         "music",
         "music-player",
-        "streaming-apps",
-        "watch-app",
         "windows-app",
-        "youtube",
-        "youtube-music",
-        "youtube-music-client",
-        "ytmusic"
+        "youtube-player"
       ],
       "releasesUrl": "https://api.github.com/repos/MetrolistGroup/Metrolist/releases{/id}",
-      "updatedAt": "2026-11-15T09:18:35Z",
+      "updatedAt": "2026-11-16T09:37:45Z",
       "createdAt": "2023-08-11T12:19:23Z",
-      "pushedAt": "2026-11-15T05:55:31Z",
-      "downloadCount": 9237277,
-      "openIssuesCount": 137,
+      "pushedAt": "2026-11-16T09:36:38Z",
+      "downloadCount": 9322495,
+      "openIssuesCount": 179,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -2021,162 +1473,47 @@
         }
       },
       "latestReleaseDate": "2026-11-14T12:21:13Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1374611088,
-      "name": "Opentune",
-      "fullName": "justshivv/Opentune",
-      "owner": {
-        "login": "justshivv",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78946189?v=4"
-      },
-      "description": "A free, open-source Android music app with no ads, synced lyrics, background playback, and customisable themes.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/justshivv/Opentune",
-      "stargazersCount": 264,
-      "forksCount": 23,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/justshivv/Opentune/releases{/id}",
-      "updatedAt": "2026-11-15T09:07:36Z",
-      "createdAt": "2026-09-17T14:59:29Z",
-      "pushedAt": "2026-11-15T08:56:09Z",
-      "downloadCount": 21362,
-      "openIssuesCount": 20,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.1.0",
-          "publishedAt": "2026-11-14T09:55:33Z"
-        },
-        "windows": {
-          "tag": "v1.1.0",
-          "publishedAt": "2026-11-14T09:55:33Z"
-        },
-        "macos": {
-          "tag": "v1.1.0",
-          "publishedAt": "2026-11-14T09:55:33Z"
-        },
-        "linux": {
-          "tag": "v1.1.0",
-          "publishedAt": "2026-11-14T09:55:33Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T09:55:33Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 1378921346,
-      "name": "hongguoTV",
-      "fullName": "N3urda/hongguoTV",
-      "owner": {
-        "login": "N3urda",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/66735949?v=4"
-      },
-      "description": "安卓 TV 红果短剧客户端",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/N3urda/hongguoTV",
-      "stargazersCount": 1039,
-      "forksCount": 204,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/N3urda/hongguoTV/releases{/id}",
-      "updatedAt": "2026-11-15T09:07:10Z",
-      "createdAt": "2026-09-21T01:04:31Z",
-      "pushedAt": "2026-11-15T03:59:00Z",
-      "downloadCount": 36646,
-      "openIssuesCount": 8,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "kotlin-v0.16.2",
-          "publishedAt": "2026-11-14T09:42:47Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T09:42:47Z",
-      "releaseRecency": 0,
-      "releaseRecencyText": "Released today"
-    },
-    {
-      "id": 725874642,
-      "name": "MicroG-RE",
-      "fullName": "MorpheApp/MicroG-RE",
-      "owner": {
-        "login": "MorpheApp",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/246280111?v=4"
-      },
-      "description": "GmsCore fork for Morphe patched apps",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/MorpheApp/MicroG-RE",
-      "stargazersCount": 6351,
-      "forksCount": 192,
-      "language": "Java",
-      "topics": [
-        "android",
-        "microg",
-        "morphe"
-      ],
-      "releasesUrl": "https://api.github.com/repos/MorpheApp/MicroG-RE/releases{/id}",
-      "updatedAt": "2026-11-15T09:15:42Z",
-      "createdAt": "2023-12-01T03:41:02Z",
-      "pushedAt": "2026-11-15T05:18:55Z",
-      "downloadCount": 7618475,
-      "openIssuesCount": 28,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "7.3.1",
-          "publishedAt": "2026-11-14T08:53:06Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T08:53:06Z",
       "releaseRecency": 1,
       "releaseRecencyText": "Released yesterday"
     },
     {
-      "id": 1333718792,
-      "name": "deepseek-harness-desktop",
-      "fullName": "dsh-tauri/deepseek-harness-desktop",
+      "id": 1291896819,
+      "name": "Agentero",
+      "fullName": "poco-ai/Agentero",
       "owner": {
-        "login": "dsh-tauri",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/320038577?v=4"
+        "login": "poco-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/255312149?v=4"
       },
-      "description": "DSH Tauri 桌面版 | Better DSH desktop, zero environment setup, preset plugins, Windows / macOS / Linux.",
+      "description": "Unified research workspace for humans & agents — PDF Q&A with citations, Vault, writing. 为人与 Agent 协作的科研工作台；补齐 Zotero 时代的人机上下文断点。",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/dsh-tauri/deepseek-harness-desktop",
-      "stargazersCount": 3633,
-      "forksCount": 241,
+      "htmlUrl": "https://github.com/poco-ai/Agentero",
+      "stargazersCount": 2550,
+      "forksCount": 159,
       "language": "TypeScript",
       "topics": [
-        "deepseek",
-        "deepseek-harness",
-        "desktop",
-        "dsh",
-        "dsh-desktop",
+        "academic",
+        "ai-agents",
+        "citations",
+        "desktop-app",
         "dsh-plugin",
-        "tauri"
+        "knowledge-base",
+        "literature-review",
+        "llm",
+        "mcp",
+        "pdf",
+        "rag",
+        "research",
+        "research-assistant",
+        "tauri",
+        "typescript",
+        "writing-assistant"
       ],
-      "releasesUrl": "https://api.github.com/repos/dsh-tauri/deepseek-harness-desktop/releases{/id}",
-      "updatedAt": "2026-11-15T08:58:52Z",
-      "createdAt": "2026-08-14T02:36:29Z",
-      "pushedAt": "2026-11-15T08:41:41Z",
-      "downloadCount": 274467,
-      "openIssuesCount": 21,
+      "releasesUrl": "https://api.github.com/repos/poco-ai/Agentero/releases{/id}",
+      "updatedAt": "2026-11-16T09:32:59Z",
+      "createdAt": "2026-07-07T06:55:12Z",
+      "pushedAt": "2026-11-16T09:23:55Z",
+      "downloadCount": 64748,
+      "openIssuesCount": 60,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -2184,151 +1521,23 @@
       "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "v0.31.6",
-          "publishedAt": "2026-11-14T07:30:55Z"
+          "tag": "v0.16.1",
+          "publishedAt": "2026-11-14T10:19:54Z"
         },
         "windows": {
-          "tag": "v0.31.6",
-          "publishedAt": "2026-11-14T07:30:55Z"
+          "tag": "v0.16.1",
+          "publishedAt": "2026-11-14T10:19:54Z"
         },
         "macos": {
-          "tag": "v0.31.6",
-          "publishedAt": "2026-11-14T07:30:55Z"
+          "tag": "v0.16.1",
+          "publishedAt": "2026-11-14T10:19:54Z"
         },
         "linux": {
-          "tag": "v0.31.6",
-          "publishedAt": "2026-11-14T07:30:55Z"
+          "tag": "v0.16.1",
+          "publishedAt": "2026-11-14T10:19:54Z"
         }
       },
-      "latestReleaseDate": "2026-11-14T07:30:55Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1401569410,
-      "name": "guoapp",
-      "fullName": "Xanerix/guoapp",
-      "owner": {
-        "login": "Xanerix",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/52587647?v=4"
-      },
-      "description": "红果鉴/小果影视 - 专属私有短剧客户端",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Xanerix/guoapp",
-      "stargazersCount": 1599,
-      "forksCount": 216,
-      "language": "Dart",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/Xanerix/guoapp/releases{/id}",
-      "updatedAt": "2026-11-15T09:15:40Z",
-      "createdAt": "2026-10-02T11:23:34Z",
-      "pushedAt": "2026-11-15T09:09:20Z",
-      "downloadCount": 129758,
-      "openIssuesCount": 17,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "app-v1.0.11-111",
-          "publishedAt": "2026-11-14T05:45:45Z"
-        },
-        "windows": {
-          "tag": "app-v1.0.11-111",
-          "publishedAt": "2026-11-14T05:45:45Z"
-        },
-        "macos": {
-          "tag": "app-v1.0.11-111",
-          "publishedAt": "2026-11-14T05:45:45Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T05:45:45Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 11512043,
-      "name": "tasks",
-      "fullName": "tasks/tasks",
-      "owner": {
-        "login": "tasks",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9398829?v=4"
-      },
-      "description": "Bringing Astrid Tasks back from the dead",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/tasks/tasks",
-      "stargazersCount": 5747,
-      "forksCount": 677,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "compose-multiplatform",
-        "productivity"
-      ],
-      "releasesUrl": "https://api.github.com/repos/tasks/tasks/releases{/id}",
-      "updatedAt": "2026-11-15T08:49:34Z",
-      "createdAt": "2013-07-18T19:44:38Z",
-      "pushedAt": "2026-11-14T23:55:12Z",
-      "downloadCount": 840625,
-      "openIssuesCount": 1252,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "15.14",
-          "publishedAt": "2026-11-14T00:16:14Z"
-        },
-        "windows": {
-          "tag": "15.14",
-          "publishedAt": "2026-11-14T00:16:14Z"
-        },
-        "linux": {
-          "tag": "15.14",
-          "publishedAt": "2026-11-14T00:16:14Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-14T00:16:14Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1440111573,
-      "name": "RX_client",
-      "fullName": "kairomax1/RX_client",
-      "owner": {
-        "login": "kairomax1",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/316619750?v=4"
-      },
-      "description": "RX client for Android",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/kairomax1/RX_client",
-      "stargazersCount": 69,
-      "forksCount": 10,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/kairomax1/RX_client/releases{/id}",
-      "updatedAt": "2026-11-15T08:55:49Z",
-      "createdAt": "2026-10-30T18:46:29Z",
-      "pushedAt": "2026-11-15T09:21:56Z",
-      "downloadCount": 1937,
-      "openIssuesCount": 0,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.0.1",
-          "publishedAt": "2026-11-13T19:47:45Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-13T19:47:45Z",
+      "latestReleaseDate": "2026-11-14T10:19:54Z",
       "releaseRecency": 1,
       "releaseRecencyText": "Released yesterday"
     },
@@ -2343,8 +1552,8 @@
       "description": "Simple Android YouTube Music client with Material UI, Liquid Glass, Bit-Perfect playback, Automix, Lossless addons & advanced audiophile features.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Clash-Projects/LastWave-Native",
-      "stargazersCount": 2942,
-      "forksCount": 164,
+      "stargazersCount": 2976,
+      "forksCount": 168,
       "language": "Kotlin",
       "topics": [
         "autoeq",
@@ -2365,11 +1574,11 @@
         "ytmusic"
       ],
       "releasesUrl": "https://api.github.com/repos/Clash-Projects/LastWave-Native/releases{/id}",
-      "updatedAt": "2026-11-15T08:44:26Z",
+      "updatedAt": "2026-11-16T09:28:44Z",
       "createdAt": "2026-07-30T11:07:14Z",
-      "pushedAt": "2026-11-15T07:58:29Z",
-      "downloadCount": 619578,
-      "openIssuesCount": 140,
+      "pushedAt": "2026-11-16T07:11:12Z",
+      "downloadCount": 629692,
+      "openIssuesCount": 138,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -2382,181 +1591,58 @@
         }
       },
       "latestReleaseDate": "2026-11-13T16:30:40Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
     },
     {
-      "id": 1159166822,
-      "name": "v2whitelist",
-      "fullName": "NullCoreDeveloper/v2whitelist",
+      "id": 1311197094,
+      "name": "YumaPlayer",
+      "fullName": "MuwMx/YumaPlayer",
       "owner": {
-        "login": "NullCoreDeveloper",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/119652843?v=4"
+        "login": "MuwMx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/138480557?v=4"
       },
-      "description": "Бесплатный Open-Source VPN-клиент для Android (V2Ray/Xray). Простой и стильный интерфейс для надежного обхода белых списков на мобильном интернете.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/NullCoreDeveloper/v2whitelist",
-      "stargazersCount": 134,
-      "forksCount": 3,
-      "language": "Kotlin",
-      "topics": [
-        "allowlist",
-        "free-vpn-russia",
-        "mobile-internet",
-        "rkn",
-        "russian-whitelists",
-        "v2rayng",
-        "v2raytun",
-        "v2whitelist",
-        "vless",
-        "vless-reality",
-        "vpn",
-        "vpn-client",
-        "vpn-for-android",
-        "vpn-for-russia",
-        "whitelist-vpn",
-        "whitelists",
-        "whitelists-bypass",
-        "xray",
-        "xray-core"
-      ],
-      "releasesUrl": "https://api.github.com/repos/NullCoreDeveloper/v2whitelist/releases{/id}",
-      "updatedAt": "2026-11-15T08:58:45Z",
-      "createdAt": "2026-02-16T11:58:13Z",
-      "pushedAt": "2026-11-15T09:19:34Z",
-      "downloadCount": 192959,
-      "openIssuesCount": 0,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.2.8",
-          "publishedAt": "2026-11-13T14:43:45Z"
-        },
-        "windows": {
-          "tag": "v1.2.8",
-          "publishedAt": "2026-11-13T14:43:45Z"
-        },
-        "macos": {
-          "tag": "v1.2.8",
-          "publishedAt": "2026-11-13T14:43:45Z"
-        },
-        "linux": {
-          "tag": "v1.2.8",
-          "publishedAt": "2026-11-13T14:43:45Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-13T14:43:45Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1070281089,
-      "name": "Monica",
-      "fullName": "Monica-Pass/Monica",
-      "owner": {
-        "login": "Monica-Pass",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/289669198?v=4"
-      },
-      "description": " Monica Pass，Password Management, 2FA Generator",
+      "description": "🎵 Hybrid music client for Android: Spotify discovery & UI + YouTube Music library + Hi-Res Lossless (FLAC) streaming with fluid Glassmorphism💫",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Monica-Pass/Monica",
-      "stargazersCount": 1235,
-      "forksCount": 67,
+      "htmlUrl": "https://github.com/MuwMx/YumaPlayer",
+      "stargazersCount": 1240,
+      "forksCount": 56,
       "language": "Kotlin",
       "topics": [
         "android",
-        "authenticator",
+        "android-ui",
+        "audiophile",
+        "flac",
+        "glassmorphism",
+        "jetpack-compose",
         "kotlin",
-        "local-first",
-        "monica",
-        "monicapass",
-        "open-source",
-        "password-manager",
-        "password-manager-app",
-        "privacy",
-        "totp"
+        "lossless-audio",
+        "lyrics",
+        "material3",
+        "music-player",
+        "spotify",
+        "youtube-music"
       ],
-      "releasesUrl": "https://api.github.com/repos/Monica-Pass/Monica/releases{/id}",
-      "updatedAt": "2026-11-15T09:14:49Z",
-      "createdAt": "2025-10-05T16:19:24Z",
-      "pushedAt": "2026-11-15T04:38:17Z",
-      "downloadCount": 18329,
-      "openIssuesCount": 14,
+      "releasesUrl": "https://api.github.com/repos/MuwMx/YumaPlayer/releases{/id}",
+      "updatedAt": "2026-11-16T09:34:12Z",
+      "createdAt": "2026-07-24T15:53:08Z",
+      "pushedAt": "2026-11-16T01:06:03Z",
+      "downloadCount": 72810,
+      "openIssuesCount": 27,
       "archived": false,
       "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
+      "hasInstallersWindows": false,
       "hasInstallersMacos": false,
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "V1.0.327",
-          "publishedAt": "2026-11-13T12:30:32Z"
-        },
-        "windows": {
-          "tag": "V1.0.16",
-          "publishedAt": "2026-01-02T06:50:39Z"
+          "tag": "v1.2.0-RC.2",
+          "publishedAt": "2026-11-13T11:33:20Z"
         }
       },
-      "latestReleaseDate": "2026-11-13T12:30:32Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1431851693,
-      "name": "android-ad-cleaner",
-      "fullName": "rddmwmddr/android-ad-cleaner",
-      "owner": {
-        "login": "rddmwmddr",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5119232?v=4"
-      },
-      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/rddmwmddr/android-ad-cleaner",
-      "stargazersCount": 8080,
-      "forksCount": 703,
-      "language": "Python",
-      "topics": [
-        "adb",
-        "ai-agent",
-        "android",
-        "coloros",
-        "debloat",
-        "hyperos",
-        "magicos",
-        "originos"
-      ],
-      "releasesUrl": "https://api.github.com/repos/rddmwmddr/android-ad-cleaner/releases{/id}",
-      "updatedAt": "2026-11-15T08:56:18Z",
-      "createdAt": "2026-10-24T05:35:47Z",
-      "pushedAt": "2026-11-15T09:13:57Z",
-      "downloadCount": 128357,
-      "openIssuesCount": 190,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.4.4",
-          "publishedAt": "2026-11-13T09:43:45Z"
-        },
-        "windows": {
-          "tag": "v0.4.4",
-          "publishedAt": "2026-11-13T09:43:45Z"
-        },
-        "macos": {
-          "tag": "v0.4.4",
-          "publishedAt": "2026-11-13T09:43:45Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-13T09:43:45Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
+      "latestReleaseDate": "2026-11-13T11:33:20Z",
+      "releaseRecency": 2,
+      "releaseRecencyText": "Released 2 days ago"
     },
     {
       "id": 1453604719,
@@ -2569,16 +1655,16 @@
       "description": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Eynnzerr/TelemetryCleaner",
-      "stargazersCount": 768,
-      "forksCount": 68,
+      "stargazersCount": 1201,
+      "forksCount": 101,
       "language": "Kotlin",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/Eynnzerr/TelemetryCleaner/releases{/id}",
-      "updatedAt": "2026-11-15T09:19:04Z",
+      "updatedAt": "2026-11-16T09:39:41Z",
       "createdAt": "2026-11-11T06:25:10Z",
-      "pushedAt": "2026-11-15T04:47:14Z",
-      "downloadCount": 7731,
-      "openIssuesCount": 10,
+      "pushedAt": "2026-11-16T05:54:50Z",
+      "downloadCount": 12053,
+      "openIssuesCount": 6,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -2591,388 +1677,8 @@
         }
       },
       "latestReleaseDate": "2026-11-13T09:37:50Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 426414439,
-      "name": "sceneview",
-      "fullName": "sceneview/sceneview",
-      "owner": {
-        "login": "sceneview",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/92221392?v=4"
-      },
-      "description": "3D & AR SDK for Jetpack Compose (Filament, ARCore), Compose Multiplatform, SwiftUI (RealityKit, ARKit) and the web, with Flutter and React Native bridges. The maintained successor to Google Sceneform. Opens glTF/GLB and USDZ, at real size in AR. Assistant-ready: MCP server, AGENTS.md and llms.txt.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sceneview/sceneview",
-      "stargazersCount": 1372,
-      "forksCount": 251,
-      "language": "Kotlin",
-      "topics": [
-        "3d",
-        "android",
-        "arcore",
-        "arkit",
-        "augmented-reality",
-        "compose",
-        "compose-multiplatform",
-        "filament",
-        "flutter",
-        "gltf",
-        "ios",
-        "jetpack-compose",
-        "kotlin",
-        "kotlin-multiplatform",
-        "mcp",
-        "realitykit",
-        "sceneform",
-        "swiftui",
-        "visionos",
-        "webxr"
-      ],
-      "releasesUrl": "https://api.github.com/repos/sceneview/sceneview/releases{/id}",
-      "updatedAt": "2026-11-15T08:34:26Z",
-      "createdAt": "2021-11-09T23:03:50Z",
-      "pushedAt": "2026-11-15T09:19:31Z",
-      "downloadCount": 58293,
-      "openIssuesCount": 160,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v4.69.5",
-          "publishedAt": "2026-11-13T09:04:17Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-13T09:04:17Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 1338012624,
-      "name": "Piik",
-      "fullName": "TNTcraftHIM/Piik",
-      "owner": {
-        "login": "TNTcraftHIM",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/35992542?v=4"
-      },
-      "description": "Free, open-source screen sharing for private live streams with friends. Watch together in a browser or self-host Piik. 免费开源的私密屏幕共享，支持游戏直播、一起看电影与自部署。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/TNTcraftHIM/Piik",
-      "stargazersCount": 4285,
-      "forksCount": 276,
-      "language": "TypeScript",
-      "topics": [
-        "live-streaming",
-        "p2p",
-        "private-streaming",
-        "screen-sharing",
-        "self-hosted",
-        "watch-together",
-        "webrtc"
-      ],
-      "releasesUrl": "https://api.github.com/repos/TNTcraftHIM/Piik/releases{/id}",
-      "updatedAt": "2026-11-15T09:06:49Z",
-      "createdAt": "2026-08-18T05:34:01Z",
-      "pushedAt": "2026-11-15T09:22:02Z",
-      "downloadCount": 71238,
-      "openIssuesCount": 10,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.6.3",
-          "publishedAt": "2026-11-13T04:06:33Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-13T04:06:33Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 1386442796,
-      "name": "HushFacebook",
-      "fullName": "SysAdminDoc/HushFacebook",
-      "owner": {
-        "login": "SysAdminDoc",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/54586742?v=4"
-      },
-      "description": "Hushfacebook Morphe patches for Facebook. Hide ads, suggested posts, save videos and photos, tune playback and Reels, and use a focused Marketplace mode, and much more.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/SysAdminDoc/HushFacebook",
-      "stargazersCount": 530,
-      "forksCount": 19,
-      "language": "Java",
-      "topics": [
-        "ad-blocker",
-        "android",
-        "customization",
-        "facebook",
-        "morphe",
-        "morphe-patches",
-        "patches",
-        "privacy",
-        "revanced"
-      ],
-      "releasesUrl": "https://api.github.com/repos/SysAdminDoc/HushFacebook/releases{/id}",
-      "updatedAt": "2026-11-15T09:05:51Z",
-      "createdAt": "2026-09-24T22:34:55Z",
-      "pushedAt": "2026-11-15T05:29:55Z",
-      "downloadCount": 268830,
-      "openIssuesCount": 152,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.22.0",
-          "publishedAt": "2026-11-12T22:10:23Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T22:10:23Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 111605778,
-      "name": "Unciv",
-      "fullName": "yairm210/Unciv",
-      "owner": {
-        "login": "yairm210",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8366208?v=4"
-      },
-      "description": "Open-source Android/Desktop remake of Civ V",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/yairm210/Unciv",
-      "stargazersCount": 11581,
-      "forksCount": 2000,
-      "language": "Kotlin",
-      "topics": [
-        "4x",
-        "4x-strategy-game",
-        "android",
-        "civ",
-        "civilization",
-        "civilization-v",
-        "game",
-        "itch",
-        "libgdx",
-        "strategy-game"
-      ],
-      "releasesUrl": "https://api.github.com/repos/yairm210/Unciv/releases{/id}",
-      "updatedAt": "2026-11-15T08:26:13Z",
-      "createdAt": "2017-11-21T21:58:12Z",
-      "pushedAt": "2026-11-15T08:41:08Z",
-      "downloadCount": 811736,
-      "openIssuesCount": 124,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "5.0.0",
-          "publishedAt": "2026-11-12T19:51:48Z"
-        },
-        "windows": {
-          "tag": "5.0.0",
-          "publishedAt": "2026-11-12T19:51:48Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T19:51:48Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 1402853886,
-      "name": "youmo-ime",
-      "fullName": "Sraw/youmo-ime",
-      "owner": {
-        "login": "Sraw",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15711730?v=4"
-      },
-      "description": "幽默输入法 · Youmo IME: an offline Chinese input method for Android with its own pinyin engine and neural sentence reranking",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Sraw/youmo-ime",
-      "stargazersCount": 55,
-      "forksCount": 8,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "chinese",
-        "fcitx5",
-        "ime",
-        "input-method",
-        "pinyin"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Sraw/youmo-ime/releases{/id}",
-      "updatedAt": "2026-11-15T08:57:00Z",
-      "createdAt": "2026-10-03T07:58:50Z",
-      "pushedAt": "2026-11-15T07:07:12Z",
-      "downloadCount": 3429,
-      "openIssuesCount": 3,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.6.0",
-          "publishedAt": "2026-11-12T17:19:47Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T17:19:47Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 1424168243,
-      "name": "Quackify",
-      "fullName": "23fpsz/Quackify",
-      "owner": {
-        "login": "23fpsz",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78682128?v=4"
-      },
-      "description": "Quackify, a native android spotify client with ~90% parity, built with Jetpack Compose and Material 3. No webview.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/23fpsz/Quackify",
-      "stargazersCount": 90,
-      "forksCount": 2,
-      "language": "Kotlin",
-      "topics": [
-        "ad-free",
-        "free",
-        "music",
-        "no-ads",
-        "player",
-        "premium",
-        "spotify"
-      ],
-      "releasesUrl": "https://api.github.com/repos/23fpsz/Quackify/releases{/id}",
-      "updatedAt": "2026-11-15T09:22:53Z",
-      "createdAt": "2026-10-18T08:45:33Z",
-      "pushedAt": "2026-11-15T08:47:16Z",
-      "downloadCount": 2006,
-      "openIssuesCount": 12,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.9.26.11.12-b26-6b76299",
-          "publishedAt": "2026-11-12T16:21:49Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T16:21:49Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 262342594,
-      "name": "obsidian-releases",
-      "fullName": "obsidianmd/obsidian-releases",
-      "owner": {
-        "login": "obsidianmd",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/65011256?v=4"
-      },
-      "description": "Community plugins list, theme list, and releases of Obsidian.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/obsidianmd/obsidian-releases",
-      "stargazersCount": 23281,
-      "forksCount": 7952,
-      "language": null,
-      "topics": [
-        "bases",
-        "jsoncanvas",
-        "markdown",
-        "md",
-        "obsidian",
-        "obsidian-md"
-      ],
-      "releasesUrl": "https://api.github.com/repos/obsidianmd/obsidian-releases/releases{/id}",
-      "updatedAt": "2026-11-15T08:33:27Z",
-      "createdAt": "2020-05-08T14:18:27Z",
-      "pushedAt": "2026-11-15T09:20:41Z",
-      "downloadCount": 98236209,
-      "openIssuesCount": 4,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.15.1",
-          "publishedAt": "2026-11-12T15:43:18Z"
-        },
-        "windows": {
-          "tag": "v1.15.1",
-          "publishedAt": "2026-11-12T15:43:18Z"
-        },
-        "macos": {
-          "tag": "v1.15.1",
-          "publishedAt": "2026-11-12T15:43:18Z"
-        },
-        "linux": {
-          "tag": "v1.15.1",
-          "publishedAt": "2026-11-12T15:43:18Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T15:43:18Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
-    },
-    {
-      "id": 49649355,
-      "name": "APlayer",
-      "fullName": "rRemix/APlayer",
-      "owner": {
-        "login": "rRemix",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/16172563?v=4"
-      },
-      "description": "Android Music Player",
-      "defaultBranch": "compose",
-      "htmlUrl": "https://github.com/rRemix/APlayer",
-      "stargazersCount": 1864,
-      "forksCount": 223,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "compose",
-        "musicplayer"
-      ],
-      "releasesUrl": "https://api.github.com/repos/rRemix/APlayer/releases{/id}",
-      "updatedAt": "2026-11-15T09:17:34Z",
-      "createdAt": "2016-01-14T13:38:47Z",
-      "pushedAt": "2026-11-14T22:12:00Z",
-      "downloadCount": 351836,
-      "openIssuesCount": 23,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.1.3.1",
-          "publishedAt": "2026-11-12T11:43:33Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T11:43:33Z",
-      "releaseRecency": 2,
-      "releaseRecencyText": "Released 2 days ago"
+      "releaseRecency": 3,
+      "releaseRecencyText": "Released 3 days ago"
     },
     {
       "id": 1206390571,
@@ -2985,8 +1691,8 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/debpalash/VoiceStudio",
-      "stargazersCount": 110912,
-      "forksCount": 12293,
+      "stargazersCount": 111595,
+      "forksCount": 12379,
       "language": "Python",
       "topics": [
         "ai",
@@ -3010,11 +1716,11 @@
         "workflow"
       ],
       "releasesUrl": "https://api.github.com/repos/debpalash/VoiceStudio/releases{/id}",
-      "updatedAt": "2026-11-15T09:21:47Z",
+      "updatedAt": "2026-11-16T09:39:50Z",
       "createdAt": "2026-04-09T21:40:26Z",
-      "pushedAt": "2026-11-15T09:19:57Z",
-      "downloadCount": 2945384,
-      "openIssuesCount": 19,
+      "pushedAt": "2026-11-16T09:31:38Z",
+      "downloadCount": 3022899,
+      "openIssuesCount": 46,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -3039,491 +1745,30 @@
         }
       },
       "latestReleaseDate": "2026-11-12T08:53:29Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1330965404,
-      "name": "petal",
-      "fullName": "shreyagarwal72/petal",
-      "owner": {
-        "login": "shreyagarwal72",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/202695652?v=4"
-      },
-      "description": "Material 3 Expressive Browser For Android ",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/shreyagarwal72/petal",
-      "stargazersCount": 171,
-      "forksCount": 10,
-      "language": "Kotlin",
-      "topics": [
-        "adblock",
-        "adblocker",
-        "adblocking",
-        "android",
-        "android-browser",
-        "browser",
-        "firefox",
-        "firefox-addons",
-        "gecko",
-        "geckoview",
-        "jetpack-compose",
-        "kotlin",
-        "material-design",
-        "material-you",
-        "material3",
-        "open-source",
-        "privacy",
-        "privacy-browser",
-        "tracker-blocker",
-        "webextensions"
-      ],
-      "releasesUrl": "https://api.github.com/repos/shreyagarwal72/petal/releases{/id}",
-      "updatedAt": "2026-11-15T08:27:09Z",
-      "createdAt": "2026-08-11T13:36:58Z",
-      "pushedAt": "2026-11-15T08:56:49Z",
-      "downloadCount": 2744,
-      "openIssuesCount": 2,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v4.7",
-          "publishedAt": "2026-11-12T07:24:41Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T07:24:41Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1063703913,
-      "name": "Mages",
-      "fullName": "mlm-games/Mages",
-      "owner": {
-        "login": "mlm-games",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/125530737?v=4"
-      },
-      "description": "Multiplatform Matrix chat client",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/mlm-games/Mages",
-      "stargazersCount": 183,
-      "forksCount": 15,
-      "language": "Kotlin",
-      "topics": [
-        "chat-application",
-        "chatting-app",
-        "compose-multiplatform",
-        "decentralized-applications",
-        "jni",
-        "kotlin-multiplatform",
-        "matrix",
-        "rust"
-      ],
-      "releasesUrl": "https://api.github.com/repos/mlm-games/Mages/releases{/id}",
-      "updatedAt": "2026-11-15T08:36:27Z",
-      "createdAt": "2025-09-25T02:18:40Z",
-      "pushedAt": "2026-11-15T05:59:27Z",
-      "downloadCount": 17976,
-      "openIssuesCount": 18,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "5.4.2",
-          "publishedAt": "2026-11-12T04:54:49Z"
-        },
-        "windows": {
-          "tag": "5.4.2",
-          "publishedAt": "2026-11-12T04:54:49Z"
-        },
-        "macos": {
-          "tag": "5.4.2",
-          "publishedAt": "2026-11-12T04:54:49Z"
-        },
-        "linux": {
-          "tag": "5.4.2",
-          "publishedAt": "2026-11-12T04:54:49Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T04:54:49Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1355334712,
-      "name": "msime",
-      "fullName": "metasequoiaime/msime",
-      "owner": {
-        "login": "metasequoiaime",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/324869696?v=4"
-      },
-      "description": "下一代跨平台水杉输入法（MSIME）：面向 Android、iOS、macOS、Linux、Windows 与 HarmonyOS 的多平台中文输入法，使用共享输入引擎与各平台原生宿主。",
-      "defaultBranch": "develop",
-      "htmlUrl": "https://github.com/metasequoiaime/msime",
-      "stargazersCount": 1311,
-      "forksCount": 99,
-      "language": "Rust",
-      "topics": [
-        "android",
-        "chinese",
-        "cpp",
-        "harmonyos",
-        "ime",
-        "input-method",
-        "inputmethodkit",
-        "ios",
-        "linux",
-        "macos",
-        "pinyin",
-        "rust",
-        "windows"
-      ],
-      "releasesUrl": "https://api.github.com/repos/metasequoiaime/msime/releases{/id}",
-      "updatedAt": "2026-11-15T09:13:02Z",
-      "createdAt": "2026-09-02T23:44:10Z",
-      "pushedAt": "2026-11-15T09:08:16Z",
-      "downloadCount": 44888,
-      "openIssuesCount": 118,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "android-v0.7.4",
-          "publishedAt": "2026-11-12T03:22:43Z"
-        },
-        "macos": {
-          "tag": "macos-v0.59.4",
-          "publishedAt": "2026-11-11T10:04:19Z"
-        },
-        "linux": {
-          "tag": "linux-v0.16.1",
-          "publishedAt": "2026-11-10T07:42:43Z"
-        },
-        "windows": {
-          "tag": "windows7-v0.6.0",
-          "publishedAt": "2026-11-07T08:56:22Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T03:22:43Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 964702894,
-      "name": "NuvioMobile",
-      "fullName": "NuvioMedia/NuvioMobile",
-      "owner": {
-        "login": "NuvioMedia",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/267417830?v=4"
-      },
-      "description": "Official Nuvio Mobile Repository",
-      "defaultBranch": "cmp-rewrite",
-      "htmlUrl": "https://github.com/NuvioMedia/NuvioMobile",
-      "stargazersCount": 4594,
-      "forksCount": 794,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/NuvioMedia/NuvioMobile/releases{/id}",
-      "updatedAt": "2026-11-15T08:57:20Z",
-      "createdAt": "2025-04-11T16:38:58Z",
-      "pushedAt": "2026-11-14T22:47:45Z",
-      "downloadCount": 1958671,
-      "openIssuesCount": 664,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "0.6.12-beta",
-          "publishedAt": "2026-11-12T00:37:11Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-12T00:37:11Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1325212025,
-      "name": "Emberr",
-      "fullName": "emberr-app/Emberr",
-      "owner": {
-        "login": "emberr-app",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/339880637?v=4"
-      },
-      "description": "Privacy-first block-based notes, tasks and calendar - no tracking, no ads.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/emberr-app/Emberr",
-      "stargazersCount": 115,
-      "forksCount": 5,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "calendar",
-        "desktop",
-        "linux",
-        "local-first",
-        "markdown",
-        "note-taking",
-        "open-source",
-        "privacy",
-        "self-hosted"
-      ],
-      "releasesUrl": "https://api.github.com/repos/emberr-app/Emberr/releases{/id}",
-      "updatedAt": "2026-11-15T09:14:20Z",
-      "createdAt": "2026-08-06T12:29:30Z",
-      "pushedAt": "2026-11-15T04:31:57Z",
-      "downloadCount": 5480,
-      "openIssuesCount": 8,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.3.0",
-          "publishedAt": "2026-11-11T22:57:37Z"
-        },
-        "windows": {
-          "tag": "v1.3.0",
-          "publishedAt": "2026-11-11T22:57:37Z"
-        },
-        "linux": {
-          "tag": "v1.3.0",
-          "publishedAt": "2026-11-11T22:57:37Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-11T22:57:37Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1154162014,
-      "name": "blockads-android",
-      "fullName": "pass-with-high-score/blockads-android",
-      "owner": {
-        "login": "pass-with-high-score",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/173918919?v=4"
-      },
-      "description": "Block ads system-wide on Android using local VPN-based DNS filtering. No root needed. No data collection.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/pass-with-high-score/blockads-android",
-      "stargazersCount": 2731,
-      "forksCount": 169,
-      "language": "Kotlin",
-      "topics": [
-        "adblocker",
-        "android",
-        "block-ads",
-        "blockads",
-        "dns",
-        "dns-filter",
-        "firewall",
-        "go-mobile",
-        "golang",
-        "https-filtering",
-        "jetpack-compose",
-        "kotlin",
-        "no-root",
-        "privacy",
-        "root",
-        "vpn",
-        "wireguard"
-      ],
-      "releasesUrl": "https://api.github.com/repos/pass-with-high-score/blockads-android/releases{/id}",
-      "updatedAt": "2026-11-15T09:18:23Z",
-      "createdAt": "2026-02-10T04:35:15Z",
-      "pushedAt": "2026-11-15T05:23:58Z",
-      "downloadCount": 179888,
-      "openIssuesCount": 57,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v7.1.2",
-          "publishedAt": "2026-11-11T17:49:39Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-11T17:49:39Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1440971520,
-      "name": "Claude-Cage",
-      "fullName": "Lee-xeo/Claude-Cage",
-      "owner": {
-        "login": "Lee-xeo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/120454108?v=4"
-      },
-      "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Lee-xeo/Claude-Cage",
-      "stargazersCount": 5570,
-      "forksCount": 628,
-      "language": "Go",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/Lee-xeo/Claude-Cage/releases{/id}",
-      "updatedAt": "2026-11-15T09:02:43Z",
-      "createdAt": "2026-10-31T15:07:08Z",
-      "pushedAt": "2026-11-15T09:21:50Z",
-      "downloadCount": 28006,
-      "openIssuesCount": 93,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.1.7",
-          "publishedAt": "2026-11-11T17:18:18Z"
-        },
-        "windows": {
-          "tag": "v0.1.7",
-          "publishedAt": "2026-11-11T17:18:18Z"
-        },
-        "macos": {
-          "tag": "v0.1.7",
-          "publishedAt": "2026-11-11T17:18:18Z"
-        },
-        "linux": {
-          "tag": "v0.1.7",
-          "publishedAt": "2026-11-11T17:18:18Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-11T17:18:18Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1109834595,
-      "name": "essentials",
-      "fullName": "sameerasw/essentials",
-      "owner": {
-        "login": "sameerasw",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/68902530?v=4"
-      },
-      "description": "Essential tools and mods for Android nerds",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sameerasw/essentials",
-      "stargazersCount": 3884,
-      "forksCount": 111,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "google-pixel",
-        "jetpack-compose",
-        "kotlin",
-        "kotlin-android",
-        "material-expressive",
-        "pixel",
-        "shizuku"
-      ],
-      "releasesUrl": "https://api.github.com/repos/sameerasw/essentials/releases{/id}",
-      "updatedAt": "2026-11-15T09:07:54Z",
-      "createdAt": "2025-12-04T10:51:08Z",
-      "pushedAt": "2026-11-14T23:21:12Z",
-      "downloadCount": 726561,
-      "openIssuesCount": 242,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v21.2",
-          "publishedAt": "2026-11-11T17:11:28Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-11T17:11:28Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 1406839840,
-      "name": "pokedaisy",
-      "fullName": "lidor30/pokedaisy",
-      "owner": {
-        "login": "lidor30",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3531840?v=4"
-      },
-      "description": "A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/lidor30/pokedaisy",
-      "stargazersCount": 642,
-      "forksCount": 68,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/lidor30/pokedaisy/releases{/id}",
-      "updatedAt": "2026-11-15T08:23:06Z",
-      "createdAt": "2026-10-06T06:51:25Z",
-      "pushedAt": "2026-11-14T23:06:02Z",
-      "downloadCount": 63833,
-      "openIssuesCount": 22,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.5.0.1",
-          "publishedAt": "2026-11-10T20:13:33Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-10T20:13:33Z",
       "releaseRecency": 4,
       "releaseRecencyText": "Released 4 days ago"
     },
     {
-      "id": 946702247,
-      "name": "rikkahub",
-      "fullName": "rikkahub/rikkahub",
+      "id": 1438882160,
+      "name": "Trackr",
+      "fullName": "5151561/Trackr",
       "owner": {
-        "login": "rikkahub",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/211976783?v=4"
+        "login": "5151561",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62234963?v=4"
       },
-      "description": "RikkaHub is an Android APP that supports for multiple LLM providers.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/rikkahub/rikkahub",
-      "stargazersCount": 8871,
-      "forksCount": 890,
+      "description": "公交实时到站查询与动态追踪",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/5151561/Trackr",
+      "stargazersCount": 429,
+      "forksCount": 65,
       "language": "Kotlin",
-      "topics": [
-        "agent",
-        "android",
-        "app",
-        "chatgpt",
-        "deepseek",
-        "gemini",
-        "jetpack-compose",
-        "llm-ui",
-        "mcp",
-        "openrouter"
-      ],
-      "releasesUrl": "https://api.github.com/repos/rikkahub/rikkahub/releases{/id}",
-      "updatedAt": "2026-11-15T09:08:18Z",
-      "createdAt": "2025-03-11T14:46:55Z",
-      "pushedAt": "2026-11-15T08:40:29Z",
-      "downloadCount": 219697,
-      "openIssuesCount": 297,
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/5151561/Trackr/releases{/id}",
+      "updatedAt": "2026-11-16T09:37:50Z",
+      "createdAt": "2026-10-29T19:41:43Z",
+      "pushedAt": "2026-11-16T08:08:54Z",
+      "downloadCount": 4189,
+      "openIssuesCount": 10,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -3531,13 +1776,89 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "3.2.0",
-          "publishedAt": "2026-11-10T15:26:37Z"
+          "tag": "v0.1.12",
+          "publishedAt": "2026-11-11T18:32:47Z"
         }
       },
-      "latestReleaseDate": "2026-11-10T15:26:37Z",
+      "latestReleaseDate": "2026-11-11T18:32:47Z",
       "releaseRecency": 4,
       "releaseRecencyText": "Released 4 days ago"
+    },
+    {
+      "id": 1314358519,
+      "name": "AsteriskBOX",
+      "fullName": "Asterisk4Magisk/AsteriskBOX",
+      "owner": {
+        "login": "Asterisk4Magisk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85885147?v=4"
+      },
+      "description": "Android sing-box GUI client.",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/Asterisk4Magisk/AsteriskBOX",
+      "stargazersCount": 225,
+      "forksCount": 13,
+      "language": "Kotlin",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/Asterisk4Magisk/AsteriskBOX/releases{/id}",
+      "updatedAt": "2026-11-16T09:38:24Z",
+      "createdAt": "2026-07-27T23:32:03Z",
+      "pushedAt": "2026-11-16T09:34:48Z",
+      "downloadCount": 5431,
+      "openIssuesCount": 4,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v1.1.27",
+          "publishedAt": "2026-11-11T02:55:38Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-11T02:55:38Z",
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
+    },
+    {
+      "id": 1084806666,
+      "name": "open-headunit",
+      "fullName": "andreknieriem/open-headunit",
+      "owner": {
+        "login": "andreknieriem",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4500367?v=4"
+      },
+      "description": "Headunit App for displaying Android Auto",
+      "defaultBranch": "main",
+      "htmlUrl": "https://github.com/andreknieriem/open-headunit",
+      "stargazersCount": 3386,
+      "forksCount": 331,
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "androidauto",
+        "headunit"
+      ],
+      "releasesUrl": "https://api.github.com/repos/andreknieriem/open-headunit/releases{/id}",
+      "updatedAt": "2026-11-16T09:33:23Z",
+      "createdAt": "2025-10-28T07:25:39Z",
+      "pushedAt": "2026-11-16T07:58:26Z",
+      "downloadCount": 153843,
+      "openIssuesCount": 76,
+      "archived": false,
+      "hasInstallersAndroid": true,
+      "hasInstallersWindows": false,
+      "hasInstallersMacos": false,
+      "hasInstallersLinux": false,
+      "platformReleases": {
+        "android": {
+          "tag": "v.4.0.0",
+          "publishedAt": "2026-11-10T16:08:30Z"
+        }
+      },
+      "latestReleaseDate": "2026-11-10T16:08:30Z",
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
       "id": 1385776214,
@@ -3550,16 +1871,16 @@
       "description": "DroidDeck brings the SteamOS experience to Android",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Droid-Deck/DroidDeck",
-      "stargazersCount": 20222,
-      "forksCount": 1024,
+      "stargazersCount": 20409,
+      "forksCount": 1043,
       "language": "Kotlin",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/Droid-Deck/DroidDeck/releases{/id}",
-      "updatedAt": "2026-11-15T09:19:59Z",
+      "updatedAt": "2026-11-16T09:32:55Z",
       "createdAt": "2026-09-24T15:14:13Z",
-      "pushedAt": "2026-11-15T07:48:50Z",
-      "downloadCount": 1676265,
-      "openIssuesCount": 635,
+      "pushedAt": "2026-11-16T08:37:20Z",
+      "downloadCount": 1710259,
+      "openIssuesCount": 581,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -3572,36 +1893,42 @@
         }
       },
       "latestReleaseDate": "2026-11-10T12:35:34Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
-      "id": 1443914008,
-      "name": "bdFun",
-      "fullName": "QxTeak/bdFun",
+      "id": 41889031,
+      "name": "NewPipe",
+      "fullName": "TeamNewPipe/NewPipe",
       "owner": {
-        "login": "QxTeak",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/351827445?v=4"
+        "login": "TeamNewPipe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22159318?v=4"
       },
-      "description": "致力于轻快、流畅、简洁、美观的使用体验的第三方哔哩哔哩 Android 客户端。",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/QxTeak/bdFun",
-      "stargazersCount": 74,
-      "forksCount": 3,
-      "language": "Kotlin",
+      "description": "A libre lightweight streaming front-end for Android.",
+      "defaultBranch": "dev",
+      "htmlUrl": "https://github.com/TeamNewPipe/NewPipe",
+      "stargazersCount": 40748,
+      "forksCount": 4006,
+      "language": "Java",
       "topics": [
+        "4k",
         "android",
-        "bilibili",
-        "jetpack-compose",
-        "kotlin",
-        "third-party-client"
+        "bandcamp",
+        "download-videos",
+        "newpipe",
+        "peertube",
+        "soundcloud",
+        "translation",
+        "video",
+        "watch",
+        "youtube-video"
       ],
-      "releasesUrl": "https://api.github.com/repos/QxTeak/bdFun/releases{/id}",
-      "updatedAt": "2026-11-15T08:30:36Z",
-      "createdAt": "2026-11-03T06:45:00Z",
-      "pushedAt": "2026-11-15T04:22:23Z",
-      "downloadCount": 749,
-      "openIssuesCount": 15,
+      "releasesUrl": "https://api.github.com/repos/TeamNewPipe/NewPipe/releases{/id}",
+      "updatedAt": "2026-11-16T09:30:19Z",
+      "createdAt": "2015-09-03T23:39:26Z",
+      "pushedAt": "2026-11-16T08:10:46Z",
+      "downloadCount": 18929712,
+      "openIssuesCount": 1450,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -3609,51 +1936,55 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "preview-5.0",
-          "publishedAt": "2026-11-10T12:17:30Z"
+          "tag": "v0.29.3",
+          "publishedAt": "2026-11-10T09:52:10Z"
         }
       },
-      "latestReleaseDate": "2026-11-10T12:17:30Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "latestReleaseDate": "2026-11-10T09:52:10Z",
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
-      "id": 1075381375,
-      "name": "paseo",
-      "fullName": "getpaseo/paseo",
+      "id": 299354207,
+      "name": "rustdesk",
+      "fullName": "rustdesk/rustdesk",
       "owner": {
-        "login": "getpaseo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/259503569?v=4"
+        "login": "rustdesk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71636191?v=4"
       },
-      "description": "Orchestrate multiple coding agents from desktop and mobile",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/getpaseo/paseo",
-      "stargazersCount": 24086,
-      "forksCount": 2963,
-      "language": "TypeScript",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/rustdesk/rustdesk",
+      "stargazersCount": 129663,
+      "forksCount": 20753,
+      "language": "Rust",
       "topics": [
-        "ade",
-        "agents",
         "android",
-        "claude-code",
-        "codex",
-        "copilot",
-        "developer-tools",
-        "hermes",
+        "anydesk",
+        "dart",
+        "flatpak",
+        "flutter",
+        "flutter-apps",
         "ios",
         "linux",
-        "mobile",
-        "opencode",
-        "orchestration",
-        "pi",
+        "macos",
+        "p2p",
+        "rdp",
+        "remote-control",
+        "remote-desktop",
+        "rust",
+        "rust-lang",
+        "teamviewer",
+        "vnc",
+        "wayland",
         "windows"
       ],
-      "releasesUrl": "https://api.github.com/repos/getpaseo/paseo/releases{/id}",
-      "updatedAt": "2026-11-15T09:08:18Z",
-      "createdAt": "2025-10-13T12:27:02Z",
-      "pushedAt": "2026-11-15T09:19:31Z",
-      "downloadCount": 20762227,
-      "openIssuesCount": 2072,
+      "releasesUrl": "https://api.github.com/repos/rustdesk/rustdesk/releases{/id}",
+      "updatedAt": "2026-11-16T09:29:00Z",
+      "createdAt": "2020-09-28T15:36:08Z",
+      "pushedAt": "2026-11-16T09:32:20Z",
+      "downloadCount": 83692766,
+      "openIssuesCount": 214,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -3661,65 +1992,47 @@
       "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "v0.15.4",
-          "publishedAt": "2026-11-10T01:52:29Z"
+          "tag": "1.5.3",
+          "publishedAt": "2026-11-09T09:43:52Z"
         },
         "windows": {
-          "tag": "v0.15.4",
-          "publishedAt": "2026-11-10T01:52:29Z"
+          "tag": "1.5.3",
+          "publishedAt": "2026-11-09T09:43:52Z"
         },
         "macos": {
-          "tag": "v0.15.4",
-          "publishedAt": "2026-11-10T01:52:29Z"
+          "tag": "1.5.3",
+          "publishedAt": "2026-11-09T09:43:52Z"
         },
         "linux": {
-          "tag": "v0.15.4",
-          "publishedAt": "2026-11-10T01:52:29Z"
+          "tag": "1.5.3",
+          "publishedAt": "2026-11-09T09:43:52Z"
         }
       },
-      "latestReleaseDate": "2026-11-10T01:52:29Z",
-      "releaseRecency": 5,
-      "releaseRecencyText": "Released 5 days ago"
+      "latestReleaseDate": "2026-11-09T09:43:52Z",
+      "releaseRecency": 7,
+      "releaseRecencyText": "Released 7 days ago"
     },
     {
-      "id": 1354621130,
-      "name": "opencode-mobile-next",
-      "fullName": "Eslamasabry/opencode-mobile-next",
+      "id": 1418835161,
+      "name": "limusic-android",
+      "fullName": "SimoHypers/limusic-android",
       "owner": {
-        "login": "Eslamasabry",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/104366884?v=4"
+        "login": "SimoHypers",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/153776287?v=4"
       },
-      "description": "Run Claude Code and OpenCode on your Android phone, no computer needed. Or follow and steer agents on your computer: live sessions, tool approvals and diffs.",
+      "description": "Limusic for Android",
       "defaultBranch": "master",
-      "htmlUrl": "https://github.com/Eslamasabry/opencode-mobile-next",
-      "stargazersCount": 105,
-      "forksCount": 20,
+      "htmlUrl": "https://github.com/SimoHypers/limusic-android",
+      "stargazersCount": 67,
+      "forksCount": 1,
       "language": "Kotlin",
-      "topics": [
-        "ai-agent",
-        "ai-coding",
-        "android",
-        "android-app",
-        "claude-code",
-        "codex",
-        "coding-agent",
-        "dart",
-        "developer-tools",
-        "flutter",
-        "gemini-cli",
-        "llm",
-        "mobile-development",
-        "opencode",
-        "proot",
-        "self-hosted",
-        "termux"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Eslamasabry/opencode-mobile-next/releases{/id}",
-      "updatedAt": "2026-11-15T09:04:12Z",
-      "createdAt": "2026-09-02T10:19:30Z",
-      "pushedAt": "2026-11-15T09:10:41Z",
-      "downloadCount": 3079,
-      "openIssuesCount": 37,
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/SimoHypers/limusic-android/releases{/id}",
+      "updatedAt": "2026-11-16T09:25:35Z",
+      "createdAt": "2026-10-14T11:57:57Z",
+      "pushedAt": "2026-11-15T22:59:54Z",
+      "downloadCount": 3072,
+      "openIssuesCount": 5,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -3727,127 +2040,40 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v2.1.5+63",
-          "publishedAt": "2026-11-08T16:42:03Z"
+          "tag": "v1.0.0",
+          "publishedAt": "2026-11-08T14:23:35Z"
         }
       },
-      "latestReleaseDate": "2026-11-09T19:07:04Z",
-      "releaseRecency": 5,
-      "releaseRecencyText": "Released 5 days ago"
+      "latestReleaseDate": "2026-11-08T14:23:35Z",
+      "releaseRecency": 7,
+      "releaseRecencyText": "Released 7 days ago"
     },
     {
-      "id": 1335944000,
-      "name": "dsh-tavern",
-      "fullName": "flizzywine/dsh-tavern",
+      "id": 1060901286,
+      "name": "Wholphin",
+      "fullName": "damontecres/Wholphin",
       "owner": {
-        "login": "flizzywine",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/27564130?v=4"
+        "login": "damontecres",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/154766448?v=4"
       },
-      "description": "基于DSH的Agent酒馆。类酒馆文字游戏Agent。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。",
+      "description": "An OSS Android TV client for Jellyfin",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/flizzywine/dsh-tavern",
-      "stargazersCount": 1618,
-      "forksCount": 109,
-      "language": "JavaScript",
-      "topics": [
-        "agent",
-        "dsh-plugin",
-        "game",
-        "role-play",
-        "sillytavern"
-      ],
-      "releasesUrl": "https://api.github.com/repos/flizzywine/dsh-tavern/releases{/id}",
-      "updatedAt": "2026-11-15T08:26:56Z",
-      "createdAt": "2026-08-16T13:07:23Z",
-      "pushedAt": "2026-11-15T09:23:08Z",
-      "downloadCount": 17337,
-      "openIssuesCount": 3,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v3.3",
-          "publishedAt": "2026-11-09T08:48:44Z"
-        },
-        "windows": {
-          "tag": "v2.6",
-          "publishedAt": "2026-10-12T10:44:22Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-09T08:48:44Z",
-      "releaseRecency": 6,
-      "releaseRecencyText": "Released 6 days ago"
-    },
-    {
-      "id": 1334903895,
-      "name": "Echo-Music",
-      "fullName": "EchoMusicApp/Echo-Music",
-      "owner": {
-        "login": "EchoMusicApp",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/258176326?v=4"
-      },
-      "description": "An YouTube Music Client",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/EchoMusicApp/Echo-Music",
-      "stargazersCount": 2532,
-      "forksCount": 258,
+      "htmlUrl": "https://github.com/damontecres/Wholphin",
+      "stargazersCount": 3345,
+      "forksCount": 244,
       "language": "Kotlin",
-      "topics": [
-        "youtube-music",
-        "youtubemusic",
-        "youtubemusicalternative",
-        "ytmusic"
-      ],
-      "releasesUrl": "https://api.github.com/repos/EchoMusicApp/Echo-Music/releases{/id}",
-      "updatedAt": "2026-11-15T08:36:59Z",
-      "createdAt": "2026-08-15T08:00:26Z",
-      "pushedAt": "2026-11-15T08:35:24Z",
-      "downloadCount": 1748650,
-      "openIssuesCount": 68,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.4.6",
-          "publishedAt": "2026-11-09T01:45:48Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-09T01:45:48Z",
-      "releaseRecency": 6,
-      "releaseRecencyText": "Released 6 days ago"
-    },
-    {
-      "id": 1434897066,
-      "name": "couch-tv",
-      "fullName": "Seagey/couch-tv",
-      "owner": {
-        "login": "Seagey",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/199005374?v=4"
-      },
-      "description": "Your own Google TV home screen and phone remote, with an optional Claude assistant. Set it up by handing this repo to your AI agent.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Seagey/couch-tv",
-      "stargazersCount": 1251,
-      "forksCount": 181,
-      "language": "Python",
       "topics": [
         "android-tv",
-        "claude-code",
-        "google-tv",
-        "home-screen"
+        "fire-tv",
+        "jellyfin",
+        "jellyfin-client"
       ],
-      "releasesUrl": "https://api.github.com/repos/Seagey/couch-tv/releases{/id}",
-      "updatedAt": "2026-11-15T09:20:22Z",
-      "createdAt": "2026-10-26T20:28:54Z",
-      "pushedAt": "2026-11-15T09:20:13Z",
-      "downloadCount": 14715,
-      "openIssuesCount": 80,
+      "releasesUrl": "https://api.github.com/repos/damontecres/Wholphin/releases{/id}",
+      "updatedAt": "2026-11-16T09:26:53Z",
+      "createdAt": "2025-09-20T20:31:30Z",
+      "pushedAt": "2026-11-15T22:54:55Z",
+      "downloadCount": 84401,
+      "openIssuesCount": 356,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -3855,150 +2081,35 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v0.12",
-          "publishedAt": "2026-11-08T19:04:33Z"
+          "tag": "v1.1.1",
+          "publishedAt": "2026-11-06T21:58:06Z"
         }
       },
-      "latestReleaseDate": "2026-11-08T19:04:33Z",
-      "releaseRecency": 6,
-      "releaseRecencyText": "Released 6 days ago"
+      "latestReleaseDate": "2026-11-06T21:58:06Z",
+      "releaseRecency": 9,
+      "releaseRecencyText": "Released 9 days ago"
     },
     {
-      "id": 1034573460,
-      "name": "NeriPlayer",
-      "fullName": "cwuom/NeriPlayer",
+      "id": 1330968562,
+      "name": "BitChord",
+      "fullName": "kushagrasinghx/BitChord",
       "owner": {
-        "login": "cwuom",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/74239856?v=4"
+        "login": "kushagrasinghx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105504280?v=4"
       },
-      "description": "A native Android audio player that combines multi-source streaming, local control, rich lyrics, and self-hosted sync. / ✨ 一个把多源在线播放、本地管理、歌词体验和自建同步做进原生 Android 的音频播放器 🎵",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/cwuom/NeriPlayer",
-      "stargazersCount": 4196,
-      "forksCount": 162,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "equalizer",
-        "exoplayer",
-        "glsl",
-        "jetpack-compose",
-        "karaoke-lyrics",
-        "listen-together",
-        "media3",
-        "music",
-        "native-apps",
-        "player",
-        "privacy-focused",
-        "self-hosted",
-        "shaders",
-        "usb-exclusive",
-        "webdav",
-        "websocket"
-      ],
-      "releasesUrl": "https://api.github.com/repos/cwuom/NeriPlayer/releases{/id}",
-      "updatedAt": "2026-11-15T09:19:55Z",
-      "createdAt": "2025-08-08T15:57:42Z",
-      "pushedAt": "2026-11-15T04:37:24Z",
-      "downloadCount": 66822,
-      "openIssuesCount": 159,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "NeriPlayer-e7210eaa.11082030",
-          "publishedAt": "2026-11-08T13:03:36Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-08T13:03:36Z",
-      "releaseRecency": 6,
-      "releaseRecencyText": "Released 6 days ago"
-    },
-    {
-      "id": 1333629201,
-      "name": "dsh-mobile-apk",
-      "fullName": "kelai141/dsh-mobile-apk",
-      "owner": {
-        "login": "kelai141",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/252583569?v=4"
-      },
-      "description": "dsh 安卓壳 APK——WebView UI + 内嵌 Termux 运行时快照（解压即跑），为dsh本地运行设计的高性能方案",
+      "description": "BitChord - A modern YouTube music client with clean aesthetics inspired from Apple Music",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/kelai141/dsh-mobile-apk",
-      "stargazersCount": 1089,
-      "forksCount": 119,
+      "htmlUrl": "https://github.com/kushagrasinghx/BitChord",
+      "stargazersCount": 6755,
+      "forksCount": 729,
       "language": "Kotlin",
-      "topics": [
-        "android",
-        "dsh-plugin",
-        "kotlin",
-        "termux",
-        "webview"
-      ],
-      "releasesUrl": "https://api.github.com/repos/kelai141/dsh-mobile-apk/releases{/id}",
-      "updatedAt": "2026-11-15T09:02:45Z",
-      "createdAt": "2026-08-13T23:55:34Z",
-      "pushedAt": "2026-11-15T08:23:44Z",
-      "downloadCount": 91136,
-      "openIssuesCount": 4,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.14.11",
-          "publishedAt": "2026-11-08T08:04:53Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-08T08:04:53Z",
-      "releaseRecency": 7,
-      "releaseRecencyText": "Released 7 days ago"
-    },
-    {
-      "id": 245049028,
-      "name": "koodo-reader",
-      "fullName": "koodo-reader/koodo-reader",
-      "owner": {
-        "login": "koodo-reader",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/149913075?v=4"
-      },
-      "description": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web",
-      "defaultBranch": "dev",
-      "htmlUrl": "https://github.com/koodo-reader/koodo-reader",
-      "stargazersCount": 28851,
-      "forksCount": 2166,
-      "language": "JavaScript",
-      "topics": [
-        "book",
-        "cb7",
-        "cbr",
-        "cbt",
-        "cbz",
-        "comic",
-        "docx",
-        "ebook",
-        "epub",
-        "fb2",
-        "html",
-        "markdown",
-        "mobi",
-        "pdf",
-        "reader",
-        "rtf",
-        "txt",
-        "xml"
-      ],
-      "releasesUrl": "https://api.github.com/repos/koodo-reader/koodo-reader/releases{/id}",
-      "updatedAt": "2026-11-15T09:15:03Z",
-      "createdAt": "2020-03-05T02:18:30Z",
-      "pushedAt": "2026-11-15T09:07:59Z",
-      "downloadCount": 1984043,
-      "openIssuesCount": 273,
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/kushagrasinghx/BitChord/releases{/id}",
+      "updatedAt": "2026-11-16T09:37:45Z",
+      "createdAt": "2026-08-11T13:39:46Z",
+      "pushedAt": "2026-11-16T09:22:45Z",
+      "downloadCount": 1383606,
+      "openIssuesCount": 407,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -4006,186 +2117,103 @@
       "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "v2.4.7",
-          "publishedAt": "2026-11-08T06:44:36Z"
+          "tag": "v1.9.1",
+          "publishedAt": "2026-11-06T16:11:44Z"
         },
         "windows": {
-          "tag": "v2.4.7",
-          "publishedAt": "2026-11-08T06:44:36Z"
+          "tag": "v1.8",
+          "publishedAt": "2026-10-05T14:28:35Z"
         },
         "macos": {
-          "tag": "v2.4.7",
-          "publishedAt": "2026-11-08T06:44:36Z"
+          "tag": "v1.8",
+          "publishedAt": "2026-10-05T14:28:35Z"
         },
         "linux": {
-          "tag": "v2.4.7",
-          "publishedAt": "2026-11-08T06:44:36Z"
+          "tag": "v1.8",
+          "publishedAt": "2026-10-05T14:28:35Z"
         }
       },
-      "latestReleaseDate": "2026-11-08T06:44:36Z",
-      "releaseRecency": 7,
-      "releaseRecencyText": "Released 7 days ago"
+      "latestReleaseDate": "2026-11-06T16:11:44Z",
+      "releaseRecency": 9,
+      "releaseRecencyText": "Released 9 days ago"
     },
     {
-      "id": 1430208916,
-      "name": "tellyscope",
-      "fullName": "man15h/tellyscope",
+      "id": 1380117,
+      "name": "lantern",
+      "fullName": "getlantern/lantern",
       "owner": {
-        "login": "man15h",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/13364153?v=4"
+        "login": "getlantern",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/624178?v=4"
       },
-      "description": "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. no root, no PC.",
+      "description": "Open-source VPN for speed, privacy, and censorship circumvention. Free to download on Android, iOS, Windows, macOS, and Linux.",
       "defaultBranch": "main",
-      "htmlUrl": "https://github.com/man15h/tellyscope",
-      "stargazersCount": 2039,
-      "forksCount": 103,
-      "language": "Kotlin",
+      "htmlUrl": "https://github.com/getlantern/lantern",
+      "stargazersCount": 16815,
+      "forksCount": 11045,
+      "language": "Dart",
       "topics": [
-        "android",
-        "androidtv",
-        "googletv",
-        "privacy"
+        "accelerator",
+        "censorship",
+        "circumvention",
+        "gfw",
+        "lantern",
+        "router",
+        "vpn"
       ],
-      "releasesUrl": "https://api.github.com/repos/man15h/tellyscope/releases{/id}",
-      "updatedAt": "2026-11-15T08:34:12Z",
-      "createdAt": "2026-10-22T19:51:46Z",
-      "pushedAt": "2026-11-15T08:15:15Z",
-      "downloadCount": 43630,
-      "openIssuesCount": 29,
+      "releasesUrl": "https://api.github.com/repos/getlantern/lantern/releases{/id}",
+      "updatedAt": "2026-11-16T09:41:08Z",
+      "createdAt": "2011-02-17T22:12:29Z",
+      "pushedAt": "2026-11-16T09:18:49Z",
+      "downloadCount": 124754149,
+      "openIssuesCount": 34,
       "archived": false,
       "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
+      "hasInstallersLinux": true,
       "platformReleases": {
         "android": {
-          "tag": "v0.16.0",
-          "publishedAt": "2026-11-06T17:14:12Z"
+          "tag": "v10.0.5",
+          "publishedAt": "2026-11-02T20:19:12Z"
+        },
+        "windows": {
+          "tag": "v10.0.5",
+          "publishedAt": "2026-11-02T20:19:12Z"
+        },
+        "macos": {
+          "tag": "v10.0.5",
+          "publishedAt": "2026-11-02T20:19:12Z"
+        },
+        "linux": {
+          "tag": "v10.0.5",
+          "publishedAt": "2026-11-02T20:19:12Z"
         }
       },
-      "latestReleaseDate": "2026-11-06T17:14:12Z",
-      "releaseRecency": 8,
-      "releaseRecencyText": "Released 8 days ago"
-    },
-    {
-      "id": 1104751416,
-      "name": "morphe-manager",
-      "fullName": "MorpheApp/morphe-manager",
-      "owner": {
-        "login": "MorpheApp",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/246280111?v=4"
-      },
-      "description": "Morphe app patcher for Android",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/MorpheApp/morphe-manager",
-      "stargazersCount": 10427,
-      "forksCount": 277,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "apk",
-        "app",
-        "morphe",
-        "patcher",
-        "patches",
-        "youtube"
-      ],
-      "releasesUrl": "https://api.github.com/repos/MorpheApp/morphe-manager/releases{/id}",
-      "updatedAt": "2026-11-15T09:22:31Z",
-      "createdAt": "2025-11-26T16:29:57Z",
-      "pushedAt": "2026-11-15T09:15:28Z",
-      "downloadCount": 12312897,
-      "openIssuesCount": 37,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.5.0",
-          "publishedAt": "2026-11-06T11:31:00Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-06T11:31:00Z",
-      "releaseRecency": 8,
-      "releaseRecencyText": "Released 8 days ago"
-    },
-    {
-      "id": 1325387561,
-      "name": "candy-browser",
-      "fullName": "sk2andy/candy-browser",
-      "owner": {
-        "login": "sk2andy",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5347673?v=4"
-      },
-      "description": "Gesture-first Android browser with Material 3 Expressive design and local privacy tools",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sk2andy/candy-browser",
-      "stargazersCount": 666,
-      "forksCount": 24,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "browser",
-        "jetpack-compose",
-        "kotlin",
-        "material3",
-        "privacy",
-        "webview"
-      ],
-      "releasesUrl": "https://api.github.com/repos/sk2andy/candy-browser/releases{/id}",
-      "updatedAt": "2026-11-15T08:46:40Z",
-      "createdAt": "2026-08-06T15:03:08Z",
-      "pushedAt": "2026-11-15T04:44:47Z",
-      "downloadCount": 87209,
-      "openIssuesCount": 18,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.48.0",
-          "publishedAt": "2026-11-02T10:26:05Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-02T10:26:05Z",
+      "latestReleaseDate": "2026-11-03T17:05:22Z",
       "releaseRecency": 12,
       "releaseRecencyText": "Released 12 days ago"
     },
     {
-      "id": 1027943375,
-      "name": "universal-installer",
-      "fullName": "pass-with-high-score/universal-installer",
+      "id": 1267125286,
+      "name": "NativeWasmTv",
+      "fullName": "buhanzhe/NativeWasmTv",
       "owner": {
-        "login": "pass-with-high-score",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/173918919?v=4"
+        "login": "buhanzhe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11863810?v=4"
       },
-      "description": "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/pass-with-high-score/universal-installer",
-      "stargazersCount": 1782,
-      "forksCount": 91,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "apkm-installer",
-        "apks-installer",
-        "installer",
-        "jetpack-compose",
-        "package-manager",
-        "shizuku",
-        "split-apks-installer",
-        "xapk-installer"
-      ],
-      "releasesUrl": "https://api.github.com/repos/pass-with-high-score/universal-installer/releases{/id}",
-      "updatedAt": "2026-11-15T09:03:44Z",
-      "createdAt": "2025-07-28T19:14:09Z",
-      "pushedAt": "2026-11-15T08:17:04Z",
-      "downloadCount": 120799,
-      "openIssuesCount": 23,
+      "description": "开源网页电视",
+      "defaultBranch": "master",
+      "htmlUrl": "https://github.com/buhanzhe/NativeWasmTv",
+      "stargazersCount": 481,
+      "forksCount": 115,
+      "language": "Java",
+      "topics": [],
+      "releasesUrl": "https://api.github.com/repos/buhanzhe/NativeWasmTv/releases{/id}",
+      "updatedAt": "2026-11-16T09:36:44Z",
+      "createdAt": "2026-06-12T08:41:47Z",
+      "pushedAt": "2026-11-16T07:04:33Z",
+      "downloadCount": 226340,
+      "openIssuesCount": 5,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -4193,49 +2221,73 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v1.21.0",
-          "publishedAt": "2026-11-01T09:24:40Z"
+          "tag": "v1.8.2",
+          "publishedAt": "2026-11-03T13:26:48Z"
         }
       },
-      "latestReleaseDate": "2026-11-01T09:24:40Z",
-      "releaseRecency": 14,
-      "releaseRecencyText": "Released 14 days ago"
+      "latestReleaseDate": "2026-11-03T13:26:48Z",
+      "releaseRecency": 12,
+      "releaseRecencyText": "Released 12 days ago"
     },
     {
-      "id": 27954737,
-      "name": "openScale",
-      "fullName": "oliexdev/openScale",
+      "id": 825187044,
+      "name": "ab-download-manager",
+      "fullName": "amir1376/ab-download-manager",
       "owner": {
-        "login": "oliexdev",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10166185?v=4"
+        "login": "amir1376",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38394888?v=4"
       },
-      "description": "Open-source weight and body metrics tracker, with support for Bluetooth scales",
+      "description": "A Download Manager that speeds up your downloads",
       "defaultBranch": "master",
-      "htmlUrl": "https://github.com/oliexdev/openScale",
-      "stargazersCount": 2672,
-      "forksCount": 587,
+      "htmlUrl": "https://github.com/amir1376/ab-download-manager",
+      "stargazersCount": 19316,
+      "forksCount": 1030,
       "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/oliexdev/openScale/releases{/id}",
-      "updatedAt": "2026-11-15T08:34:11Z",
-      "createdAt": "2014-12-13T08:36:53Z",
-      "pushedAt": "2026-11-15T09:16:07Z",
-      "downloadCount": 30097,
-      "openIssuesCount": 7,
+      "topics": [
+        "chrome",
+        "compose",
+        "compose-desktop",
+        "compose-multiplatform",
+        "desktop",
+        "desktop-app",
+        "download",
+        "download-manager",
+        "downloader",
+        "downloadmanager",
+        "firefox",
+        "kotlin",
+        "kotlin-multiplatform",
+        "linux",
+        "windows"
+      ],
+      "releasesUrl": "https://api.github.com/repos/amir1376/ab-download-manager/releases{/id}",
+      "updatedAt": "2026-11-16T09:40:51Z",
+      "createdAt": "2024-07-07T03:56:25Z",
+      "pushedAt": "2026-11-16T08:20:41Z",
+      "downloadCount": 3988748,
+      "openIssuesCount": 493,
       "archived": false,
       "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
+      "hasInstallersWindows": true,
+      "hasInstallersMacos": true,
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v3.1.4",
-          "publishedAt": "2026-10-31T12:26:23Z"
+          "tag": "v1.11.4",
+          "publishedAt": "2026-11-03T02:26:17Z"
+        },
+        "windows": {
+          "tag": "v1.11.4",
+          "publishedAt": "2026-11-03T02:26:17Z"
+        },
+        "macos": {
+          "tag": "v1.11.4",
+          "publishedAt": "2026-11-03T02:26:17Z"
         }
       },
-      "latestReleaseDate": "2026-10-31T12:26:23Z",
-      "releaseRecency": 14,
-      "releaseRecencyText": "Released 14 days ago"
+      "latestReleaseDate": "2026-11-03T02:26:17Z",
+      "releaseRecency": 13,
+      "releaseRecencyText": "Released 13 days ago"
     }
   ]
 }
