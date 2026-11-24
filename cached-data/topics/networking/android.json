@@ -1,8 +1,8 @@
 {
   "category": "topics/networking",
   "platform": "android",
-  "lastUpdated": "2026-11-23T10:35:32.226829Z",
-  "totalCount": 35,
+  "lastUpdated": "2026-11-24T12:18:56.552273Z",
+  "totalCount": 17,
   "repositories": [
     {
       "id": 1154162014,
@@ -15,7 +15,7 @@
       "description": "Block ads system-wide on Android using local VPN-based DNS filtering. No root needed. No data collection.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/pass-with-high-score/blockads-android",
-      "stargazersCount": 2803,
+      "stargazersCount": 2826,
       "forksCount": 176,
       "language": "Kotlin",
       "topics": [
@@ -38,11 +38,11 @@
         "wireguard"
       ],
       "releasesUrl": "https://api.github.com/repos/pass-with-high-score/blockads-android/releases{/id}",
-      "updatedAt": "2026-11-23T09:22:10Z",
+      "updatedAt": "2026-11-24T13:22:44Z",
       "createdAt": "2026-02-10T04:35:15Z",
-      "pushedAt": "2026-11-22T16:30:27Z",
-      "downloadCount": 170540,
-      "openIssuesCount": 57,
+      "pushedAt": "2026-11-24T09:41:32Z",
+      "downloadCount": 177469,
+      "openIssuesCount": 59,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -50,196 +50,13 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "v7.1.2",
-          "publishedAt": "2026-11-11T17:49:39Z"
+          "tag": "v7.2.0",
+          "publishedAt": "2026-11-23T14:21:27Z"
         }
       },
-      "latestReleaseDate": "2026-11-11T17:49:39Z",
-      "releaseRecency": 11,
-      "releaseRecencyText": "Released 11 days ago"
-    },
-    {
-      "id": 1182138518,
-      "name": "ClintBrowser",
-      "fullName": "jhaiian/ClintBrowser",
-      "owner": {
-        "login": "jhaiian",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/233434694?v=4"
-      },
-      "description": "Lightweight browser with ADM, ad blocking, media capture, and multi-profile support",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/jhaiian/ClintBrowser",
-      "stargazersCount": 151,
-      "forksCount": 25,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "arkstore",
-        "browser",
-        "downloder",
-        "jetpack-compose",
-        "kotlin",
-        "material-design",
-        "video-downlaoder"
-      ],
-      "releasesUrl": "https://api.github.com/repos/jhaiian/ClintBrowser/releases{/id}",
-      "updatedAt": "2026-11-22T15:50:20Z",
-      "createdAt": "2026-03-15T04:55:23Z",
-      "pushedAt": "2026-11-19T18:24:02Z",
-      "downloadCount": 7206,
-      "openIssuesCount": 24,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.2.6",
-          "publishedAt": "2026-11-01T17:32:48Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-01T17:32:48Z",
-      "releaseRecency": 21,
-      "releaseRecencyText": "Released 21 days ago"
-    },
-    {
-      "id": 948390891,
-      "name": "Athena",
-      "fullName": "Kin69/Athena",
-      "owner": {
-        "login": "Kin69",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/109698804?v=4"
-      },
-      "description": "Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted devices.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Kin69/Athena",
-      "stargazersCount": 750,
-      "forksCount": 42,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "dns",
-        "dynamic-colo",
-        "firewall",
-        "foss",
-        "kotlin",
-        "kotlin-android",
-        "material",
-        "mvvm",
-        "network",
-        "opensource",
-        "packets",
-        "privacy",
-        "protection",
-        "root",
-        "secure",
-        "security",
-        "vpn"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Kin69/Athena/releases{/id}",
-      "updatedAt": "2026-11-22T20:21:16Z",
-      "createdAt": "2025-03-14T08:56:31Z",
-      "pushedAt": "2026-11-21T13:27:22Z",
-      "downloadCount": 45665,
-      "openIssuesCount": 40,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "1.8",
-          "publishedAt": "2026-01-18T13:36:44Z"
-        }
-      },
-      "latestReleaseDate": "2026-01-18T13:36:44Z",
-      "releaseRecency": 308,
-      "releaseRecencyText": "Released 308 days ago"
-    },
-    {
-      "id": 89195894,
-      "name": "Virtual-Hosts",
-      "fullName": "x-falcon/Virtual-Hosts",
-      "owner": {
-        "login": "x-falcon",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5160100?v=4"
-      },
-      "description": "hosts for android,implement by vpn mode,supports wildcard DNS records",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/x-falcon/Virtual-Hosts",
-      "stargazersCount": 1674,
-      "forksCount": 286,
-      "language": "Java",
-      "topics": [
-        "android",
-        "dns",
-        "hosts",
-        "java",
-        "virtual",
-        "vpn"
-      ],
-      "releasesUrl": "https://api.github.com/repos/x-falcon/Virtual-Hosts/releases{/id}",
-      "updatedAt": "2026-11-19T20:26:18Z",
-      "createdAt": "2017-04-24T03:54:49Z",
-      "pushedAt": "2026-01-06T14:39:21Z",
-      "downloadCount": 199485,
-      "openIssuesCount": 11,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "2.1.0",
-          "publishedAt": "2019-10-09T13:18:32Z"
-        }
-      },
-      "latestReleaseDate": "2019-10-09T13:18:32Z",
-      "releaseRecency": 2601,
-      "releaseRecencyText": "Released 2601 days ago"
-    },
-    {
-      "id": 87080888,
-      "name": "Daedalus",
-      "fullName": "iTXTech/Daedalus",
-      "owner": {
-        "login": "iTXTech",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15979485?v=4"
-      },
-      "description": "No root required Android DNS modifier and Hosts/DNSMasq resolver.",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/iTXTech/Daedalus",
-      "stargazersCount": 1464,
-      "forksCount": 211,
-      "language": "Java",
-      "topics": [
-        "android",
-        "dns-proxy",
-        "java"
-      ],
-      "releasesUrl": "https://api.github.com/repos/iTXTech/Daedalus/releases{/id}",
-      "updatedAt": "2026-11-19T20:24:42Z",
-      "createdAt": "2017-04-03T14:03:13Z",
-      "pushedAt": "2026-09-26T10:07:16Z",
-      "downloadCount": 180201,
-      "openIssuesCount": 13,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.15.0",
-          "publishedAt": "2022-06-15T07:30:46Z"
-        }
-      },
-      "latestReleaseDate": "2022-06-15T07:30:46Z",
-      "releaseRecency": 1622,
-      "releaseRecencyText": "Released 1622 days ago"
+      "latestReleaseDate": "2026-11-23T14:21:27Z",
+      "releaseRecency": 0,
+      "releaseRecencyText": "Released today"
     },
     {
       "id": 270683546,
@@ -252,8 +69,8 @@
       "description": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/celzero/rethink-app",
-      "stargazersCount": 5969,
-      "forksCount": 386,
+      "stargazersCount": 5972,
+      "forksCount": 388,
       "language": "Kotlin",
       "topics": [
         "android",
@@ -274,10 +91,10 @@
         "wireguard"
       ],
       "releasesUrl": "https://api.github.com/repos/celzero/rethink-app/releases{/id}",
-      "updatedAt": "2026-11-23T11:07:50Z",
+      "updatedAt": "2026-11-24T11:26:16Z",
       "createdAt": "2020-06-08T13:41:18Z",
-      "pushedAt": "2026-11-20T22:51:34Z",
-      "downloadCount": 294110,
+      "pushedAt": "2026-11-23T21:21:28Z",
+      "downloadCount": 294964,
       "openIssuesCount": 664,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -291,349 +108,8 @@
         }
       },
       "latestReleaseDate": "2026-10-13T20:51:16Z",
-      "releaseRecency": 40,
-      "releaseRecencyText": "Released 40 days ago"
-    },
-    {
-      "id": 1396565186,
-      "name": "ZedSecure",
-      "fullName": "CluvexStudio/ZedSecure",
-      "owner": {
-        "login": "CluvexStudio",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/125141320?v=4"
-      },
-      "description": "Multi-core VPN client for Android and desktop: Xray, sing-box, Psiphon, Tor, DNS tunnels, WireGuard/AmneziaWG, OpenConnect, IKEv2",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/CluvexStudio/ZedSecure",
-      "stargazersCount": 1032,
-      "forksCount": 137,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "proxy",
-        "shadowsocks",
-        "sing-box",
-        "socks5",
-        "v2ray",
-        "vless",
-        "vmess",
-        "vpn",
-        "xray",
-        "xray-core",
-        "xtls"
-      ],
-      "releasesUrl": "https://api.github.com/repos/CluvexStudio/ZedSecure/releases{/id}",
-      "updatedAt": "2026-11-23T11:18:52Z",
-      "createdAt": "2026-09-29T20:36:24Z",
-      "pushedAt": "2026-11-20T06:48:50Z",
-      "downloadCount": 108645,
-      "openIssuesCount": 19,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v3.2.0",
-          "publishedAt": "2026-11-19T20:18:55Z"
-        },
-        "windows": {
-          "tag": "v3.2.0",
-          "publishedAt": "2026-11-19T20:18:55Z"
-        },
-        "macos": {
-          "tag": "v3.2.0",
-          "publishedAt": "2026-11-19T20:18:55Z"
-        },
-        "linux": {
-          "tag": "v3.2.0",
-          "publishedAt": "2026-11-19T20:18:55Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-19T20:18:55Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
-    },
-    {
-      "id": 843422414,
-      "name": "super-video-downloader",
-      "fullName": "alexch33/super-video-downloader",
-      "owner": {
-        "login": "alexch33",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/33638165?v=4"
-      },
-      "description": "Video & Audio downloader for Android with web browser and player. M3U8 and MPD supported, live stream supported, using youtube-dlp and custom mp4/mp3/m3u8/mpd downloader, cookies supported, HTTP & SOCKS proxy chains supported, encrypted DNS, Adblocker with lists managenment",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/alexch33/super-video-downloader",
-      "stargazersCount": 1020,
-      "forksCount": 132,
-      "language": "Kotlin",
-      "topics": [
-        "ad-block",
-        "all-in-one-video-downloader",
-        "all-video-downloader",
-        "android",
-        "android-video-downloader",
-        "audio",
-        "audio-downloader",
-        "download-manager",
-        "downloader-for-youtube",
-        "livestream",
-        "m3u8-downloader",
-        "mpd-downloader",
-        "video",
-        "video-download",
-        "video-download-tool",
-        "video-downloader",
-        "videoplayer",
-        "web-browser",
-        "youtube-dlp"
-      ],
-      "releasesUrl": "https://api.github.com/repos/alexch33/super-video-downloader/releases{/id}",
-      "updatedAt": "2026-11-23T10:46:00Z",
-      "createdAt": "2024-08-16T13:33:09Z",
-      "pushedAt": "2026-11-22T05:12:04Z",
-      "downloadCount": 118532,
-      "openIssuesCount": 9,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.9.2.1",
-          "publishedAt": "2026-11-22T05:22:51Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-22T05:22:51Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1204820321,
-      "name": "adns",
-      "fullName": "eyalm2000/adns",
-      "owner": {
-        "login": "eyalm2000",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/141010573?v=4"
-      },
-      "description": "Android's Private DNS Supercharged",
-      "defaultBranch": "master",
-      "htmlUrl": "https://github.com/eyalm2000/adns",
-      "stargazersCount": 776,
-      "forksCount": 27,
-      "language": "Kotlin",
-      "topics": [
-        "adblock",
-        "adblocker",
-        "android",
-        "dns",
-        "material-3",
-        "material-3-expressive",
-        "nextdns",
-        "nextdns-android",
-        "private-dns",
-        "shizuku"
-      ],
-      "releasesUrl": "https://api.github.com/repos/eyalm2000/adns/releases{/id}",
-      "updatedAt": "2026-11-22T23:56:15Z",
-      "createdAt": "2026-04-08T11:14:02Z",
-      "pushedAt": "2026-11-11T22:53:12Z",
-      "downloadCount": 65799,
-      "openIssuesCount": 21,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.1.9",
-          "publishedAt": "2026-11-03T17:48:55Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-03T17:48:55Z",
-      "releaseRecency": 19,
-      "releaseRecencyText": "Released 19 days ago"
-    },
-    {
-      "id": 1444612309,
-      "name": "android",
-      "fullName": "AnantPlay/android",
-      "owner": {
-        "login": "AnantPlay",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/352088691?v=4"
-      },
-      "description": "AnantPlay: any streaming site, a real player. A TV-first Android app with a native player, ad blocking, in-app WARP and IPTV. Ships with no sources: add them in Settings.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/AnantPlay/android",
-      "stargazersCount": 435,
-      "forksCount": 31,
-      "language": "Java",
-      "topics": [
-        "android",
-        "android-tv",
-        "exoplayer",
-        "iptv",
-        "streaming"
-      ],
-      "releasesUrl": "https://api.github.com/repos/AnantPlay/android/releases{/id}",
-      "updatedAt": "2026-11-23T05:05:25Z",
-      "createdAt": "2026-11-03T17:24:14Z",
-      "pushedAt": "2026-11-16T06:42:21Z",
-      "downloadCount": 9006,
-      "openIssuesCount": 11,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.23.1",
-          "publishedAt": "2026-11-16T06:43:42Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-16T06:43:42Z",
-      "releaseRecency": 7,
-      "releaseRecencyText": "Released 7 days ago"
-    },
-    {
-      "id": 397230660,
-      "name": "PrivateDNSAndroid",
-      "fullName": "karasevm/PrivateDNSAndroid",
-      "owner": {
-        "login": "karasevm",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/55098497?v=4"
-      },
-      "description": "Quick settings tile to switch active private DNS server",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/karasevm/PrivateDNSAndroid",
-      "stargazersCount": 1077,
-      "forksCount": 133,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "android-quicksettings",
-        "dns-over-https",
-        "dns-over-tls",
-        "private-dns"
-      ],
-      "releasesUrl": "https://api.github.com/repos/karasevm/PrivateDNSAndroid/releases{/id}",
-      "updatedAt": "2026-11-22T12:16:38Z",
-      "createdAt": "2021-08-17T11:36:34Z",
-      "pushedAt": "2026-10-29T21:27:39Z",
-      "downloadCount": 53986,
-      "openIssuesCount": 13,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.11.0",
-          "publishedAt": "2025-08-05T11:32:57Z"
-        }
-      },
-      "latestReleaseDate": "2025-08-05T11:32:57Z",
-      "releaseRecency": 475,
-      "releaseRecencyText": "Released 475 days ago"
-    },
-    {
-      "id": 1025906588,
-      "name": "com.wizpizz.reddidnt",
-      "fullName": "Xposed-Modules-Repo/com.wizpizz.reddidnt",
-      "owner": {
-        "login": "Xposed-Modules-Repo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/78217009?v=4"
-      },
-      "description": "LSPosed Reddit Ad Blocker | Reddidn't",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Xposed-Modules-Repo/com.wizpizz.reddidnt",
-      "stargazersCount": 227,
-      "forksCount": 3,
-      "language": "Kotlin",
-      "topics": [
-        "android",
-        "android-app",
-        "android-application",
-        "lsposed",
-        "lsposed-module",
-        "reddit",
-        "reddit-client",
-        "root",
-        "xposed",
-        "xposed-module"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Xposed-Modules-Repo/com.wizpizz.reddidnt/releases{/id}",
-      "updatedAt": "2026-11-23T01:58:05Z",
-      "createdAt": "2025-07-25T02:26:30Z",
-      "pushedAt": "2026-11-20T17:41:29Z",
-      "downloadCount": 41478,
-      "openIssuesCount": 0,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "8-2.0.0",
-          "publishedAt": "2026-07-18T11:20:03Z"
-        }
-      },
-      "latestReleaseDate": "2026-07-18T11:20:03Z",
-      "releaseRecency": 128,
-      "releaseRecencyText": "Released 128 days ago"
-    },
-    {
-      "id": 1147541225,
-      "name": "SlipNet",
-      "fullName": "anonvector/SlipNet",
-      "owner": {
-        "login": "anonvector",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/258689915?v=4"
-      },
-      "description": "Android VPN client with DNS tunneling (DNSTT, NoizDNS & Slipstream), NaiveProxy, SSH, Tor, and DoH support — featuring a built-in DNS scanner.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/anonvector/SlipNet",
-      "stargazersCount": 1609,
-      "forksCount": 150,
-      "language": "C",
-      "topics": [
-        "android",
-        "dnstt",
-        "kotlin",
-        "slipstream",
-        "tunneling"
-      ],
-      "releasesUrl": "https://api.github.com/repos/anonvector/SlipNet/releases{/id}",
-      "updatedAt": "2026-11-22T15:00:51Z",
-      "createdAt": "2026-02-01T22:36:34Z",
-      "pushedAt": "2026-11-03T06:44:40Z",
-      "downloadCount": 161816,
-      "openIssuesCount": 43,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v2.5.6",
-          "publishedAt": "2026-11-03T06:14:09Z"
-        },
-        "windows": {
-          "tag": "v2.5.3",
-          "publishedAt": "2026-04-26T17:09:55Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-03T06:14:09Z",
-      "releaseRecency": 20,
-      "releaseRecencyText": "Released 20 days ago"
+      "releaseRecency": 41,
+      "releaseRecencyText": "Released 41 days ago"
     },
     {
       "id": 678716433,
@@ -646,8 +122,8 @@
       "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/chen08209/FlClash",
-      "stargazersCount": 64919,
-      "forksCount": 4318,
+      "stargazersCount": 65166,
+      "forksCount": 4336,
       "language": "Dart",
       "topics": [
         "clash",
@@ -661,11 +137,11 @@
         "vpn"
       ],
       "releasesUrl": "https://api.github.com/repos/chen08209/FlClash/releases{/id}",
-      "updatedAt": "2026-11-23T11:41:47Z",
+      "updatedAt": "2026-11-24T13:30:44Z",
       "createdAt": "2023-08-15T07:47:22Z",
       "pushedAt": "2026-11-23T09:39:44Z",
-      "downloadCount": 19732854,
-      "openIssuesCount": 193,
+      "downloadCount": 19827216,
+      "openIssuesCount": 194,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -690,8 +166,8 @@
         }
       },
       "latestReleaseDate": "2026-11-19T07:31:00Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
       "id": 643504282,
@@ -704,8 +180,8 @@
       "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/hiddify/hiddify-app",
-      "stargazersCount": 34363,
-      "forksCount": 3262,
+      "stargazersCount": 34412,
+      "forksCount": 3269,
       "language": "Dart",
       "topics": [
         "clash",
@@ -728,11 +204,11 @@
         "xray"
       ],
       "releasesUrl": "https://api.github.com/repos/hiddify/hiddify-app/releases{/id}",
-      "updatedAt": "2026-11-23T11:42:29Z",
+      "updatedAt": "2026-11-24T12:09:19Z",
       "createdAt": "2023-05-21T11:30:14Z",
       "pushedAt": "2026-11-22T12:34:58Z",
-      "downloadCount": 24737898,
-      "openIssuesCount": 95,
+      "downloadCount": 24778843,
+      "openIssuesCount": 106,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -757,8 +233,8 @@
         }
       },
       "latestReleaseDate": "2026-11-19T07:44:59Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
       "id": 71009741,
@@ -779,7 +255,7 @@
       "updatedAt": "2026-11-21T09:48:11Z",
       "createdAt": "2016-10-15T19:48:00Z",
       "pushedAt": "2026-05-07T15:24:24Z",
-      "downloadCount": 11043,
+      "downloadCount": 11044,
       "openIssuesCount": 42,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -793,8 +269,8 @@
         }
       },
       "latestReleaseDate": "2017-06-02T07:19:36Z",
-      "releaseRecency": 3461,
-      "releaseRecencyText": "Released 3461 days ago"
+      "releaseRecency": 3462,
+      "releaseRecencyText": "Released 3462 days ago"
     },
     {
       "id": 3280827,
@@ -815,7 +291,7 @@
       "updatedAt": "2026-11-19T18:43:52Z",
       "createdAt": "2012-01-27T07:20:07Z",
       "pushedAt": "2026-05-12T06:40:47Z",
-      "downloadCount": 15643,
+      "downloadCount": 15693,
       "openIssuesCount": 5,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -829,84 +305,8 @@
         }
       },
       "latestReleaseDate": "2026-02-06T02:02:26Z",
-      "releaseRecency": 290,
-      "releaseRecencyText": "Released 290 days ago"
-    },
-    {
-      "id": 1234380117,
-      "name": "WhiteDNS-Android",
-      "fullName": "WhiteDNS/WhiteDNS-Android",
-      "owner": {
-        "login": "WhiteDNS",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/294980615?v=4"
-      },
-      "description": "Source-available Android DNS tunneling client with VPN and proxy modes, backed by MasterDNS & StormDNS.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/WhiteDNS/WhiteDNS-Android",
-      "stargazersCount": 1533,
-      "forksCount": 105,
-      "language": "Kotlin",
-      "topics": [
-        "masterdns",
-        "vpn",
-        "vpn-client"
-      ],
-      "releasesUrl": "https://api.github.com/repos/WhiteDNS/WhiteDNS-Android/releases{/id}",
-      "updatedAt": "2026-11-21T20:55:46Z",
-      "createdAt": "2026-05-10T05:27:42Z",
-      "pushedAt": "2026-11-04T18:12:48Z",
-      "downloadCount": 192336,
-      "openIssuesCount": 31,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "1.6.16",
-          "publishedAt": "2026-11-04T18:30:12Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-04T18:30:12Z",
-      "releaseRecency": 18,
-      "releaseRecencyText": "Released 18 days ago"
-    },
-    {
-      "id": 789066441,
-      "name": "DNSNet",
-      "fullName": "t895/DNSNet",
-      "owner": {
-        "login": "t895",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/14132249?v=4"
-      },
-      "description": "DNS filter for Android",
-      "defaultBranch": "a-couple-updates",
-      "htmlUrl": "https://github.com/t895/DNSNet",
-      "stargazersCount": 991,
-      "forksCount": 45,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/t895/DNSNet/releases{/id}",
-      "updatedAt": "2026-11-22T21:25:22Z",
-      "createdAt": "2024-04-19T16:36:07Z",
-      "pushedAt": "2026-11-21T22:22:49Z",
-      "downloadCount": 71963,
-      "openIssuesCount": 37,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "1.3.17",
-          "publishedAt": "2026-10-08T11:14:57Z"
-        }
-      },
-      "latestReleaseDate": "2026-10-08T11:14:57Z",
-      "releaseRecency": 46,
-      "releaseRecencyText": "Released 46 days ago"
+      "releaseRecency": 291,
+      "releaseRecencyText": "Released 291 days ago"
     },
     {
       "id": 5057173,
@@ -919,8 +319,8 @@
       "description": "AdAway is a free and open source ad blocker for Android. ",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/AdAway/AdAway",
-      "stargazersCount": 9647,
-      "forksCount": 731,
+      "stargazersCount": 9649,
+      "forksCount": 732,
       "language": "C",
       "topics": [
         "ad-blocker",
@@ -930,10 +330,10 @@
         "vpn"
       ],
       "releasesUrl": "https://api.github.com/repos/AdAway/AdAway/releases{/id}",
-      "updatedAt": "2026-11-23T10:31:08Z",
+      "updatedAt": "2026-11-24T09:57:13Z",
       "createdAt": "2012-07-15T15:34:47Z",
       "pushedAt": "2026-11-11T10:34:54Z",
-      "downloadCount": 2738628,
+      "downloadCount": 2739463,
       "openIssuesCount": 676,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -947,8 +347,8 @@
         }
       },
       "latestReleaseDate": "2024-10-27T14:19:54Z",
-      "releaseRecency": 756,
-      "releaseRecencyText": "Released 756 days ago"
+      "releaseRecency": 757,
+      "releaseRecencyText": "Released 757 days ago"
     },
     {
       "id": 377236919,
@@ -961,16 +361,16 @@
       "description": "Proxy client",
       "defaultBranch": "dev",
       "htmlUrl": "https://github.com/ExclaveNetwork/Exclave",
-      "stargazersCount": 2944,
-      "forksCount": 184,
+      "stargazersCount": 2954,
+      "forksCount": 185,
       "language": "Kotlin",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/ExclaveNetwork/Exclave/releases{/id}",
-      "updatedAt": "2026-11-23T10:31:57Z",
+      "updatedAt": "2026-11-24T10:55:36Z",
       "createdAt": "2021-06-15T17:04:29Z",
-      "pushedAt": "2026-11-23T09:46:38Z",
-      "downloadCount": 681743,
-      "openIssuesCount": 5,
+      "pushedAt": "2026-11-23T15:24:45Z",
+      "downloadCount": 684521,
+      "openIssuesCount": 4,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -978,11 +378,11 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "0.17.69",
-          "publishedAt": "2026-11-22T13:51:23Z"
+          "tag": "0.17.70",
+          "publishedAt": "2026-11-23T14:00:56Z"
         }
       },
-      "latestReleaseDate": "2026-11-22T13:51:23Z",
+      "latestReleaseDate": "2026-11-23T14:00:56Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     },
@@ -997,7 +397,7 @@
       "description": "Transparent Proxy for Android(root) ",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/taamarin/box_for_magisk",
-      "stargazersCount": 2527,
+      "stargazersCount": 2528,
       "forksCount": 295,
       "language": "Shell",
       "topics": [
@@ -1016,10 +416,10 @@
         "xray"
       ],
       "releasesUrl": "https://api.github.com/repos/taamarin/box_for_magisk/releases{/id}",
-      "updatedAt": "2026-11-23T05:17:02Z",
+      "updatedAt": "2026-11-23T13:22:43Z",
       "createdAt": "2022-11-04T18:17:34Z",
       "pushedAt": "2026-10-12T15:12:03Z",
-      "downloadCount": 125979,
+      "downloadCount": 126071,
       "openIssuesCount": 83,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -1033,108 +433,8 @@
         }
       },
       "latestReleaseDate": "2025-09-05T12:45:22Z",
-      "releaseRecency": 443,
-      "releaseRecencyText": "Released 443 days ago"
-    },
-    {
-      "id": 1166160613,
-      "name": "RVX-Spotify",
-      "fullName": "simoabid/RVX-Spotify",
-      "owner": {
-        "login": "simoabid",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/169913102?v=4"
-      },
-      "description": "The goal of this fork is to: - Fix Ad blocking issues, - Fix bugs and compatibility issues, - Keep the project working with newer dependencies, - Improve stability and maintainability, - Continue development where the original repository stopped",
-      "defaultBranch": "fix/fix-auto-logouts",
-      "htmlUrl": "https://github.com/simoabid/RVX-Spotify",
-      "stargazersCount": 190,
-      "forksCount": 9,
-      "language": "Kotlin",
-      "topics": [],
-      "releasesUrl": "https://api.github.com/repos/simoabid/RVX-Spotify/releases{/id}",
-      "updatedAt": "2026-11-21T09:37:16Z",
-      "createdAt": "2026-02-24T23:55:16Z",
-      "pushedAt": "2026-03-23T02:43:55Z",
-      "downloadCount": 14494,
-      "openIssuesCount": 0,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v260318",
-          "publishedAt": "2026-03-18T01:58:09Z"
-        }
-      },
-      "latestReleaseDate": "2026-03-18T01:58:09Z",
-      "releaseRecency": 250,
-      "releaseRecencyText": "Released 250 days ago"
-    },
-    {
-      "id": 1026534357,
-      "name": "MegaV_Public",
-      "fullName": "Romaxa55/MegaV_Public",
-      "owner": {
-        "login": "Romaxa55",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6898044?v=4"
-      },
-      "description": "Free VPN with VLESS Reality, Xray & V2Ray — free config & subscription support (VMess, Trojan, Shadowsocks, WireGuard). Privacy-first, no-logs, built-in ad blocker, kill switch, split tunneling + News, Radio & IPTV. Open-source client for Android, iOS, macOS, Windows. 3-day free trial, 13+ languages.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Romaxa55/MegaV_Public",
-      "stargazersCount": 108,
-      "forksCount": 13,
-      "language": null,
-      "topics": [
-        "ad-blocker",
-        "android",
-        "free-vpn",
-        "ios",
-        "macos",
-        "no-logs",
-        "privacy",
-        "shadowsocks",
-        "subscription",
-        "trojan",
-        "v2ray",
-        "v2ray-config",
-        "vless",
-        "vless-reality",
-        "vmess",
-        "vpn",
-        "windows",
-        "wireguard",
-        "xray"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Romaxa55/MegaV_Public/releases{/id}",
-      "updatedAt": "2026-11-22T12:44:44Z",
-      "createdAt": "2025-07-26T04:48:56Z",
-      "pushedAt": "2026-11-23T11:21:05Z",
-      "downloadCount": 15830,
-      "openIssuesCount": 1,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v5.0.14",
-          "publishedAt": "2026-11-17T13:21:47Z"
-        },
-        "windows": {
-          "tag": "v5.0.14",
-          "publishedAt": "2026-11-17T13:21:47Z"
-        },
-        "linux": {
-          "tag": "v5.0.14",
-          "publishedAt": "2026-11-17T13:21:47Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-17T13:21:47Z",
-      "releaseRecency": 5,
-      "releaseRecencyText": "Released 5 days ago"
+      "releaseRecency": 445,
+      "releaseRecencyText": "Released 445 days ago"
     },
     {
       "id": 1217102150,
@@ -1147,8 +447,8 @@
       "description": "Rust port of @masterking32's MasterHttpRelayVPN — all credit to @masterking32 for the original idea and Python implementation. Free DPI bypass via a Google Apps Script relay with TLS SNI concealment. CLI + cross-platform desktop UI, HTTP + SOCKS5 proxy, no runtime deps.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/therealaleph/MasterHttpRelayVPN-RUST",
-      "stargazersCount": 3653,
-      "forksCount": 545,
+      "stargazersCount": 3655,
+      "forksCount": 544,
       "language": "Rust",
       "topics": [
         "anti-censorship",
@@ -1170,10 +470,10 @@
         "tls"
       ],
       "releasesUrl": "https://api.github.com/repos/therealaleph/MasterHttpRelayVPN-RUST/releases{/id}",
-      "updatedAt": "2026-11-23T01:01:06Z",
+      "updatedAt": "2026-11-23T18:13:05Z",
       "createdAt": "2026-04-21T14:46:31Z",
       "pushedAt": "2026-10-12T18:35:32Z",
-      "downloadCount": 3651589,
+      "downloadCount": 3651744,
       "openIssuesCount": 184,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -1191,8 +491,8 @@
         }
       },
       "latestReleaseDate": "2026-10-12T18:33:58Z",
-      "releaseRecency": 41,
-      "releaseRecencyText": "Released 41 days ago"
+      "releaseRecency": 42,
+      "releaseRecencyText": "Released 42 days ago"
     },
     {
       "id": 714929749,
@@ -1205,16 +505,16 @@
       "description": "Simple & Powerful proxy utility, Support routing rules for clash/sing-box",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/KaringX/karing",
-      "stargazersCount": 16314,
-      "forksCount": 1372,
+      "stargazersCount": 16329,
+      "forksCount": 1375,
       "language": "Dart",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/KaringX/karing/releases{/id}",
-      "updatedAt": "2026-11-23T11:29:16Z",
+      "updatedAt": "2026-11-24T11:05:33Z",
       "createdAt": "2023-11-06T06:16:18Z",
       "pushedAt": "2026-11-19T03:27:24Z",
-      "downloadCount": 6861336,
-      "openIssuesCount": 73,
+      "downloadCount": 6926348,
+      "openIssuesCount": 74,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -1239,8 +539,8 @@
         }
       },
       "latestReleaseDate": "2026-11-19T03:17:40Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "releaseRecency": 5,
+      "releaseRecencyText": "Released 5 days ago"
     },
     {
       "id": 649662864,
@@ -1253,7 +553,7 @@
       "description": "Open source free capture HTTP(S) traffic  software ProxyPin, supporting full platform systems",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/wanghongenpin/proxypin",
-      "stargazersCount": 14462,
+      "stargazersCount": 14467,
       "forksCount": 1303,
       "language": "Dart",
       "topics": [
@@ -1265,11 +565,11 @@
         "zhuabao"
       ],
       "releasesUrl": "https://api.github.com/repos/wanghongenpin/proxypin/releases{/id}",
-      "updatedAt": "2026-11-23T10:51:04Z",
+      "updatedAt": "2026-11-24T09:45:19Z",
       "createdAt": "2023-06-05T11:16:00Z",
-      "pushedAt": "2026-11-23T10:00:34Z",
-      "downloadCount": 246051,
-      "openIssuesCount": 88,
+      "pushedAt": "2026-11-23T22:01:30Z",
+      "downloadCount": 246511,
+      "openIssuesCount": 89,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -1294,8 +594,8 @@
         }
       },
       "latestReleaseDate": "2026-10-23T01:29:08Z",
-      "releaseRecency": 31,
-      "releaseRecencyText": "Released 31 days ago"
+      "releaseRecency": 32,
+      "releaseRecencyText": "Released 32 days ago"
     },
     {
       "id": 257841809,
@@ -1308,16 +608,16 @@
       "description": "Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/uazo/cromite",
-      "stargazersCount": 8538,
+      "stargazersCount": 8545,
       "forksCount": 339,
       "language": "C++",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/uazo/cromite/releases{/id}",
-      "updatedAt": "2026-11-23T09:30:01Z",
+      "updatedAt": "2026-11-24T12:39:10Z",
       "createdAt": "2020-04-22T08:38:25Z",
       "pushedAt": "2026-11-23T11:43:59Z",
-      "downloadCount": 4103448,
-      "openIssuesCount": 602,
+      "downloadCount": 4107933,
+      "openIssuesCount": 603,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -1330,8 +630,8 @@
         }
       },
       "latestReleaseDate": "2026-09-15T11:51:14Z",
-      "releaseRecency": 68,
-      "releaseRecencyText": "Released 68 days ago"
+      "releaseRecency": 70,
+      "releaseRecencyText": "Released 70 days ago"
     },
     {
       "id": 509091576,
@@ -1344,16 +644,16 @@
       "description": "The universal proxy platform",
       "defaultBranch": "testing",
       "htmlUrl": "https://github.com/SagerNet/sing-box",
-      "stargazersCount": 40216,
-      "forksCount": 4977,
+      "stargazersCount": 40258,
+      "forksCount": 4986,
       "language": "Go",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/SagerNet/sing-box/releases{/id}",
-      "updatedAt": "2026-11-23T11:30:31Z",
+      "updatedAt": "2026-11-24T12:59:08Z",
       "createdAt": "2022-06-30T13:27:22Z",
       "pushedAt": "2026-11-19T02:28:27Z",
-      "downloadCount": 30663055,
-      "openIssuesCount": 432,
+      "downloadCount": 30737888,
+      "openIssuesCount": 431,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": true,
@@ -1378,8 +678,8 @@
         }
       },
       "latestReleaseDate": "2026-10-24T01:04:25Z",
-      "releaseRecency": 30,
-      "releaseRecencyText": "Released 30 days ago"
+      "releaseRecency": 31,
+      "releaseRecencyText": "Released 31 days ago"
     },
     {
       "id": 216103835,
@@ -1392,8 +692,8 @@
       "description": "A web client for its own Xray-based core with global transparent proxy on Linux, Windows and macOS.",
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/v2rayA/v2rayA",
-      "stargazersCount": 15890,
-      "forksCount": 1619,
+      "stargazersCount": 15898,
+      "forksCount": 1620,
       "language": "Go",
       "topics": [
         "gfw",
@@ -1408,10 +708,10 @@
         "xray"
       ],
       "releasesUrl": "https://api.github.com/repos/v2rayA/v2rayA/releases{/id}",
-      "updatedAt": "2026-11-23T08:48:03Z",
+      "updatedAt": "2026-11-24T07:31:26Z",
       "createdAt": "2019-10-18T20:42:06Z",
       "pushedAt": "2026-11-20T07:33:23Z",
-      "downloadCount": 1713359,
+      "downloadCount": 1714498,
       "openIssuesCount": 9,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -1433,8 +733,8 @@
         }
       },
       "latestReleaseDate": "2026-11-18T11:45:54Z",
-      "releaseRecency": 4,
-      "releaseRecencyText": "Released 4 days ago"
+      "releaseRecency": 6,
+      "releaseRecencyText": "Released 6 days ago"
     },
     {
       "id": 130578889,
@@ -1447,8 +747,8 @@
       "description": "A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH, DoQ. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT，DoQ。",
       "defaultBranch": "master",
       "htmlUrl": "https://github.com/pymumu/smartdns",
-      "stargazersCount": 11448,
-      "forksCount": 1253,
+      "stargazersCount": 11453,
+      "forksCount": 1252,
       "language": "C",
       "topics": [
         "c",
@@ -1469,10 +769,10 @@
         "stubby"
       ],
       "releasesUrl": "https://api.github.com/repos/pymumu/smartdns/releases{/id}",
-      "updatedAt": "2026-11-23T10:13:17Z",
+      "updatedAt": "2026-11-24T09:14:16Z",
       "createdAt": "2018-04-22T15:09:47Z",
-      "pushedAt": "2026-11-23T01:57:48Z",
-      "downloadCount": 594534,
+      "pushedAt": "2026-11-24T11:31:02Z",
+      "downloadCount": 595925,
       "openIssuesCount": 338,
       "archived": false,
       "hasInstallersAndroid": true,
@@ -1490,8 +790,8 @@
         }
       },
       "latestReleaseDate": "2026-11-20T01:46:31Z",
-      "releaseRecency": 3,
-      "releaseRecencyText": "Released 3 days ago"
+      "releaseRecency": 4,
+      "releaseRecencyText": "Released 4 days ago"
     },
     {
       "id": 466781739,
@@ -1505,15 +805,15 @@
       "defaultBranch": "main",
       "htmlUrl": "https://github.com/Openwrt-Passwall/openwrt-passwall2",
       "stargazersCount": 3819,
-      "forksCount": 768,
+      "forksCount": 767,
       "language": "Lua",
       "topics": [],
       "releasesUrl": "https://api.github.com/repos/Openwrt-Passwall/openwrt-passwall2/releases{/id}",
-      "updatedAt": "2026-11-22T18:59:43Z",
+      "updatedAt": "2026-11-24T07:19:57Z",
       "createdAt": "2022-03-06T15:46:22Z",
-      "pushedAt": "2026-11-22T17:47:28Z",
-      "downloadCount": 640308,
-      "openIssuesCount": 19,
+      "pushedAt": "2026-11-24T10:57:59Z",
+      "downloadCount": 641798,
+      "openIssuesCount": 16,
       "archived": false,
       "hasInstallersAndroid": true,
       "hasInstallersWindows": false,
@@ -1521,176 +821,11 @@
       "hasInstallersLinux": false,
       "platformReleases": {
         "android": {
-          "tag": "26.11.11-1",
-          "publishedAt": "2026-11-10T16:48:24Z"
+          "tag": "26.11.23-1",
+          "publishedAt": "2026-11-24T10:57:59Z"
         }
       },
-      "latestReleaseDate": "2026-11-10T16:48:24Z",
-      "releaseRecency": 12,
-      "releaseRecencyText": "Released 12 days ago"
-    },
-    {
-      "id": 240669595,
-      "name": "GlobalProtect-openconnect",
-      "fullName": "yuezk/GlobalProtect-openconnect",
-      "owner": {
-        "login": "yuezk",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3297602?v=4"
-      },
-      "description": "GlobalProtect VPN client for Windows, macOS, Linux, FreeBSD, and OpenBSD. Built in Rust with SAML SSO, MFA, YubiKey, client certificates, and local SOCKS5 proxy mode.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/yuezk/GlobalProtect-openconnect",
-      "stargazersCount": 2350,
-      "forksCount": 270,
-      "language": "Rust",
-      "topics": [
-        "authentication",
-        "client-certificate-authentication",
-        "globalprotect",
-        "gui",
-        "linux",
-        "macos",
-        "mfa",
-        "nsh",
-        "nsh-apps",
-        "okta",
-        "openconnect",
-        "paloaltonetworks",
-        "rust",
-        "saml",
-        "tauri",
-        "tauri-apps",
-        "vpn",
-        "windows",
-        "yubikey",
-        "yubikey-authenticators"
-      ],
-      "releasesUrl": "https://api.github.com/repos/yuezk/GlobalProtect-openconnect/releases{/id}",
-      "updatedAt": "2026-11-21T13:13:28Z",
-      "createdAt": "2020-02-15T08:23:48Z",
-      "pushedAt": "2026-11-22T01:12:43Z",
-      "downloadCount": 255317,
-      "openIssuesCount": 3,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": true,
-      "platformReleases": {
-        "android": {
-          "tag": "v3.7.1",
-          "publishedAt": "2026-11-21T15:08:55Z"
-        },
-        "windows": {
-          "tag": "v3.7.1",
-          "publishedAt": "2026-11-21T15:08:55Z"
-        },
-        "macos": {
-          "tag": "v3.7.1",
-          "publishedAt": "2026-11-21T15:08:55Z"
-        },
-        "linux": {
-          "tag": "v3.7.1",
-          "publishedAt": "2026-11-21T15:08:55Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-21T15:08:55Z",
-      "releaseRecency": 1,
-      "releaseRecencyText": "Released yesterday"
-    },
-    {
-      "id": 1191410002,
-      "name": "thefeed",
-      "fullName": "sartoopjj/thefeed",
-      "owner": {
-        "login": "sartoopjj",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/188978474?v=4"
-      },
-      "description": "DNS-based feed reader and messenger for networks where only DNS gets through. Read Telegram channels and public X accounts, send end-to-end-encrypted messages to other users, and even log in to your own Telegram account, with the thefeed server acting as the proxy. All over plain DNS.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/sartoopjj/thefeed",
-      "stargazersCount": 1746,
-      "forksCount": 94,
-      "language": "Go",
-      "topics": [
-        "dns",
-        "e2e-chat",
-        "iran",
-        "messager",
-        "network",
-        "telegram",
-        "thefeed",
-        "twitter"
-      ],
-      "releasesUrl": "https://api.github.com/repos/sartoopjj/thefeed/releases{/id}",
-      "updatedAt": "2026-11-21T11:49:07Z",
-      "createdAt": "2026-03-25T08:05:16Z",
-      "pushedAt": "2026-11-15T13:41:11Z",
-      "downloadCount": 261751,
-      "openIssuesCount": 68,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": true,
-      "hasInstallersMacos": true,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v0.45.0",
-          "publishedAt": "2026-11-15T13:53:39Z"
-        },
-        "windows": {
-          "tag": "v0.45.0",
-          "publishedAt": "2026-11-15T13:53:39Z"
-        },
-        "macos": {
-          "tag": "v0.45.0",
-          "publishedAt": "2026-11-15T13:53:39Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-15T13:53:39Z",
-      "releaseRecency": 7,
-      "releaseRecencyText": "Released 7 days ago"
-    },
-    {
-      "id": 1359408869,
-      "name": "Re-TeleVIP",
-      "fullName": "Dream1Works/Re-TeleVIP",
-      "owner": {
-        "login": "Dream1Works",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/337150196?v=4"
-      },
-      "description": "Revived: TeleVIP. Vector Module to Add Premium and Ad-Blocking features to Telegram. Educational.",
-      "defaultBranch": "main",
-      "htmlUrl": "https://github.com/Dream1Works/Re-TeleVIP",
-      "stargazersCount": 229,
-      "forksCount": 3,
-      "language": null,
-      "topics": [
-        "androidmodule",
-        "mod",
-        "modding",
-        "telegram",
-        "telegram-fix",
-        "vector"
-      ],
-      "releasesUrl": "https://api.github.com/repos/Dream1Works/Re-TeleVIP/releases{/id}",
-      "updatedAt": "2026-11-23T03:11:43Z",
-      "createdAt": "2026-09-06T18:21:21Z",
-      "pushedAt": "2026-11-23T07:48:35Z",
-      "downloadCount": 38966,
-      "openIssuesCount": 0,
-      "archived": false,
-      "hasInstallersAndroid": true,
-      "hasInstallersWindows": false,
-      "hasInstallersMacos": false,
-      "hasInstallersLinux": false,
-      "platformReleases": {
-        "android": {
-          "tag": "v1.6.1",
-          "publishedAt": "2026-11-22T16:51:14Z"
-        }
-      },
-      "latestReleaseDate": "2026-11-22T16:51:14Z",
+      "latestReleaseDate": "2026-11-24T10:57:59Z",
       "releaseRecency": 0,
       "releaseRecencyText": "Released today"
     }
